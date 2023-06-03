@@ -1,17 +1,18 @@
-## **Welcome to MkDocs**
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This wiki is about Globox_Z Minecraft mods. 
 
-## Commands
+## Statistics
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<!-- <div style="text-align: center"> -->
+#### <div>Downloads: <p class="count-up-element" max-count="54831945">0</p> </div>
 
-## Project layout
+#### <div>Mods: <p class="count-up-element" max-count="34">0</p></div>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+#### <div>Discord Member: <p class="count-up-element" max-count="1267">0</p></div>
+
+<!-- </div> -->
+
+## About me
+
+My name is Micha aka Globox_Z, I am 25 years old and a mechanical engineer student from Germany. In my free time I like to create fabric Minecraft mods, specifically in the rpg and medieval genre. I love the game plus its possibilities, have fun with it and have a good one!
