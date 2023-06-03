@@ -3,7 +3,7 @@ site_url: https://globox1997.github.io/wiki/
 theme:
   name: material
   logo: assets/general/icons/website_icon.png
-  favicon: assets/general/website_icon.png
+  favicon: assets/general/icons/website_icon.png
   language: en
   features:
     - navigation.tabs
@@ -75,5 +75,10 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+extra_javascript:
+  - javascripts/extra.js
+extra_css:
+  - stylesheets/extra.css
+
 copyright: |
-  &copy; 2023 <a href="https://github.com/Globox1997"  target="_blank" rel="noopener">Globox_Z</a>
+  &copy; 2023 - Globox_Z - <a href="#__consent">Change Cookie Settings</a>
