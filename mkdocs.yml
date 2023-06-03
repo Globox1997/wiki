@@ -2,7 +2,7 @@ site_name: Wiki
 site_url: https://globox1997.github.io/wiki/
 theme:
   name: material
-  logo: assets/general/website_icon.png
+  logo: assets/general/icons/website_icon.png
   favicon: assets/general/website_icon.png
   language: en
   features:
