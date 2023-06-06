@@ -19,7 +19,3 @@ This wiki is about Globox_Z Minecraft mods.
 ## About me
 
 My name is Micha aka Globox_Z, I am 25 years old and a mechanical engineer student from Germany. In my free time I like to create fabric Minecraft mods, specifically in the rpg and medieval genre. I love the game plus its possibilities, have fun with it and have a good one!
-
-## Mods
-
-<div id="icon-gallery"></div>
