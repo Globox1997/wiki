@@ -2,3 +2,33 @@
     display: inline;
 }
 
+.icon {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    width: 10%;
+    height: auto; 
+    max-width: 100px;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .icon:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
