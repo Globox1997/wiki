@@ -3,13 +3,13 @@ title: Home
 project: docs
 ---
 
-# Welcome to the Globox_Z Mods Documentation
+# Welcome to the Globox_Z Mods Wiki
 
-This wiki is about Globox_Z Minecraft mods. 
-
-### :fontawesome-solid-chart-line: Statistics
+Here you will find more in depth information about my mods.
 
 ---
+### :fontawesome-solid-chart-line: Statistics
+
 <div style="text-align: center">
 
 <div>Mods: <p class="count-up-element" max-count="34" duration="2000">0</p></div>

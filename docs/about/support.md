@@ -1,4 +1,4 @@
-## **Help on Discord**
+## Help on Discord
 
 **Support is available on the public [Globox_Z Discord](https://discord.gg/cV4cJyGXqF)**
 
