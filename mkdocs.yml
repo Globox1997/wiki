@@ -1,6 +1,6 @@
 site_name: Wiki
 site_url: https://globox1997.github.io/wiki/
-site_description: Globox_Z Wiki
+site_description: 'Globox_Z Wiki'
 theme:
   name: material
   logo: assets/general/icons/website_icon.png
@@ -31,13 +31,13 @@ theme:
         name: Switch to dark mode
 
 plugins:
-  - git-revision-date-localized:
-      type: timeago
   - social
   - search:
       lang: en
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - tags
+  - git-revision-date-localized:
+      type: timeago
 
 extra:
   social:
