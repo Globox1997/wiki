@@ -1,8 +1,13 @@
-# Home
+---
+title: Home
+project: docs
+---
+
+# Welcome to the Globox_Z Mods Documentation
 
 This wiki is about Globox_Z Minecraft mods. 
 
-## Statistics
+### :fontawesome-solid-chart-line: Statistics
 
 ---
 <div style="text-align: center">
@@ -16,6 +21,13 @@ This wiki is about Globox_Z Minecraft mods.
 </div>
 ---
 
-## About me
+
+
+### :octicons-repo-16: About me
 
 My name is Micha aka Globox_Z, I am 25 years old and a mechanical engineer student from Germany. In my free time I like to create fabric Minecraft mods, specifically in the rpg and medieval genre. I love the game plus its possibilities, have fun with it and have a good one!
+
+---
+### :simple-github: Sources 
+
+The entirety of this site is available [on GitHub](https://github.com/Globox1997/wiki), where you can submit additions and corrections or report issues you found.
