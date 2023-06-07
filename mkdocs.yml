@@ -3,6 +3,7 @@ site_url: https://globox1997.github.io/wiki/
 site_description: 'Globox_Z Wiki'
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/general/icons/website_icon.png
   favicon: assets/general/icons/website_icon.png
   language: en
