@@ -1,16 +1,53 @@
 # Amethyst Golem
-!!! pied-piper ""
-    ![Amethyst Golem](../../../assets/adventurez/entities/amethyst_golem.png){ align=right width=37% loading=lazy }
-
-    | Amethyst Golem      |                                      |
-    | ----------- | ------------------------------------ |
-    | ID          | `adventurez:amethyst_golem`          |
-    | Health Points | `40` |
-    | Attack Strength | `8` |
-    | Projectile Strength | `7` |
-    | Spawn       | <a href="https://minecraft.fandom.com/wiki/Amethyst_geode" target="_blank">Amethyst Geode</a> |
-    | Drops       | 0 - 2 <a href="https://minecraft.fandom.com/wiki/Amethyst_Shard" target="_blank">Amethyst Shard</a>                |
-    | Behaivor    | Hostile |
+<div class="combi" markdown>
+<div class="divthing">
+<table class="tablething">
+    <thead>
+        <tr>
+            <th class="first-column">Infos</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="first-column">ID</td>
+            <td class="second-column">
+            ```
+            adventurez:amethyst_golem
+            ```
+            </td>
+        </tr>
+        <tr>
+            <td class="first-column">Health Points</td>
+            <td class="second-column">40</td>
+        </tr>
+        <tr>
+            <td class="first-column">Attack Strength</td>
+            <td class="second-column">8</td>
+        </tr>
+        <tr>
+            <td class="first-column">Projectile Strength</td>
+            <td class="second-column">7</td>
+        </tr>
+        <tr>
+            <td class="first-column">Spawn</td>
+            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Amethyst_geode" target="_blank">Amethyst Geode</a></td>
+        </tr>
+        <tr>
+            <td class="first-column">Drops</td>
+            <td class="second-column">0 - 2 <a href="https://minecraft.fandom.com/wiki/Amethyst_Shard" target="_blank">Amethyst Shard</a></td>
+        </tr>
+        <tr>
+            <td class="first-column">Behaviour</td>
+            <td class="second-column">Hostile</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div markdown>
+![](../../../assets/adventurez/entities/amethyst_golem.png){ loading=lazy }
+</div>
+</div>
 
 ## Story
 

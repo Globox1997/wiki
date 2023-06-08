@@ -1,12 +1,33 @@
 # Dexterity
-!!! pied-piper ""
-    ![Dexterity](../../../assets/additionz/enchantments/enchanted_book.png){ align=right width=30% loading=lazy }
-
-    | Dexterity    |    |
-    | ------------------- | ---------- |
-    | Item | `minecraft:enchanted_book` |
-    | id | `additionz:dexterity` |
-    | lvl | 1 - 3 |
+<div class="combi" markdown>
+<div class="divthing">
+<table class="tablething">
+    <thead>
+        <tr>
+            <th class="first-column">Infos</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="first-column">Item</td>
+            <td class="second-column">minecraft:enchanted_book</td>
+        </tr>
+        <tr>
+            <td class="first-column">ID</td>
+            <td class="second-column">additionz:dexterity</td>
+        </tr>
+        <tr>
+            <td class="first-column">Level</td>
+            <td class="second-column">1 - 3</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div markdown>
+![](../../../assets/additionz/enchantments/enchanted_book.png){ loading=lazy }
+</div>
+</div>
 
 ## Description
 

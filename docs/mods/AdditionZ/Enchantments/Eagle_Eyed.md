@@ -1,12 +1,33 @@
 # Eagle Eyed
-!!! pied-piper ""
-    ![Eagle Eyed](../../../assets/additionz/enchantments/enchanted_book.png){ align=right width=30% loading=lazy }
-
-    | Eagle Eyed    |    |
-    | ------------------- | ---------- |
-    | Item | `minecraft:enchanted_book` |
-    | id | `additionz:eagle_eyed` |
-    | lvl | 1 |
+<div class="combi" markdown>
+<div class="divthing">
+<table class="tablething">
+    <thead>
+        <tr>
+            <th class="first-column">Infos</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="first-column">Item</td>
+            <td class="second-column">minecraft:enchanted_book</td>
+        </tr>
+        <tr>
+            <td class="first-column">ID</td>
+            <td class="second-column">additionz:eagle_eyed</td>
+        </tr>
+        <tr>
+            <td class="first-column">Level</td>
+            <td class="second-column">1</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div markdown>
+![](../../../assets/additionz/enchantments/enchanted_book.png){ loading=lazy }
+</div>
+</div>
 
 ## Description
 

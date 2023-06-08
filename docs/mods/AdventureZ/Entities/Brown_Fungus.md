@@ -1,15 +1,45 @@
 # Brown Fungus
-!!! pied-piper ""
-    ![](../../../assets/adventurez/entities/brown_fungus.png){ align=right width=37% loading=lazy }
-
-    | Brown Fungus |  |
-    | ----------- | ------------------------------------ |
-    | ID          | `adventurez:brown_fungus`          |
-    | Health Points | `10` |
-    | Attack Strength | `1` |
-    | Spawn       | <a href="https://minecraft.fandom.com/wiki/Mushroom_Fields" target="_blank">Mushroom Fields</a> |
-    | Drops       | 0 - 1 <a href="https://minecraft.fandom.com/wiki/Mushroom" target="_blank">Brown Mushroom</a> |
-    | Behaivor    | Neutral |
+<div class="combi" markdown>
+<div class="divthing">
+<table class="tablething">
+    <thead>
+        <tr>
+            <th class="first-column">Infos</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="first-column">ID</td>
+            <td class="second-column">adventurez:brown_fungus</td>
+        </tr>
+        <tr>
+            <td class="first-column">Health Points</td>
+            <td class="second-column">10</td>
+        </tr>
+        <tr>
+            <td class="first-column">Attack Strength</td>
+            <td class="second-column">1</td>
+        </tr>
+        <tr>
+            <td class="first-column">Spawn</td>
+            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Mushroom_Fields" target="_blank">Mushroom Fields</a></td>
+        </tr>
+        <tr>
+            <td class="first-column">Drops</td>
+            <td class="second-column">0 - 1 <a href="https://minecraft.fandom.com/wiki/Mushroom" target="_blank">Brown Mushroom</a></td>
+        </tr>
+        <tr>
+            <td class="first-column">Behaviour</td>
+            <td class="second-column">Neutral</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div markdown>
+![](../../../assets/adventurez/entities/brown_fungus.png){ loading=lazy }
+</div>
+</div>
 
 ## Story
 

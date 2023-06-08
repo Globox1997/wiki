@@ -64,3 +64,74 @@
     -webkit-mask-image: var(--md-admonition-icon--apple-keyboard-option);
     mask-image: var(--md-admonition-icon--apple-keyboard-option);
 }
+
+.combi {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4.2px;
+    box-shadow: 0px 8px 10px 4px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 0px;
+    padding: 0px;
+}
+
+.combi > div {
+    /*border: 1px solid rgba(219, 198, 4, 0.801);*/
+    text-align: center;
+    padding: 20px;
+}
+
+.divthing {
+    /*border: 1px solid rgba(236, 128, 3, 0.801);*/
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tablething {
+    padding: 0px;
+    margin: 0px;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.first-column {
+    text-align: left;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.second-column {
+    text-align: left;
+    vertical-align: middle;
+    width: 70%;
+}
+
+tr > th {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+tr > td {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+th {
+    font-weight: 100;
+    font-size: 15px;
+}
