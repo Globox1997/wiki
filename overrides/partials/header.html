@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to
@@ -20,15 +20,17 @@
   IN THE SOFTWARE.
 -->
 
-<!-- Determine class according to configuration -->
+<!-- Determine base classes -->
 {% set class = "md-header" %}
 {% if "navigation.tabs.sticky" in features %}
-{% set class = class ~ " md-header--lifted" %}
+{% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+{% set class = class ~ " md-header--shadow" %}
 {% endif %}
 
 <!-- Header -->
 <header class="{{ class }}" data-md-component="header">
-    <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header.title') }}">
+    <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
 
         <!-- Link to home -->
         <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}"
@@ -62,13 +64,17 @@
         </div>
 
         <!-- Color palette -->
+        {% if config.theme.palette %}
         {% if not config.theme.palette is mapping %}
         <form class="md-header__option" data-md-component="palette">
             {% for option in config.theme.palette %}
-            {% set primary = option.primary | replace(" ", "-") | lower %}
-            {% set accent = option.accent | replace(" ", "-") | lower %}
-            <input class="md-option" data-md-color-media="{{ option.media }}" data-md-color-scheme="{{ option.scheme }}"
-                data-md-color-primary="{{ primary }}" data-md-color-accent="{{ accent }}" {% if option.toggle %}
+            {% set scheme = option.scheme | d("default", true) %}
+            {% set primary = option.primary | d("indigo", true) %}
+            {% set accent = option.accent | d("indigo", true) %}
+            <input class="md-option" data-md-color-media="{{ option.media }}"
+                data-md-color-scheme="{{ scheme | replace(' ', '-') }}"
+                data-md-color-primary="{{ primary | replace(' ', '-') }}"
+                data-md-color-accent="{{ accent | replace(' ', '-') }}" {% if option.toggle %}
                 aria-label="{{ option.toggle.name }}" {% else %} aria-hidden="true" {% endif %} type="radio"
                 name="__palette" id="__palette_{{ loop.index }}" />
             {% if option.toggle %}
@@ -80,14 +86,14 @@
             {% endfor %}
         </form>
         {% endif %}
+        {% endif %}
 
         <!-- Site language selector -->
         {% if config.extra.alternate %}
         <div class="md-header__option">
-            </form>
             <div class="md-select">
                 {% set icon = config.theme.icon.alternate or "material/translate" %}
-                <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language.title') }}">
+                <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language') }}">
                     {% include ".icons/" ~ icon ~ ".svg" %}
                 </button>
                 <div class="md-select__inner">
@@ -106,7 +112,7 @@
         {% endif %}
 
         <!-- Button to open search modal -->
-        {% if "search" in config.plugins %}
+        {% if "material/search" in config.plugins %}
         <label class="md-header__button md-icon" for="__search">
             {% include ".icons/material/magnify.svg" %}
         </label>
