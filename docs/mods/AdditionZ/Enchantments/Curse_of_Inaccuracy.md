@@ -63,4 +63,8 @@
 === "Curse of Inaccuracy III"
     ```mcfunction
     /give @s minecraft:enchanted_book{StoredEnchantments:[{id:"additionz:inaccuracy_curse",lvl:3s}]}
+<<<<<<< HEAD
     ```
+=======
+    ```
+>>>>>>> fa010dc2e389f2f50e93c201848fc35630d4417d

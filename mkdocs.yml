@@ -1,7 +1,9 @@
 site_name: Wiki
 site_url: https://globox1997.github.io/wiki/
+site_description: 'Globox_Z Wiki'
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/general/icons/website_icon.png
   favicon: assets/general/icons/website_icon.png
   language: en
@@ -16,18 +18,18 @@ theme:
     - content.code.copy
     - header.autohide
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
 plugins:
   - social
@@ -35,6 +37,8 @@ plugins:
       lang: en
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - tags
+  - git-revision-date-localized:
+      type: timeago
 
 extra:
   social:
@@ -51,6 +55,17 @@ extra:
     title: Cookie consent
     description: >- 
       We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.
+  projects:
+    docs:
+        repo: https://github.com/Globox1997/wiki
+        name: Globox_Z Wiki
+    additionz:
+        repo: https://github.com/Globox1997/AdditionZ
+        name: AdditionZ
+    adventurez:
+        repo: https://github.com/Globox1997/AdventureZ
+        name: AdventureZ
+
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -84,7 +99,7 @@ extra_css:
   - stylesheets/extra.css
 
 copyright: |
-  &copy; 2023 - Globox_Z - <a href="#__consent">Change Cookie Settings</a>
+  &copy; 2023 - <a href="https://github.com/Globox1997">Globox_Z</a> - <a href="#__consent">Change Cookie Settings</a>
 
 nav:
   - Home:
@@ -94,6 +109,7 @@ nav:
     - about/licensing.md
     - about/support.md
   - Mods:
+    - mods/index.md
     - AdditionZ:
       - mods/AdditionZ/index.md
       - Features:
