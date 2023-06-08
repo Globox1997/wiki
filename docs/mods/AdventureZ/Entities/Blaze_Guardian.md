@@ -1,17 +1,53 @@
 # Blaze Guardian
-!!! pied-piper ""
-    ![](../../../assets/adventurez/entities/blaze_guardian.png){ align=right width=37% loading=lazy }
-
-    | Blaze Guardian |  |
-    | ----------- | ------------------------------------ |
-    | ID          | `adventurez:blaze_guardian`          |
-    | Health Points | `40` |
-    | Attack Strength | `9` |
-    | Fireball Damage | `5` + `5s Flame` |
-    | Fire Explosion | `60` |
-    | Spawn       | <a href="https://minecraft.fandom.com/wiki/Nether_Fortress" target="_blank">Nether Fortress</a> & <a href="https://minecraft.fandom.com/wiki/Nether_Wastes" target="_blank">Nether Wastes</a> |
-    | Drops       | 0 - 1 <a href="https://minecraft.fandom.com/wiki/Blaze_Rod" target="_blank">Blaze Rod</a>                |
-    | Behaivor    | Hostile |
+<div class="combi" markdown>
+<div class="divthing">
+<table class="tablething">
+    <thead>
+        <tr>
+            <th class="first-column">Infos</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="first-column">ID</td>
+            <td class="second-column">adventurez:blaze_guardian</td>
+        </tr>
+        <tr>
+            <td class="first-column">Health Points</td>
+            <td class="second-column">40</td>
+        </tr>
+        <tr>
+            <td class="first-column">Attack Strength</td>
+            <td class="second-column">9</td>
+        </tr>
+        <tr>
+            <td class="first-column">Fireball Damage</td>
+            <td class="second-column">5 + 5s Flame</td>
+        </tr>
+        <tr>
+            <td class="first-column">Fire Explosion</td>
+            <td class="second-column">60</td>
+        </tr>
+        <tr>
+            <td class="first-column">Spawn</td>
+            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Nether_Fortress" target="_blank">Nether Fortress</a> & <a href="https://minecraft.fandom.com/wiki/Nether_Wastes" target="_blank">Nether Wastes</a></td>
+        </tr>
+        <tr>
+            <td class="first-column">Drops</td>
+            <td class="second-column">0 - 1 <a href="https://minecraft.fandom.com/wiki/Blaze_Rod" target="_blank">Blaze Rod</a></td>
+        </tr>
+        <tr>
+            <td class="first-column">Behaviour</td>
+            <td class="second-column">Hostile</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div markdown>
+![](../../../assets/adventurez/entities/blaze_guardian.png){ loading=lazy }
+</div>
+</div>
 
 ## Story
 
