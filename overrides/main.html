@@ -1,15 +1,14 @@
 {% extends "base.html" %}
 
-{% block site_meta %}
+{% block extrahead %}
     {{ super() }}
     {% if page and page.meta.project %}
-    {% set project_meta = config.extra.projects[page.meta.project] %}
-    <meta content="{{ page.meta.title }}" property="og:title">
-    {% if page.meta.summary %}
-    <meta content="{{ page.meta.summary }}" property="og:description">
-    {% else %}
-    <meta content="{{ project_meta.name + ' Documentation ' }}" property="og:description">
-    {% endif %}
+        {% set project_meta = config.extra.projects[page.meta.project] %}
+        <meta content="{{ page.meta.title }}" property="og:title">
+        {% if page.meta.summary %}
+            <meta content="{{ page.meta.summary }}" property="og:description">
+        {% else %}
+            <meta content="{{ project_meta.name + ' Documentation ' }}" property="og:description">
+        {% endif %}
     {% endif %}
 {% endblock %}
-

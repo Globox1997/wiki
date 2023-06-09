@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to
@@ -21,13 +21,17 @@
 -->
 
 <!-- Repository information -->
-<a href="{{ config.extra.projects[page.meta.project].repo }}" title="{{ lang.t('source.link.title') }}"
-    class="md-source" data-md-component="source">
-    <div class="md-source__icon md-icon">
-        {% set icon = config.theme.icon.repo or "fontawesome/brands/github" %}
-        {% include ".icons/" ~ icon ~ ".svg" %}
-    </div>
-    <div class="md-source__repository">
-        {{ config.extra.projects[page.meta.project].repo.replace('https://github.com/', '') }}
-    </div>
+<a
+  href="{{ config.extra.projects[page.meta.project].repo }}"
+  title="{{ lang.t('source') }}"
+  class="md-source"
+  data-md-component="source"
+>
+  <div class="md-source__icon md-icon">
+    {% set icon = config.theme.icon.repo or "fontawesome/brands/github" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  </div>
+  <div class="md-source__repository">
+    {{ config.extra.projects[page.meta.project].repo.replace('https://github.com/', '') }}
+  </div>
 </a>

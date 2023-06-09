@@ -36,9 +36,9 @@ plugins:
   - search:
       lang: en
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - tags
   - git-revision-date-localized:
       type: timeago
+  - tags
 
 extra:
   social:
