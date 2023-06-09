@@ -2,22 +2,16 @@
 <div class="combi" markdown>
 <div class="divthing">
 <table class="tablething">
-    <thead>
-        <tr>
-            <th class="first-column">Infos</th>
-            <th></th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
             <td class="first-column">Item</td>
             <td class="second-column">minecraft:enchanted_book</td>
         </tr>
-        <tr>
+        <tr id="linear-top">
             <td class="first-column">ID</td>
             <td class="second-column">additionz:eagle_eyed</td>
         </tr>
-        <tr>
+        <tr id="linear-top">
             <td class="first-column">Level</td>
             <td class="second-column">1</td>
         </tr>
@@ -25,7 +19,7 @@
 </table>
 </div>
 <div markdown>
-![](../../../assets/additionz/enchantments/enchanted_book.png){ loading=lazy }
+<img src="../../../../assets/additionz/enchantments/enchanted_book.png" loading="lazy" />
 </div>
 </div>
 

@@ -1,0 +1,58 @@
+# Enderwarthog
+<div class="combi" markdown>
+<div class="divthing">
+<table class="tablething">
+    <tbody>
+        <tr>
+            <td class="first-column">ID</td>
+            <td class="second-column">
+            ```
+            adventurez:enderwarthog
+            ```
+            </td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Health Points</td>
+            <td class="second-column">60</td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Attack Strength</td>
+            <td class="second-column">9</td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Spawn</td>
+            <td class="second-column">On islands in <a href="https://minecraft.fandom.com/wiki/The_End" target="_blank">the end</a> dimension</td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Drops</td>
+            <td class="second-column">0 - 1 <a href="../../Items/Warthog_Shell_Piece/">Warthog Shell Piece</a><br>0 - 1 <a href="../../Items/Warthog_Meat/">Warthog Meat</a></td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Behavior</td>
+            <td class="second-column">Hostile</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div>
+<img src="../../../../assets/adventurez/entities/enderwarthog.png" loading="lazy" />
+</div>
+</div>
+
+## Story
+
+*The Enderwarthog is a bull type, grown up harmful in the end dimension.*  
+*He hangs around the islands.*
+
+## Behavior
+
+He is hostile and will bite you when close or rushes towards you.
+
+* **Melee:** bites the player which deals 9 damage
+* **Rush Attack:** sprints straight towards the player which deals a lot of knockback
+
+## Drops
+| Drop | Use |
+| --- | --- |
+| 0 - 1 <a href="../../Items/Warthog_Shell_Piece/">Warthog Shell Piece</a> | :material-vector-combine: 2 pieces :material-arrow-right: 1 <a href="https://minecraft.fandom.com/wiki/Netherite_Scrap" target="_blank">netherite scrap</a> |
+| 0 - 1 <a href="../../Items/Warthog_Meat/">Warthog Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Warthog_Meat/">cooked warthog meat</a> |

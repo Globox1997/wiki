@@ -2,42 +2,40 @@
 <div class="combi" markdown>
 <div class="divthing">
 <table class="tablething">
-    <thead>
-        <tr>
-            <th class="first-column">Infos</th>
-            <th></th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
             <td class="first-column">ID</td>
-            <td class="second-column">adventurez:brown_fungus</td>
+            <td class="second-column">
+            ```
+            adventurez:brown_fungus
+            ```
+            </td>
         </tr>
-        <tr>
+        <tr id="linear-top">
             <td class="first-column">Health Points</td>
             <td class="second-column">10</td>
         </tr>
-        <tr>
+        <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
             <td class="second-column">1</td>
         </tr>
-        <tr>
+        <tr id="linear-top">
             <td class="first-column">Spawn</td>
             <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Mushroom_Fields" target="_blank">Mushroom Fields</a></td>
         </tr>
-        <tr>
+        <tr id="linear-top">
             <td class="first-column">Drops</td>
             <td class="second-column">0 - 1 <a href="https://minecraft.fandom.com/wiki/Mushroom" target="_blank">Brown Mushroom</a></td>
         </tr>
-        <tr>
-            <td class="first-column">Behaviour</td>
+        <tr id="linear-top">
+            <td class="first-column">Behavior</td>
             <td class="second-column">Neutral</td>
         </tr>
     </tbody>
 </table>
 </div>
-<div markdown>
-![](../../../assets/adventurez/entities/brown_fungus.png){ loading=lazy }
+<div>
+<img src="../../../../assets/adventurez/entities/brown_fungus.png" loading="lazy" />
 </div>
 </div>
 
@@ -47,10 +45,9 @@
 
 ---
 
-## Behaivor
+## Behavior
 
-He is a neutral creature and only attacks the player when attacked by a player.
-
+He is a neutral creature and only attacks the player when attacked by a player.  
 If he's angry he will call other nearby fungus to attack the threat by chasing it.
 
 * **Melee:** spores the threat which deals 1 damage
