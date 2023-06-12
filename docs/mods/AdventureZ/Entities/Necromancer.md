@@ -1,5 +1,5 @@
 # Necromancer
-<div class="combi" markdown>
+<div class="combi">
 <div class="divthing">
 <table class="tablething">
     <tbody>
@@ -38,7 +38,7 @@
     </tbody>
 </table>
 </div>
-<div>
+<div class="div-img-center">
 <img src="../../../../assets/adventurez/entities/necromancer.png" loading="lazy" />
 </div>
 </div>
@@ -54,5 +54,5 @@ He is hostile and will summon Wither Puppets to help him against his threat.
 Usually he will run away.
 
 * **Melee:** hits the player with his staff which deals 5 damage
-* **Special:** magically summons a hidden effect onto the player
 * **Summon:** he summons <a href="../Wither_Puppet/">wither puppets</a> which chase the player & share the wither effect
+* **Special:** magically summons a hidden effect onto the player

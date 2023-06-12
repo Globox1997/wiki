@@ -126,6 +126,7 @@ nav:
       - mods/AdventureZ/index.md
       - Entities:
         - mods/AdventureZ/Entities/Amethyst_Golem.md
+        - mods/AdventureZ/Entities/Blackstone_Golem.md
         - mods/AdventureZ/Entities/Blaze_Guardian.md
         - mods/AdventureZ/Entities/Brown_Fungus.md
         - mods/AdventureZ/Entities/Deer.md
@@ -142,9 +143,8 @@ nav:
         - mods/AdventureZ/Entities/Red_Fungus.md
         - mods/AdventureZ/Entities/Shaman.md
         - mods/AdventureZ/Entities/Skeleton_Vanguard.md
-        - mods/AdventureZ/Entities/Small_Stone_Golem.md
+        - mods/AdventureZ/Entities/Small_Blackstone_Golem.md
         - mods/AdventureZ/Entities/Soul_Reaper.md
-        - mods/AdventureZ/Entities/Stone_Golem.md
         - mods/AdventureZ/Entities/Summoner.md
         - mods/AdventureZ/Entities/The_Eye.md
         - mods/AdventureZ/Entities/Wither_Puppet.md
@@ -189,5 +189,8 @@ nav:
         - mods/AdventureZ/Blocks/Shadow_Chest.md
       - Structures:
         - mods/AdventureZ/Structures/Blackstone_Altar.md
+        - mods/AdventureZ/Structures/Desert_Well.md
+        - mods/AdventureZ/Structures/Eye_Shrine.md
+        - mods/AdventureZ/Structures/Floating_Island.md
     - BackSlot:
       - mods/BackSlot/index.md

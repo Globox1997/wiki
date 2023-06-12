@@ -1,5 +1,5 @@
 # Brown Fungus
-<div class="combi" markdown>
+<div class="combi">
 <div class="divthing">
 <table class="tablething">
     <tbody>
@@ -34,20 +34,21 @@
     </tbody>
 </table>
 </div>
-<div>
+<div class="div-img-center">
 <img src="../../../../assets/adventurez/entities/brown_fungus.png" loading="lazy" />
 </div>
 </div>
 
 ## Story
 
-*The Brown Fungus is a peaceful creature which has a very cute voice.*
+*The Brown Fungus is a peaceful creature which has a very cute voice.*  
+*The <a href="../Red_Fungus/">Red Fungus</a> are their siblings.*
 
 ---
 
 ## Behavior
 
-He is a neutral creature and only attacks the player when attacked by a player.  
-If he's angry he will call other nearby fungus to attack the threat by chasing it.
+This fungus is a neutral creature and only attacks the threat when provoked.  
+If angry they will call other nearby fungus to attack the threat by chasing it.
 
 * **Melee:** spores the threat which deals 1 damage
