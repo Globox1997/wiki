@@ -13,7 +13,7 @@
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">40</td>
+            <td class="second-column" id="heart-element" heart-count="40"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
