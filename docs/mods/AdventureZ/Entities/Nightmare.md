@@ -1,5 +1,5 @@
 # Nightmare
-<div class="combi" markdown>
+<div class="combi">
 <div class="divthing">
 <table class="tablething">
     <tbody>
@@ -34,7 +34,7 @@
     </tbody>
 </table>
 </div>
-<div>
+<div class="div-img-center">
 <img src="../../../../assets/adventurez/entities/nightmare.png" loading="lazy" />
 </div>
 </div>
