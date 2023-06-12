@@ -104,10 +104,6 @@ copyright: |
 nav:
   - Home:
     - index.md
-  - About:
-    - about/credits.md
-    - about/licensing.md
-    - about/support.md
   - Mods:
     - mods/index.md
     - AdditionZ:
@@ -191,3 +187,9 @@ nav:
         - mods/AdventureZ/Structures/Blackstone_Altar.md
     - BackSlot:
       - mods/BackSlot/index.md
+  - About:
+    - about/support.md
+    - about/licensing.md
+    - about/credits.md
+    
+    
