@@ -41,14 +41,12 @@
 
 ## Story
 
-*The Brown Fungus is a peaceful creature which has a very cute voice.*  
-*The <a href="../Red_Fungus/">Red Fungus</a> are their siblings.*
+*The Brown Fungus is a gentle creature known for its endearing voice, adding to its charm. The <a href="../Red_Fungus/">Red Fungus</a> are its siblings, sharing a similar nature.*
 
 ---
 
 ## Behavior
 
-This fungus is a neutral creature and only attacks the threat when provoked.  
-If angry they will call other nearby fungus to attack the threat by chasing it.
+The Brown Fungus is typically neutral and will only attack when provoked. If angered, it calls nearby fungus for backup and chases the threat.
 
-* **Melee:** spores the threat which deals 1 damage
+* **Melee:** The fungus releases spores that cause 1 point of damage. These spores can potentially inflict poison on the target, lasting anywhere from 4 to 9 seconds.

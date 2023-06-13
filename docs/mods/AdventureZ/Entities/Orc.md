@@ -45,18 +45,16 @@
 
 ## Story
 
-*The Orc is an avoided creature, quite angry all the thime and loves shiny items.*  
-*They appear in small, medium and large sizes.*
+*The Orc is a feared creature known for its perpetual anger and fondness for shiny items. It can be found in small, medium, and large sizes.*
 
 ## Behavior
 
-Orcs tipically wander around in small groups, lead by a big orc.  
-They hunt <a href="https://minecraft.fandom.com/wiki/Villager" target="_blank">villagers</a> but also try to kill players for their goods.
+Orcs are commonly found wandering in small groups, with a large orc leading the way. They primarily target <a href="https://minecraft.fandom.com/wiki/Villager" target="_blank">villagers</a> for hunting, but they also pose a threat to players, seeking to eliminate them and claim their valuable possessions.
 
 === "Small Orc"
-    * **Melee:** punches the threat which deals 3 damage
-    * **Special:** steals a <a href="https://minecraft.fandom.com/wiki/Tool" target="_blank">tool item</a> from the player
+    * **Melee:** Small Orcs deliver punches to their adversaries, causing 3 points of damage.
+    * **Special:** Small Orcs have the capability to steal a <a href="https://minecraft.fandom.com/wiki/Tool" target="_blank">tool item</a> from the player.
 === "Medium Orc"
-    * **Melee:** punches the threat which deals 5 damage
+    * **Melee:** Punches at their targets, inflicting 5 points of damage.
 === "Large Orc"
-    * **Melee:** punches the threat which deals 7 damage
+    * **Melee:** Punches at their targets, inflicting 7 points of damage.

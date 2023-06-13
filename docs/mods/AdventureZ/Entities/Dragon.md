@@ -41,8 +41,7 @@
 
 ## Story
 
-*The Dragon is the child of the Ender Dragon.*  
-*He is peaceful but doesn't like <a href="../Orc/">orcs</a> very much.*
+*The Dragon is born from the lineage of the mighty Ender Dragon. While generally peaceful in nature, it harbors a strong dislike for <a href="../Orc/">orcs</a>. These Dragons often possess unique characteristics, such as distinct eye colors, ears, and tail scales, setting them apart from their counterparts.*
 
 *Often they differ from other Dragons by other eye colors, ears and tail scales.*
 
@@ -50,37 +49,37 @@
 
 ## Hatch the Dragon
 
-1. Certain conditions have to match in order to hatch the Dragon
+1. In order to hatch the Dragon, specific conditions must align:
 
-    * Player needs to have the fame effect
-    * Dragon Egg needs to be nearby the player
+    * The player must possess the "Fame" effect.
+    * The Dragon Egg needs to be in close proximity to the player.
+    * These requirements must be met to successfully bring the Dragon into existence. 
 
-2. The Dragon will start to hatch slowly
+2. The Dragon begins its hatching process gradually.
 
-    * Indicated by green particles which occur from time to time
-    * The hatching process can take up to one Minecraft day (up to 10 minutes)
+    * This is signified by intermittent green particles. 
+    * The process can span up to one Minecraft day, equivalent to approximately 10 minutes in real time.
 
-3. He hatches as a child and needs to grow in order to ride him
+3. The Dragon begins its journey as a hatchling and requires time to grow before it can be ridden.
 
-    * The growing process can speed up by feeding the Dragon <a href="../../Items/Orc_Skin/">orc skin</a>  
-    (he will only eat when he's hungry)
-    * The first age to grow takes about 5 minutes without any feeding
+    * The growth process can be accelerated by feeding the Dragon <a href="../../Items/Orc_Skin/">orc skin</a>, but it will only consume the food when it is hungry.
+    * During the initial growth stage, the Dragon requires approximately 5 minutes to advance without any feeding assistance.
 
 ---
 
 ## Grow the Dragon
 
-1. Age 1 - Ride the Dragon
+1. Stage 1  - Ride the Dragon
 
-    * Equip the Dragon with a <a href="../../Items/Dragon_Saddle/">Dragon Saddle</a>
-    * `"space"` take off and fly up
-    * `"left alt"` fly down and land
+    * Give the Dragon a <a href="../../Items/Dragon_Saddle/">Dragon Saddle</a>.
+    * Use `"Space"` to take off and fly upwards. (Default Keybind)
+    * Use `"Left Alt"` to take off and fly upwards. (Default Keybind)
 
-2. Age 2 - Equip a chest
+2. Stage 2 - Equip a chest
 
-    * `"e"` open the Dragon's inventory
+    * Use `"E"` open the Dragon's inventory.
 
-3. Age 3 - Fully grown
+3. Stage 3  - Fully grown
 
-    * heal the Dragon with <a href="../../Items/Orc_Skin/">orc skin</a> and other types of raw <a href="https://minecraft.fandom.com/wiki/Meat" target="_blank">meat</a>
-    * `"^"` use breath fire
+    * You can heal the Dragon with <a href="../../Items/Orc_Skin/">orc skin</a> and other types of raw <a href="https://minecraft.fandom.com/wiki/Meat" target="_blank">meat</a>.
+    * Use `"^"` to breath fire.

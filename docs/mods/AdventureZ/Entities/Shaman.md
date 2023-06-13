@@ -41,16 +41,15 @@
 
 ## Story
 
-*The Shaman is a swamp lizard, skilled in witchcraft and knows how to use dark magic.*  
-*Their head is protected with a skull and the staff give them mystic powers.*
+*The Shaman is a formidable swamp lizard skilled in dark magic and witchcraft. Their head is protected by a skull, and their staff grants them mystic powers.*
 
 ## Behavior
 
-* **Melee:** hits witch the staff which deals 6 damage
-* **Range:** rarely shoots thunderbolts if attacked on distance
-* **Summons:** other hostile mobs to protect the swamp like:
-    * <a href="https://minecraft.fandom.com/wiki/Zombie" target="_blank">zombie</a>
-    * <a href="https://minecraft.fandom.com/wiki/Skeleton" target="_blank">skeleton</a>
-    * <a href="https://minecraft.fandom.com/wiki/Spider" target="_blank">spider</a>
-    * <a href="https://minecraft.fandom.com/wiki/Cave_Spider" target="_blank">cave spider</a>
-* **Special:** casts <a href="https://minecraft.fandom.com/wiki/Weakness" target="_blank">weakness</a> and <a href="https://minecraft.fandom.com/wiki/Poison" target="_blank">poision</a> onto the player
+* **Melee:** The Shaman strikes with their staff, dealing 6 damage to opponents.
+* **Range:** Occasionally, when attacked from a distance, the Shaman unleashes powerful thunderbolts as a countermeasure.
+* **Summons:** The Shaman has the ability to summon other hostile creatures from the swamp to defend their territory. These summoned creatures act as protectors, aiding the Shaman in warding off intruders and maintaining the sanctity of the swamp.
+    * <a href="https://minecraft.fandom.com/wiki/Zombie" target="_blank">Zombie</a>
+    * <a href="https://minecraft.fandom.com/wiki/Skeleton" target="_blank">Skeleton</a>
+    * <a href="https://minecraft.fandom.com/wiki/Spider" target="_blank">Spider</a>
+    * <a href="https://minecraft.fandom.com/wiki/Cave_Spider" target="_blank">cave Spider</a>
+* **Special:** The Shaman can cast <a href="https://minecraft.fandom.com/wiki/Weakness" target="_blank">weakness</a> spells and inflict <a href="https://minecraft.fandom.com/wiki/Poison" target="_blank">poision</a> on the player.

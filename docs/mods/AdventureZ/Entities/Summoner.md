@@ -41,12 +41,11 @@
 
 ## Story
 
-*The Summoner is a magician and rules an unknown world.*  
-*Tremendous power lays behind it's staff.*
+*The Summoner is a mighty magician who holds dominion over an enigmatic realm, wielding incredible power through their staff.*
 
 ## Behavior
 
-* **Daytime:** summons <a href="../Skeleton_Vanguard/">Skeleton Vanguars</a>
-* **Nighttime:** summons <a href="../Skeleton_Vanguard/">Skeleton Vanguars</a>, <a href="https://minecraft.fandom.com/wiki/Zombie" target="_blank">zombies</a> and <a href="https://minecraft.fandom.com/wiki/Skeleton" target="_blank">skeletons</a>
-* **Range:** if attacked by a <a href="https://minecraft.fandom.com/wiki/Weapon" target="_blank">ranged weapon</a>, the summoner will sometimes throw a <a href="https://minecraft.fandom.com/wiki/Thunderstorm#Lightning" target="_blank">thunder</a> on the threat
-* **Special:** can teleport itself when threat is too close and can get invulnerable for a certain time indicated by a magic aura
+* **Daytime:** Summons <a href="../Skeleton_Vanguard/">Skeleton Vanguars</a> to defend against threats.
+* **Nighttime:** Summons <a href="../Skeleton_Vanguard/">Skeleton Vanguars</a>, <a href="https://minecraft.fandom.com/wiki/Zombie" target="_blank">zombies</a>, and <a href="https://minecraft.fandom.com/wiki/Skeleton" target="_blank">skeletons</a> for enhanced protection.
+* **Range:** When attacked from a distance, the Summoner occasionally retaliates by hurling <a href="https://minecraft.fandom.com/wiki/Thunderstorm#Lightning" target="_blank">thunder</a> at their assailants.
+* **Special:** Capable of teleporting when threatened at close range and becoming temporarily invulnerable, signaled by a glowing magic aura.

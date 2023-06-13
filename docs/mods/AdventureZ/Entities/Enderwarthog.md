@@ -41,15 +41,14 @@
 
 ## Story
 
-*The Enderwarthog is a bull type, grown up harmful in the end dimension.*  
-*He hangs around the islands.*
+*The Enderwarthog, a formidable creature resembling a bull, poses a significant threat within the End dimension. It roams the islands, exuding an aura of danger.*
 
 ## Behavior
 
-He is hostile and will bite you when close or rushes towards you.
+The Enderwarthog is a hostile creature that will bite players when in close proximity.
 
-* **Melee:** bites the player which deals 9 damage
-* **Rush Attack:** sprints straight towards the player which deals a lot of knockback
+* **Melee:** It's bite can deal a significant 9 points of damage.
+* **Rush Attack:** The Enderwarthog sprints towards players and delivers a forceful knockback effect.
 
 ## Drops
 | Drop | Use |

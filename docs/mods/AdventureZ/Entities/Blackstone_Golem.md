@@ -49,22 +49,20 @@
 
 ## Story
 
-*The Blackstone Golem is the most deadliest creature in the world of Minecraft.*  
-*Summoned at the Golem Altar, it will destroy the world until it killed all players.*
+*The Blackstone Golem reigns as the ultimate peril in the world of Minecraft. Summoned at the Golem Altar, its destructive rampage continues until all players are eliminated. It poses an immense threat to the entire world, leaving nothing but devastation in its wake.*
 
 ## Behavior
 
-The Blackstone Golem will start to get flooded with lava when summoned and shouts loud when it awakens.  
-The boss will try to chase and hit the player with it's arms while also breaking blocks which are inbetween.
+The Blackstone Golem reigns as the ultimate peril in the world of Minecraft. Summoned at the Golem Altar, its destructive rampage continues until all players are eliminated. It poses an immense threat to the entire world, leaving nothing but devastation in its wake.
 
-* **Melee:** swings arms which deal 14 damage
-* **Mid-Range:** throws rocks at the player which deal 16 damage and give side effects like hunger, slowness and blindness
-* **Special:** activates rage mode when lass than half hp
+* **Melee:** In close quarters, the Blackstone Golem strikes with its swinging arms, dealing a hefty 14 points of damage.
+* **Mid-Range:** From a medium range, the Blackstone Golem launches rocks at the player, dealing a significant 16 points of damage. These projectiles can also inflict side effects like hunger, slowness, and blindness.
+* **Special:** When the Blackstone Golem's health drops below half, it enters a state of furious rage, enhancing its abilities and unleashing even more devastating attacks.
 
 ## Drops
-| Drop | Use |
-| --- | --- |
-| 0 - 1 Gilded Netherite Fragment | :material-menu-up-outline: Upgrade to gilded netherite armor / weapons / tools |
-| 0 - 1 Stone Golem Heart | :material-file-replace-outline: Ingredient for golem arm |
-|  | :material-menu-up-outline: Upgrade the iron golem |
-|  | :material-heart-cog-outline: Replace your own heart to get the blackstoned effect |
+| Drop                            | Use                                                                               |
+| ------------------------------- | --------------------------------------------------------------------------------- |
+| 0 - 1 Gilded Netherite Fragment | :material-menu-up-outline: Upgrade to gilded netherite armor / weapons / tools    |
+| 0 - 1 Stone Golem Heart         | :material-file-replace-outline: Ingredient for golem arm                          |
+|                                 | :material-menu-up-outline: Upgrade the iron golem                                 |
+|                                 | :material-heart-cog-outline: Replace your own heart to get the blackstoned effect |

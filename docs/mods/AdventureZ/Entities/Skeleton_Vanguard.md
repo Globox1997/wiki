@@ -37,11 +37,10 @@
 
 ## Story
 
-*The Skeleton Vanguard is the personal guard for the Summoner.*  
-*They will protect their master and fight until they're fully dead.*
+*The Skeleton Vanguard is the unwavering protector of the Summoner, dedicated to defending their master until their final breath.*
 
 ## Behavior
 
-Their shield will protect them from attacks.
+The Skeleton Vanguard defends itself using a strong shield to block incoming attacks.
 
-* **Melee:** chases the threat with their spear which deals 7 damage
+* **Melee:** Armed with a lethal spear, the Skeleton Vanguard relentlessly pursues threats, dealing 7 damage with each strike.

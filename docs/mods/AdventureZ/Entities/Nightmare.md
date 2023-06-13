@@ -41,13 +41,11 @@
 
 ## Story
 
-*The Nightmare is a horse with a dark and lost soul.*  
-*The <a href="../Soul_Reaper/">Soul Reaper</a> is riding this creature.*
-*This gentelman can get tamed like <a href="https://minecraft.fandom.com/wiki/Horse" target="_blank">horses</a>.*
+*The Nightmare is an eerie horse with a tormented and restless spirit. It serves as a mount for the enigmatic <a href="../Soul_Reaper/">Soul Reaper</a>, a figure of dark allure. This gentelman can get tamed like <a href="https://minecraft.fandom.com/wiki/Horse" target="_blank">horses</a>.*
 
 ## Rideable
 
-Nightmares can get ridden just like other <a href="https://minecraft.fandom.com/wiki/Horse" target="_blank">horses</a>.
+Nightmares can be ridden like regular <a href="https://minecraft.fandom.com/wiki/Horse" target="_blank">horses</a>.
 
-* They're faster on <a href="https://minecraft.fandom.com/wiki/Soul_Sand" target="_blank">soul sand</a>
-* <a href="https://minecraft.fandom.com/wiki/Water" target="_blank">Water</a> hurts them
+* They are faster when on <a href="https://minecraft.fandom.com/wiki/Soul_Sand" target="_blank">soul sand</a>.
+* <a href="https://minecraft.fandom.com/wiki/Water" target="_blank">Water</a> is harmful to Nightmares.

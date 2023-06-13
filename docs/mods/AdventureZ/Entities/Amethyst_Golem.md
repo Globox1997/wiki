@@ -13,15 +13,15 @@
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column" id="heart-element" heart-count="40"></td>
+            <td class="second-column icon-element" icon-count="40" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">8</td>
+            <td class="second-column icon-element" icon-count="8" icon-id="experience" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Projectile Strength</td>
-            <td class="second-column">7</td>
+            <td class="second-column icon-element" icon-count="7" icon-id="projectile" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
@@ -45,15 +45,13 @@
 
 ## Story
 
-*The Amethyst Golem don't like the human race since most of the people just have profit in mind.*  
-*They dig out the amethysts and keep an empty loveless hole behind.*
+*The Amethyst Golem harbors disdain for the human race due to their predominant focus on personal gain, disregarding the deeper significance of their actions. They extract amethysts from the earth, leaving behind a desolate void devoid of warmth and compassion.*
 
 ---
 
 ## Behavior
 
-He is hostile and will attack you from far away or close range.  
-Also he will try to chase you.
+The Amethyst Golem exhibits hostility and poses a threat both from a distance and up close. It will actively pursue and chase after its targets.
 
-* **Range:** throws amethyst shards at players which deal 7 damage
-* **Melee:** swings his arms which deal 8 damage
+* **Range:** Aim is not very precise, but it can still cause harm by throwing amethyst shards at players, inflicting 7 points of damage.
+* **Melee:** Delivers powerful strikes with its swinging arms, capable of dealing 8 points of damage.

@@ -45,14 +45,12 @@
 
 ## Story
 
-*The dark Necromancer made nether fortresses to his home.*  
-*He learned how to use dark magic and will summon <a href="../Wither_Puppet/">Wither Puppets</a> to protect himself from enemies.*
+*The dark Necromancer has claimed Nether fortresses as their abode. Mastering the art of dark magic, they possess the ability to summon <a href="../Wither_Puppet/">Wither Puppets</a>, formidable entities created to safeguard the Necromancer from any potential threats.*
 
 ## Behavior
 
-He is hostile and will summon Wither Puppets to help him against his threat.  
-Usually he will run away.
+The dark Necromancer is hostile in nature and calls upon Wither Puppets as reinforcements to aid in their defense against adversaries. When faced with danger, the Necromancer typically opts to retreat and escape from the confrontation.
 
-* **Melee:** hits the player with his staff which deals 5 damage
-* **Summon:** he summons <a href="../Wither_Puppet/">wither puppets</a> which chase the player & share the wither effect
-* **Special:** magically summons a hidden effect onto the player
+* **Melee:** The dark Necromancer strikes the player with their staff, dealing 5 points of damage.
+* **Summon:** The Necromancer conjures <a href="../Wither_Puppet/">wither puppets</a> that relentlessly pursue the player and inflict the wither effect upon them.
+* **Special:** Through their mastery of dark magic, the Necromancer can bestow a mysterious hidden effect onto the player.
