@@ -10,9 +10,9 @@ if (window.location.href === 'https://globox1997.github.io/wiki/mods/') {
     });
 }
 
-if (window.location.pathname.includes('Entities')) {
+if (window.location.pathname.includes('Entities') || window.location.pathname.includes('Items')) {
     window.addEventListener('load', () => {
-        heartIcon();
+        icon();
     });
 }
 
@@ -40,16 +40,31 @@ function countUpAnimation(timestamp) {
     }
 }
 
-function heartIcon() {
-    if (document.getElementById('heart-element') != null) {
-        var imageContainer = document.getElementById('heart-element');
-        var count = parseInt(imageContainer.getAttribute('heart-count'));
-        var imageElementString = '<img src="../../../../assets/general/misc/heart.png" alt="Health Point" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
-        var htmlString = count + ' (' + imageElementString.repeat(count / 2) + ')';
-        if (count > 20) {
-            htmlString = count + ' (' + imageElementString + ' × ' + count / 2 + ')';
+function icon() {
+    if (document.getElementsByClassName('icon-element') != null) {
+        const elements = document.getElementsByClassName('icon-element');
+        console.log(elements.length)
+        for (let i = 0; i < elements.length; i++) {
+            const element = elements[i];
+
+            var count = parseInt(element.getAttribute('icon-count'));
+            var id = element.getAttribute('icon-id');
+
+            if (id === 'experience') {
+                var imageElementString = '<img src="../../../../assets/general/misc/' + id + '.gif" alt="">';
+            } else {
+                var imageElementString = '<img src="../../../../assets/general/misc/' + id + '.png"  alt="" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
+            }
+
+            var htmlString = count + ' (' + imageElementString.repeat(count / 2) + ')';
+            if (count > 20) {
+                htmlString = count + ' (' + imageElementString + ' × ' + count / 2 + ')';
+            }
+            if (element.hasAttribute('icon-exclusive')) {
+                htmlString = count + ' ' + imageElementString;
+            }
+            element.innerHTML = htmlString;
         }
-        imageContainer.innerHTML = htmlString;
     }
 }
 
