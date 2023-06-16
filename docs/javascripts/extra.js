@@ -58,10 +58,13 @@ function crafting() {
             for (let u = 0; u < ingredients.length; u++) {
                 const ingredient = ingredients[u].split('=');
 
-                if (ingredient[1].includes(':')) {
-                    ingredient[1] = ingredient[1].replace(':', '/');
+                ingredient[1] = ingredient[1].split(',');
+                ingredient[1][0] = replaceAll(ingredient[1][0], ' ', '');
+
+                if (ingredient[1][0].includes(':')) {
+                    ingredient[1][0] = ingredient[1][0].replace(':', '/');
                 } else {
-                    ingredient[1] = 'vanilla/' + ingredient[1];
+                    ingredient[1][0] = 'vanilla/' + ingredient[1][0];
                 }
 
                 const div = document.createElement('div');
@@ -72,19 +75,23 @@ function crafting() {
                 div.style.top = recipePositions.get(parseInt(ingredient[0]))[1] + 'px';
 
                 const item = document.createElement('img');
-                item.src = '/wiki/assets/general/items/' + ingredient[1] + '.png';
+                item.src = '/wiki/assets/general/items/' + ingredient[1][0] + '.png';
                 item.alt = '';
-
+                if (ingredient[1].length == 3) {
+                    tooltip(item, ingredient[1][1], replaceAll(ingredient[1][2], ' ', ''), false);
+                }
                 div.appendChild(item);
                 mainDiv.appendChild(div);
             }
 
             // Output
-            var output = element.textContent.substring(element.textContent.indexOf('output[') + 7, element.textContent.lastIndexOf(']'));
-            if (output.includes(':')) {
-                output = output.replace(':', '/');
+            var output = element.textContent.substring(element.textContent.indexOf('output[') + 7, element.textContent.lastIndexOf(']')).split(',');
+            output[0] = replaceAll(output[0], ' ', '');
+
+            if (output[0].includes(':')) {
+                output[0] = output[0].replace(':', '/');
             } else {
-                output = 'vanilla/' + output;
+                output[0] = 'vanilla/' + output[0];
             }
             const div = document.createElement('div');
             div.style.position = 'absolute';
@@ -94,8 +101,11 @@ function crafting() {
             div.style.top = recipePositions.get('output')[1] + 'px';
 
             const item = document.createElement('img');
-            item.src = '/wiki/assets/general/items/' + output + '.png';
+            item.src = '/wiki/assets/general/items/' + output[0] + '.png';
             item.alt = '';
+            if (output.length == 3) {
+                tooltip(item, output[1], replaceAll(output[2], ' ', ''), false);
+            }
             div.appendChild(item);
             mainDiv.appendChild(div);
 
@@ -205,28 +215,38 @@ function iconGallery() {
             const icon = document.createElement('img');
             icon.src = '/wiki/assets/general/icons/' + iconData.texture + '.png';
             icon.className = 'icon';
-            // icon.title = iconData.tooltip;
 
-            const tooltip = document.createElement('div');
-            tooltip.className = 'tooltip';
-            tooltip.textContent = iconData.tooltip;
-
-            icon.addEventListener('mouseenter', () => {
-                icon.addEventListener('mousemove', () => {
-                    tooltip.style.left = (event.pageX + 5) + "px";
-                    tooltip.style.top = (event.pageY) + "px";
-                });
-                document.body.appendChild(tooltip);
-            });
-            icon.addEventListener('mouseleave', () => {
-                document.body.removeChild(tooltip);
-            });
-
-            icon.addEventListener('click', () => {
-                window.location.href = 'https://globox1997.github.io/wiki/mods/' + iconData.url;
-            });
-            //   icon.appendChild(tooltip);
+            tooltip(icon, iconData.tooltip, iconData.url, true);
             gallery.appendChild(icon);
         });
     }
+}
+
+function tooltip(element, tooltipText, url, defaultWebsite) {
+    var tooltip = document.createElement('div');
+    tooltip.className = 'tooltip';
+    tooltip.textContent = tooltipText;
+
+    element.addEventListener('mouseenter', () => {
+        element.addEventListener('mousemove', () => {
+            tooltip.style.left = (event.pageX + 5) + "px";
+            tooltip.style.top = (event.pageY) + "px";
+        });
+        document.body.appendChild(tooltip);
+    });
+    element.addEventListener('mouseleave', () => {
+        document.body.removeChild(tooltip);
+    });
+
+    element.addEventListener('click', () => {
+        if (defaultWebsite) {
+            window.location.href = 'https://globox1997.github.io/wiki/mods/' + url;
+        } else {
+            window.location.href = url;
+        }
+    });
+}
+
+function replaceAll(string, search, replace) {
+    return string.split(search).join(replace);
 }
