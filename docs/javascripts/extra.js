@@ -16,6 +16,96 @@ if (window.location.pathname.includes('Entities') || window.location.pathname.in
     });
 }
 
+if (window.location.pathname.includes('Items')) {
+    window.addEventListener('load', () => {
+        crafting();
+    });
+}
+
+// vanilla_crafting; smithing; furnace_smelting;
+function crafting() {
+    if (document.getElementsByClassName('crafting-element' != null)) {
+
+        const vanillaCraftingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], [4, [10, 46]], [5, [46, 46]], [6, [82, 46]], [7, [10, 82]], [8, [46, 82]], [9, [82, 82]], ['output', [202, 46]]];
+        const smithingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], ['output', [198, 10]]];
+        const furnaceSmeltingPositions = [[1, [10, 18]], ['output', [130, 118]]];
+
+        const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)]]);
+
+        const elements = document.getElementsByClassName('crafting-element');
+        for (let i = 0; i < elements.length; i++) {
+            const element = elements[i];
+            var type = element.getAttribute('crafting-type');
+
+            const mainDiv = document.createElement('div');
+            mainDiv.style.position = 'relative';
+            mainDiv.style.width = '252px';
+            mainDiv.style.height = '124px';
+
+            const backgrounDiv = document.createElement('div');
+            backgrounDiv.style.position = 'absolute';
+            const background = document.createElement('img');
+            background.src = '/wiki/assets/general/recipe/' + type + '_background.png';
+            background.className = 'recipe';
+            background.alt = '';
+            backgrounDiv.appendChild(background);
+            mainDiv.appendChild(backgrounDiv);
+
+            const recipePositions = recipePositionMap.get(type);
+
+            // Ingredients
+            const ingredients = element.textContent.substring(element.textContent.indexOf('input[') + 6, element.textContent.indexOf(']')).split(";");
+            for (let u = 0; u < ingredients.length; u++) {
+                const ingredient = ingredients[u].split('=');
+
+                if (ingredient[1].includes(':')) {
+                    ingredient[1] = ingredient[1].replace(':', '/');
+                } else {
+                    ingredient[1] = 'vanilla/' + ingredient[1];
+                }
+
+                const div = document.createElement('div');
+                div.style.position = 'absolute';
+                div.style.width = '32px';
+                div.style.height = '32px';
+                div.style.left = recipePositions.get(parseInt(ingredient[0]))[0] + 'px';
+                div.style.top = recipePositions.get(parseInt(ingredient[0]))[1] + 'px';
+
+                const item = document.createElement('img');
+                item.src = '/wiki/assets/general/items/' + ingredient[1] + '.png';
+                item.alt = '';
+
+                div.appendChild(item);
+                mainDiv.appendChild(div);
+            }
+
+            // Output
+            var output = element.textContent.substring(element.textContent.indexOf('output[') + 7, element.textContent.lastIndexOf(']'));
+            if (output.includes(':')) {
+                output = output.replace(':', '/');
+            } else {
+                output = 'vanilla/' + output;
+            }
+            const div = document.createElement('div');
+            div.style.position = 'absolute';
+            div.style.width = '32px';
+            div.style.height = '32px';
+            div.style.left = recipePositions.get('output')[0] + 'px';
+            div.style.top = recipePositions.get('output')[1] + 'px';
+
+            const item = document.createElement('img');
+            item.src = '/wiki/assets/general/items/' + output + '.png';
+            item.alt = '';
+            div.appendChild(item);
+            mainDiv.appendChild(div);
+
+            // mainDiv
+            element.textContent = "";
+            element.appendChild(mainDiv);
+        }
+    }
+}
+
 function countUpAnimation(timestamp) {
     if (document.getElementsByClassName('count-up-element' != null)) {
         let duration = 3000;
@@ -43,7 +133,6 @@ function countUpAnimation(timestamp) {
 function icon() {
     if (document.getElementsByClassName('icon-element') != null) {
         const elements = document.getElementsByClassName('icon-element');
-        console.log(elements.length)
         for (let i = 0; i < elements.length; i++) {
             const element = elements[i];
 
