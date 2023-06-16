@@ -22,15 +22,17 @@ if (window.location.pathname.includes('Items')) {
     });
 }
 
-// vanilla_crafting; smithing; furnace_smelting;
+// vanilla_crafting; smithing; furnace_smelting; anvil; fletching;
 function crafting() {
     if (document.getElementsByClassName('crafting-element' != null)) {
 
         const vanillaCraftingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], [4, [10, 46]], [5, [46, 46]], [6, [82, 46]], [7, [10, 82]], [8, [46, 82]], [9, [82, 82]], ['output', [202, 46]]];
         const smithingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], ['output', [198, 10]]];
         const furnaceSmeltingPositions = [[1, [10, 18]], ['output', [130, 118]]];
+        const anvilPositions = [[1, [10, 10]], [2, [108, 10]], ['output', [224, 10]]];
+        const fletchingPositions = [[1, [10, 10]], [2, [10, 46]], [3, [10, 82]], [4, [96, 46]], ['output', [206, 46]]];
 
-        const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)]]);
+        const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)], ['anvil', new Map(anvilPositions)], ['fletching', new Map(fletchingPositions)]]);
 
         const elements = document.getElementsByClassName('crafting-element');
         for (let i = 0; i < elements.length; i++) {
