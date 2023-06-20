@@ -1,4 +1,4 @@
-const KEY = process.argv[2];
+const KEY = String(process.argv[2]);
 
 var projectDownloadsMap = new Map();
 var totalDownloadCount = 0;
