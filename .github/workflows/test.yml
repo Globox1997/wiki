@@ -19,7 +19,8 @@ jobs:
       - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node ./docs/javascripts/schedule.js "${{ secrets.CURSEFORGE_API_KEY }}"
+          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+        run: node ./docs/javascripts/schedule.js
 
       - name: Commit and push changes
         run: |
