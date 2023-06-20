@@ -20,3 +20,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node ./docs/javascripts/schedule.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Globox1997"
+          git add ../data/collected.json
+          git commit -m "Update collected.json"
+          git push
