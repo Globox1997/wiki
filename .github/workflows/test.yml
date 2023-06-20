@@ -24,6 +24,6 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.name "Globox1997"
-          git add ../data/collected.json
+          git add ./docs/data/collected.json
           git commit -m "Update collected.json"
           git push
