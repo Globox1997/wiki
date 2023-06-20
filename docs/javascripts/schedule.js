@@ -29,28 +29,29 @@ console.log(process.env.CURSEFORGE_API_KEY);
 //     ]
 // };
 
-// projectDownloadsMap.clear();
-// totalDownloadCount = 0;
+projectDownloadsMap.clear();
+totalDownloadCount = 0;
 
-// fetch('https://api.curseforge.com/v1/mods', {
-//     method: 'POST',
-//     body: JSON.stringify(inputBody),
-//     headers: {
-//         'Content-Type': 'application/json',
-//         'Accept': 'application/json',
-//         'x-api-key': KEY
-//     }
-// }).then(response => response.json()).then(data => {
-//     data.data.reduce((acc, obj) => {
-//         projectDownloadsMap.set(obj.slug, obj.downloadCount);
-//         totalDownloadCount += obj.downloadCount;
-//     }, 0);
-// }).then(data => {
-//     projectDownloadsMap.set('total', totalDownloadCount);
-//     writeFile(projectDownloadsMap, "curseforge");
-// }).catch(error => {
-//     console.error('Error:', error);
-// });
+fetch('https://api.curseforge.com/v1/mods', {
+    method: 'POST',
+    body: JSON.stringify(inputBody),
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+        'x-api-key': KEY
+    }
+}).then(response => response.json()).then(data => {
+    data.data.reduce((acc, obj) => {
+        projectDownloadsMap.set(obj.slug, obj.downloadCount);
+        totalDownloadCount += obj.downloadCount;
+    }, 0);
+}).then(data => {
+    //  projectDownloadsMap.set('total', totalDownloadCount);
+    //  writeFile(projectDownloadsMap, "curseforge");
+    console.log(projectDownloadsMap);
+}).catch(error => {
+    console.error('Error:', error);
+});
 
 // function writeFile(data, platform) {
 //     const fs = require('fs');
