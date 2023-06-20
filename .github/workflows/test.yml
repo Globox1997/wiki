@@ -22,4 +22,4 @@ jobs:
       - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node javascripts/schedule.js
+        run: node ../javascripts/schedule.js
