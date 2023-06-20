@@ -23,7 +23,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "Scheduled"
-          git add ./docs/data/collected.json
+          git config --global user.name "Globox1997"
+          git add ./docs/data/modrinth_collected.json
+          git add ./docs/data/curseforge_collected.json
           git commit -m "Update collected.json"
           git push origin main
