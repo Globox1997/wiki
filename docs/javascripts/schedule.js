@@ -1,4 +1,4 @@
-const KEY = process.env.CURSEFORGE_API_KEY;
+const KEY = String(process.env.CURSEFORGE_API_KEY);
 
 console.log(KEY);
 console.log(process.env.CURSEFORGE_API_KEY);
