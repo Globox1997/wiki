@@ -4,7 +4,7 @@ console.log(KEY);
 console.log(process.env.CURSEFORGE_API_KEY);
 
 
-// var projectDownloadsMap = new Map();
+var projectDownloadsMap = new Map();
 // var totalDownloadCount = 0;
 
 // fetch(`https://api.modrinth.com/v2/user/Globox1997/projects`, {
@@ -23,13 +23,13 @@ console.log(process.env.CURSEFORGE_API_KEY);
 //     console.error('Error:', error);
 // });
 
-// const inputBody = {
-//     "modIds": [
-//         390991, 486971, 693762, 682362, 864150, 659920, 481182, 508695, 533879, 404828, 429383, 365273, 480911, 472795, 666011, 532113, 410830, 551914, 480786, 411621, 402739, 862603, 517130, 841617, 410224, 411400, 834671, 615948, 424480, 736803, 666672, 703778, 615504, 534368, 398269, 396541
-//     ]
-// };
+const inputBody = {
+    "modIds": [
+        390991, 486971, 693762, 682362, 864150, 659920, 481182, 508695, 533879, 404828, 429383, 365273, 480911, 472795, 666011, 532113, 410830, 551914, 480786, 411621, 402739, 862603, 517130, 841617, 410224, 411400, 834671, 615948, 424480, 736803, 666672, 703778, 615504, 534368, 398269, 396541
+    ]
+};
 
-projectDownloadsMap.clear();
+//projectDownloadsMap.clear();
 totalDownloadCount = 0;
 
 fetch('https://api.curseforge.com/v1/mods', {
