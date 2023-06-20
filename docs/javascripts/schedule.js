@@ -1,27 +1,23 @@
 const KEY = String(process.env.CURSEFORGE_API_KEY);
 
-console.log(KEY);
-console.log(process.env.CURSEFORGE_API_KEY);
-
-
 var projectDownloadsMap = new Map();
-// var totalDownloadCount = 0;
+var totalDownloadCount = 0;
 
-// fetch(`https://api.modrinth.com/v2/user/Globox1997/projects`, {
-//     headers: {
-//         'User-Agent': 'Globox1997/Globox_Z Wiki'
-//     }
-// }).then(response => response.json()).then(data => {
-//     data.reduce((acc, obj) => {
-//         projectDownloadsMap.set(obj.slug, obj.downloads);
-//         totalDownloadCount += obj.downloads;
-//     }, 0);
-// }).then(data => {
-//     projectDownloadsMap.set('total', totalDownloadCount);
-//     writeFile(projectDownloadsMap, "modrinth");
-// }).catch(error => {
-//     console.error('Error:', error);
-// });
+fetch(`https://api.modrinth.com/v2/user/Globox1997/projects`, {
+    headers: {
+        'User-Agent': 'Globox1997/Globox_Z Wiki'
+    }
+}).then(response => response.json()).then(data => {
+    data.reduce((acc, obj) => {
+        projectDownloadsMap.set(obj.slug, obj.downloads);
+        totalDownloadCount += obj.downloads;
+    }, 0);
+}).then(data => {
+    projectDownloadsMap.set('total', totalDownloadCount);
+    writeFile(projectDownloadsMap, "modrinth");
+}).catch(error => {
+    console.error('Error:', error);
+});
 
 const inputBody = {
     "modIds": [
@@ -29,7 +25,7 @@ const inputBody = {
     ]
 };
 
-//projectDownloadsMap.clear();
+projectDownloadsMap.clear();
 totalDownloadCount = 0;
 
 fetch('https://api.curseforge.com/v1/mods', {
@@ -46,27 +42,26 @@ fetch('https://api.curseforge.com/v1/mods', {
         totalDownloadCount += obj.downloadCount;
     }, 0);
 }).then(data => {
-    //  projectDownloadsMap.set('total', totalDownloadCount);
-    //  writeFile(projectDownloadsMap, "curseforge");
-    console.log(projectDownloadsMap);
+    projectDownloadsMap.set('total', totalDownloadCount);
+    writeFile(projectDownloadsMap, "curseforge");
 }).catch(error => {
     console.error('Error:', error);
 });
 
-// function writeFile(data, platform) {
-//     const fs = require('fs');
-//     const path = require('path');
+function writeFile(data, platform) {
+    const fs = require('fs');
+    const path = require('path');
 
-//     const filePath = path.join(__dirname, '../data/' + platform + '_collected.json');
+    const filePath = path.join(__dirname, '../data/' + platform + '_collected.json');
 
-//     const plainObject = Object.fromEntries(data);
-//     const jsonString = JSON.stringify(plainObject);
+    const plainObject = Object.fromEntries(data);
+    const jsonString = JSON.stringify(plainObject);
 
-//     fs.writeFile(filePath, jsonString, 'utf8', (err) => {
-//         if (err) {
-//             console.error('Error writing to JSON file:', err);
-//         } else {
-//             console.log('JSON file has been overwritten successfully.');
-//         }
-//     });
-// }
+    fs.writeFile(filePath, jsonString, 'utf8', (err) => {
+        if (err) {
+            console.error('Error writing to JSON file:', err);
+        } else {
+            console.log('JSON file has been overwritten successfully.');
+        }
+    });
+}

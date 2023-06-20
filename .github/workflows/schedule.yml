@@ -20,11 +20,13 @@ jobs:
       - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node ./docs/javascripts/schedule.js ${{ secrets.CURSEFORGE_API_KEY }}
+          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+        run: node ./docs/javascripts/schedule.js
 
-      # - name: Commit and push changes
-      #   run: |
-      #     git config --global user.name "Scheduled"
-      #     git add ./docs/data/collected.json
-      #     git commit -m "Update collected.json"
-      #     git push origin main
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Globox1997"
+          git add ./docs/data/modrinth_collected.json
+          git add ./docs/data/curseforge_collected.json
+          git commit -m "Update collected.json"
+          git push origin main
