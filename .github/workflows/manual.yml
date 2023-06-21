@@ -1,0 +1,12 @@
+name: manual
+
+on: 
+  workflow_dispatch
+
+jobs:
+  execute_another_workflow:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger Another Workflow
+        uses: ./.github/workflows/schedule.yml
