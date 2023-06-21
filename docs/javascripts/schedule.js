@@ -70,6 +70,8 @@ client.on('ready', () => {
     } else {
         console.log('Guild not found');
     }
+    client.destroy();
+    process.exit();
 });
 
 client.login(DISCORD_TOKEN);
@@ -87,7 +89,7 @@ function writeFile(data, platform) {
         if (err) {
             console.error('Error writing to JSON file:', err);
         } else {
-            console.log('JSON file has been overwritten successfully.');
+            console.log('JSON file ' + platform + '_collected has been overwritten successfully.');
         }
     });
 }
