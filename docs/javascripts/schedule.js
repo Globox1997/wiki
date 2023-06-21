@@ -1,4 +1,5 @@
-const KEY = String(process.env.CURSEFORGE_API_KEY);
+const CURSEFORGE_KEY = String(process.env.CURSEFORGE_API_KEY);
+const DISCORD_TOKEN = String(process.env.DISCORD_TOKEN);
 
 var projectDownloadsMap = new Map();
 var totalDownloadCount = 0;
@@ -34,7 +35,7 @@ fetch('https://api.curseforge.com/v1/mods', {
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
-        'x-api-key': KEY
+        'x-api-key': CURSEFORGE_KEY
     }
 }).then(response => response.json()).then(data => {
     data.data.reduce((acc, obj) => {
@@ -47,6 +48,32 @@ fetch('https://api.curseforge.com/v1/mods', {
 }).catch(error => {
     console.error('Error:', error);
 });
+
+projectDownloadsMap.clear();
+totalDownloadCount = 0;
+
+const Discord = require('discord.js');
+const client = new Discord.Client({
+    intents: [
+        Discord.GatewayIntentBits.Guilds
+    ]
+})
+
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag}`);
+
+    const guildId = '745451299713056791';
+    const guild = client.guilds.cache.get(guildId);
+
+    if (guild) {
+        projectDownloadsMap.set('total', guild.memberCount);
+        writeFile(projectDownloadsMap, "discord");
+    } else {
+        console.log('Guild not found');
+    }
+});
+
+client.login(DISCORD_TOKEN);
 
 function writeFile(data, platform) {
     const fs = require('fs');
