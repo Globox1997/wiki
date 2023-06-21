@@ -32,5 +32,6 @@ jobs:
           git config --global user.name "Globox1997"
           git add ./docs/data/modrinth_collected.json
           git add ./docs/data/curseforge_collected.json
+          git add ./docs/data/discord_collected.json
           git commit -m "Update collected.json"
           git push origin main
