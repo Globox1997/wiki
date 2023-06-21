@@ -1,8 +1,8 @@
 const CURSEFORGE_KEY = String(process.env.CURSEFORGE_API_KEY);
 const DISCORD_TOKEN = String(process.env.DISCORD_TOKEN);
 
-var projectDownloadsMap = new Map();
-var totalDownloadCount = 0;
+var curseforgeProjectDownloadsMap = new Map();
+var curseforgeTotalDownloadCount = 0;
 
 fetch(`https://api.modrinth.com/v2/user/Globox1997/projects`, {
     headers: {
@@ -10,12 +10,12 @@ fetch(`https://api.modrinth.com/v2/user/Globox1997/projects`, {
     }
 }).then(response => response.json()).then(data => {
     data.reduce((acc, obj) => {
-        projectDownloadsMap.set(obj.slug, obj.downloads);
-        totalDownloadCount += obj.downloads;
+        curseforgeProjectDownloadsMap.set(obj.slug, obj.downloads);
+        curseforgeTotalDownloadCount += obj.downloads;
     }, 0);
 }).then(data => {
-    projectDownloadsMap.set('total', totalDownloadCount);
-    writeFile(projectDownloadsMap, "modrinth");
+    curseforgeProjectDownloadsMap.set('total', curseforgeTotalDownloadCount);
+    writeFile(curseforgeProjectDownloadsMap, "modrinth");
 }).catch(error => {
     console.error('Error:', error);
 });
@@ -26,8 +26,8 @@ const inputBody = {
     ]
 };
 
-projectDownloadsMap.clear();
-totalDownloadCount = 0;
+var modrinthProjectDownloadsMap = new Map();
+var modrinthTotalDownloadCount = 0;
 
 fetch('https://api.curseforge.com/v1/mods', {
     method: 'POST',
@@ -39,18 +39,17 @@ fetch('https://api.curseforge.com/v1/mods', {
     }
 }).then(response => response.json()).then(data => {
     data.data.reduce((acc, obj) => {
-        projectDownloadsMap.set(obj.slug, obj.downloadCount);
-        totalDownloadCount += obj.downloadCount;
+        modrinthProjectDownloadsMap.set(obj.slug, obj.downloadCount);
+        modrinthTotalDownloadCount += obj.downloadCount;
     }, 0);
 }).then(data => {
-    projectDownloadsMap.set('total', totalDownloadCount);
-    writeFile(projectDownloadsMap, "curseforge");
+    modrinthProjectDownloadsMap.set('total', modrinthTotalDownloadCount);
+    writeFile(modrinthProjectDownloadsMap, "curseforge");
 }).catch(error => {
     console.error('Error:', error);
 });
 
-projectDownloadsMap.clear();
-totalDownloadCount = 0;
+discordProjectDownloadsMap = new Map();
 
 const Discord = require('discord.js');
 const client = new Discord.Client({
@@ -66,8 +65,8 @@ client.on('ready', () => {
     const guild = client.guilds.cache.get(guildId);
 
     if (guild) {
-        projectDownloadsMap.set('total', guild.memberCount);
-        writeFile(projectDownloadsMap, "discord");
+        discordProjectDownloadsMap.set('total', guild.memberCount);
+        writeFile(discordProjectDownloadsMap, "discord");
     } else {
         console.log('Guild not found');
     }
