@@ -1,15 +1,3 @@
-if (window.location.href === 'https://globox1997.github.io/wiki/') {
-    window.addEventListener('load', () => {
-        window.requestAnimationFrame(countUpAnimation);
-    });
-}
-
-if (window.location.href === 'https://globox1997.github.io/wiki/mods/') {
-    window.addEventListener('load', () => {
-        iconGallery();
-    });
-}
-
 if (window.location.pathname.includes('Entities') || window.location.pathname.includes('Items')) {
     window.addEventListener('load', () => {
         icon();
@@ -25,7 +13,6 @@ if (window.location.pathname.includes('Items')) {
 // vanilla_crafting; smithing; furnace_smelting; anvil; fletching;
 function crafting() {
     if (document.getElementsByClassName('crafting-element' != null)) {
-
         const vanillaCraftingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], [4, [10, 46]], [5, [46, 46]], [6, [82, 46]], [7, [10, 82]], [8, [46, 82]], [9, [82, 82]], ['output', [202, 46]]];
         const smithingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], ['output', [198, 10]]];
         const furnaceSmeltingPositions = [[1, [10, 18]], ['output', [130, 118]]];
@@ -118,29 +105,7 @@ function crafting() {
     }
 }
 
-function countUpAnimation(timestamp) {
-    if (document.getElementsByClassName('count-up-element' != null)) {
-        let duration = 3000;
-        const startNumber = 0;
 
-        const elements = document.getElementsByClassName('count-up-element');
-
-        for (let i = 0; i < elements.length; i++) {
-            const element = elements[i];
-            duration = parseInt(element.getAttribute('duration'));
-            const maxCount = parseInt(element.getAttribute('max-count'));
-            const currentTime = Math.min(timestamp, startNumber + duration);
-            const progress = (currentTime - startNumber) / duration;
-            const number = Math.floor(progress * maxCount);
-
-            element.textContent = number.toLocaleString();
-        }
-
-        if (timestamp < startNumber + duration) {
-            window.requestAnimationFrame(countUpAnimation);
-        }
-    }
-}
 
 function icon() {
     if (document.getElementsByClassName('icon-element') != null) {
@@ -166,61 +131,6 @@ function icon() {
             }
             element.innerHTML = htmlString;
         }
-    }
-}
-
-function iconGallery() {
-    if (document.getElementById('icon-gallery') != null) {
-        const icons = [
-            { texture: 'additionz_icon', url: 'AdditionZ', tooltip: 'AdditionZ' },
-            { texture: 'adventurez_icon', url: 'AdventureZ', tooltip: 'AdventureZ' },
-            { texture: 'backslot_icon', url: 'BackSlot', tooltip: 'BackSlot' },
-            { texture: 'backslotaddon_icon', url: 'BackSlotAddon', tooltip: 'BackSlotAddon' },
-            { texture: 'dehydration_icon', url: 'Dehydration', tooltip: 'Dehydration' },
-            { texture: 'dragonloot_icon', url: 'DragonLoot', tooltip: 'DragonLoot' },
-            { texture: 'dualwield_icon', url: 'DualWielding', tooltip: 'DualWielding' },
-            { texture: 'dungeonz_icon', url: 'DungeonZ', tooltip: 'DungeonZ' },
-            { texture: 'earlystage_icon', url: 'EarlyStage', tooltip: 'EarlyStage' },
-            { texture: 'environmentz_icon', url: 'EnvironmentZ', tooltip: 'EnvironmentZ' },
-            { texture: 'event_icon', url: 'EventMod', tooltip: 'EventMod' },
-            { texture: 'fireplacemode_icon', url: 'FireplaceMode', tooltip: 'FireplaceMode' },
-            { texture: 'fleshz_icon', url: 'FleshZ', tooltip: 'FleshZ' },
-            { texture: 'herdspanic_icon', url: 'HerdsPanic', tooltip: 'HerdsPanic' },
-            { texture: 'inmisaddon_icon', url: 'InmisAddon', tooltip: 'InmisAddon' },
-            { texture: 'jobsaddon_icon', url: 'JobsAddon', tooltip: 'JobsAddon' },
-            { texture: 'levelz_icon', url: 'LevelZ', tooltip: 'LevelZ' },
-            { texture: 'libz_icon', url: 'LibZ', tooltip: 'LibZ' },
-            { texture: 'medievalmusic_icon', url: 'MedievalMusic', tooltip: 'MedievalMusic' },
-            { texture: 'medievalweapons_icon', url: 'MedievalWeapons', tooltip: 'MedievalWeapons' },
-            { texture: 'nameplate_icon', url: 'Nameplate', tooltip: 'Nameplate' },
-            { texture: 'numismaticclaim_icon', url: 'NumismaticClaim', tooltip: 'NumismaticClaim' },
-            { texture: 'partyaddon_icon', url: 'PartyAddon', tooltip: 'PartyAddon' },
-            { texture: 'patchoulibutton_icon', url: 'PatchouliButton', tooltip: 'PatchouliButton' },
-            { texture: 'reciperemover_icon', url: 'RecipeRemover', tooltip: 'RecipeRemover' },
-            { texture: 'revive_icon', url: 'Revive', tooltip: 'Revive' },
-            { texture: 'rpgdifficulty_icon', url: 'RpgDifficulty', tooltip: 'RpgDifficulty' },
-            { texture: 'rpgloot_icon', url: 'RpgZ', tooltip: 'RpgZ' },
-            { texture: 'spoiled_icon', url: 'SpoiledZ', tooltip: 'SpoiledZ' },
-            { texture: 'talkbubbles_icon', url: 'TalkBubbles', tooltip: 'TalkBubbles' },
-            { texture: 'tiered_icon', url: 'TieredZ', tooltip: 'TieredZ' },
-            { texture: 'tooltiprareness_icon', url: 'TooltipRareness', tooltip: 'TooltipRareness' },
-            { texture: 'villagerquests_icon', url: 'VillagerQuests', tooltip: 'VillagerQuests' },
-            { texture: 'villagertradefix_icon', url: 'VillagerTradeFix', tooltip: 'VillagerTradeFix' },
-            { texture: 'voidz_icon', url: 'VoidZ', tooltip: 'VoidZ' }
-        ];
-
-        // Get the gallery element
-        const gallery = document.getElementById('icon-gallery');
-
-        // Create and append the icons to the gallery
-        icons.forEach((iconData) => {
-            const icon = document.createElement('img');
-            icon.src = '/wiki/assets/general/icons/' + iconData.texture + '.png';
-            icon.className = 'icon';
-
-            tooltip(icon, iconData.tooltip, iconData.url, true);
-            gallery.appendChild(icon);
-        });
     }
 }
 

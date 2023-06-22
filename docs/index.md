@@ -12,16 +12,15 @@ Here you will find more in depth information about my mods.
 
 <div style="text-align: center">
 
-<div>Mods: <p class="count-up-element" max-count="34" duration="2000">0</p></div>
+<div>Mods: <p class="count-up-element" src="mods" file="curseforge" duration="2000">0</p></div>
 
-<div>Discord Member: <p class="count-up-element" max-count="1267" duration="4000">0</p></div>
+<div>Discord Member: <p class="count-up-element" src="total" file="discord" duration="4000">0</p></div>
 
-<div>Downloads: <p class="count-up-element" max-count="54831945" duration="6000">0</p> </div>
+<div>Downloads: <p class="count-up-element" src="total" file="curseforge" duration="6000">0</p> </div>
 
 </div>
 ---
-
-
+<script src="/wiki/javascripts/data.js"></script>
 
 ### :octicons-repo-16: About me
 
