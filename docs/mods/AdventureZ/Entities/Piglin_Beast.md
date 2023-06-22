@@ -40,7 +40,7 @@ summary: adventurez entity piglin beast
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/piglin_beast.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/piglin_beast.png" loading="lazy" />
 </div>
 </div>
 

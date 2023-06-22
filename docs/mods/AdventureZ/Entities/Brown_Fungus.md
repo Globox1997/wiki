@@ -40,7 +40,7 @@ summary: adventurez entity brown fungus
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/brown_fungus.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/brown_fungus.png" loading="lazy" />
 </div>
 </div>
 

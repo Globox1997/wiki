@@ -40,7 +40,7 @@ summary: adventurez entity ender whale
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/ender_whale.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/ender_whale.png" loading="lazy" />
 </div>
 </div>
 

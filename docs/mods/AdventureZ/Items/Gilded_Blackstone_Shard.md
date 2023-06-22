@@ -20,6 +20,6 @@ summary: adventurez item gilded blackstone shard
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/gilded_blackstone_shard.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/gilded_blackstone_shard.png" loading="lazy" />
 </div>
 </div>

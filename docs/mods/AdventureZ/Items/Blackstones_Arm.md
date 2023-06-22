@@ -32,7 +32,7 @@ summary: adventurez item blackstones arm
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/blackstones_arm.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/blackstones_arm.png" loading="lazy" />
 </div>
 </div>
 ---

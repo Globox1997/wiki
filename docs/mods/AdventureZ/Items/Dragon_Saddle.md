@@ -32,7 +32,7 @@ summary: adventurez item dragon saddle
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/dragon_saddle.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/dragon_saddle.png" loading="lazy" />
 </div>
 </div>
 
@@ -41,4 +41,4 @@ summary: adventurez item dragon saddle
 
 | Name | Ingredient | Crafting recipe |
 | :---: | :---: | :---: |
-| Dragon Saddle | 3 <a href="../Orc_Skin/">Orc Skin</a> +<br>2 <a href="https://minecraft.fandom.com/wiki/Iron_Nugget" target="_blank">Iron Nugget</a> | ![](../../../../assets/adventurez/recipes/crafting/dragon_saddle.png) |
+| Dragon Saddle | 3 <a href="../Orc_Skin/">Orc Skin</a> +<br>2 <a href="https://minecraft.fandom.com/wiki/Iron_Nugget" target="_blank">Iron Nugget</a> | ![](/wiki/assets/adventurez/recipes/crafting/dragon_saddle.png) |

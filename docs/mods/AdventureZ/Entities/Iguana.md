@@ -40,7 +40,7 @@ summary: adventurez entity iguana
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/iguana.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/iguana.png" loading="lazy" />
 </div>
 </div>
 

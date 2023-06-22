@@ -36,6 +36,6 @@ summary: adventurez item cooked warthog meat
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/cooked_warthog_meat.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/cooked_warthog_meat.png" loading="lazy" />
 </div>
 </div>

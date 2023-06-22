@@ -20,6 +20,6 @@ summary: adventurez item handbook
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/handbook.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/handbook.png" loading="lazy" />
 </div>
 </div>

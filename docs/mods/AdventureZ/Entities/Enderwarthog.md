@@ -40,7 +40,7 @@ summary: adventurez entity enderwarthog
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/enderwarthog.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/enderwarthog.png" loading="lazy" />
 </div>
 </div>
 

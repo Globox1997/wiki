@@ -40,7 +40,7 @@ summary: adventurez entity nightmare
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/nightmare.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/nightmare.png" loading="lazy" />
 </div>
 </div>
 

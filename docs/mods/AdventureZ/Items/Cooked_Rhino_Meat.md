@@ -36,6 +36,6 @@ summary: adventurez item cooked rhino meat
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/cooked_rhino_meat.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/cooked_rhino_meat.png" loading="lazy" />
 </div>
 </div>

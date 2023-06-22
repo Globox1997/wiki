@@ -22,6 +22,6 @@ tags:
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/warthog_shell_piece.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/warthog_shell_piece.png" loading="lazy" />
 </div>
 </div>

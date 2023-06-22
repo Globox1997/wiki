@@ -52,7 +52,7 @@ summary: adventurez entity blaze guardian
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/blaze_guardian.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/blaze_guardian.png" loading="lazy" />
 </div>
 </div>
 

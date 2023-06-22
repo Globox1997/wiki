@@ -40,6 +40,6 @@ summary: adventurez item ender whale meat
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/ender_whale_meat.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/ender_whale_meat.png" loading="lazy" />
 </div>
 </div>

@@ -32,6 +32,6 @@ summary: adventurez item iguana hide
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/iguana_hide.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/iguana_hide.png" loading="lazy" />
 </div>
 </div>

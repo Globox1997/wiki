@@ -36,7 +36,7 @@ summary: adventurez item cooked iguana meat
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/cooked_iguana_meat.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/cooked_iguana_meat.png" loading="lazy" />
 </div>
 </div>
 
@@ -45,4 +45,4 @@ summary: adventurez item cooked iguana meat
 
 | Name | Ingredient | Smelting recipe |
 | :---: | :---: | :---: |
-| Cooked Iguana Meat | <a href="../Iguana_Meat/">Iguana Meat</a> +<br>Any <a href="https://minecraft.fandom.com/wiki/Smelting#Fuel" target="_blank">fuel</a> | ![](../../../../assets/adventurez/recipes/smelting/cooked_iguana_meat.png) |
+| Cooked Iguana Meat | <a href="../Iguana_Meat/">Iguana Meat</a> +<br>Any <a href="https://minecraft.fandom.com/wiki/Smelting#Fuel" target="_blank">fuel</a> | ![](/wiki/assets/adventurez/recipes/smelting/cooked_iguana_meat.png) |

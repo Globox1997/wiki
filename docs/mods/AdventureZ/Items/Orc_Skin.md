@@ -34,7 +34,7 @@ tags:
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/orc_skin.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/orc_skin.png" loading="lazy" />
 </div>
 </div>
 
@@ -47,13 +47,13 @@ Orc's drop 0 - 1 orc skin when killed by a <a href="https://minecraft.fandom.com
 
 | Name | Ingredient | Crafting recipe |
 | :---: | :---: | :---: |
-| <a href="https://minecraft.fandom.com/wiki/Leather" target="_blank">Leather</a> | 2 Orc Skin | ![](../../../../assets/adventurez/recipes/crafting/orc_leather.png) |
-| <a href="../Dragon_Saddle/">Dragon Saddle</a> | 3 Orc Skin +<br>2 <a href="https://minecraft.fandom.com/wiki/Iron_Nugget" target="_blank">Iron Nugget</a> | ![](../../../../assets/adventurez/recipes/crafting/dragon_saddle.png) |
-| <a href="../Handbook/">Handbook</a> | 1 <a href="https://minecraft.fandom.com/wiki/Book" target="_blank">Book</a> +<br>1 <a href="https://minecraft.fandom.com/wiki/Eye_of_Ender" target="_blank">Eye of Ender</a> +<br>1 Orc Skin | ![](../../../../assets/adventurez/recipes/crafting/handbook.png) |
+| <a href="https://minecraft.fandom.com/wiki/Leather" target="_blank">Leather</a> | 2 Orc Skin | ![](/wiki/assets/adventurez/recipes/crafting/orc_leather.png) |
+| <a href="../Dragon_Saddle/">Dragon Saddle</a> | 3 Orc Skin +<br>2 <a href="https://minecraft.fandom.com/wiki/Iron_Nugget" target="_blank">Iron Nugget</a> | ![](/wiki/assets/adventurez/recipes/crafting/dragon_saddle.png) |
+| <a href="../Handbook/">Handbook</a> | 1 <a href="https://minecraft.fandom.com/wiki/Book" target="_blank">Book</a> +<br>1 <a href="https://minecraft.fandom.com/wiki/Eye_of_Ender" target="_blank">Eye of Ender</a> +<br>1 Orc Skin | ![](/wiki/assets/adventurez/recipes/crafting/handbook.png) |
 
 ### Brewing ingredient
 Orc skin's are used to <a href="https://minecraft.fandom.com/wiki/Potion#:~:text=Description-,Potion%20of%20the%20Turtle%20Master,-0%3A20" target="_blank">brew the turtle master potion</a> from an <a href="https://minecraft.fandom.com/wiki/Potion#:~:text=Potions%20of%20Weakness-,Awkward%20Potion,-The%20base%20for" target="_blank">awkward potion</a>.
 
 | Name | Ingredients | Brewing recipe |
 | :---: | :---: | :---: |
-| <a href="https://minecraft.fandom.com/wiki/Potion#:~:text=Description-,Potion%20of%20the%20Turtle%20Master,-0%3A20" target="_blank">Potion of the Turtle Master</a> | Orc Skin +<br><a href="https://minecraft.fandom.com/wiki/Potion#:~:text=Potions%20of%20Weakness-,Awkward%20Potion,-The%20base%20for" target="_blank">Awkward Potion</a> | ![](../../../../assets/adventurez/recipes/brewing/adventurez_orc_skin_minecraft_awkward_minecraft_turtle_master.png) |
+| <a href="https://minecraft.fandom.com/wiki/Potion#:~:text=Description-,Potion%20of%20the%20Turtle%20Master,-0%3A20" target="_blank">Potion of the Turtle Master</a> | Orc Skin +<br><a href="https://minecraft.fandom.com/wiki/Potion#:~:text=Potions%20of%20Weakness-,Awkward%20Potion,-The%20base%20for" target="_blank">Awkward Potion</a> | ![](/wiki/assets/adventurez/recipes/brewing/adventurez_orc_skin_minecraft_awkward_minecraft_turtle_master.png) |

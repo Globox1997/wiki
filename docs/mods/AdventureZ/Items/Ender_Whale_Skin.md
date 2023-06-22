@@ -32,6 +32,6 @@ summary: adventurez item ender whale skin
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/ender_whale_skin.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/ender_whale_skin.png" loading="lazy" />
 </div>
 </div>

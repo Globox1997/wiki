@@ -36,7 +36,7 @@ summary: adventurez item cooked mammoth meat
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/cooked_mammoth_meat.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/cooked_mammoth_meat.png" loading="lazy" />
 </div>
 </div>
 
@@ -45,4 +45,4 @@ summary: adventurez item cooked mammoth meat
 
 | Name | Ingredient | Smelting recipe |
 | :---: | :---: | :---: |
-| Cooked Mammoth Meat | <a href="../Mammoth_Meat/">Mammoth Meat</a> +<br>Any <a href="https://minecraft.fandom.com/wiki/Smelting#Fuel" target="_blank">fuel</a> | ![](../../../../assets/adventurez/recipes/smelting/cooked_mammoth_meat.png) |
+| Cooked Mammoth Meat | <a href="../Mammoth_Meat/">Mammoth Meat</a> +<br>Any <a href="https://minecraft.fandom.com/wiki/Smelting#Fuel" target="_blank">fuel</a> | ![](/wiki/assets/adventurez/recipes/smelting/cooked_mammoth_meat.png) |

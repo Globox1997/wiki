@@ -20,6 +20,6 @@ summary: adventurez item prime eye
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/prime_eye.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/prime_eye.png" loading="lazy" />
 </div>
 </div>

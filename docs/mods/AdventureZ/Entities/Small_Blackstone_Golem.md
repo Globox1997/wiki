@@ -40,7 +40,7 @@ summary: adventurez entity small blackstone golem boss
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/small_blackstone_golem.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/small_blackstone_golem.png" loading="lazy" />
 </div>
 </div>
 

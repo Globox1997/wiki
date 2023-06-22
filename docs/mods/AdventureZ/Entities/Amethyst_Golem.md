@@ -48,7 +48,7 @@ summary: adventurez entity amethyst golem
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/amethyst_golem.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/amethyst_golem.png" loading="lazy" />
 </div>
 </div>
 

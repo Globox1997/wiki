@@ -36,7 +36,7 @@ summary: adventurez entity skeleton vanguard
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/skeleton_vanguard.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/skeleton_vanguard.png" loading="lazy" />
 </div>
 </div>
 

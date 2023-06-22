@@ -40,7 +40,7 @@ summary: adventurez entity dragon
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/dragon.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/dragon.png" loading="lazy" />
 </div>
 </div>
 

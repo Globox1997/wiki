@@ -28,6 +28,6 @@ summary: adventurez item blackstone golem heart
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/blackstone_golem_heart.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/blackstone_golem_heart.png" loading="lazy" />
 </div>
 </div>

@@ -32,6 +32,6 @@ summary: adventurez item ivory arrow
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/ivory_arrow.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/ivory_arrow.png" loading="lazy" />
 </div>
 </div>

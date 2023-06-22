@@ -40,7 +40,7 @@ summary: adventurez entity desert rhino
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/desert_rhino.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/desert_rhino.png" loading="lazy" />
 </div>
 </div>
 

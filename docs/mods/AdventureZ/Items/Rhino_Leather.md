@@ -20,6 +20,6 @@ summary: adventurez item rhino leather
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/rhino_leather.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/rhino_leather.png" loading="lazy" />
 </div>
 </div>

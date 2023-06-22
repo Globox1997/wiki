@@ -22,6 +22,6 @@ tags:
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/raw_venison.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/raw_venison.png" loading="lazy" />
 </div>
 </div>

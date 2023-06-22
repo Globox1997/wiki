@@ -20,6 +20,6 @@ summary: adventurez item gilded netherite fragment
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/gilded_netherite_fragment.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/gilded_netherite_fragment.png" loading="lazy" />
 </div>
 </div>

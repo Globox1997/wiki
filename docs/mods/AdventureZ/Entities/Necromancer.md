@@ -44,7 +44,7 @@ summary: adventurez entity necromancer
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/necromancer.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/necromancer.png" loading="lazy" />
 </div>
 </div>
 

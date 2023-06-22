@@ -40,7 +40,7 @@ summary: adventurez entity wither puppet
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/wither_puppet.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/wither_puppet.png" loading="lazy" />
 </div>
 </div>
 

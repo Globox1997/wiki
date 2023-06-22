@@ -36,6 +36,6 @@ summary: adventurez item mammoth meat
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/mammoth_meat.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/mammoth_meat.png" loading="lazy" />
 </div>
 </div>

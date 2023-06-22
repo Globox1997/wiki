@@ -44,7 +44,7 @@ summary: adventurez entity soul reaper
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/soul_reaper.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/soul_reaper.png" loading="lazy" />
 </div>
 </div>
 

@@ -36,7 +36,7 @@ summary: adventurez item cooked ender whale meat
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/cooked_ender_whale_meat.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/cooked_ender_whale_meat.png" loading="lazy" />
 </div>
 </div>
 
@@ -45,4 +45,4 @@ summary: adventurez item cooked ender whale meat
 
 | Name | Ingredient | Smelting recipe |
 | :---: | :---: | :---: |
-| Cooked Ender Whale Meat | <a href="../Ender_Whale_Meat/">Ender Whale Meat</a> +<br>Any <a href="https://minecraft.fandom.com/wiki/Smelting#Fuel" target="_blank">fuel</a> | ![](../../../../assets/adventurez/recipes/smelting/cooked_ender_whale_meat.png) |
+| Cooked Ender Whale Meat | <a href="../Ender_Whale_Meat/">Ender Whale Meat</a> +<br>Any <a href="https://minecraft.fandom.com/wiki/Smelting#Fuel" target="_blank">fuel</a> | ![](/wiki/assets/adventurez/recipes/smelting/cooked_ender_whale_meat.png) |

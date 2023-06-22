@@ -32,6 +32,6 @@ summary: adventurez item mammoth tusk
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/mammoth_tusk.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/mammoth_tusk.png" loading="lazy" />
 </div>
 </div>

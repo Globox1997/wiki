@@ -46,7 +46,7 @@ tags:
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/orc.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/orc.png" loading="lazy" />
 </div>
 </div>
 

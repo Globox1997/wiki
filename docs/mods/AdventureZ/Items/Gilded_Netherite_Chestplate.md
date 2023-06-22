@@ -36,6 +36,6 @@ summary: adventurez item gilded netherite chestplate
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/gilded_netherite_chestplate.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/gilded_netherite_chestplate.png" loading="lazy" />
 </div>
 </div>

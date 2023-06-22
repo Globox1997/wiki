@@ -40,7 +40,7 @@ summary: adventurez entity deer
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/entities/deer.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/entities/deer.png" loading="lazy" />
 </div>
 </div>
 

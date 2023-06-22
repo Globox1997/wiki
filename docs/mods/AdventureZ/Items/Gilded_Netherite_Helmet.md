@@ -36,6 +36,6 @@ summary: adventurez item gilded netherite helmet
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/gilded_netherite_helmet.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/gilded_netherite_helmet.png" loading="lazy" />
 </div>
 </div>

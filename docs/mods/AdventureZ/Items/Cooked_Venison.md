@@ -38,6 +38,6 @@ tags:
 </table>
 </div>
 <div class="div-img-center">
-<img src="../../../../assets/adventurez/items/cooked_venison.png" loading="lazy" />
+<img src="/wiki/assets/adventurez/items/cooked_venison.png" loading="lazy" />
 </div>
 </div>
