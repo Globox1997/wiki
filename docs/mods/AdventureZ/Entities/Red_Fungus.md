@@ -46,14 +46,12 @@ summary: adventurez entity red fungus
 
 ## Story
 
-*The Red Fungus is a peaceful creature which has a very cute voice.*  
-*The <a href="../Brown_Fungus/">Brown Fungus</a> are their siblings.*
+*The Red Fungus is a gentle creature known for its endearing voice, adding to its charm. The <a href="../Brown_Fungus/">Brown Fungus</a> are its siblings, sharing a similar nature.*
 
 ---
 
 ## Behavior
 
-This fungus is a neutral creature and only attacks the threat when provoked.  
-If angry they will call other nearby fungus to attack the threat by chasing it.
+The Red Fungus is typically neutral and will only attack when provoked. If angered, it calls nearby fungus for backup and chases the threat.
 
-* **Melee:** spores the threat which deals 1 damage
+* **Melee:** The fungus releases spores that cause 1 point of damage. These spores can potentially inflict poison on the target, lasting anywhere from 4 to 9 seconds.

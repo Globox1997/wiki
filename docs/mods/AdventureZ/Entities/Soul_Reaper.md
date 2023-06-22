@@ -50,11 +50,11 @@ summary: adventurez entity soul reaper
 
 ## Story
 
-*The Soul Reaper is the deadly variant of the <a href="https://minecraft.fandom.com/wiki/Wither_Skeleton" target="_blank">wither skeleton</a>, knows how to use a <a href="https://minecraft.fandom.com/wiki/Bow" target="_blank">bow</a> and <a href="https://minecraft.fandom.com/wiki/Sword" target="_blank">sword</a> to destroy everything that gets in its way.*
+*The Soul Reaper is a lethal variant of the <a href="https://minecraft.fandom.com/wiki/Wither_Skeleton" target="_blank">wither skeleton</a>. It possesses expert skills with both a <a href="https://minecraft.fandom.com/wiki/Bow" target="_blank">bow</a> and a <a href="https://minecraft.fandom.com/wiki/Sword" target="_blank">sword</a>, making it a formidable adversary capable of annihilating anything that stands in its path.*
 
 ## Behaivor
 
 While it rides the <a href="https://globoxwiki.com/mods/adventurez/nightmare/" target="_blank">Nightmare</a>, it is faster on <a href="https://minecraft.fandom.com/wiki/Soul_Sand" target="_blank">soul sand</a>.
 
-* **Melee:** hits with a withered <a href="https://minecraft.fandom.com/wiki/Sword" target="_blank">netherite sword</a> which deals 8 damage + <a href="https://globoxwiki.com/mods/adventurez/soul-reaper/" target="_blank">wither</a>
-* **Range:** shoots with a withered <a href="https://minecraft.fandom.com/wiki/Bow" target="_blank">bow</a> which deals 8 damage + <a href="https://globoxwiki.com/mods/adventurez/soul-reaper/" target="_blank">wither</a>
+* **Melee:** Armed with a withered <a href="https://minecraft.fandom.com/wiki/Sword" target="_blank">netherite sword</a>, the Soul Reaper delivers powerful strikes, dealing 8 damage. Additionally, each hit inflicts the <a href="https://minecraft.fandom.com/wiki/Wither_(effect)" target="_blank">wither</a> effect on its target.
+* **Range:** Utilizing a withered bow, the Soul Reaper launches arrows with deadly accuracy, dealing 8 damage. These arrows also carry the <a href="https://minecraft.fandom.com/wiki/Wither_(effect)" target="_blank">wither</a> effect, further weakening their foes.

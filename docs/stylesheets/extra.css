@@ -52,6 +52,16 @@
     border-image: linear-gradient(rgba(80,0,255,0.31),rgba(40,0,127,0.31)) 1;
 }
 
+.recipe {
+    position: relative;
+    width: 256px;
+    height: 124px;
+
+    /* max-width: 256px;
+    margin: auto; */
+}
+
+
 .combi {
     /*border: 3px solid rgb(204, 0, 0);*/
     border-radius: 4.2px;

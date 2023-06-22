@@ -46,15 +46,15 @@ summary: adventurez entity ender whale
 
 ## Story
 
-*The Ender Whale is a very calm creature, floats around in the endless void and has a deep voice.*
+*The Ender Whale is a tranquil creature that peacefully glides through the vast void, emitting a deep and resonant voice.*
 
 ---
 
 ## Rideable
-He can carry up to 2 players on his back.
+The Ender Whale can accommodate up to 2 players on its back.
 
-* Steerable with a <a href="../../Items/Chorus_Fruit_on_a_Stick/">chorus fruit on a stick</a>
-* Called to a player if he's nearby with an <a href="../../Items/Ender_Flute/">ender flute</a>
+* It can be steered by using a <a href="../../Items/Chorus_Fruit_on_a_Stick/">chorus fruit on a stick</a>.
+* Players can call the Ender Whale to their location if they are nearby by utilizing an <a href="../../Items/Ender_Flute/">ender flute</a>.
 
 ## Drops
 | Drop | Use |

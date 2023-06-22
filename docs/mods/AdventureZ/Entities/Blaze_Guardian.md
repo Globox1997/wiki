@@ -58,19 +58,18 @@ summary: adventurez entity blaze guardian
 
 ## Story
 
-*He is the guardian of all blazes and he will defend blaze spawners & blazes from players until his death.*
+*The Blaze Guardian is the defender of all blazes, safeguarding both blaze spawners and the blazes themselves from players until its demise.*
 
 ---
 
 ## Behavior
 
-He is hostile and will attack you from far away or close range.  
-Blaze spawners are deactivated if a **blaze guardian** is nearby.
+The Blaze Guardian is hostile and attacks players from both close and long distances. Additionally, its presence deactivates nearby blaze spawners.
 
-* **Melee:** sprinkles flames around him
-* **Range:** shoots fireballs at players which deal 5 damage & 5s flame
-* **Protection:** his surrounding shield can get destroyed with melee weapons
-* **Special:** after a few moments a strong explosion occurs
+* **Melee:** The Blaze Guardian emanates swirling flames around itself, creating a dangerous veil of fire.
+* **Range:** From a distance, the Blaze Guardian launches fireballs at players, dealing 5 points of damage and igniting them for 5 seconds with a searing flame.
+* **Shielding:** The Blaze Guardian is shielded, but this protection can be broken by attacking it with melee weapons.
+* **Special:** After a brief delay, the Blaze Guardian unleashes a formidable explosion, amplifying the intensity of the battle.
 
 ## Command
 ???+ bug "Shield not showing -> Relog into the world"

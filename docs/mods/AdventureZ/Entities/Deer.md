@@ -46,8 +46,7 @@ summary: adventurez entity deer
 
 ## Behavior
 
-Deers are peaceful creatures shy but also careful.  
-They will run away from players if they come too close.
+Deer are peaceful and cautious animals. They quickly flee from players who get too close to them.
 
 ## Drops
 | Drop | Use |

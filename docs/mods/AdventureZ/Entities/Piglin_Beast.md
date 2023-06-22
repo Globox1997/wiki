@@ -46,9 +46,9 @@ summary: adventurez entity piglin beast
 
 ## Story
 
-*The Piglin Beast is the boss of all <a href="https://minecraft.fandom.com/wiki/Piglin" target="_blank">piglins</a>, carries a big club and has the leader flag attached on the belt.*
+*The Piglin Beast reigns as the boss among all <a href="https://minecraft.fandom.com/wiki/Piglin" target="_blank">piglins</a>, wielding a mighty club and donning a leader flag affixed to its belt.*
 
 ## Behavior
 
-* **Melee:** swings the club which deals 9 damage
-* **Special:** calls all nearby <a href="https://minecraft.fandom.com/wiki/Piglin" target="_blank">piglins</a> to gather together
+* **Melee:** Wields a formidable club, striking its opponents with a devastating blow that inflicts 9 points of damage.
+* **Special:** The Piglin Beast can summon and rally all nearby <a href="https://minecraft.fandom.com/wiki/Piglin" target="_blank">piglins</a>, gathering them together for a unified force.

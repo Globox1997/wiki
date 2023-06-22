@@ -46,16 +46,15 @@ summary: adventurez entity desert rhino
 
 ## Story
 
-*Desert Rhinos are endangered creatures and will try everything to protect themselves.*
+*Desert Rhinos are a critically endangered species, and they employ various strategies to ensure their self-preservation. They are determined to protect themselves at all costs.*
 
 ---
 
 ## Behavior
 
-The Desert Rhino will charge at the player with a sprint and tries to knock him back with his horn.  
-He will then chase the player and will wait for another sprint attack.
+The Desert Rhino launches into a powerful charge, sprinting towards the player with its horn aimed to knock them back. It relentlessly pursues the player, patiently waiting for an opportunity to execute another sprint attack.
 
-* **Sprint-Melee:** sprints with his horn which deals 9 damage & knockback on impact
+* **Sprint-Melee:** The Desert Rhino charges at high speed, using its horn to deliver a forceful strike that inflicts 9 points of damage and knocks the target back.
 
 ## Drops
 | Drop | Use |

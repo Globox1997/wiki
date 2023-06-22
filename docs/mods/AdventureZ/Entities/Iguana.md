@@ -46,8 +46,7 @@ summary: adventurez entity iguana
 
 ## Story
 
-*The Iguana is a cold blooded creature which plays in the sandy valleys.*  
-*He loves to eat <a href="https://minecraft.fandom.com/wiki/Dead_Bush" target="_blank">dead bushes</a> and can get breed with them.*
+*The Iguana is a cold-blooded creature that enjoys playing in sandy valleys. It has a preference for eating <a href="https://minecraft.fandom.com/wiki/Dead_Bush" target="_blank">dead bushes</a> and can reproduce with them.*
 
 ## Drops
 | Drop | Use |

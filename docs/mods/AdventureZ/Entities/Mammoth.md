@@ -46,14 +46,13 @@ summary: adventurez entity mammoth
 
 ## Story
 
-*The mammoth is an extinct animal but still lives in Minecraft.*  
-*Heavily wrapped in his fur he can sustain very cold temperatures.*
+*The mammoth, despite being an extinct animal, continues to exist within the world of Minecraft. Adorned with thick fur, it possesses remarkable resistance to extremely cold temperatures.*
 
 ## Behavior
 
-He is neutral and will only attack if he gets attacked.
+The mammoth is a neutral creature and will not initiate an attack unless provoked.
 
-* **Melee:** chases the player and hits with his tusks which deals 7 damage
+* **Melee:** It chases the player and delivers damaging blows using its tusks, dealing 7 points of damage.
 
 ## Drops
 | Drop | Use |

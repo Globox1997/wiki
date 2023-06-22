@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -19,6 +21,6 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs-material
-      - run: pip install pillow cairosvg
       - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install pillow cairosvg
       - run: mkdocs gh-deploy --force

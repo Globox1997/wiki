@@ -50,11 +50,11 @@ summary: adventurez entity the eye boss
 
 ## Story
 
-*The Eye was never seen before by any human being and will drain all energy you've got until you're a dead corps.*
+*The Eye, an unseen entity, possesses an insidious power that drains the life force of any unfortunate enough to encounter it, leaving only lifeless remains behind.*
 
 ## Behavior
 
-* **Range:** shoots laser beams onto the player which stop when the eye takes damage
-* **Confusion:** shoots small version of itself which teleport the player around if hit
-* **Duplication:** can duplicate itself multiple times which also shoot laser beams but only live for a certain time
-* **Special** slowly heals itself over time and splits into 3 parts if it has less than half hp
+* **Range:** The Eye unleashes deadly laser beams upon the player, ceasing only when the Eye itself takes damage.
+* **Confusion:** It projects smaller versions of itself that, upon impact, teleport the player to different locations, causing disorientation.
+* **Duplication:** The Eye has the ability to create multiple duplicates that shoot laser beams, but they only exist for a limited duration.
+* **Special** The Eye slowly regenerates its health over time. When its health drops below half, it splits into three separate parts, increasing the challenge.
