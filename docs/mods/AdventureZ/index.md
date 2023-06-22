@@ -2,6 +2,14 @@
 
 # Description
 
+
+
+<span style="display: inline-block; white-space: nowrap;">:simple-modrinth: <span class="count-up-element" src="adventurez" file="modrinth"></span></span>
+
+<span style="display: inline-block; white-space: nowrap;">:simple-curseforge: <span class="count-up-element" src="adventurez" file="curseforge"></span></span>
+
+<script src="/wiki/javascripts/data.js"></script>
+
 ## Dependencies
 
 !!! apple-keyboard-control "Required"
