@@ -2,7 +2,7 @@ window.addEventListener('load', () => {
     list();
 });
 
-const objects = [
+const adventurezItems = [
     { texture: 'chorus_fruit_on_a_stick', url: 'Items/Chorus_Fruit_on_a_Stick', text: 'Chorus Fruit on a Stick' },
     { texture: 'cooked_ender_whale_meat', url: 'Items/Cooked_Ender_Whale_Meat', text: 'Cooked Ender Whale Meat' },
     { texture: 'cooked_iguana_meat', url: 'Items/Cooked_Iguana_Meat', text: 'Cooked Iguana Meat' },
@@ -37,29 +37,57 @@ const objects = [
     { texture: 'stone_golem_helmet', url: 'Items/Stone_Golem_Helmet', text: 'Stone Golem Helmet' },
     { texture: 'stone_golem_leggings', url: 'Items/Stone_Golem_Leggings', text: 'Stone Golem Leggings' },
     { texture: 'warthog_meat', url: 'Items/Warthog_Meat', text: 'Warthog Meat' },
-    { texture: 'warthog_shell_piece', url: 'Items/Warthog_Shell_Piece', text: 'Warthog Shell Piece' },
+    { texture: 'warthog_shell_piece', url: 'Items/Warthog_Shell_Piece', text: 'Warthog Shell Piece' }
 ];
 
+const dehydrationItems = [
+    { texture: 'bamboo_pump', url: 'Items/Bamboo_Pump', text: 'Bamboo Pump' },
+    { texture: 'campfire_cauldron', url: 'Items/Campfire_Cauldron', text: 'Campfire Cauldron' },
+    { texture: 'copper_cauldron', url: 'Items/Copper_Cauldron', text: 'Copper Cauldron' },
+    { texture: 'diamond_leather_flask', url: 'Items/Diamond_Leather_Flask', text: 'Diamond Leather Flask' },
+    { texture: 'empty_leather_flask', url: 'Items/Empty_Leather_Flask', text: 'Empty Leather Flask' },
+    { texture: 'golden_leather_flask', url: 'Items/Golden_Leather_Flask', text: 'Golden Leather Flask' },
+    { texture: 'handbook', url: 'Items/Handbook', text: 'Handbook' },
+    { texture: 'iron_leather_flask', url: 'Items/Iron_Leather_Flask', text: 'Iron Leather Flask' },
+    { texture: 'leather_flask', url: 'Items/Leather_Flask', text: 'Leather Flask' },
+    { texture: 'netherite_leather_flask', url: 'Items/Netherite_Leather_Flask', text: 'Netherite Leather Flask' },
+    { texture: 'purified_water_bucket', url: 'Items/Purified_Water_Bucket', text: 'Purified Water Bucket' }
+];
+
+function getList(mod, type) {
+    switch (mod + ":" + type) {
+        case 'adventurez:items':
+            return adventurezItems;
+        case 'adventurez:block':
+            return null;
+        case 'dehydration:items':
+            return dehydrationItems;
+        default:
+            return null;
+    }
+}
 
 function list() {
     if (document.getElementById('list') != null) {
         const element = document.getElementById('list');
         element.className = 'icon-list-container';
-        objects.forEach((iconData) => {
-            const icon = document.createElement('img');
-            icon.src = '/wiki/assets/' + element.getAttribute("mod") + '/' + element.getAttribute("type") + '/' + iconData.texture + '.png';
-            icon.className = 'icon-list';
+        if (getList(element.getAttribute("mod"), element.getAttribute("type")) != null) {
+            getList(element.getAttribute("mod"), element.getAttribute("type")).forEach((iconData) => {
+                const icon = document.createElement('img');
+                icon.src = '/wiki/assets/general/' + element.getAttribute("type") + '/' + element.getAttribute("mod") + '/' + iconData.texture + '.png';
+                icon.className = 'icon-list';
 
-            const link = document.createElement('a');
-            link.href = iconData.url;
-            link.textContent = iconData.text;
+                const link = document.createElement('a');
+                link.href = iconData.url;
+                link.textContent = iconData.text;
 
-            const listItem = document.createElement('li');
-            listItem.appendChild(icon);
-            listItem.appendChild(link);
+                const listItem = document.createElement('li');
+                listItem.appendChild(icon);
+                listItem.appendChild(link);
 
-            element.appendChild(listItem);
-        });
+                element.appendChild(listItem);
+            });
+        }
     }
 }
 
