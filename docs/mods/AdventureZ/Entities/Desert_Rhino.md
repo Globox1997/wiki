@@ -1,3 +1,8 @@
+---
+title: Desert Rhino
+project: adventurez
+summary: adventurez entity desert rhino
+---
 # Desert Rhino
 <div class="combi">
 <div class="divthing">

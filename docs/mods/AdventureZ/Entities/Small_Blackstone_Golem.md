@@ -1,3 +1,8 @@
+---
+title: Small Blackstone Golem
+project: adventurez
+summary: adventurez entity small blackstone golem boss
+---
 # Small Blackstone Golem
 <div class="combi">
 <div class="divthing">
@@ -17,11 +22,11 @@
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">?</td>
+            <td class="second-column">6</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">?</td>
+            <td class="second-column">When blackstone golem Basalt biomes</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
@@ -30,10 +35,6 @@
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
             <td class="second-column">Hostile</td>
-        </tr>
-        <tr id="linear-top">
-            <td class="first-column">Type</td>
-            <td class="second-column">Boss</td>
         </tr>
     </tbody>
 </table>

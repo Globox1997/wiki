@@ -1,3 +1,8 @@
+---
+title: Soul Reaper
+project: adventurez
+summary: adventurez entity soul reaper
+---
 # Soul Reaper
 <div class="combi">
 <div class="divthing">

@@ -1,3 +1,8 @@
+---
+title: AdventureZ
+project: adventurez
+summary: adventurez wiki
+---
 ![AdventureZ Banner](../../assets/general/banner/adventurezbanner.png)
 
 # Description

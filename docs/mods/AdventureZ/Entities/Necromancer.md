@@ -1,3 +1,8 @@
+---
+title: Necromancer
+project: adventurez
+summary: adventurez entity necromancer
+---
 # Necromancer
 <div class="combi">
 <div class="divthing">

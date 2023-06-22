@@ -1,3 +1,8 @@
+---
+title: Shaman
+project: adventurez
+summary: adventurez entity shaman
+---
 # Shaman
 <div class="combi">
 <div class="divthing">

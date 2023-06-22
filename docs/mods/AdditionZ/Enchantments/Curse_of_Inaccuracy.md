@@ -1,5 +1,10 @@
+---
+title: Curse of Inaccuracy
+project: additionz
+summary: additionZ enchantment curse of inaccuracy
+---
 # Curse of Inaccuracy
-<div class="combi" markdown>
+<div class="combi">
 <div class="divthing">
 <table class="tablething">
     <tbody>
@@ -18,7 +23,7 @@
     </tbody>
 </table>
 </div>
-<div>
+<div class="div-img-center">
 <img src="../../../../assets/additionz/enchantments/enchanted_book.png" loading="lazy" />
 </div>
 </div>

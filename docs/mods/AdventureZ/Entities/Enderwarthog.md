@@ -1,3 +1,8 @@
+---
+title: Enderwarthog
+project: adventurez
+summary: adventurez entity enderwarthog
+---
 # Enderwarthog
 <div class="combi">
 <div class="divthing">

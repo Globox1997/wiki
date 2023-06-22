@@ -1,3 +1,8 @@
+---
+title: The Eye
+project: adventurez
+summary: adventurez entity the eye boss
+---
 # The Eye
 <div class="combi">
 <div class="divthing">

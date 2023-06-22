@@ -1,3 +1,8 @@
+---
+title: Dragon
+project: adventurez
+summary: adventurez entity dragon
+---
 # Dragon
 <div class="combi">
 <div class="divthing">

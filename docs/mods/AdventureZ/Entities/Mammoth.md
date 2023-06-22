@@ -1,3 +1,8 @@
+---
+title: Mammoth
+project: adventurez
+summary: adventurez entity mammoth
+---
 # Mammoth
 <div class="combi">
 <div class="divthing">

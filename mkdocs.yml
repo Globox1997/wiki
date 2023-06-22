@@ -145,49 +145,50 @@ nav:
         - mods/AdventureZ/Entities/The_Eye.md
         - mods/AdventureZ/Entities/Wither_Puppet.md
       - Items:
-        - mods/AdventureZ/Items/Gilded_Blackstone_Shard.md
         - mods/AdventureZ/Items/Blackstone_Golem_Heart.md
         - mods/AdventureZ/Items/Blackstones_Arm.md
-        - mods/AdventureZ/Items/Gilded_Netherite_Fragment.md
-        - mods/AdventureZ/Items/Prime_Eye.md
-        - mods/AdventureZ/Items/Orc_Skin.md
-        - mods/AdventureZ/Items/Dragon_Saddle.md
-        - mods/AdventureZ/Items/Source_Stone.md
         - mods/AdventureZ/Items/Chorus_Fruit_on_a_Stick.md
-        - mods/AdventureZ/Items/Ender_Flute.md
-        - mods/AdventureZ/Items/Iguana_Hide.md
-        - mods/AdventureZ/Items/Mammoth_Fur.md
-        - mods/AdventureZ/Items/Ender_Whale_Skin.md
-        - mods/AdventureZ/Items/Ivory_Arrow.md
-        - mods/AdventureZ/Items/Mammoth_Tusk.md
-        - mods/AdventureZ/Items/Rhino_Leather.md
-        - mods/AdventureZ/Items/Warthog_Shell_Piece.md
-        - mods/AdventureZ/Items/Handbook.md
-        - mods/AdventureZ/Items/Mammoth_Meat.md
-        - mods/AdventureZ/Items/Cooked_Mammoth_Meat.md
-        - mods/AdventureZ/Items/Iguana_Meat.md
-        - mods/AdventureZ/Items/Cooked_Iguana_Meat.md
-        - mods/AdventureZ/Items/Ender_Whale_Meat.md
         - mods/AdventureZ/Items/Cooked_Ender_Whale_Meat.md
-        - mods/AdventureZ/Items/Rhino_Meat.md
+        - mods/AdventureZ/Items/Cooked_Iguana_Meat.md
+        - mods/AdventureZ/Items/Cooked_Mammoth_Meat.md
         - mods/AdventureZ/Items/Cooked_Rhino_Meat.md
-        - mods/AdventureZ/Items/Raw_Venison.md
         - mods/AdventureZ/Items/Cooked_Venison.md
-        - mods/AdventureZ/Items/Warthog_Meat.md
         - mods/AdventureZ/Items/Cooked_Warthog_Meat.md
-        - mods/AdventureZ/Items/Gilded_Netherite_Helmet.md
-        - mods/AdventureZ/Items/Gilded_Netherite_Chestplate.md
-        - mods/AdventureZ/Items/Gilded_Netherite_Leggings.md
+        - mods/AdventureZ/Items/Dragon_Saddle.md
+        - mods/AdventureZ/Items/Ender_Flute.md
+        - mods/AdventureZ/Items/Ender_Whale_Meat.md
+        - mods/AdventureZ/Items/Ender_Whale_Skin.md
+        - mods/AdventureZ/Items/Gilded_Blackstone_Shard.md
         - mods/AdventureZ/Items/Gilded_Netherite_Boots.md
+        - mods/AdventureZ/Items/Gilded_Netherite_Chestplate.md
+        - mods/AdventureZ/Items/Gilded_Netherite_Fragment.md
+        - mods/AdventureZ/Items/Gilded_Netherite_Helmet.md
+        - mods/AdventureZ/Items/Gilded_Netherite_Leggings.md
+        - mods/AdventureZ/Items/Handbook.md
+        - mods/AdventureZ/Items/Iguana_Hide.md
+        - mods/AdventureZ/Items/Iguana_Meat.md
+        - mods/AdventureZ/Items/Ivory_Arrow.md
+        - mods/AdventureZ/Items/Mammoth_Fur.md
+        - mods/AdventureZ/Items/Mammoth_Meat.md
+        - mods/AdventureZ/Items/Mammoth_Tusk.md
+        - mods/AdventureZ/Items/Orc_Skin.md
+        - mods/AdventureZ/Items/Prime_Eye.md
+        - mods/AdventureZ/Items/Raw_Venison.md
+        - mods/AdventureZ/Items/Rhino_Leather.md
+        - mods/AdventureZ/Items/Rhino_Meat.md
+        - mods/AdventureZ/Items/Source_Stone.md
+        - mods/AdventureZ/Items/Warthog_Meat.md
+        - mods/AdventureZ/Items/Warthog_Shell_Piece.md
       - Blocks:
-        - mods/AdventureZ/Blocks/Stone_Holder.md
         - mods/AdventureZ/Blocks/Piglin_Flag.md
         - mods/AdventureZ/Blocks/Shadow_Chest.md
+        - mods/AdventureZ/Blocks/Stone_Holder.md
       - Structures:
         - mods/AdventureZ/Structures/Blackstone_Altar.md
         - mods/AdventureZ/Structures/Desert_Well.md
         - mods/AdventureZ/Structures/Eye_Shrine.md
         - mods/AdventureZ/Structures/Floating_Island.md
+        - mods/AdventureZ/Structures/Golem_Altar.md
     - BackSlot:
       - mods/BackSlot/index.md
   - About:

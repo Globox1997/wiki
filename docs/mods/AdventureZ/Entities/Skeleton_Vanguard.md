@@ -1,3 +1,8 @@
+---
+title: Skeleton Vanguard
+project: adventurez
+summary: adventurez entity skeleton vanguard
+---
 # Skeleton Vanguard
 <div class="combi">
 <div class="divthing">
