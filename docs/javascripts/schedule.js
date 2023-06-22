@@ -88,18 +88,18 @@ function writeFile(data, platform) {
     fs.writeFile(filePath, jsonString, 'utf8', (err) => {
         if (err) {
             console.error('Error writing to JSON file:', err);
+            stopScript();
         } else {
             console.log('JSON file ' + platform + '_collected has been overwritten successfully.');
         }
+        completedOperations++;
+        if (completedOperations === 3) {
+            stopScript();
+        }
     });
-    completedOperations++;
-    if (completedOperations === 3) {
-        stopScript();
-    }
 }
 
 function stopScript() {
-    console.log('All files have been written. Stopping the script.');
     client.destroy();
     process.exit();
 }
