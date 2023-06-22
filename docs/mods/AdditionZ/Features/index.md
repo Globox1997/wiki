@@ -1,3 +1,8 @@
+---
+title: Features
+project: additionz
+summary: additionz config features
+---
 # Features
 
 ## Feather Falling Trample

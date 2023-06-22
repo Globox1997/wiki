@@ -1,3 +1,8 @@
+---
+title: Wither Puppet
+project: adventurez
+summary: adventurez entity wither puppet
+---
 # Wither Puppet
 <div class="combi">
 <div class="divthing">

@@ -1,7 +1,7 @@
 ---
 title: AdditionZ
 project: additionz
-summary: Minecraft mod which adds random things
+summary: additionz wiki
 ---
 
 ![AdventureZ Banner](../../assets/general/banner/additionzbanner.png)

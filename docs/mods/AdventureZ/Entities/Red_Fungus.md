@@ -1,3 +1,8 @@
+---
+title: Red Fungus
+project: adventurez
+summary: adventurez entity red fungus
+---
 # Red Fungus
 <div class="combi">
 <div class="divthing">

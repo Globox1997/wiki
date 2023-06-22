@@ -1,3 +1,8 @@
+---
+title: Summoner
+project: adventurez
+summary: adventurez entity summoner
+---
 # Summoner
 <div class="combi">
 <div class="divthing">

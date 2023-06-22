@@ -1,3 +1,8 @@
+---
+title: Small Blackstone Golem
+project: adventurez
+summary: adventurez entity small blackstone golem boss
+---
 # Small Blackstone Golem
 <div class="combi">
 <div class="divthing">

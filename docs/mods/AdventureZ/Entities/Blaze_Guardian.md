@@ -1,3 +1,8 @@
+---
+title: Blaze Guardian
+project: adventurez
+summary: adventurez entity blaze guardian
+---
 # Blaze Guardian
 <div class="combi">
 <div class="divthing">
@@ -16,7 +21,11 @@
             <td class="second-column">40</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column">Attack Strength</td>
+            <td class="first-column">Armor Points</td>
+            <td class="second-column">3</td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Attack Damage</td>
             <td class="second-column">9</td>
         </tr>
         <tr id="linear-top">
@@ -33,7 +42,7 @@
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 1 <a href="https://minecraft.fandom.com/wiki/Blaze_Rod" target="_blank">Blaze Rod</a></td>
+            <td class="second-column">5 XP<br>0 - 1 <a href="https://minecraft.fandom.com/wiki/Blaze_Rod" target="_blank">Blaze Rod</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

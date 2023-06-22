@@ -1,3 +1,8 @@
+---
+title: Amethyst Golem
+project: adventurez
+summary: adventurez entity amethyst golem
+---
 # Amethyst Golem
 <div class="combi">
 <div class="divthing">
@@ -16,11 +21,15 @@
             <td class="second-column icon-element" icon-count="40" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column">Attack Strength</td>
+            <td class="first-column">Armor Points</td>
+            <td class="second-column">1</td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Attack Damage</td>
             <td class="second-column icon-element" icon-count="8" icon-id="experience" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column">Projectile Strength</td>
+            <td class="first-column">Projectile Damage</td>
             <td class="second-column icon-element" icon-count="7" icon-id="projectile" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
@@ -29,7 +38,7 @@
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 2 <a href="https://minecraft.fandom.com/wiki/Amethyst_Shard" target="_blank">Amethyst Shard</a></td>
+            <td class="second-column">5 XP<br>0 - 2 <a href="https://minecraft.fandom.com/wiki/Amethyst_Shard" target="_blank">Amethyst Shard</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

@@ -1,3 +1,8 @@
+---
+title: Deer
+project: adventurez
+summary: adventurez entity deer
+---
 # Deer
 <div class="combi">
 <div class="divthing">
@@ -17,7 +22,7 @@
         </tr>
         <tr id="linear-top">
             <td class="first-column">Usable Items</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Grass" target="_blank">Grass</a><br><a href="https://minecraft.fandom.com/wiki/Lead" target="_blank">Lead</a></td>
+            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Grass" target="_blank">Grass</a><br><a href="https://minecraft.fandom.com/wiki/Grass" target="_blank">Tall Grass</a><br><a href="https://minecraft.fandom.com/wiki/Grass" target="_blank">Fern</a><br><a href="https://minecraft.fandom.com/wiki/Lead" target="_blank">Lead</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>

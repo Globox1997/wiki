@@ -1,3 +1,8 @@
+---
+title: Ender Whale
+project: adventurez
+summary: adventurez entity ender whale
+---
 # Ender Whale
 <div class="combi">
 <div class="divthing">

@@ -1,3 +1,10 @@
+---
+title: Orc
+project: adventurez
+summary: adventurez entity orc
+tags:
+    - ork
+---
 # Orc
 <div class="combi">
 <div class="divthing">

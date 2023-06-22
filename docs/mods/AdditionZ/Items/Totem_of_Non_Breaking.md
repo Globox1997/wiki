@@ -1,5 +1,10 @@
+---
+title: Totem of Non Breaking
+project: additionz
+summary: additionz item totem of non breaking
+---
 # Totem of Non Breaking
-<div class="combi" markdown>
+<div class="combi">
 <div class="divthing">
 <table class="tablething">
     <tbody>
@@ -22,7 +27,7 @@
     </tbody>
 </table>
 </div>
-<div>
+<div class="div-img-center">
 <img src="../../../../assets/additionz/items/totem_of_non_breaking.png" loading="lazy" />
 </div>
 </div>

@@ -1,3 +1,8 @@
+---
+title: Nightmare
+project: adventurez
+summary: adventurez entity nightmare
+---
 # Nightmare
 <div class="combi">
 <div class="divthing">

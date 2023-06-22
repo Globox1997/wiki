@@ -108,15 +108,17 @@
 .first-column {
     text-align: left;
     vertical-align: middle;
-    width: 30%;
-    font-weight: 300;
+    min-width: 25%;
+    max-width: 45%;
+    font-weight: 400;
     font-size: 14px;
 }
 
 .second-column {
     text-align: left;
     vertical-align: middle;
-    width: 70%;
+    min-width: 55%;
+    max-width: 75%;
     font-weight: 300;
     font-size: 14px;
 }

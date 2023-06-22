@@ -1,3 +1,8 @@
+---
+title: Piglin Beast
+project: adventurez
+summary: adventurez entity piglin beast
+---
 # Piglin Beast
 <div class="combi">
 <div class="divthing">
