@@ -13,6 +13,17 @@
     position: relative;
 }
 
+.icon-list-container {
+    column-count: 2;
+}
+
+.icon-list {
+    list-style: disc;
+    padding-top: 2%;
+    padding-right: 2%;
+    margin-bottom: -3%;
+  }
+
 .tooltip {
     position: fixed;
     top: 0;
