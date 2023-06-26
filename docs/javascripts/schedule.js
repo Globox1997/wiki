@@ -6,7 +6,7 @@ let completedOperations = 0;
 var curseforgeProjectDownloadsMap = new Map();
 var curseforgeTotalDownloadCount = 0;
 
-fetch(`https://api.modrinth.com/v2/user/Globox1997/projects`, {
+fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
     headers: {
         'User-Agent': 'Globox1997/Globox_Z Wiki'
     }

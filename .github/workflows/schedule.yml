@@ -27,9 +27,13 @@ jobs:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
         run: node ./docs/javascripts/schedule.js
 
+      - name: Configure Git
+        run: |
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+
       - name: Commit and push changes
         run: |
-          git config --global user.name "Globox1997"
           git add ./docs/data/modrinth_collected.json
           git add ./docs/data/curseforge_collected.json
           git add ./docs/data/discord_collected.json
