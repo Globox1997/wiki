@@ -15,22 +15,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      
-      - name: Set up discord.js
-        run: npm install discord.js
 
       - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-        run: node ./docs/javascripts/schedule.js
+        run: node ./docs/javascripts/manual.js
 
       - name: Commit and push changes
         run: |
           git config --global user.name "Globox1997"
-          git add ./docs/data/modrinth_collected.json
-          git add ./docs/data/curseforge_collected.json
-          git add ./docs/data/discord_collected.json
+          git add ./docs/data/repository_collected.json
           git commit -m "Update collected.json"
           git push origin main
