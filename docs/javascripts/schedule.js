@@ -3,8 +3,8 @@ const DISCORD_TOKEN = String(process.env.DISCORD_TOKEN);
 
 let completedOperations = 0;
 
-var curseforgeProjectDownloadsMap = new Map();
-var curseforgeTotalDownloadCount = 0;
+var modrinthProjectDownloadsMap = new Map();
+var modrinthTotalDownloadCount = 0;
 
 fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
     headers: {
@@ -12,12 +12,12 @@ fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
     }
 }).then(response => response.json()).then(data => {
     data.reduce((acc, obj) => {
-        curseforgeProjectDownloadsMap.set(obj.slug, obj.downloads);
-        curseforgeTotalDownloadCount += obj.downloads;
+        modrinthProjectDownloadsMap.set(obj.slug, obj.downloads);
+        modrinthTotalDownloadCount += obj.downloads;
     }, 0);
 }).then(data => {
-    curseforgeProjectDownloadsMap.set('total', curseforgeTotalDownloadCount);
-    writeFile(curseforgeProjectDownloadsMap, "modrinth");
+    modrinthProjectDownloadsMap.set('total', modrinthTotalDownloadCount);
+    writeFile(modrinthProjectDownloadsMap, "modrinth");
 }).catch(error => {
     console.error('Error:', error);
 });
@@ -28,8 +28,8 @@ const inputBody = {
     ]
 };
 
-var modrinthProjectDownloadsMap = new Map();
-var modrinthTotalDownloadCount = 0;
+var curseforgeProjectDownloadsMap = new Map();
+var curseforgeTotalDownloadCount = 0;
 
 fetch('https://api.curseforge.com/v1/mods', {
     method: 'POST',
@@ -41,12 +41,12 @@ fetch('https://api.curseforge.com/v1/mods', {
     }
 }).then(response => response.json()).then(data => {
     data.data.reduce((acc, obj) => {
-        modrinthProjectDownloadsMap.set(obj.slug, obj.downloadCount);
-        modrinthTotalDownloadCount += obj.downloadCount;
+        curseforgeProjectDownloadsMap.set(obj.slug, obj.downloadCount);
+        curseforgeTotalDownloadCount += obj.downloadCount;
     }, 0);
 }).then(data => {
-    modrinthProjectDownloadsMap.set('total', modrinthTotalDownloadCount);
-    writeFile(modrinthProjectDownloadsMap, "curseforge");
+    curseforgeProjectDownloadsMap.set('total', curseforgeTotalDownloadCount);
+    writeFile(curseforgeProjectDownloadsMap, "curseforge");
 }).catch(error => {
     console.error('Error:', error);
 });
