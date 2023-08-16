@@ -144,6 +144,7 @@ nav:
         - mods/AdventureZ/Entities/The_Eye.md
         - mods/AdventureZ/Entities/Wither_Puppet.md
       - Items:
+        - mods/AdventureZ/Items/index.md
         - mods/AdventureZ/Items/Blackstone_Golem_Heart.md
         - mods/AdventureZ/Items/Blackstones_Arm.md
         - mods/AdventureZ/Items/Chorus_Fruit_on_a_Stick.md
