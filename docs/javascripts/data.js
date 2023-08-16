@@ -54,3 +54,17 @@ async function data(file, src) {
 
     return -1;
 }
+
+async function getRepositoryData(file, src) {
+    if (typeof file !== 'undefined') {
+        try {
+            const response = await fetch('/wiki/data/' + file + '_collected.json');
+            const data = await response.json();
+            return data[src];
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+
+    return 'NaN';
+}

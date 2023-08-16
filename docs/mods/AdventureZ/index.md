@@ -14,6 +14,11 @@ summary: adventurez wiki
 <span style="display: inline-block; white-space: nowrap;">:simple-curseforge: <span class="count-up-element" src="adventurez" file="curseforge"></span></span>
 
 <script src="/wiki/javascripts/data.js"></script>
+<script src="/wiki/javascripts/sidebar.js" id="adventurez"></script>
+<!-- 
+ add link="page id" if id is not the same as the modrinth and curseforge mod page id  
+  -->
+
 
 ## Dependencies
 
