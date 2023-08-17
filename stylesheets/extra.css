@@ -11,7 +11,23 @@
     height: auto; 
     max-width: 100px;
     position: relative;
+    transition: transform 0.3s ease;
 }
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.icon-list-container {
+    column-count: 2;
+}
+
+.icon-list {
+    list-style: disc;
+    padding-top: 2%;
+    padding-right: 2%;
+    margin-bottom: -3%;
+  }
 
 .tooltip {
     position: fixed;
@@ -56,11 +72,21 @@
     position: relative;
     width: 256px;
     height: 124px;
-
     /* max-width: 256px;
     margin: auto; */
 }
 
+.sidebar{
+    text-align: right;
+    margin-top: 0em;
+}
+
+.svg-image{
+    fill: currentcolor;
+    width: 1.125em;
+    height: auto;
+    margin-right: 0.3em;
+}
 
 .combi {
     /*border: 3px solid rgb(204, 0, 0);*/
@@ -97,15 +123,17 @@
 .first-column {
     text-align: left;
     vertical-align: middle;
-    width: 30%;
-    font-weight: 300;
+    min-width: 25%;
+    max-width: 45%;
+    font-weight: 400;
     font-size: 14px;
 }
 
 .second-column {
     text-align: left;
     vertical-align: middle;
-    width: 70%;
+    min-width: 55%;
+    max-width: 75%;
     font-weight: 300;
     font-size: 14px;
 }
