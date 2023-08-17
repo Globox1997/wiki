@@ -50,3 +50,5 @@ I looked into youtube, found out about the fabric wiki which both had some infor
 The world of modding consumed me and I started to create a project here and there, made my main goal called MobZ back then, which offered new adventures by adding mobs and bosses to the world of Minecraft.  
 
 Since then funnily enough I never played Minecraft again (except for some tests of course) and that is the story of how I got into Minecraft modding.
+
+[More Story](about/story.md)
