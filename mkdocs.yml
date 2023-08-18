@@ -195,5 +195,7 @@ nav:
     - about/support.md
     - about/licensing.md
     - about/credits.md
+  - FAQ:
+    - about/faq.md
     
     
