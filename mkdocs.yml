@@ -192,9 +192,11 @@ nav:
     - BackSlot:
       - mods/BackSlot/index.md
   - About:
+    - about/installation.md
     - about/support.md
-    - about/licensing.md
     - about/credits.md
+    - about/licensing.md
+
   - FAQ:
     - about/faq.md
     
