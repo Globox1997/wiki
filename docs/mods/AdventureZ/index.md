@@ -7,8 +7,12 @@ summary: adventurez wiki
 
 # Description
 
+This mod is about lul!
 
+<div id="showcase-gallery" modid="adventurez" image_1="dummy_1" image_2="dummy_2" image_3="dummy_2" image_4="dummy_2"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
 
+<!-- This is an example below -->
 <span style="display: inline-block; white-space: nowrap;">:simple-modrinth: <span class="count-up-element" src="adventurez" file="modrinth"></span></span>
 
 <span style="display: inline-block; white-space: nowrap;">:simple-curseforge: <span class="count-up-element" src="adventurez" file="curseforge"></span></span>

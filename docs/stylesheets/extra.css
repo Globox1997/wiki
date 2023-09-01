@@ -2,6 +2,42 @@
     display: inline;
 }
 
+.showcase {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    width: 20%;
+    height: auto;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.showcase:hover {
+    transform: scale(1.2);
+}
+
+.showcase-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+
+.showcase-overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 80vw;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
 .icon {
     display: inline-block;
     margin: 10px;
