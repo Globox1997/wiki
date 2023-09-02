@@ -140,9 +140,9 @@ function tooltip(element, tooltipText, url, defaultWebsite) {
     tooltip.textContent = tooltipText;
 
     element.addEventListener('mouseenter', () => {
-        element.addEventListener('mousemove', () => {
-            tooltip.style.left = (event.pageX + 5) + "px";
-            tooltip.style.top = (event.pageY) + "px";
+        element.addEventListener('mousemove', (event) => {
+            tooltip.style.left = (event.pageX - window.scrollX + 5) + "px";
+            tooltip.style.top = (event.pageY - window.scrollY) + "px";
         });
         document.body.appendChild(tooltip);
     });
