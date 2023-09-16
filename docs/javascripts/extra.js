@@ -1,13 +1,76 @@
 if (window.location.pathname.includes('Entities') || window.location.pathname.includes('Items')) {
-    window.addEventListener('load', () => {
+    window.addEventListener('DOMContentLoaded', () => {
         icon();
     });
 }
 
 if (window.location.pathname.includes('Items')) {
-    window.addEventListener('load', () => {
+    window.addEventListener('DOMContentLoaded', () => {
         crafting();
+        table();
     });
+}
+
+function table() {
+    if (document.getElementById('crafting-table') != null) {
+        const tableContainer = document.getElementById('crafting-table');
+
+        const table = document.createElement('table');
+        const headerRow = document.createElement("tr");
+
+        const ingredientCell = document.createElement("th");
+        ingredientCell.textContent = "Ingredients";
+        ingredientCell.style.textAlign = "center";
+        const recipeCell = document.createElement("th");
+        recipeCell.textContent = "Recipe";
+        recipeCell.style.textAlign = "center";
+        const descriptionCell = document.createElement("th");
+        descriptionCell.textContent = "Description";
+        descriptionCell.style.textAlign = "center";
+
+        headerRow.appendChild(ingredientCell);
+        headerRow.appendChild(recipeCell);
+        headerRow.appendChild(descriptionCell);
+
+        table.appendChild(headerRow);
+
+        const elements = document.getElementsByClassName('crafting-element');
+        for (let k = 0; k < elements.length; k++) {
+            const element = elements[k];
+            const dataRow = document.createElement("tr");
+
+            for (let j = 0; j < 3; j++) {
+                const dataCell = document.createElement("td");
+                dataCell.style.verticalAlign = "middle";
+                if (j === 0) {
+                    for (let o = 0; o < element.data.length; o += 2) {
+                        if (o > 0) {
+                            var plusSpan = document.createElement("span");
+                            plusSpan.textContent = " + ";
+                            dataCell.appendChild(plusSpan);
+                            var lineBreak = document.createElement("br");
+                            dataCell.appendChild(lineBreak);
+                        }
+                        var linkElement = document.createElement("a");
+                        linkElement.href = element.data[o + 1];
+                        linkElement.textContent = element.data[o];
+
+                        dataCell.appendChild(linkElement);
+                    }
+                } else if (j === 1) {
+                    element.style.display = "contents";
+                    dataCell.appendChild(element);
+                    k--;
+                } else {
+                    dataCell.textContent = element.description;
+                }
+                dataRow.appendChild(dataCell);
+            }
+            table.appendChild(dataRow);
+        }
+
+        tableContainer.appendChild(table);
+    }
 }
 
 // vanilla_crafting; smithing; furnace_smelting; anvil; fletching;
@@ -35,13 +98,13 @@ function crafting() {
             backgrounDiv.style.position = 'absolute';
             const background = document.createElement('img');
             background.src = '/wiki/assets/general/recipe/' + type + '_background.png';
-            background.className = 'recipe';
+            // background.className = 'recipe';
             background.alt = '';
             backgrounDiv.appendChild(background);
             mainDiv.appendChild(backgrounDiv);
 
             const recipePositions = recipePositionMap.get(type);
-
+            const ingredientData = [];
             // Ingredients
             const ingredients = element.textContent.substring(element.textContent.indexOf('input[') + 6, element.textContent.indexOf(']')).split(";");
             for (let u = 0; u < ingredients.length; u++) {
@@ -55,6 +118,10 @@ function crafting() {
                 } else {
                     ingredient[1][0] = 'vanilla/' + ingredient[1][0];
                 }
+                if (!ingredientData.includes(ingredient[1][1])) {
+                    ingredientData.push(ingredient[1][1])
+                    ingredientData.push(ingredient[1][2])
+                }
 
                 const div = document.createElement('div');
                 div.style.position = 'absolute';
@@ -66,8 +133,8 @@ function crafting() {
                 const item = document.createElement('img');
                 item.src = '/wiki/assets/general/items/' + ingredient[1][0] + '.png';
                 item.alt = '';
-                if (ingredient[1].length == 3) {
-                    tooltip(item, ingredient[1][1], replaceAll(ingredient[1][2], ' ', ''), false);
+                if (ingredient[1].length >= 3) {
+                    tooltip(item, ingredient[1][1], replaceAll(ingredient[1][2], ' ', ''), (ingredient[1].length > 3 ? ingredient[1][3] : false));
                 }
                 div.appendChild(item);
                 mainDiv.appendChild(div);
@@ -97,8 +164,13 @@ function crafting() {
             }
             div.appendChild(item);
             mainDiv.appendChild(div);
+            element.data = ingredientData;
+            if (element.textContent.indexOf('description="') === -1) {
+                element.description = "-";
+            } else {
+                element.description = element.textContent.substring(element.textContent.indexOf('description="') + 13, element.textContent.lastIndexOf('"'));
+            }
 
-            // mainDiv
             element.textContent = "";
             element.appendChild(mainDiv);
         }

@@ -104,13 +104,17 @@
     border-image: linear-gradient(rgba(80,0,255,0.31),rgba(40,0,127,0.31)) 1;
 }
 
-.recipe {
+.crafting-element {
+    display: none;
+}
+
+/* .recipe {
     position: relative;
     width: 256px;
-    height: 124px;
-    /* max-width: 256px;
-    margin: auto; */
-}
+    height: 124px; 
+   max-width: 256px;
+    margin: auto; 
+}  */
 
 .sidebar{
     text-align: right;
@@ -174,8 +178,13 @@
     font-size: 14px;
 }
 
+
+[data-md-color-scheme="default"] #linear-top {
+    border-top: 0.4mm solid rgb(224,224,224);
+}
+
 #linear-top {
-    border-top: 0.4mm solid rgba(255, 255, 255, 0.2);
+    border-top: 0.4mm solid rgb(255, 255, 255, 0.2);
 }
 
 #linear-bottom {

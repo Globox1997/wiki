@@ -35,17 +35,13 @@ summary: adventurez item blackstones arm
 <img src="/wiki/assets/adventurez/items/blackstones_arm.png" loading="lazy" />
 </div>
 </div>
----
+
 ## Obtaining
 
 #### Crafting
 
-<div class="crafting-element" crafting-type="vanilla_crafting">
-input[1= blackstone ;2=blackstone;3=blackstone;4=blackstone;5=adventurez:stone_golem_heart;6=blackstone;7=blackstone;9=blackstone]
 
-output[blackstone]
-</div>
-
+<div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
 1=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
@@ -59,3 +55,21 @@ input[
 ]
 
 output[blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone ]
+
+description="Hello it is me this is a very long text and I want to test this so idk what I am doing lkul seems like it is working without more work :D yejj this is great hehe"
+</div>
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[
+1=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
+2=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
+3=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
+4=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
+5=adventurez:stone_golem_heart,Blackstone Golem Heart, https://globox1997.github.io/wiki/mods/AdventureZ/Items/Blackstone_Golem_Heart/; 
+6=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone;  
+7=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
+9=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone
+]
+
+output[blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone ]
+</div>
+</div>
