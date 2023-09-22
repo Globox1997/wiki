@@ -120,6 +120,7 @@ nav:
     - AdventureZ:
       - mods/AdventureZ/index.md
       - Entities:
+        - mods/AdventureZ/Entities/index.md
         - mods/AdventureZ/Entities/Amethyst_Golem.md
         - mods/AdventureZ/Entities/Blackstone_Golem.md
         - mods/AdventureZ/Entities/Blaze_Guardian.md
@@ -180,6 +181,7 @@ nav:
         - mods/AdventureZ/Items/Warthog_Meat.md
         - mods/AdventureZ/Items/Warthog_Shell_Piece.md
       - Blocks:
+        - mods/AdventureZ/Blocks/index.md
         - mods/AdventureZ/Blocks/Piglin_Flag.md
         - mods/AdventureZ/Blocks/Shadow_Chest.md
         - mods/AdventureZ/Blocks/Stone_Holder.md
