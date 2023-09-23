@@ -9,7 +9,7 @@ summary: adventurez wiki
 
 This mod is about lul!
 
-<div id="showcase-gallery" modid="adventurez" image_1="dummy_1" image_2="dummy_2" image_3="dummy_2" image_4="dummy_2"></div>
+<div id="showcase-gallery" modid="adventurez" image_1="adventurez_image_1" image_2="adventurez_image_2" image_3="adventurez_image_3" image_4="adventurez_image_4"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 
 <!-- This is an example below -->
