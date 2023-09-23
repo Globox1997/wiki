@@ -186,6 +186,7 @@ nav:
         - mods/AdventureZ/Blocks/Shadow_Chest.md
         - mods/AdventureZ/Blocks/Stone_Holder.md
       - Structures:
+        - mods/AdventureZ/Structures/index.md
         - mods/AdventureZ/Structures/Blackstone_Altar.md
         - mods/AdventureZ/Structures/Desert_Well.md
         - mods/AdventureZ/Structures/Eye_Shrine.md
