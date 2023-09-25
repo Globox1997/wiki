@@ -18,7 +18,7 @@ summary: additionz item totem of non breaking
         </tr>
         <tr id="linear-top">
             <td class="first-column">Loot Table</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/End_City#Loot" target="_blank">End City Treasure</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/End_City#Loot" target="_blank">End City Treasure</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Loot</td>

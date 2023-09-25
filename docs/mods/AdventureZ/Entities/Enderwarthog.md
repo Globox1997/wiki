@@ -26,7 +26,7 @@ summary: adventurez entity enderwarthog
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">On islands in <a href="https://minecraft.fandom.com/wiki/The_End" target="_blank">the end</a> dimension</td>
+            <td class="second-column">On islands in <a href="https://minecraft.wiki/w/The_End" target="_blank">the end</a> dimension</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
@@ -56,7 +56,7 @@ The Enderwarthog is a hostile creature that will bite players when in close prox
 * **Rush Attack:** The Enderwarthog sprints towards players and delivers a forceful knockback effect.
 
 ## Drops
-| Drop | Use |
-| --- | --- |
-| 0 - 1 <a href="../../Items/Warthog_Shell_Piece/">Warthog Shell Piece</a> | :material-vector-combine: 2 pieces :material-arrow-right: 1 <a href="https://minecraft.fandom.com/wiki/Netherite_Scrap" target="_blank">netherite scrap</a> |
-| 0 - 1 <a href="../../Items/Warthog_Meat/">Warthog Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Warthog_Meat/">cooked warthog meat</a> |
+| Drop                                                                     | Use                                                                                                                                                |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0 - 1 <a href="../../Items/Warthog_Shell_Piece/">Warthog Shell Piece</a> | :material-vector-combine: 2 pieces :material-arrow-right: 1 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">netherite scrap</a> |
+| 0 - 1 <a href="../../Items/Warthog_Meat/">Warthog Meat</a>               | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Warthog_Meat/">cooked warthog meat</a>                                          |

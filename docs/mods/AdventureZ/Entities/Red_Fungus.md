@@ -26,11 +26,11 @@ summary: adventurez entity red fungus
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Mushroom_Fields" target="_blank">Mushroom Fields</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Mushroom_Fields" target="_blank">Mushroom Fields</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 1 <a href="https://minecraft.fandom.com/wiki/Mushroom" target="_blank">Red Mushroom</a></td>
+            <td class="second-column">0 - 1 <a href="https://minecraft.wiki/w/Mushroom" target="_blank">Red Mushroom</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

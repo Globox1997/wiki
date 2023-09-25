@@ -30,11 +30,11 @@ summary: adventurez entity blackstone golem boss
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">Can get summoned at the <a href="../../Structures/Golem_Altar/">Golem Altar</a> in <a href="https://minecraft.fandom.com/wiki/The_Nether" target="_blank">the nether</a></td>
+            <td class="second-column">Can get summoned at the <a href="../../Structures/Golem_Altar/">Golem Altar</a> in <a href="https://minecraft.wiki/w/The_Nether" target="_blank">the nether</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">3 - 7 <a href="https://minecraft.fandom.com/wiki/Blackstone" target="_blank">Blackstone</a><br>0 - 2 <a href="https://minecraft.fandom.com/wiki/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 2 <a href="https://minecraft.fandom.com/wiki/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>0 - 1 <a href="../../Items/Gilded_Netherite_Fragment/">Gilded Netherite Fragment</a><br>0 - 1 <a href="../../Items/Stone_Golem_Heart/">Stone Golem Heart</a></td>
+            <td class="second-column">3 - 7 <a href="https://minecraft.wiki/w/Blackstone" target="_blank">Blackstone</a><br>0 - 2 <a href="https://minecraft.wiki/w/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 2 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>0 - 1 <a href="../../Items/Gilded_Netherite_Fragment/">Gilded Netherite Fragment</a><br>0 - 1 <a href="../../Items/Stone_Golem_Heart/">Stone Golem Heart</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Type</td>

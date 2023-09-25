@@ -17,11 +17,11 @@ summary: adventurez item dragon saddle
             </td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Rarity" target="_blank">Rarity</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Rarity" target="_blank">Rarity</a></td>
             <td class="second-column">Common</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Renewable_resource" target="_blank">Renewable</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Renewable_resource" target="_blank">Renewable</a></td>
             <td class="second-column">Yes</td>
         </tr>
         <tr id="linear-top">
@@ -39,6 +39,6 @@ summary: adventurez item dragon saddle
 ## Usage
 ### Crafting
 
-| Name | Ingredient | Crafting recipe |
-| :---: | :---: | :---: |
-| Dragon Saddle | 3 <a href="../Orc_Skin/">Orc Skin</a> +<br>2 <a href="https://minecraft.fandom.com/wiki/Iron_Nugget" target="_blank">Iron Nugget</a> | ![](/wiki/assets/adventurez/recipes/crafting/dragon_saddle.png) |
+|     Name      |                                                         Ingredient                                                          |                         Crafting recipe                         |
+| :-----------: | :-------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
+| Dragon Saddle | 3 <a href="../Orc_Skin/">Orc Skin</a> +<br>2 <a href="https://minecraft.wiki/w/Iron_Nugget" target="_blank">Iron Nugget</a> | ![](/wiki/assets/adventurez/recipes/crafting/dragon_saddle.png) |

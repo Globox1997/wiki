@@ -26,11 +26,11 @@ summary: adventurez entity piglin beast
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">In <a href="https://minecraft.fandom.com/wiki/The_Nether" target="_blank">the nether</a> when player mines <a href="https://minecraft.fandom.com/wiki/Nether_Gold_Ore" target="_blank">nether gold ore</a> or when <a href="https://minecraft.fandom.com/wiki/Piglin" target="_blank">piglin</a> call for help</td>
+            <td class="second-column">In <a href="https://minecraft.wiki/w/The_Nether" target="_blank">the nether</a> when player mines <a href="https://minecraft.wiki/w/Nether_Gold_Ore" target="_blank">nether gold ore</a> or when <a href="https://minecraft.wiki/w/Piglin" target="_blank">piglin</a> call for help</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">1 - 3 <a href="https://minecraft.fandom.com/wiki/Gold_Ingot" target="_blank">Gold Ingot</a><br>0 - 1 <a href="https://minecraft.fandom.com/wiki/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>0 - 1 <a href="../../Blocks/Piglin_Flag/">Piglin Flag</a></td>
+            <td class="second-column">1 - 3 <a href="https://minecraft.wiki/w/Gold_Ingot" target="_blank">Gold Ingot</a><br>0 - 1 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>0 - 1 <a href="../../Blocks/Piglin_Flag/">Piglin Flag</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -46,9 +46,9 @@ summary: adventurez entity piglin beast
 
 ## Story
 
-*The Piglin Beast reigns as the boss among all <a href="https://minecraft.fandom.com/wiki/Piglin" target="_blank">piglins</a>, wielding a mighty club and donning a leader flag affixed to its belt.*
+*The Piglin Beast reigns as the boss among all <a href="https://minecraft.wiki/w/Piglin" target="_blank">piglins</a>, wielding a mighty club and donning a leader flag affixed to its belt.*
 
 ## Behavior
 
 * **Melee:** Wields a formidable club, striking its opponents with a devastating blow that inflicts 9 points of damage.
-* **Special:** The Piglin Beast can summon and rally all nearby <a href="https://minecraft.fandom.com/wiki/Piglin" target="_blank">piglins</a>, gathering them together for a unified force.
+* **Special:** The Piglin Beast can summon and rally all nearby <a href="https://minecraft.wiki/w/Piglin" target="_blank">piglins</a>, gathering them together for a unified force.

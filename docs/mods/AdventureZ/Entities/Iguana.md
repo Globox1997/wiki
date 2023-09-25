@@ -22,11 +22,11 @@ summary: adventurez entity iguana
         </tr>
         <tr id="linear-top">
             <td class="first-column">Usable Items</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Dead_Bush" target="_blank">Dead Bush</a><br><a href="https://minecraft.fandom.com/wiki/Lead" target="_blank">Lead</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Dead_Bush" target="_blank">Dead Bush</a><br><a href="https://minecraft.wiki/w/Lead" target="_blank">Lead</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Badlands" target="_blank">Badlands</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Badlands" target="_blank">Badlands</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
@@ -46,10 +46,10 @@ summary: adventurez entity iguana
 
 ## Story
 
-*The Iguana is a cold-blooded creature that enjoys playing in sandy valleys. It has a preference for eating <a href="https://minecraft.fandom.com/wiki/Dead_Bush" target="_blank">dead bushes</a> and can reproduce with them.*
+*The Iguana is a cold-blooded creature that enjoys playing in sandy valleys. It has a preference for eating <a href="https://minecraft.wiki/w/Dead_Bush" target="_blank">dead bushes</a> and can reproduce with them.*
 
 ## Drops
-| Drop | Use |
-| --- | --- |
-| 0 - 2 <a href="../../Items/Iguana_Hide/">Iguana Hide</a> | :material-vector-combine: 2 hide :material-arrow-right: 1 <a href="https://minecraft.fandom.com/wiki/Leather" target="_blank">leather</a> |
-| 1 - 3 <a href="../../Items/Iguana_Meat/">Iguana Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Iguana_Meat/">cooked iguana meat</a> |
+| Drop                                                     | Use                                                                                                                              |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 0 - 2 <a href="../../Items/Iguana_Hide/">Iguana Hide</a> | :material-vector-combine: 2 hide :material-arrow-right: 1 <a href="https://minecraft.wiki/w/Leather" target="_blank">leather</a> |
+| 1 - 3 <a href="../../Items/Iguana_Meat/">Iguana Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Iguana_Meat/">cooked iguana meat</a>                          |

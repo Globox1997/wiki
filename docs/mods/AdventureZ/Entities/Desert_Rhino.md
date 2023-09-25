@@ -26,7 +26,7 @@ summary: adventurez entity desert rhino
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Desert" target="_blank">Desert</a> and next to <a href="../../Structures/Desert_Well/">desert wells</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Desert" target="_blank">Desert</a> and next to <a href="../../Structures/Desert_Well/">desert wells</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
@@ -57,7 +57,7 @@ The Desert Rhino launches into a powerful charge, sprinting towards the player w
 * **Sprint-Melee:** The Desert Rhino charges at high speed, using its horn to deliver a forceful strike that inflicts 9 points of damage and knocks the target back.
 
 ## Drops
-| Drop | Use |
-| --- | --- |
-| 0 - 2 <a href="../../Items/Rhino_Leather/">Rhino Leather</a> | :material-label-outline: `c:leather` |
-| 1 - 2 <a href="../../Items/Rhino_Meat/">Rhino Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Rhino_Meat/">cooked rhino meat</a> |
+| Drop                                                         | Use                                                                                                   |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| 0 - 2 <a href="../../Items/Rhino_Leather/">Rhino Leather</a> | :material-label-outline: `c:leather`                                                                  |
+| 1 - 2 <a href="../../Items/Rhino_Meat/">Rhino Meat</a>       | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Rhino_Meat/">cooked rhino meat</a> |

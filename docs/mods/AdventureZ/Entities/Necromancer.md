@@ -30,11 +30,11 @@ summary: adventurez entity necromancer
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">In <a href="https://minecraft.fandom.com/wiki/Nether_Fortress" target="_blank">nether fortresses</a></td>
+            <td class="second-column">In <a href="https://minecraft.wiki/w/Nether_Fortress" target="_blank">nether fortresses</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">1 - 3 <a href="https://minecraft.fandom.com/wiki/Gold_Nugget" target="_blank">Gold Nugget</a><br>0 - 1 <a href="https://minecraft.fandom.com/wiki/Enchanted_Book" target="_blank">Enchanted Book Lvl 30</a></td>
+            <td class="second-column">1 - 3 <a href="https://minecraft.wiki/w/Gold_Nugget" target="_blank">Gold Nugget</a><br>0 - 1 <a href="https://minecraft.wiki/w/Enchanted_Book" target="_blank">Enchanted Book Lvl 30</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

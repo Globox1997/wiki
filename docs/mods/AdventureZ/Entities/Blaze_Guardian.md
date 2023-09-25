@@ -38,11 +38,11 @@ summary: adventurez entity blaze guardian
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Nether_Fortress" target="_blank">Nether Fortress</a><br><a href="https://minecraft.fandom.com/wiki/Nether_Wastes" target="_blank">Nether Wastes</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Nether_Fortress" target="_blank">Nether Fortress</a><br><a href="https://minecraft.wiki/w/Nether_Wastes" target="_blank">Nether Wastes</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">5 XP<br>0 - 1 <a href="https://minecraft.fandom.com/wiki/Blaze_Rod" target="_blank">Blaze Rod</a></td>
+            <td class="second-column">5 XP<br>0 - 1 <a href="https://minecraft.wiki/w/Blaze_Rod" target="_blank">Blaze Rod</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

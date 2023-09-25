@@ -17,15 +17,15 @@ summary: adventurez item gilded netherite chestplate
             </td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Rarity" target="_blank">Rarity</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Rarity" target="_blank">Rarity</a></td>
             <td class="second-column">Common</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Durability" target="_blank">Durability</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Durability" target="_blank">Durability</a></td>
             <td class="second-column">?</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Renewable_resource" target="_blank">Renewable</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Renewable_resource" target="_blank">Renewable</a></td>
             <td class="second-column">No</td>
         </tr>
         <tr id="linear-top">

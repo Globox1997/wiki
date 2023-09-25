@@ -26,7 +26,7 @@ summary: adventurez entity dragon
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">Hatch from <a href="https://minecraft.fandom.com/wiki/Dragon_Egg" target="_blank">Dragon Egg</a></td>
+            <td class="second-column">Hatch from <a href="https://minecraft.wiki/w/Dragon_Egg" target="_blank">Dragon Egg</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
@@ -86,5 +86,5 @@ summary: adventurez entity dragon
 
 3. Stage 3  - Fully grown
 
-    * You can heal the Dragon with <a href="../../Items/Orc_Skin/">orc skin</a> and other types of raw <a href="https://minecraft.fandom.com/wiki/Meat" target="_blank">meat</a>.
+    * You can heal the Dragon with <a href="../../Items/Orc_Skin/">orc skin</a> and other types of raw <a href="https://minecraft.wiki/w/Meat" target="_blank">meat</a>.
     * Use `"^"` to breath fire.

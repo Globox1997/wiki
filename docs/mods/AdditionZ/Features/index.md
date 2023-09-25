@@ -13,7 +13,7 @@ summary: additionz config features
 <div class="result" markdown>
 ![Feather Falling Trample](https://i.imgur.com/fzQ5hlW.gif){ align=left width=40% loading=lazy }
 
-Now the <a href="https://minecraft.fandom.com/wiki/Feather_Falling" target="_blank">Feather Falling</a> enchantment doesn't break farmland.
+Now the <a href="https://minecraft.wiki/w/Feather_Falling" target="_blank">Feather Falling</a> enchantment doesn't break farmland.
 </div>
 
 ## Enderman Particles
@@ -24,7 +24,7 @@ Now the <a href="https://minecraft.fandom.com/wiki/Feather_Falling" target="_bla
 <div class="result" markdown>
 ![Enderman Particles](https://i.imgur.com/xzOKLJ0.png){ align=left width=40% loading=lazy }
 
-When Enderman <a href="https://minecraft.fandom.com/wiki/Enderman#Teleportation" target="_blank">teleport</a> they leave a particle tracer in the direction they teleported to.
+When Enderman <a href="https://minecraft.wiki/w/Enderman#Teleportation" target="_blank">teleport</a> they leave a particle tracer in the direction they teleported to.
 </div>
 
 ## Polar Star
@@ -44,7 +44,7 @@ The polar star always points **north**.
 // default: true,
 ```
 <div class="result" markdown>
-The other stars are only visible through the <a href="https://minecraft.fandom.com/wiki/Spyglass" target="_blank">spyglass</a>.
+The other stars are only visible through the <a href="https://minecraft.wiki/w/Spyglass" target="_blank">spyglass</a>.
 </div>
 
 ## Custom Item Name Non Despawn
@@ -60,7 +60,7 @@ The other stars are only visible through the <a href="https://minecraft.fandom.c
 // 0.1 = 10% chance
 ```
 <div class="result" markdown>
-If you kill an <a href="https://minecraft.fandom.com/wiki/Evoker" target="_blank">evoker</a> there is a 10% chance he uses the <a href="https://minecraft.fandom.com/wiki/Totem_of_Undying" target="_blank">totem of undying</a>.
+If you kill an <a href="https://minecraft.wiki/w/Evoker" target="_blank">evoker</a> there is a 10% chance he uses the <a href="https://minecraft.wiki/w/Totem_of_Undying" target="_blank">totem of undying</a>.
 </div>
 
 ## Not Look at Invisible
@@ -105,7 +105,7 @@ If you kill an <a href="https://minecraft.fandom.com/wiki/Evoker" target="_blank
 <div class="result" markdown>
 ![Polar Star](https://i.imgur.com/ZniCRkU.gif){ align=left width=40% loading=lazy }
 
-When <a href="https://minecraft.fandom.com/wiki/Arrow#Spectral_arrows" target="_blank">spectral arrows</a> hit a block they provide a moderate light source.
+When <a href="https://minecraft.wiki/w/Arrow#Spectral_arrows" target="_blank">spectral arrows</a> hit a block they provide a moderate light source.
 </div>
 
 ## Iron Golem Repair Friendly
@@ -194,7 +194,7 @@ When <a href="https://minecraft.fandom.com/wiki/Arrow#Spectral_arrows" target="_
 // default: true,
 ```
 <div class="result" markdown>
-Put a Banner on top of a beacon to prevent players from getting effects if they don't wear a shield with the <a href="https://minecraft.fandom.com/wiki/Banner_Pattern" target="_blank">same banner pattern</a>.
+Put a Banner on top of a beacon to prevent players from getting effects if they don't wear a shield with the <a href="https://minecraft.wiki/w/Banner_Pattern" target="_blank">same banner pattern</a>.
 </div>
 
 ## Max Spawner Count

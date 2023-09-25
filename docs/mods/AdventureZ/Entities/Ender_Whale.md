@@ -26,7 +26,7 @@ summary: adventurez entity ender whale
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">In mid air in <a href="https://minecraft.fandom.com/wiki/The_End" target="_blank">the end</a> dimension</td>
+            <td class="second-column">In mid air in <a href="https://minecraft.wiki/w/The_End" target="_blank">the end</a> dimension</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
@@ -60,4 +60,4 @@ The Ender Whale can accommodate up to 2 players on its back.
 | Drop | Use |
 | --- | --- |
 | 0 - 2 <a href="../../Items/Ender_Whale_Skin/">Ender Whale Skin</a> | :material-label-outline: `c:leather` |
-| 1 - 3 <a href="../../Items/Ender_Whale_Meat/">Ender Whale Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Ender_Whale_Meat/">cooked ender whale meat</a> :material-arrow-right: will grant <a href="https://minecraft.fandom.com/wiki/Levitation" target="_blank">levitation</a> for 30s |
+| 1 - 3 <a href="../../Items/Ender_Whale_Meat/">Ender Whale Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Ender_Whale_Meat/">cooked ender whale meat</a> :material-arrow-right: will grant <a href="https://minecraft.wiki/w/Levitation" target="_blank">levitation</a> for 30s |

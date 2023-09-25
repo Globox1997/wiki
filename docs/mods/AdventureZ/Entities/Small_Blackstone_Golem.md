@@ -26,11 +26,11 @@ summary: adventurez entity small blackstone golem boss
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">In <a href="https://minecraft.fandom.com/wiki/Basalt_Deltas" target="_blank">basalt</a> biomes and the <a href="../../Entities/Blackstone_Golem/">Blackstone Golem </a> breaks into them</td>
+            <td class="second-column">In <a href="https://minecraft.wiki/w/Basalt_Deltas" target="_blank">basalt</a> biomes and the <a href="../../Entities/Blackstone_Golem/">Blackstone Golem </a> breaks into them</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-               <td class="second-column">0 - 1 <a href="https://minecraft.fandom.com/wiki/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 1 <a href="https://minecraft.fandom.com/wiki/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>2 - 3 <a href="https://minecraft.fandom.com/wiki/Blackstone" target="_blank">Blackstone</a></td>
+               <td class="second-column">0 - 1 <a href="https://minecraft.wiki/w/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 1 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>2 - 3 <a href="https://minecraft.wiki/w/Blackstone" target="_blank">Blackstone</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

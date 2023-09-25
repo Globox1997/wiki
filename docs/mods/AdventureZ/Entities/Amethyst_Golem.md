@@ -34,11 +34,11 @@ summary: adventurez entity amethyst golem
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column"><a href="https://minecraft.fandom.com/wiki/Amethyst_geode" target="_blank">Amethyst Geode</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Amethyst_geode" target="_blank">Amethyst Geode</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">5 XP<br>0 - 2 <a href="https://minecraft.fandom.com/wiki/Amethyst_Shard" target="_blank">Amethyst Shard</a></td>
+            <td class="second-column">5 XP<br>0 - 2 <a href="https://minecraft.wiki/w/Amethyst_Shard" target="_blank">Amethyst Shard</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

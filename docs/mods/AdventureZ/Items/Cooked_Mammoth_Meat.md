@@ -17,11 +17,11 @@ summary: adventurez item cooked mammoth meat
             </td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Rarity" target="_blank">Rarity</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Rarity" target="_blank">Rarity</a></td>
             <td class="second-column">Common</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Renewable_resource" target="_blank">Renewable</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Renewable_resource" target="_blank">Renewable</a></td>
             <td class="second-column">Yes</td>
         </tr>
         <tr id="linear-top">
@@ -29,7 +29,7 @@ summary: adventurez item cooked mammoth meat
             <td class="second-column">Yes (64)</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Food" target="_blank">Restores</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Food" target="_blank">Restores</a></td>
             <td class="second-column">8 Hunger<br>13 Saturation</td>
         </tr>
     </tbody>
@@ -43,6 +43,6 @@ summary: adventurez item cooked mammoth meat
 ## Usage
 ### Cooking
 
-| Name | Ingredient | Smelting recipe |
-| :---: | :---: | :---: |
-| Cooked Mammoth Meat | <a href="../Mammoth_Meat/">Mammoth Meat</a> +<br>Any <a href="https://minecraft.fandom.com/wiki/Smelting#Fuel" target="_blank">fuel</a> | ![](/wiki/assets/adventurez/recipes/smelting/cooked_mammoth_meat.png) |
+|        Name         |                                                           Ingredient                                                           |                            Smelting recipe                            |
+| :-----------------: | :----------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| Cooked Mammoth Meat | <a href="../Mammoth_Meat/">Mammoth Meat</a> +<br>Any <a href="https://minecraft.wiki/w/Smelting#Fuel" target="_blank">fuel</a> | ![](/wiki/assets/adventurez/recipes/smelting/cooked_mammoth_meat.png) |

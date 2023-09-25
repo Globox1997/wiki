@@ -17,7 +17,7 @@ summary: adventurez item blackstone golem heart
             </td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="https://minecraft.fandom.com/wiki/Renewable_resource" target="_blank">Renewable</a></td>
+            <td class="first-column"><a href="https://minecraft.wiki/w/Renewable_resource" target="_blank">Renewable</a></td>
             <td class="second-column">Yes</td>
         </tr>
         <tr id="linear-top">
