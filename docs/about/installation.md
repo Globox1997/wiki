@@ -1,3 +1,7 @@
+---
+title: Installation
+project: docs
+---
 Here you find information for how to install fabric mods.  
 There are plenty of youtube tutorials but here you find just a simple step by step guide for how to install a fabric mod.
 

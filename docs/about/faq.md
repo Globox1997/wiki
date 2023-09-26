@@ -1,3 +1,7 @@
+---
+title: FAQ
+project: docs
+---
 # Welcome to the FAQ
 
 Here you will find common questions and answers!  

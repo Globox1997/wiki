@@ -7,22 +7,15 @@ summary: adventurez wiki
 
 # Description
 
-This mod is about lul!
-
 <div id="showcase-gallery" modid="adventurez" image_1="adventurez_image_1" image_2="adventurez_image_2" image_3="adventurez_image_3" image_4="adventurez_image_4"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 
-<!-- This is an example below -->
-<span style="display: inline-block; white-space: nowrap;">:simple-modrinth: <span class="count-up-element" src="adventurez" file="modrinth"></span></span>
+This mod adds a new end boss to Minecraft besides other deadly creatures. The boss is called "Blackstone Golem" and will be the hardest enemy you ever encountered. If you will start a war against the Piglins, watch out, they will call their Beast for help! And maybe you´ll even get caught by the Soul Reaper which usually findable in the soul sand valley. Almost forgot to mention: Somebody has seen a weird looking small creature crawling around...
 
-<span style="display: inline-block; white-space: nowrap;">:simple-curseforge: <span class="count-up-element" src="adventurez" file="curseforge"></span></span>
+Enable another end boss fight by adding VoidZ.
 
 <script src="/wiki/javascripts/data.js"></script>
 <script src="/wiki/javascripts/sidebar.js" id="adventurez"></script>
-<!-- 
- add link="page id" if id is not the same as the modrinth and curseforge mod page id  
-  -->
-
 
 ## Dependencies
 

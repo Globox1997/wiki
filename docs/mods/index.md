@@ -1,6 +1,7 @@
 ---
 title: Mods
 summary: Globox_Z's all mods wiki
+project: docs
 ---
 # Mods
 

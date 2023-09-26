@@ -1,3 +1,7 @@
+---
+title: Story
+project: docs
+---
 A secret place to tell some story.  
 
 Below this you can see a planet looking kinda similar to the earth. Of course it is not exact but it should be based on the world.

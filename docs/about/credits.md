@@ -1,3 +1,7 @@
+---
+title: Credits
+project: docs
+---
 Globox_Z mods includes and/or makes use of the following software under their respective licenses: 
 
 ## Minecraft

@@ -21,17 +21,54 @@
 -->
 
 <!-- Repository information -->
-<a
-  href="{{ config.extra.projects[page.meta.project].repo }}"
-  title="{{ lang.t('source') }}"
-  class="md-source"
-  data-md-component="source"
->
+<a href="{{ config.extra.projects[page.meta.project].repo }}" title="{{ lang.t('source') }}" class="md-source"
+  data-md-component="source">
   <div class="md-source__icon md-icon">
     {% set icon = config.theme.icon.repo or "fontawesome/brands/github" %}
     {% include ".icons/" ~ icon ~ ".svg" %}
   </div>
-  <div class="md-source__repository">
+  <div class="md-source__repository md-source__repository--activ" id="source_id">
     {{ config.extra.projects[page.meta.project].repo.replace('https://github.com/', '') }}
   </div>
 </a>
+
+<script>
+  var source;
+  if (typeof source === "undefined") {
+    source = document.getElementById("source_id");
+    const sourceStrings = source.textContent.replace(/\s|\n/g, '').split("/");
+    if (source.childElementCount < 1) {
+      const facts = document.createElement("ul");
+      fetch('https://api.github.com/repos/' + sourceStrings[0] + '/' + sourceStrings[1])
+        .then(response => response.json()).then(data => {
+          if(typeof  data.forks !== "undefined"){
+          facts.className = "md-source__facts";
+          facts.style.opacity = 0;
+          facts.style.transition = "opacity 1.0s ease";
+          delayOpacity(facts);
+          const stars = document.createElement("li");
+          stars.className = "md-source__fact md-source__fact--stars";
+          stars.textContent = data.stargazers_count;
+          const forks = document.createElement("li");
+          forks.className = "md-source__fact md-source__fact--forks";
+          forks.textContent = data.forks;
+          facts.appendChild(stars);
+          facts.appendChild(forks);
+          source.appendChild(facts);
+          }
+        }).catch(error => {
+          console.error('Error:', error);
+        });
+    }
+  }
+
+  async function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async function delayOpacity(element) {
+    await delay(10);
+    element.style.opacity = 1;
+  }
+
+</script>

@@ -1,5 +1,14 @@
 # General notes
 
+Add the following meta on top of every page with the right info
+```
+---
+title: AdventureZ
+project: adventurez
+summary: adventurez wiki
+---
+```
+
 ### Entities
 - Meta
 - Title

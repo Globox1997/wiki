@@ -108,6 +108,11 @@
     display: none;
 }
 
+#showcase-gallery{
+    display: flex;
+    justify-content: center;
+}
+
 /* .recipe {
     position: relative;
     width: 256px;

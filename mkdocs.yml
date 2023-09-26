@@ -196,6 +196,7 @@ nav:
       - mods/BackSlot/index.md
   - About:
     - about/installation.md
+    - about/developer.md
     - about/support.md
     - about/credits.md
     - about/licensing.md
