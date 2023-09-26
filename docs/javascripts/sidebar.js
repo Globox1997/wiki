@@ -166,8 +166,8 @@ async function sidebar() {
             var copied = document.createElement("div");
             copied.textContent = 'Copied';
             copied.classList.add('tooltip');
-            copied.style.left = (event.pageX) + "px";
-            copied.style.top = (event.pageY) + "px";
+            copied.style.left = (event.pageX - window.scrollX) + "px";
+            copied.style.top = (event.pageY - window.scrollY) + "px";
             document.body.appendChild(copied);
 
             project.style.cursor = "default";
