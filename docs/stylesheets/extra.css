@@ -113,13 +113,16 @@
     justify-content: center;
 }
 
-/* .recipe {
-    position: relative;
-    width: 256px;
-    height: 124px; 
-   max-width: 256px;
-    margin: auto; 
-}  */
+.md-social-info{
+    font-size: .6rem;
+}
+
+@media screen and (min-width: 45em) {
+    .md-social-info{
+        text-align: center;
+        font-size: .6rem;
+    }
+}
 
 .sidebar{
     text-align: right;
