@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: overrides
   logo: assets/general/icons/website_icon.png
-  favicon: assets/general/icons/website_icon.png
+  favicon: assets/general/main/main_icon.png
   language: en
   features:
     - navigation.indexes
