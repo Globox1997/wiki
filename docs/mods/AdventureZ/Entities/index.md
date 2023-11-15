@@ -16,8 +16,8 @@
 
 *Most [mobs](https://minecraft.wiki/w/Mob) cannot see through most solid blocks, including semi-transparent blocks such as [ice](https://minecraft.wiki/w/Ice), [glass](https://minecraft.wiki/w/Glass), [tall grass](https://minecraft.wiki/w/Grass), or [glass panes](https://minecraft.wiki/w/Glass_Pane).*[^2]
 
-[^1]: Source: [Fandom Wiki](https://minecraft.wiki/w/Entity).
-[^2]: Source: [Fandom Wiki](https://minecraft.wiki/w/Mob).
+[^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Entity).
+[^2]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Mob).
 
 ## List of entities
 

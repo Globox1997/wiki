@@ -16,7 +16,7 @@
 
 *Most [items](https://minecraft.wiki/w/Item) stack to 64, but some only stack to 16 and others not at all but all types of [items](https://minecraft.wiki/w/Item) can be stacked up to 127 through [inventory](https://minecraft.wiki/w/Inventory) editing.*[^1]
 
-[^1]: Source: [Fandom Wiki](https://minecraft.wiki/w/Item).
+[^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Item).
 
 ## List of items
 

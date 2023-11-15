@@ -14,7 +14,7 @@
 
 *Almost all blocks ignore gravity, except for [sand](https://minecraft.wiki/w/Sand), [red sand](https://minecraft.wiki/w/Sand), [gravel](https://minecraft.wiki/w/Gravel), [anvils](https://minecraft.wiki/w/Anvil) of all damage levels, [dragon eggs](https://minecraft.wiki/w/Dragon_Egg), all colors of [concrete powder](https://minecraft.wiki/w/Concrete_Powder), [scaffolding](https://minecraft.wiki/w/Scaffolding), [pointed dripstone](https://minecraft.wiki/w/Pointed_Dripstone), and [suspicious sand and gravel](https://minecraft.wiki/w/Suspicious_Block), all of which turn into [entities](https://minecraft.wiki/w/Falling_Block) when their support is removed.*[^1]
 
-[^1]: Source: [Fandom Wiki](https://minecraft.wiki/w/Block).
+[^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Block).
 
 ## List of blocks
 
