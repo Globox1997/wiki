@@ -8,19 +8,28 @@ summary: adventurez wiki
 
 ![AdventureZ Banner](../../assets/general/banner/adventurezbanner.png)
 
-# Description
-
+---
 <div id="showcase-gallery" modid="adventurez" image_1="adventurez_image_1" image_2="adventurez_image_2" image_3="adventurez_image_3" image_4="adventurez_image_4"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 ---
 
-This mod adds a new end boss to Minecraft besides other deadly creatures. The boss is called "Blackstone Golem" and will be the hardest enemy you ever encountered. If you will start a war against the Piglins, watch out, they will call their Beast for help! And maybe you´ll even get caught by the Soul Reaper which usually findable in the soul sand valley. Almost forgot to mention: Somebody has seen a weird looking small creature crawling around...
+# Description
+This mod adds a new end boss to Minecraft besides other deadly creatures. The boss is called "Blackstone Golem" and will be the hardest enemy you ever encountered. If you will start a war against the Piglins, watch out, they will call their Beast for help! And maybe you'll even get caught by the Soul Reaper which usually findable in the soul sand valley. Almost forgot to mention: Somebody has seen a weird looking small creature crawling around...
 
 Enable another end boss fight by adding VoidZ.
 
 ---
 
 
+## Misc
+This mod is developed for <img src="https://fabricmc.net/assets/logo.png" alt="Fabric" width="16" height="16" style="position: relative; top: 3px;"> [Fabric](https://fabricmc.net/).  
+There are no plans to develop a <img src="https://neoforged.net/img/authors/neoforged.png" alt="NeoForged" width="16" height="16" style="position: relative; top: 3px;"> [Forge](https://neoforged.net/) version.  
+
+#### Modpack Permission
+Feel free to use it in any modpacks.  
+
+#### Bug Report
+Just report bugs at the github page.  
 
 ## Dependencies
 
