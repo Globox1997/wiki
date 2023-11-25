@@ -7,7 +7,6 @@ let manualShowcaseId = 0;
 
 function showcaseGallery() {
     if (document.getElementById('showcase-gallery') != null) {
-        document.getelem
         const modid = document.getElementById('showcase-gallery').getAttribute('modid');
         let showcases = [];
         for (let i = 1; i < 5; i++) {
