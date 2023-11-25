@@ -73,37 +73,38 @@ function table() {
     }
 }
 
-// vanilla_crafting; smithing; furnace_smelting; anvil; fletching;
+// vanilla_crafting; smithing; furnace_smelting; anvil; fletching; brewing;
+const vanillaCraftingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], [4, [10, 46]], [5, [46, 46]], [6, [82, 46]], [7, [10, 82]], [8, [46, 82]], [9, [82, 82]], ['output', [202, 46]], ['size', [256, 124]]];
+const smithingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], ['output', [198, 10]], ['size', [240, 52]]];
+const furnaceSmeltingPositions = [[1, [10, 18]], ['output', [130, 18]], ['size', [180, 92]]];
+const anvilPositions = [[1, [10, 10]], [2, [108, 10]], ['output', [224, 10]], ['size', [266, 52]]];
+const fletchingPositions = [[1, [10, 10]], [2, [10, 46]], [3, [10, 82]], [4, [96, 46]], ['output', [206, 46]], ['size', [256, 124]]];
+const brewingPositions = [[1, [134, 14]], [2, [88, 82]], ['output', [180, 82]], ['size', [256, 138]]];
+
+const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)], ['anvil', new Map(anvilPositions)], ['fletching', new Map(fletchingPositions)], ['brewing', new Map(brewingPositions)]]);
+
 function crafting() {
     if (document.getElementsByClassName('crafting-element' != null)) {
-        const vanillaCraftingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], [4, [10, 46]], [5, [46, 46]], [6, [82, 46]], [7, [10, 82]], [8, [46, 82]], [9, [82, 82]], ['output', [202, 46]]];
-        const smithingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], ['output', [198, 10]]];
-        const furnaceSmeltingPositions = [[1, [10, 18]], ['output', [130, 118]]];
-        const anvilPositions = [[1, [10, 10]], [2, [108, 10]], ['output', [224, 10]]];
-        const fletchingPositions = [[1, [10, 10]], [2, [10, 46]], [3, [10, 82]], [4, [96, 46]], ['output', [206, 46]]];
-
-        const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)], ['anvil', new Map(anvilPositions)], ['fletching', new Map(fletchingPositions)]]);
-
         const elements = document.getElementsByClassName('crafting-element');
         for (let i = 0; i < elements.length; i++) {
             const element = elements[i];
+
             var type = element.getAttribute('crafting-type');
+            const recipePositions = recipePositionMap.get(type);
 
             const mainDiv = document.createElement('div');
             mainDiv.style.position = 'relative';
-            mainDiv.style.width = '252px';
-            mainDiv.style.height = '124px';
+            mainDiv.style.width = recipePositions.get('size')[0] + 'px';
+            mainDiv.style.height = recipePositions.get('size')[1] + 'px';
 
             const backgrounDiv = document.createElement('div');
             backgrounDiv.style.position = 'absolute';
             const background = document.createElement('img');
             background.src = '/wiki/assets/general/recipe/' + type + '_background.png';
-            // background.className = 'recipe';
             background.alt = '';
             backgrounDiv.appendChild(background);
             mainDiv.appendChild(backgrounDiv);
 
-            const recipePositions = recipePositionMap.get(type);
             const ingredientData = [];
             // Ingredients
             const ingredients = element.textContent.substring(element.textContent.indexOf('input[') + 6, element.textContent.indexOf(']')).split(";");
@@ -112,6 +113,13 @@ function crafting() {
 
                 ingredient[1] = ingredient[1].split(',');
                 ingredient[1][0] = replaceAll(ingredient[1][0], ' ', '');
+
+                // console.log(ingredient[1][0])
+                var isDamaged = false;
+                if (ingredient[1][0].startsWith('damaged_') || ingredient[1][0].includes('damaged_')) {
+                    ingredient[1][0] = ingredient[1][0].replace('damaged_', '');
+                    isDamaged = true;
+                }
 
                 if (ingredient[1][0].includes(':')) {
                     ingredient[1][0] = ingredient[1][0].replace(':', '/');
@@ -133,10 +141,30 @@ function crafting() {
                 const item = document.createElement('img');
                 item.src = '/wiki/assets/general/items/' + ingredient[1][0] + '.png';
                 item.alt = '';
+                item.onerror = function () {
+                    if (!item.src.includes('missing')) {
+                        item.src = '/wiki/assets/general/items/vanilla/missing.png';
+                    }
+                }
+                item.style.display = 'inline-block';
+                div.appendChild(item);
+
                 if (ingredient[1].length >= 3) {
                     tooltip(item, ingredient[1][1], replaceAll(ingredient[1][2], ' ', ''), (ingredient[1].length > 3 ? ingredient[1][3] : false));
+                } else if (ingredient[1].length == 2) {
+                    tooltip(item, ingredient[1][1], null, null);
                 }
-                div.appendChild(item);
+
+                if (isDamaged) {
+                    const damaged = document.createElement('img');
+                    damaged.src = '/wiki/assets/general/items/misc/damaged.png';
+                    damaged.alt = '';
+                    damaged.style.position = 'absolute';
+                    damaged.style.left = 0;
+                    damaged.style.top = 0;
+                    damaged.style.pointerEvents = 'none';
+                    div.appendChild(damaged);
+                }
                 mainDiv.appendChild(div);
             }
 
@@ -159,8 +187,15 @@ function crafting() {
             const item = document.createElement('img');
             item.src = '/wiki/assets/general/items/' + output[0] + '.png';
             item.alt = '';
-            if (output.length == 3) {
-                tooltip(item, output[1], replaceAll(output[2], ' ', ''), false);
+            item.onerror = function () {
+                if (!item.src.includes('missing')) {
+                    item.src = '/wiki/assets/general/items/vanilla/missing.png';
+                }
+            }
+            if (output.length >= 3) {
+                tooltip(item, output[1], replaceAll(output[2], ' ', ''), (output.length > 3 ? output[3] : false));
+            } else if (output.length == 2) {
+                tooltip(item, output[1], null, null);
             }
             div.appendChild(item);
             mainDiv.appendChild(div);
@@ -177,24 +212,30 @@ function crafting() {
     }
 }
 
-
-
+// armor, experience, heart, hunger, melee, projectile, saturation, thirst
 function icon() {
     if (document.getElementsByClassName('icon-element') != null) {
         const elements = document.getElementsByClassName('icon-element');
         for (let i = 0; i < elements.length; i++) {
             const element = elements[i];
 
-            var count = parseInt(element.getAttribute('icon-count'));
+            var count = parseFloat(element.getAttribute('icon-count'));
             var id = element.getAttribute('icon-id');
+            console.log(id + " : " + element.getAttribute('icon-count') + " : " + Number.isInteger(count))
 
             if (id === 'experience') {
                 var imageElementString = '<img src="../../../../assets/general/misc/' + id + '.gif" alt="">';
             } else {
                 var imageElementString = '<img src="../../../../assets/general/misc/' + id + '.png"  alt="" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
             }
+            var isHalf = false;
+            if (id === 'armor' || id === 'heart' || id === 'hunger' || id === 'saturation' || id === 'thirst') {
+                isHalf = (Number.isInteger(count) && count % 2 === 0) || count > 20 ? false : true;
+                var half = '<img src="../../../../assets/general/misc/half_' + id + '.png"  alt="" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
+            }
 
-            var htmlString = count + ' (' + imageElementString.repeat(count / 2) + ')';
+
+            var htmlString = count + ' (' + imageElementString.repeat(count / 2) + (isHalf ? half : '') + ')';
             if (count > 20) {
                 htmlString = count + ' (' + imageElementString + ' × ' + count / 2 + ')';
             }
@@ -221,14 +262,15 @@ function tooltip(element, tooltipText, url, defaultWebsite) {
     element.addEventListener('mouseleave', () => {
         document.body.removeChild(tooltip);
     });
-
-    element.addEventListener('click', () => {
-        if (defaultWebsite) {
-            window.location.href = 'https://globox1997.github.io/wiki/mods/' + url;
-        } else {
-            window.location.href = url;
-        }
-    });
+    if (url !== null) {
+        element.addEventListener('click', () => {
+            if (defaultWebsite) {
+                window.location.href = 'https://globox1997.github.io/wiki/mods/' + url;
+            } else {
+                window.location.href = url;
+            }
+        });
+    }
 }
 
 function replaceAll(string, search, replace) {
