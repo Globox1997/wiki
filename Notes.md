@@ -8,6 +8,11 @@ project: adventurez
 summary: adventurez wiki
 ---
 ```
+### Render
+1000 pixel resolution + Modelfix mod
+Render items use Wiki preset (Rotation: 335, Slant: 8) 
+Render blocks use dimetric preset (Rotation: 135, Slant: 30) 
+Render entities use dimetric preset (Rotation: 135, Slant: 30), fit scale and position to screen (use red help lines)
 
 ### Entities
 - Meta
@@ -33,11 +38,12 @@ summary: adventurez wiki
 - Title
 - Box
   - Id
-  - Durability
   - Rarity
+  - Durability
   - Renewable
   - Stackable
   - Restores
+- Description
 - Obtaining
   - Crafting
   - Mob Loot
@@ -50,36 +56,13 @@ summary: adventurez wiki
 
 ### Random
 
-#### Example Crafting
+#### Example Recipe
+`Types:  vanilla_crafting; smithing; furnace_smelting; anvil; fletching; brewing;`
+```md
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
-input[
-1=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-2=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-3=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-4=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-5=adventurez:stone_golem_heart,Blackstone Golem Heart, https://globox1997.github.io/wiki/mods/AdventureZ/Items/Blackstone_Golem_Heart/; 
-6=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone;  
-7=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-9=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone
-]
-
-output[blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone ]
-
-description="Hello it is me this is a very long text and I want to test this so idk what I am doing lkul seems like it is working without more work :D yejj this is great hehe"
-</div>
-<div class="crafting-element" crafting-type="vanilla_crafting">
-input[
-1=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-2=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-3=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-4=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-5=adventurez:stone_golem_heart,Blackstone Golem Heart, https://globox1997.github.io/wiki/mods/AdventureZ/Items/Blackstone_Golem_Heart/; 
-6=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone;  
-7=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone; 
-9=blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone
-]
-
-output[blackstone,Blackstone, https://minecraft.fandom.com/wiki/Blackstone ]
+input[ 3=ender_pearl, Ender Pearl, https://minecraft.wiki/w/Ender_Pearl; 5=stick, Stick, https://minecraft.wiki/w/Stick; 7=ender_pearl, Ender Pearl, https://minecraft.wiki/w/Ender_Pearl ]
+output[adventurez:ender_flute, Ender Flute]
 </div>
 </div>
+```
