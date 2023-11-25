@@ -14,9 +14,9 @@ summary: adventurez wiki
 ---
 
 # Description
-This mod adds a new end boss to Minecraft besides other deadly creatures. The boss is called "Blackstone Golem" and will be the hardest enemy you ever encountered. If you will start a war against the Piglins, watch out, they will call their Beast for help! And maybe you'll even get caught by the Soul Reaper which usually findable in the soul sand valley. Almost forgot to mention: Somebody has seen a weird looking small creature crawling around...
+This mod adds two new end bosses to Minecraft besides other deadly creatures. One boss is called "Blackstone Golem" and will be one of the hardest enemies you ever encountered. If you will start a war against the Piglins, watch out, they will call their Beast for help! And maybe you'll even get caught by the Soul Reaper which can be found in the soul sand valley. Almost forgot to mention: Somebody has seen a weird looking small creature crawling around...
 
-Enable another end boss fight by adding VoidZ.
+Enable the other end boss fight by adding VoidZ.
 
 ---
 

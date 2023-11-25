@@ -2,13 +2,11 @@
 title: Orc Skin
 project: adventurez
 summary: adventurez item orc skin
-tags:
-    - ork
 ---
 # Orc Skin
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -33,27 +31,34 @@ tags:
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/items/orc_skin.png" loading="lazy" />
+    <img src="/wiki/assets/adventurez/items/orc_skin.png" loading="lazy" class="right_img_table"/>
 </div>
-</div>
+
+## Description
+Ork skin is an [item](https://minecraft.wiki/w/Item) used as an ingredient and mainly used to [tame](https://minecraft.wiki/w/Taming) and feed the [dragon](/wiki/mods/AdventureZ/Entities/Dragon).
 
 ## Obtaining
-### Mob loot
-Orc's drop 0 - 1 orc skin when killed by a <a href="https://minecraft.wiki/w/Player" target="_blank">player</a> or <a href="https://minecraft.wiki/w/Wolf" target="_blank">tamed wolf</a>. <a href="https://minecraft.wiki/w/Looting" target="_blank">Looting</a> increases the maximum drops by 1 per level, for a maximum of 4 with Looting III.
+#### Loot
+[Orcs](/wiki/mods/AdventureZ/Entities/Orc) can drop 0 - 2 orc skin upon death, affected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
-### Crafting
+Ork skin can be used to craft [leather](https://minecraft.wiki/w/Leather), [handbook](/wiki/mods/AdventureZ/Items/Handbook) and to [tame](https://minecraft.wiki/w/Taming) and feed the [dragon](/wiki/mods/AdventureZ/Entities/Dragon).
 
-|                                  Name                                  |                                                                                 Ingredient                                                                                 |                         Crafting recipe                         |
-| :--------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-| <a href="https://minecraft.wiki/w/Leather" target="_blank">Leather</a> |                                                                                 2 Orc Skin                                                                                 |  ![](/wiki/assets/adventurez/recipes/crafting/orc_leather.png)  |
-|             <a href="../Dragon_Saddle/">Dragon Saddle</a>              |                                      3 Orc Skin +<br>2 <a href="https://minecraft.wiki/w/Iron_Nugget" target="_blank">Iron Nugget</a>                                      | ![](/wiki/assets/adventurez/recipes/crafting/dragon_saddle.png) |
-|                  <a href="../Handbook/">Handbook</a>                   | 1 <a href="https://minecraft.wiki/w/Book" target="_blank">Book</a> +<br>1 <a href="https://minecraft.wiki/w/Eye_of_Ender" target="_blank">Eye of Ender</a> +<br>1 Orc Skin |   ![](/wiki/assets/adventurez/recipes/crafting/handbook.png)    |
-
-### Brewing ingredient
-Orc skin's are used to <a href="https://minecraft.wiki/w/Potion#:~:text=Description-,Potion%20of%20the%20Turtle%20Master,-0%3A20" target="_blank">brew the turtle master potion</a> from an <a href="https://minecraft.wiki/w/Potion#:~:text=Potions%20of%20Weakness-,Awkward%20Potion,-The%20base%20for" target="_blank">awkward potion</a>.
-
-|                                                                            Name                                                                            |                                                                          Ingredients                                                                           |                                                 Brewing recipe                                                 |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
-| <a href="https://minecraft.wiki/w/Potion#:~:text=Description-,Potion%20of%20the%20Turtle%20Master,-0%3A20" target="_blank">Potion of the Turtle Master</a> | Orc Skin +<br><a href="https://minecraft.wiki/w/Potion#:~:text=Potions%20of%20Weakness-,Awkward%20Potion,-The%20base%20for" target="_blank">Awkward Potion</a> | ![](/wiki/assets/adventurez/recipes/brewing/adventurez_orc_skin_minecraft_awkward_minecraft_turtle_master.png) |
+#### Crafting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[
+    1=adventurez:orc_skin, Ork Skin;
+    2=adventurez:orc_skin, Ork Skin
+]
+output[leather, Leather, https://minecraft.wiki/w/Leather ]
+</div>
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[
+    4=book, Book, https://minecraft.wiki/w/Book; 
+    5=ender_eye, Ender Eye, https://minecraft.wiki/w/Ender_Eye; 
+    6=adventurez:orc_skin, Ork Skin, AdventureZ/Items/Ork_Skin, true
+]
+output[adventurez:handbook, Handbook ]
+</div>
+</div>

@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez item chorus fruit on a stick
 ---
 # Chorus Fruit on a Stick
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -15,6 +15,10 @@ summary: adventurez item chorus fruit on a stick
             adventurez:chorus_fruit_on_a_stick
             ```
             </td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column"><a href="https://minecraft.wiki/w/Rarity" target="_blank">Rarity</a></td>
+            <td class="second-column">Common</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Durability" target="_blank">Durability</a></td>
@@ -31,15 +35,21 @@ summary: adventurez item chorus fruit on a stick
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/items/chorus_fruit_on_a_stick.png" loading="lazy" />
+    <img src="/wiki/assets/adventurez/items/chorus_fruit_on_a_stick.png" loading="lazy" class="right_img_table"/>
+</div>
+
+## Description
+A chorus fruit on a stick is an [item](https://minecraft.wiki/w/Item) that can be used to control [ender whales](/wiki/mods/AdventureZ/Entities/Ender_Whale).
+
+## Obtaining
+#### Crafting
+
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[ 5=fishing_rod, Fishing Rod, https://minecraft.wiki/w/Fishing_Rod; 9=chorus_fruit, Chorus Fruit, https://minecraft.wiki/w/Chorus_Fruit ]
+output[adventurez:chorus_fruit_on_a_stick, Chorus Fruit on a Stick, https://minecraft.wiki/w/Chorus_Fruit]
 </div>
 </div>
 
 ## Usage
-### Crafting
-
-|          Name           |                                                                                Ingredient                                                                                |                                        Crafting recipe                                         |
-| :---------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-| Chorus Fruit on a Stick | 1 <a href="https://minecraft.wiki/w/Fishing_Rod" target="_blank">Fishing Rod</a> +<br>1 <a href="https://minecraft.wiki/w/Chorus_Fruit" target="_blank">Chorus Fruit</a> |           ![](/wiki/assets/adventurez/recipes/crafting/chorus_fruit_on_a_stick.png)            |
-| Chorus Fruit on a Stick |                                                                    Damaged<br>Chorus Fruit on a Stick                                                                    | ![](/wiki/assets/adventurez/recipes/crafting/repairing_adventurez_chorus_fruit_on_a_stick.png) |
+To use a chorus fruit on a stick the [player](https://minecraft.wiki/w/Player) has to ride an [ender whale](/wiki/mods/AdventureZ/Entities/Ender_Whale) while holding the chorus fruit on a stick. The [ender whale](/wiki/mods/AdventureZ/Entities/Ender_Whale) then moves in the direction of the chorus fruit.

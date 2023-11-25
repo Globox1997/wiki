@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez item cooked warthog meat
 ---
 # Cooked Warthog Meat
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -30,12 +30,30 @@ summary: adventurez item cooked warthog meat
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Food" target="_blank">Restores</a></td>
-            <td class="second-column">6 Hunger<br>9 Saturation</td>
+            <td class="second-column icon-element" icon-count="6" icon-id="hunger"></td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column"><a href="https://minecraft.wiki/w/Effect" target="_blank">Status effects</a></td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Speed" target="_blank">Speed</a> (0:30) (100% chance)</td>
         </tr>
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/items/cooked_warthog_meat.png" loading="lazy" />
+    <img src="/wiki/assets/adventurez/items/cooked_warthog_meat.png" loading="lazy" class="right_img_table"/>
+</div>
+
+## Description
+A cooked warthog meat is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player).
+
+## Obtaining
+#### Cooking
+
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="furnace_smelting">
+input[ 1=adventurez:warthog_meat, Warthog Meat, AdventureZ/Items/Warthog_Meat, true ]
+output[adventurez:cooked_warthog_meat, Cooked Warthog Meat]
 </div>
 </div>
+
+## Usage
+To eat a cooked warthog meat, press and hold use while it is selected in the hotbar. Eating one restores <span class="icon-element" icon-count="6" icon-id="hunger"></span> hunger and <span class="icon-element" icon-count="9.6" icon-id="saturation"></span> [saturation](https://minecraft.wiki/w/Hunger#Mechanics).

@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez item dragon saddle
 ---
 # Dragon Saddle
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -31,14 +31,21 @@ summary: adventurez item dragon saddle
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/items/dragon_saddle.png" loading="lazy" />
+    <img src="/wiki/assets/adventurez/items/dragon_saddle.png" loading="lazy" class="right_img_table"/>
+</div>
+
+## Description
+A dragon saddle is an [item](https://minecraft.wiki/w/Item) required to ride [dragons](/wiki/mods/AdventureZ/Entities/Dragon).
+
+## Obtaining
+#### Crafting
+
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[ 1=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Ork_Skin, true; 2=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Ork_Skin, true; 3=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Ork_Skin, true; 4=iron_nugget, Iron Nugget, https://minecraft.wiki/w/Iron_Nugget; 6=iron_nugget, Iron Nugget, https://minecraft.wiki/w/Iron_Nugget ]
+output[adventurez:dragon_saddle, Dragon Saddle]
 </div>
 </div>
 
 ## Usage
-### Crafting
-
-|     Name      |                                                         Ingredient                                                          |                         Crafting recipe                         |
-| :-----------: | :-------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-| Dragon Saddle | 3 <a href="../Orc_Skin/">Orc Skin</a> +<br>2 <a href="https://minecraft.wiki/w/Iron_Nugget" target="_blank">Iron Nugget</a> | ![](/wiki/assets/adventurez/recipes/crafting/dragon_saddle.png) |
+The dragon saddle is used to equip a grown [dragon](/wiki/mods/AdventureZ/Entities/Dragon) to make it rideable by just using the saddle on the [dragon](/wiki/mods/AdventureZ/Entities/Dragon).

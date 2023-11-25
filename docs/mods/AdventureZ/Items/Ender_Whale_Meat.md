@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez item ender whale meat
 ---
 # Ender Whale Meat
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -30,16 +30,32 @@ summary: adventurez item ender whale meat
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Food" target="_blank">Restores</a></td>
-            <td class="second-column">3 Hunger<br>1 Saturation</td>
+            <td class="second-column icon-element" icon-count="3" icon-id="hunger"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Effect" target="_blank">Status effects</a></td>
-            <td class="second-column"><a href="https://minecraft.wiki/w/Poison" target="_blank">Poison</a> (0:05) (60% chance)</td>
+            <td class="second-column"><a href="https://minecraft.wiki/w/Blindness" target="_blank">Blindness</a> (0:05) (50% chance)</td>
         </tr>
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/items/ender_whale_meat.png" loading="lazy" />
+    <img src="/wiki/assets/adventurez/items/ender_whale_meat.png" loading="lazy" class="right_img_table"/>
+</div>
+
+## Description
+An ender whale meat is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player) or cooked to make a [cooked ender whale meat](/wiki/mods/AdventureZ/Items/Cooked_Ender_Whale_Meat).
+
+## Obtaining
+#### Loot
+[Ender whales](/wiki/mods/AdventureZ/Entities/Ender_Whale) drop 1 - 3 ender whale meat, affected by [looting](https://minecraft.wiki/w/Looting).
+
+## Usage
+To eat an ender whale meat, press and hold use while it is selected in the hotbar. Eating one restores <span class="icon-element" icon-count="3" icon-id="hunger"></span> hunger and <span class="icon-element" icon-count="1.8" icon-id="saturation"></span> [saturation](https://minecraft.wiki/w/Hunger#Mechanics).
+
+#### Cooking
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="furnace_smelting">
+input[ 1=adventurez:ender_whale_meat, Ender Whale Meat, AdventureZ/Items/Ender_Whale_Meat, true ]
+output[adventurez:cooked_ender_whale_meat, Cooked Ender Whale Meat]
 </div>
 </div>
