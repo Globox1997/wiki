@@ -96,17 +96,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder/</loc>
+         <lastmod>2023-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Blocks/Piglin_Flag/</loc>
          <lastmod>2023-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Blocks/Shadow_Chest/</loc>
-         <lastmod>2023-11-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Blocks/Stone_Holder/</loc>
          <lastmod>2023-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -171,6 +171,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Mini_Blackstone_Golem/</loc>
+         <lastmod>2023-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Necromancer/</loc>
          <lastmod>2023-11-28</lastmod>
          <changefreq>daily</changefreq>
@@ -202,11 +207,6 @@
     </url>
     <url>
          <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Skeleton_Vanguard/</loc>
-         <lastmod>2023-11-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Small_Blackstone_Golem/</loc>
          <lastmod>2023-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -421,22 +421,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Structures/Desert_Well/</loc>
-         <lastmod>2023-11-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Structures/Eye_Shrine/</loc>
          <lastmod>2023-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Structures/Floating_Island/</loc>
-         <lastmod>2023-11-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Structures/Golem_Altar/</loc>
          <lastmod>2023-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
