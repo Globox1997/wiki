@@ -132,6 +132,7 @@ nav:
         - mods/AdventureZ/Entities/Enderwarthog.md
         - mods/AdventureZ/Entities/Iguana.md
         - mods/AdventureZ/Entities/Mammoth.md
+        - mods/AdventureZ/Entities/Mini_Blackstone_Golem.md
         - mods/AdventureZ/Entities/Necromancer.md
         - mods/AdventureZ/Entities/Nightmare.md
         - mods/AdventureZ/Entities/Orc.md
@@ -139,7 +140,6 @@ nav:
         - mods/AdventureZ/Entities/Red_Fungus.md
         - mods/AdventureZ/Entities/Shaman.md
         - mods/AdventureZ/Entities/Skeleton_Vanguard.md
-        - mods/AdventureZ/Entities/Small_Blackstone_Golem.md
         - mods/AdventureZ/Entities/Soul_Reaper.md
         - mods/AdventureZ/Entities/Summoner.md
         - mods/AdventureZ/Entities/The_Eye.md
@@ -183,16 +183,14 @@ nav:
         - mods/AdventureZ/Items/Warthog_Shell_Piece.md
       - Blocks:
         - mods/AdventureZ/Blocks/index.md
+        - mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder.md
         - mods/AdventureZ/Blocks/Piglin_Flag.md
         - mods/AdventureZ/Blocks/Shadow_Chest.md
-        - mods/AdventureZ/Blocks/Stone_Holder.md
       - Structures:
         - mods/AdventureZ/Structures/index.md
         - mods/AdventureZ/Structures/Blackstone_Altar.md
-        - mods/AdventureZ/Structures/Desert_Well.md
         - mods/AdventureZ/Structures/Eye_Shrine.md
         - mods/AdventureZ/Structures/Floating_Island.md
-        - mods/AdventureZ/Structures/Golem_Altar.md
     - BackSlot:
       - mods/BackSlot/index.md
   - About:
