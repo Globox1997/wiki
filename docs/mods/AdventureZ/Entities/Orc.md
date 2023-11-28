@@ -6,9 +6,9 @@ tags:
     - ork
 ---
 # Orc
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -24,11 +24,15 @@ tags:
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">16 / 38 / 54</td>
+            <td class="second-column icon-element" icon-count="16" icon-id="heart">16 / 38 / 54</td>
+        </tr>
+        <tr id="linear-top">
+            <td class="first-column">Armor Points</td>
+            <td class="second-column icon-element" icon-count="1" icon-id="armor"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">3 / 5 / 7</td>
+            <td class="second-column icon-element" icon-count="3" icon-id="melee" icon-exclusive>3 / 5 / 7</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
@@ -36,7 +40,7 @@ tags:
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 2 <a href="../../Items/Orc_Skin/">Orc Skin</a><br>0 - 1 <a href="https://minecraft.wiki/w/Emerald" target="_blank">Emerald</a><br>0 - 1 <a href="https://minecraft.wiki/w/Lead" target="_blank">Lead</a><br>0 - 1 <a href="https://minecraft.wiki/w/Name_Tag" target="_blank">Name Tag</a><br>0 - 1 <a href="https://minecraft.wiki/w/Saddle" target="_blank">Saddle</a></td>
+            <td class="second-column icon-element" icon-count="5" icon-id="experience" icon-exclusive>0 - 2 <a href="/wiki/mods/AdventureZ/Items/Orc_Skin/">Orc Skin</a><br>0 - 1 <a href="https://minecraft.wiki/w/Emerald" target="_blank">Emerald</a><br>0 - 1 <a href="https://minecraft.wiki/w/Lead" target="_blank">Lead</a><br>0 - 1 <a href="https://minecraft.wiki/w/Name_Tag" target="_blank">Name Tag</a><br>0 - 1 <a href="https://minecraft.wiki/w/Saddle" target="_blank">Saddle</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -45,14 +49,14 @@ tags:
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/orc.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/orc.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
 
 *The Orc is a feared creature known for its perpetual anger and fondness for shiny items. It can be found in small, medium, and large sizes.*
+
+---
 
 ## Behavior
 

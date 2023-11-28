@@ -1,24 +1,24 @@
 ---
-title: Shadow Chest
+title: Chiseled Polished Blackstone Holder
 project: adventurez
-summary: adventurez block shadow chest
+summary: adventurez block chiseled polished blackstone holder
 ---
-# Shadow Chest
+# Chiseled Polished Blackstone Holder
 <div class="main_table">
 <div class="left_main_table">
 <table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
-            <td class="second-column">
+            <td class="second-column long-id">
             ```
-            adventurez:shadow_chest
+            adventurez:chiseled_polished_blackstone_holder
             ```
             </td>
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Renewable_resource" target="_blank">Renewable</a></td>
-            <td class="second-column">No</td>
+            <td class="second-column">Yes</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Stackable</td>
@@ -26,11 +26,11 @@ summary: adventurez block shadow chest
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Explosion#Blast_resistance" target="_blank">Blast Resistance</a></td>
-            <td class="second-column">1000</td>
+            <td class="second-column">6</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Breaking#Blocks_by_hardness" target="_blank">Hardness</a></td>
-            <td class="second-column">100</td>
+            <td class="second-column">1.5</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Light" target="_blank">Luminous</a></td>
@@ -42,7 +42,7 @@ summary: adventurez block shadow chest
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Waterlogging" target="_blank">Waterloggable</a></td>
-            <td class="second-column">Yes</td>
+            <td class="second-column">No</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Fire#Burning_blocks" target="_blank">Flammable</a></td>
@@ -51,16 +51,20 @@ summary: adventurez block shadow chest
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/adventurez/blocks/shadow_chest.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/adventurez/blocks/chiseled_polished_blackstone_holder.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
-The shadow chest is the main loot granted when the [void shadow](/wiki/mods/AdventureZ/Entities/Void_Shadow) is defeated. It contains a garanted [dragon egg](https://minecraft.wiki/w/Dragon_Egg)and a garanted [source stone](/wiki/mods/AdventureZ/Items/Source_Stone). It is mainly filled with the end city treasure chest loot.  
-If the mod [MedievalWeapons](/wiki/mods/MedievalWeapons) is installed, there is a 20% to contain a [thalleous sword](/wiki/mods/MedievalWeapons/Items/Thalleous_Sword) which is otherwise unobtainable in [survival](https://minecraft.wiki/w/Survival) minecraft.
+The chiseled polished blackstone holder is a [block](https://minecraft.wiki/w/Block) used to build the [blackstone altar](/wiki/mods/AdventureZ/Structures/Blackstone_Altar). It can hold a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_shard) which will hover over the holder.
 
 ## Obtaining
-#### Loot
-When the [void shadow](/wiki/mods/AdventureZ/Entities/Void_Shadow) is defeated, there is a garanted generation of a shadow chest.
+#### Stonecutting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="stonecutting">
+input[ 1=chiseled_polished_blackstone, Chiseled Polished Blackstone, https://minecraft.wiki/w/Chiseled_Polished_Blackstone ]
+output[adventurez:chiseled_polished_blackstone_holder, Chiseled Polished Blackstone Holder]
+</div>
+</div>
 
 ## Usage
-The shadow chest can not be mined and will destroy itself when it is empty.
+Right click on the block while holding a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_shard) in the hand to fill the holder.

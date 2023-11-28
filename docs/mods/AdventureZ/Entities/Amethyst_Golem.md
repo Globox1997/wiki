@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity amethyst golem
 ---
 # Amethyst Golem
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -22,11 +22,11 @@ summary: adventurez entity amethyst golem
         </tr>
         <tr id="linear-top">
             <td class="first-column">Armor Points</td>
-            <td class="second-column">1</td>
+            <td class="second-column icon-element" icon-count="1" icon-id="armor"></td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column">Attack Damage</td>
-            <td class="second-column icon-element" icon-count="8" icon-id="experience" icon-exclusive></td>
+            <td class="first-column">Attack Strength</td>
+            <td class="second-column icon-element" icon-count="8" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Projectile Damage</td>
@@ -37,8 +37,8 @@ summary: adventurez entity amethyst golem
             <td class="second-column"><a href="https://minecraft.wiki/w/Amethyst_geode" target="_blank">Amethyst Geode</a></td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column">Drops</td>
-            <td class="second-column">5 XP<br>0 - 2 <a href="https://minecraft.wiki/w/Amethyst_Shard" target="_blank">Amethyst Shard</a></td>
+            <td class="first-column" >Drops</td>
+            <td class="second-column icon-element" icon-count="7" icon-id="experience" icon-exclusive>0 - 2 <a href="https://minecraft.wiki/w/Amethyst_Shard" target="_blank">Amethyst Shard</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -47,9 +47,7 @@ summary: adventurez entity amethyst golem
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/amethyst_golem.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/amethyst_golem.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story

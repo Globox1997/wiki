@@ -19,8 +19,13 @@ This mod adds two new end bosses to Minecraft besides other deadly creatures. On
 Enable the other end boss fight by adding VoidZ.
 
 ---
-
-
+## Content
+- [Block List](/wiki/mods/AdventureZ/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/AdventureZ/Entities/#list-of-entities)
+- [Item List](/wiki/mods/AdventureZ/Items/#list-of-items)
+- [Structure List](/wiki/mods/AdventureZ/Structures/#list-of-structures)
+  
+---
 ## Misc
 This mod is developed for <img src="https://fabricmc.net/assets/logo.png" alt="Fabric" width="16" height="16" style="position: relative; top: 3px;"> [Fabric](https://fabricmc.net/).  
 There are no plans to develop a <img src="https://neoforged.net/img/authors/neoforged.png" alt="NeoForged" width="16" height="16" style="position: relative; top: 3px;"> [Forge](https://neoforged.net/) version.  
@@ -30,6 +35,9 @@ Feel free to use it in any modpacks.
 
 #### Bug Report
 Just report bugs at the github page.  
+
+#### License
+Sound effects are either licensed under [SFX](https://audiojungle.net/licenses/terms/audio_sfx_media_single) or are modified sounds from [Minecraft](https://www.minecraft.net/en-us).
 
 ## Dependencies
 

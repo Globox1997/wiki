@@ -12,7 +12,7 @@ summary: Madventurez item gilded netherite boots
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            adventurez:stone_golem_boots
+            adventurez:gilded_netherite_boots
             ```
             </td>
         </tr>
@@ -35,7 +35,7 @@ summary: Madventurez item gilded netherite boots
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/adventurez/items/stone_golem_boots.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/adventurez/items/gilded_netherite_boots.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
@@ -50,7 +50,7 @@ input[
     2=netherite_boots,Netherite Boots, https://minecraft.wiki/w/Boots#Netherite; 
     3=adventurez:gilded_netherite_fragment, Gilded Netherite Fragment, AdventureZ/Items/Gilded_Netherite_Fragment, true
 ]
-output[adventurez:stone_golem_boots, Gilded Netherite Boots ]
+output[adventurez:gilded_netherite_boots, Gilded Netherite Boots ]
 </div>
 </div>
 

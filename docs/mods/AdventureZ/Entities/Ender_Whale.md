@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity ender whale
 ---
 # Ender Whale
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,7 +18,7 @@ summary: adventurez entity ender whale
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">60</td>
+            <td class="second-column icon-element" icon-count="60" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Usable Items</td>
@@ -30,7 +30,7 @@ summary: adventurez entity ender whale
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 2 <a href="../../Items/Ender_Whale_Skin/">Ender Whale Skin</a><br>1 - 3 <a href="../../Items/Ender_Whale_Meat/">Ender Whale Meat</a></td>
+            <td class="second-column icon-element" icon-count="5" icon-id="experience" icon-exclusive>0 - 2 <a href="../../Items/Ender_Whale_Skin/">Ender Whale Skin</a><br>1 - 3 <a href="../../Items/Ender_Whale_Meat/">Ender Whale Meat</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -39,9 +39,7 @@ summary: adventurez entity ender whale
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/ender_whale.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/ender_whale.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
@@ -57,7 +55,7 @@ The Ender Whale can accommodate up to 2 players on its back.
 * Players can call the Ender Whale to their location if they are nearby by utilizing an <a href="../../Items/Ender_Flute/">ender flute</a>.
 
 ## Drops
-| Drop | Use |
-| --- | --- |
-| 0 - 2 <a href="../../Items/Ender_Whale_Skin/">Ender Whale Skin</a> | :material-label-outline: `c:leather` |
-| 1 - 3 <a href="../../Items/Ender_Whale_Meat/">Ender Whale Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Ender_Whale_Meat/">cooked ender whale meat</a> :material-arrow-right: will grant <a href="https://minecraft.wiki/w/Levitation" target="_blank">levitation</a> for 30s |
+| Drop                                                                               | Use                                                                                                                                                                                                                                      |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0 - 2 <a href="/wiki/mods/AdventureZ/Items/Ender_Whale_Skin/">Ender Whale Skin</a> | :material-label-outline: `c:leather`                                                                                                                                                                                                     |
+| 1 - 3 <a href="../../Items/Ender_Whale_Meat/">Ender Whale Meat</a>                 | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Ender_Whale_Meat/">cooked ender whale meat</a> :material-arrow-right: will grant <a href="https://minecraft.wiki/w/Levitation" target="_blank">levitation</a> for 30s |

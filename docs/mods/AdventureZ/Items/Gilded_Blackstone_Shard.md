@@ -12,7 +12,7 @@ summary: adventurez item gilded blackstone shard
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            adventurez:gilded_stone
+            adventurez:gilded_blackstone_shard
             ```
             </td>
         </tr>
@@ -31,7 +31,7 @@ summary: adventurez item gilded blackstone shard
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/adventurez/items/gilded_stone.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/adventurez/items/gilded_blackstone_shard.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
@@ -43,4 +43,4 @@ Gilded blackstone shards can be found in various loot chests in the [bastion rem
 The [piglin brute](https://minecraft.wiki/w/Piglin_Brute) can drop 0 - 1 gilded blackstone shards upon death, unaffected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
-Gilded blackstone shards can be thrown with right click and has a 12.5% chance to spawn a [silverfish](https://minecraft.wiki/w/Silverfish) on impact but is mainly used to put in the [chiseled polished blackstone holder](/wiki/mods/AdventureZ/Blocks/Stone_holder) to summon the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem). When thrown on the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem) it will damage the golem and give it [weakness](https://minecraft.wiki/w/Weakness) for 30 seconds.
+Gilded blackstone shards is mainly used to put in the [chiseled polished blackstone holder](/wiki/mods/AdventureZ/Blocks/Stone_holder) to summon the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem). It can be thrown with right click and has a 12.5% chance to spawn a [silverfish](https://minecraft.wiki/w/Silverfish) on impact but when thrown on the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem) it will damage the golem and give it [weakness](https://minecraft.wiki/w/Weakness) for 30 seconds `(Config Default: Disabled)`.

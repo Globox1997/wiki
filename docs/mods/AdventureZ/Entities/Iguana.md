@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity iguana
 ---
 # Iguana
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,7 +18,7 @@ summary: adventurez entity iguana
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">10</td>
+            <td class="second-column icon-element" icon-count="10" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Usable Items</td>
@@ -30,7 +30,7 @@ summary: adventurez entity iguana
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 2 <a href="../../Items/Iguana_Hide/">Iguana Hide</a><br>1 - 3 <a href="../../Items/Iguana_Meat/">Iguana Meat</a></td>
+            <td class="second-column icon-element" icon-count="2" icon-id="experience" icon-exclusive>0 - 2 <a href="/wiki/mods/AdventureZ/Items/Iguana_Hide/">Iguana Hide</a><br>1 - 3 <a href="/wiki/mods/AdventureZ/Items/Iguana_Meat/">Iguana Meat</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -39,17 +39,15 @@ summary: adventurez entity iguana
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/iguana.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/iguana.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
 
-*The Iguana is a cold-blooded creature that enjoys playing in sandy valleys. It has a preference for eating <a href="https://minecraft.wiki/w/Dead_Bush" target="_blank">dead bushes</a> and can reproduce with them.*
+*The Iguana is a cold-blooded creature that enjoys playing in sandy valleys. It has a preference for eating [dead bushes](https://minecraft.wiki/w/Dead_Bush) and can reproduce with them.*
 
-## Drops
-| Drop                                                     | Use                                                                                                                              |
-| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| 0 - 2 <a href="../../Items/Iguana_Hide/">Iguana Hide</a> | :material-vector-combine: 2 hide :material-arrow-right: 1 <a href="https://minecraft.wiki/w/Leather" target="_blank">leather</a> |
-| 1 - 3 <a href="../../Items/Iguana_Meat/">Iguana Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Iguana_Meat/">cooked iguana meat</a>                          |
+---
+
+## Behavior
+
+Iguanas will hang out in [badlands](https://minecraft.wiki/w/Badlands).

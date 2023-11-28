@@ -11,7 +11,7 @@ summary: adventurez item gilded netherite chestplate
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            adventurez:stone_golem_chestplate
+            adventurez:gilded_netherite_chestplate
             ```
             </td>
         </tr>
@@ -34,7 +34,7 @@ summary: adventurez item gilded netherite chestplate
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/adventurez/items/stone_golem_chestplate.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/adventurez/items/gilded_netherite_chestplate.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
@@ -49,7 +49,7 @@ input[
     2=netherite_chestplate,Netherite Chestplate, https://minecraft.wiki/w/Chestplate#Netherite; 
     3=adventurez:gilded_netherite_fragment, Gilded Netherite Fragment, AdventureZ/Items/Gilded_Netherite_Fragment, true
 ]
-output[adventurez:stone_golem_chestplate, Gilded Netherite Chestplate ]
+output[adventurez:gilded_netherite_chestplate, Gilded Netherite Chestplate ]
 </div>
 </div>
 

@@ -1,28 +1,28 @@
 ---
-title: Small Blackstone Golem
+title: Mini Blackstone Golem
 project: adventurez
-summary: adventurez entity small blackstone golem boss
+summary: adventurez entity mini blackstone golem boss
 ---
-# Small Blackstone Golem
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+# Mini Blackstone Golem
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            adventurez:small_stone_golem
+            adventurez:mini_blackstone_golem
             ```
             </td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">50</td>
+            <td class="second-column icon-element" icon-count="50" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">6</td>
+            <td class="second-column icon-element" icon-count="6" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
@@ -30,7 +30,7 @@ summary: adventurez entity small blackstone golem boss
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-               <td class="second-column">0 - 1 <a href="https://minecraft.wiki/w/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 1 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>2 - 3 <a href="https://minecraft.wiki/w/Blackstone" target="_blank">Blackstone</a></td>
+               <td class="second-column icon-element" icon-count="5" icon-id="experience" icon-exclusive>0 - 1 <a href="https://minecraft.wiki/w/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 1 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>2 - 3 <a href="https://minecraft.wiki/w/Blackstone" target="_blank">Blackstone</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -39,14 +39,14 @@ summary: adventurez entity small blackstone golem boss
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/small_blackstone_golem.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/mini_blackstone_golem.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
 
 *Enveloped in a faint glow, reminiscent of the molten lava that flowed beneath the Basalt biome, the Small Blackstone Golems set out on their eternal watch. They roamed the land, ever vigilant, unleashing resolute roars that echoed through the canyons, a testament to their unwavering dedication to protect the sacred realm they called home.*
+
+---
 
 ## Behavior
 

@@ -189,6 +189,10 @@
     font-size: 14px;
 }
 
+.long-id {
+    font-size: 12px;
+}
+
 
 [data-md-color-scheme="default"] #linear-top {
     border-top: 0.4mm solid rgb(224,224,224);
@@ -200,6 +204,19 @@
 
 #linear-bottom {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.md-typeset h1 {
+    color: var(--md-default-fg-color--light);
+    font-size: 2em;
+    line-height: 1.3;
+    margin: 1em 0 0.64em;
+}
+
+.md-typeset h2 {
+    font-size: 1.5625em;
+    line-height: 1.4;
+    margin: 1em 0 0.64em;
 }
 
 tr:hover {

@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity blackstone golem boss
 ---
 # Blackstone Golem
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,23 +18,23 @@ summary: adventurez entity blackstone golem boss
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">600</td>
+            <td class="second-column icon-element" icon-count="600" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">14</td>
+            <td class="second-column icon-element" icon-count="14" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Thrown Rock</td>
-            <td class="second-column">16</td>
+            <td class="second-column icon-element" icon-count="16" icon-id="projectile" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">Can get summoned at the <a href="../../Structures/Golem_Altar/">Golem Altar</a> in <a href="https://minecraft.wiki/w/The_Nether" target="_blank">the nether</a></td>
+            <td class="second-column">Summoned at the <a href="../../Structures/Blackstone_Altar/">Blackstone Altar</a> in <a href="https://minecraft.wiki/w/The_Nether" target="_blank">the nether</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">3 - 7 <a href="https://minecraft.wiki/w/Blackstone" target="_blank">Blackstone</a><br>0 - 2 <a href="https://minecraft.wiki/w/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 2 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>0 - 1 <a href="../../Items/Gilded_Netherite_Fragment/">Gilded Netherite Fragment</a><br>0 - 1 <a href="../../Items/Stone_Golem_Heart/">Stone Golem Heart</a></td>
+            <td class="second-column icon-element" icon-count="200" icon-id="experience" icon-exclusive>3 - 7 <a href="https://minecraft.wiki/w/Blackstone" target="_blank">Blackstone</a><br>0 - 2 <a href="https://minecraft.wiki/w/Ancient_Debris" target="_blank">Ancient Debris</a><br>0 - 2 <a href="https://minecraft.wiki/w/Netherite_Scrap" target="_blank">Netherite Scrap</a><br>0 - 1 <a href="../../Items/Gilded_Netherite_Fragment/">Gilded Netherite Fragment</a><br>0 - 1 <a href="../../Items/Blackstone_Golem_Heart/">Blackstone Golem Heart</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Type</td>
@@ -47,14 +47,14 @@ summary: adventurez entity blackstone golem boss
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/blackstone_golem.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/blackstone_golem.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
 
 *The Blackstone Golem reigns as the ultimate peril in the world of Minecraft. Summoned at the Golem Altar, its destructive rampage continues until all players are eliminated. It poses an immense threat to the entire world, leaving nothing but devastation in its wake.*
+
+---
 
 ## Behavior
 
@@ -63,11 +63,3 @@ The Blackstone Golem reigns as the ultimate peril in the world of Minecraft. Sum
 * **Melee:** In close quarters, the Blackstone Golem strikes with its swinging arms, dealing a hefty 14 points of damage.
 * **Mid-Range:** From a medium range, the Blackstone Golem launches rocks at the player, dealing a significant 16 points of damage. These projectiles can also inflict side effects like hunger, slowness, and blindness.
 * **Special:** When the Blackstone Golem's health drops below half, it enters a state of furious rage, enhancing its abilities and unleashing even more devastating attacks.
-
-## Drops
-| Drop                            | Use                                                                               |
-| ------------------------------- | --------------------------------------------------------------------------------- |
-| 0 - 1 Gilded Netherite Fragment | :material-menu-up-outline: Upgrade to gilded netherite armor / weapons / tools    |
-| 0 - 1 Stone Golem Heart         | :material-file-replace-outline: Ingredient for golem arm                          |
-|                                 | :material-menu-up-outline: Upgrade the iron golem                                 |
-|                                 | :material-heart-cog-outline: Replace your own heart to get the blackstoned effect |

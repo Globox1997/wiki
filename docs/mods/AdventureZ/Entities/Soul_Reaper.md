@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity soul reaper
 ---
 # Soul Reaper
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,23 +18,23 @@ summary: adventurez entity soul reaper
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">120</td>
+            <td class="second-column icon-element" icon-count="120" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">8</td>
+            <td class="second-column icon-element" icon-count="8" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Projectile Strength</td>
-            <td class="second-column">8</td>
+            <td class="second-column icon-element" icon-count="8" icon-id="projectile" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">In <a href="https://minecraft.wiki/w/Swamp" target="_blank">soul sand valley</a> together with the <a href="../Nightmare/">nightmare</a></td>
+            <td class="second-column">In <a href="https://minecraft.wiki/w/Swamp" target="_blank">soul sand valley</a> together with the <a href="/wiki/mods/AdventureZ/Entities/Nightmare">nightmare</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 2 <a href="https://minecraft.wiki/w/Coal" target="_blank">Coal</a><br>0 - 2 <a href="https://minecraft.wiki/w/Bone" target="_blank">Bone</a><br>0 - 1 <a href="https://minecraft.wiki/w/Head" target="_blank">Wither Skeleton Skulls</a></td>
+            <td class="second-column icon-element" icon-count="30" icon-id="experience" icon-exclusive>0 - 2 <a href="https://minecraft.wiki/w/Coal" target="_blank">Coal</a><br>0 - 2 <a href="https://minecraft.wiki/w/Bone" target="_blank">Bone</a><br>0 - 1 <a href="https://minecraft.wiki/w/Head" target="_blank">Wither Skeleton Skulls</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -43,14 +43,14 @@ summary: adventurez entity soul reaper
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/soul_reaper.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/soul_reaper.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
 
 *The Soul Reaper is a lethal variant of the <a href="https://minecraft.wiki/w/Wither_Skeleton" target="_blank">wither skeleton</a>. It possesses expert skills with both a <a href="https://minecraft.wiki/w/Bow" target="_blank">bow</a> and a <a href="https://minecraft.wiki/w/Sword" target="_blank">sword</a>, making it a formidable adversary capable of annihilating anything that stands in its path.*
+
+---
 
 ## Behaivor
 

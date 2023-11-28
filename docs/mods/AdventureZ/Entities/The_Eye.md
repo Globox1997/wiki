@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity the eye boss
 ---
 # The Eye
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,19 +18,19 @@ summary: adventurez entity the eye boss
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">800</td>
+            <td class="second-column icon-element" icon-count="800" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">4</td>
+            <td class="second-column icon-element" icon-count="4" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">Can get summoned at the <a href="../../Structures/Eye_Shrine/">Eye Shrine</a></td>
+            <td class="second-column">Summoned at the <a href="/wiki/mods/AdventureZ/Structures/Eye_Shrine/">Eye Shrine</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 1 <a href="../../Items/Prime_Eye/">Prime Eye</a><br>Creates a <a href="../../Structures/Floating_Island/">Floating Island</a></td>
+            <td class="second-column icon-element" icon-count="80" icon-id="experience" icon-exclusive>0 - 1 <a href="/wiki/mods/AdventureZ/Items/Prime_Eye/">Prime Eye</a><br>Creates a <a href="/wiki/mods/AdventureZ/Structures/Floating_Island/">Floating Island</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Type</td>
@@ -43,14 +43,14 @@ summary: adventurez entity the eye boss
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/the_eye.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/the_eye.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
 
 *The Eye, an unseen entity, possesses an insidious power that drains the life force of any unfortunate enough to encounter it, leaving only lifeless remains behind.*
+
+---
 
 ## Behavior
 

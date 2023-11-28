@@ -52,7 +52,7 @@ input[
     2=netherite_helmet,Netherite Helmet, https://minecraft.wiki/w/Helmet#Netherite; 
     3=adventurez:gilded_netherite_fragment, Gilded Netherite Fragment, AdventureZ/Items/Gilded_Netherite_Fragment, true
 ]
-output[adventurez:stone_golem_helmet, Gilded Netherite Helmet ]
+output[adventurez:gilded_netherite_helmet, Gilded Netherite Helmet ]
 </div>
 <div class="crafting-element" crafting-type="smithing">
 input[
@@ -60,7 +60,7 @@ input[
     2=netherite_chestplate,Netherite Chestplate, https://minecraft.wiki/w/Chestplate#Netherite; 
     3=adventurez:gilded_netherite_fragment, Gilded Netherite Fragment, AdventureZ/Items/Gilded_Netherite_Fragment, true
 ]
-output[adventurez:stone_golem_chestplate, Gilded Netherite Chestplate ]
+output[adventurez:gilded_netherite_chestplate, Gilded Netherite Chestplate ]
 </div>
 <div class="crafting-element" crafting-type="smithing">
 input[
@@ -68,7 +68,7 @@ input[
     2=netherite_leggings,Netherite Leggings, https://minecraft.wiki/w/Leggings#Netherite; 
     3=adventurez:gilded_netherite_fragment, Gilded Netherite Fragment, AdventureZ/Items/Gilded_Netherite_Fragment, true
 ]
-output[adventurez:stone_golem_leggings, Gilded Netherite Leggings ]
+output[adventurez:gilded_netherite_leggings, Gilded Netherite Leggings ]
 </div>
 <div class="crafting-element" crafting-type="smithing">
 input[
@@ -76,6 +76,6 @@ input[
     2=netherite_boots,Netherite Boots, https://minecraft.wiki/w/Boots#Netherite; 
     3=adventurez:gilded_netherite_fragment, Gilded Netherite Fragment, AdventureZ/Items/Gilded_Netherite_Fragment, true
 ]
-output[adventurez:stone_golem_boots, Gilded Netherite Boots ]
+output[adventurez:gilded_netherite_boots, Gilded Netherite Boots ]
 </div>
 </div>

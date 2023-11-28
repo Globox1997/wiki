@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity blaze guardian
 ---
 # Blaze Guardian
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,23 +18,23 @@ summary: adventurez entity blaze guardian
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">40</td>
+            <td class="second-column icon-element" icon-count="40" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Armor Points</td>
-            <td class="second-column">3</td>
+            <td class="second-column icon-element" icon-count="3" icon-id="armor"></td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column">Attack Damage</td>
-            <td class="second-column">9</td>
+            <td class="first-column">Attack Strength</td>
+            <td class="second-column icon-element" icon-count="9" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Fireball Damage</td>
-            <td class="second-column">5<br>5s Flame</td>
+            <td class="second-column icon-element"  icon-count="5" icon-id="projectile" icon-exclusive>5s Flame</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Fire Explosion</td>
-            <td class="second-column">60</td>
+            <td class="second-column icon-element" icon-count="60" icon-id="explosion" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
@@ -42,7 +42,7 @@ summary: adventurez entity blaze guardian
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">5 XP<br>0 - 1 <a href="https://minecraft.wiki/w/Blaze_Rod" target="_blank">Blaze Rod</a></td>
+            <td class="second-column icon-element" icon-count="20" icon-id="experience" icon-exclusive>0 - 1 <a href="https://minecraft.wiki/w/Blaze_Rod" target="_blank">Blaze Rod</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -51,9 +51,7 @@ summary: adventurez entity blaze guardian
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/blaze_guardian.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/blaze_guardian.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
@@ -70,10 +68,3 @@ The Blaze Guardian is hostile and attacks players from both close and long dista
 * **Range:** From a distance, the Blaze Guardian launches fireballs at players, dealing 5 points of damage and igniting them for 5 seconds with a searing flame.
 * **Shielding:** The Blaze Guardian is shielded, but this protection can be broken by attacking it with melee weapons.
 * **Special:** After a brief delay, the Blaze Guardian unleashes a formidable explosion, amplifying the intensity of the battle.
-
-## Command
-???+ bug "Shield not showing -> Relog into the world"
-    === "Summon"
-        ```mcfunction
-        /summon adventurez:blaze_guardian
-        ```

@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity red fungus
 ---
 # Red Fungus
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,11 +18,11 @@ summary: adventurez entity red fungus
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">10</td>
+            <td class="second-column icon-element" icon-count="10" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">1</td>
+            <td class="second-column icon-element" icon-count="1" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
@@ -39,9 +39,7 @@ summary: adventurez entity red fungus
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/red_fungus.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/red_fungus.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story

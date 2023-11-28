@@ -12,7 +12,7 @@ summary: adventurez item gilded netherite helmet
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            adventurez:stone_golem_helmet
+            adventurez:gilded_netherite_helmet
             ```
             </td>
         </tr>
@@ -35,7 +35,7 @@ summary: adventurez item gilded netherite helmet
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/adventurez/items/stone_golem_helmet.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/adventurez/items/gilded_netherite_helmet.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
@@ -50,7 +50,7 @@ input[
     2=netherite_helmet,Netherite Helmet, https://minecraft.wiki/w/Helmet#Netherite; 
     3=adventurez:gilded_netherite_fragment, Gilded Netherite Fragment, AdventureZ/Items/Gilded_Netherite_Fragment, true
 ]
-output[adventurez:stone_golem_helmet, Gilded Netherite Helmet ]
+output[adventurez:gilded_netherite_helmet, Gilded Netherite Helmet ]
 </div>
 </div>
 

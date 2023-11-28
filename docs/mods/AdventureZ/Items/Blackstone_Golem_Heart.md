@@ -12,7 +12,7 @@ summary: adventurez item blackstone golem heart
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            adventurez:stone_golem_heart
+            adventurez:blackstone_golem_heart
             ```
             </td>
         </tr>
@@ -31,7 +31,7 @@ summary: adventurez item blackstone golem heart
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/adventurez/items/stone_golem_heart.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/adventurez/items/blackstone_golem_heart.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
@@ -52,11 +52,11 @@ input[
     2=blackstone,Blackstone, https://minecraft.wiki/w/Blackstone; 
     3=blackstone,Blackstone, https://minecraft.wiki/w/Blackstone; 
     4=blackstone,Blackstone, https://minecraft.wiki/w/Blackstone; 
-    5=adventurez:stone_golem_heart,Blackstone Golem Heart, AdventureZ/Items/Blackstone_Golem_Heart, true; 
+    5=adventurez:blackstone_golem_heart,Blackstone Golem Heart, AdventureZ/Items/Blackstone_Golem_Heart, true; 
     6=blackstone,Blackstone, https://minecraft.wiki/w/Blackstone;  
     7=blackstone,Blackstone, https://minecraft.wiki/w/Blackstone; 
     9=blackstone,Blackstone, https://minecraft.wiki/w/Blackstone
 ]
-output[adventurez:stone_golem_arm, Blackstones Arm ]
+output[adventurez:blackstone_golem_arm, Blackstones Arm ]
 </div>
 </div>

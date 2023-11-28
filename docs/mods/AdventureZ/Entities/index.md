@@ -2,7 +2,7 @@
 
 *[Entities](https://minecraft.wiki/w/Entity) encompass all dynamic, moving objects throughout the Minecraft world.*[^1]
 
-*A [mob](https://minecraft.wiki/w/Mob) is an AI-driven game [entity](https://minecraft.wiki/w/Entity) resembling a living creature. The term "mob" is short for "mobile entity".[1] All mobs can be attacked and hurt (from [falling](https://minecraft.wiki/w/Damage#Fall_damage), attacked by a [player](https://minecraft.wiki/w/Player) or another [mob](https://minecraft.wiki/w/Mob), falling into the [void](https://minecraft.wiki/w/Void), hit by an [arrow](https://minecraft.wiki/w/Arrow), etc), and have some form of voluntary movement. Different types of mobs often have unique AI and [loot](https://minecraft.wiki/w/Drops).*[^2]
+*A [mob](https://minecraft.wiki/w/Mob) is an AI-driven game [entity](https://minecraft.wiki/w/Entity) resembling a living creature. The term "mob" is short for "mobile entity".[^1] All mobs can be attacked and hurt (from [falling](https://minecraft.wiki/w/Damage#Fall_damage), attacked by a [player](https://minecraft.wiki/w/Player) or another [mob](https://minecraft.wiki/w/Mob), falling into the [void](https://minecraft.wiki/w/Void), hit by an [arrow](https://minecraft.wiki/w/Arrow), etc), and have some form of voluntary movement. Different types of mobs often have unique AI and [loot](https://minecraft.wiki/w/Drops).*[^2]
 
 ## Spawning
 

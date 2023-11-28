@@ -4,9 +4,9 @@ project: adventurez
 summary: adventurez entity mammoth
 ---
 # Mammoth
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -18,11 +18,11 @@ summary: adventurez entity mammoth
         </tr>
         <tr id="linear-top">
             <td class="first-column">Health Points</td>
-            <td class="second-column">40</td>
+            <td class="second-column icon-element" icon-count="40" icon-id="heart"></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Strength</td>
-            <td class="second-column">7</td>
+            <td class="second-column icon-element" icon-count="7" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
@@ -30,7 +30,7 @@ summary: adventurez entity mammoth
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column">0 - 2 <a href="../../Items/Mammoth_Fur/">Mammoth Fur</a><br>1 - 3 <a href="../../Items/Mammoth_Meat/">Mammoth Meat</a><br>0 - 1 <a href="../../Items/Mammoth_Tusk/">Mammoth Tusk</a></td>
+            <td class="second-column icon-element" icon-count="2" icon-id="experience" icon-exclusive>0 - 2 <a href="/wiki/mods/AdventureZ/Items/Mammoth_Fur/">Mammoth Fur</a><br>1 - 3 <a href="/wiki/mods/AdventureZ/Items/Mammoth_Meat/">Mammoth Meat</a><br>0 - 1 <a href="/wiki/mods/AdventureZ/Items/Mammoth_Tusk/">Mammoth Tusk</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>
@@ -39,24 +39,17 @@ summary: adventurez entity mammoth
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="/wiki/assets/adventurez/entities/mammoth.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/adventurez/entities/mammoth.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Story
 
 *The mammoth, despite being an extinct animal, continues to exist within the world of Minecraft. Adorned with thick fur, it possesses remarkable resistance to extremely cold temperatures.*
 
+---
+
 ## Behavior
 
 The mammoth is a neutral creature and will not initiate an attack unless provoked.
 
 * **Melee:** It chases the player and delivers damaging blows using its tusks, dealing 7 points of damage.
-
-## Drops
-| Drop                                                       | Use                                                                                                       |
-| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| 0 - 2 <a href="../../Items/Mammoth_Fur/">Mammoth Fur</a>   | :material-label-outline: `c:leather`                                                                      |
-| 1 - 3 <a href="../../Items/Mammoth_Meat/">Mammoth Meat</a> | :material-chef-hat: Can be cooked into <a href="../../Items/Cooked_Mammoth_Meat/">cooked mammoth meat</a> |
-| 0 - 1 <a href="../../Items/Mammoth_Tusk/">Mammoth Tusk</a> | :material-file-replace-outline: Ingredient for <a href="../../Items/Ivory_Arrow/">ivory arrows</a>        |
