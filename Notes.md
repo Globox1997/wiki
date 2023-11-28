@@ -14,6 +14,16 @@ Render items use Wiki preset (Rotation: 335, Slant: 8)
 Render blocks use dimetric preset (Rotation: 135, Slant: 30) 
 Render entities use dimetric preset (Rotation: 135, Slant: 30), fit scale and position to screen (use red help lines)
 
+### Mod Page
+- Meta
+- Sidebar JS
+- Banner
+- Showcase
+- Description
+- Commands
+- Misc
+- Dependencies
+
 ### Entities
 - Meta
 - Title
@@ -25,10 +35,11 @@ Render entities use dimetric preset (Rotation: 135, Slant: 30), fit scale and po
   - Projectile Damage
     - Special Attacks
   - Spawn
-  - Drops
+  - Drops (XP: Animal: 1 + nextInt(3); Hostile: 5)
   - Type (Boss)
   - Behavior
-- Story
+- Story *Kursiv*
+- ---
 - Behavior
 - Commands
 - Trivia
@@ -46,18 +57,45 @@ Render entities use dimetric preset (Rotation: 135, Slant: 30), fit scale and po
 - Description
 - Obtaining
   - Crafting
-  - Mob Loot
+  - Loot
   - Trading
 - Usage
 - Trivia
 
 ### Blocks
+- Meta
+- Title
+- Box
+  - Id
+  - Renewable
+  - Blast Resistance
+  - Hardness
+  - Luminous
+  - Transparent
+  - Waterloggable
+  - Flammable
+- Description
+- Obtaining
+  - Crafting
+  - Loot
+  - Trading
+- Usage
+- Trivia
 
+### Structures
+- Meta
+- Title
+- Box
+  - Id
+  - Dimension
+  - Biome
+- Description
+- Generation
 
 ### Random
 
 #### Example Recipe
-`Types:  vanilla_crafting; smithing; furnace_smelting; anvil; fletching; brewing;`
+`Types:  vanilla_crafting; smithing; furnace_smelting; anvil; fletching; brewing; stonecutting;`
 ```md
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
