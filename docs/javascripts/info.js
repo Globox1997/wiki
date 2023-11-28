@@ -1,4 +1,4 @@
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
     list();
 });
 
@@ -52,22 +52,8 @@ function list() {
 
 function getCustomTexture(texture) {
     switch (texture) {
-        case 'blackstone_golem_heart':
-            return 'stone_golem_heart';
         case 'blackstones_arm':
-            return 'stone_golem_arm';
-        case 'gilded_blackstone_shard':
-            return 'gilded_stone';
-        case 'gilded_blackstone_shard':
-            return 'gilded_stone';
-        case 'gilded_netherite_boots':
-            return 'stone_golem_boots';
-        case 'gilded_netherite_leggings':
-            return 'stone_golem_leggings';
-        case 'gilded_netherite_chestplate':
-            return 'stone_golem_chestplate';
-        case 'gilded_netherite_helmet':
-            return 'stone_golem_helmet';
+            return 'blackstone_golem_arm';
 
         default:
             return null;

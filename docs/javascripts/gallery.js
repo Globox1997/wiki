@@ -1,4 +1,4 @@
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
     iconGallery();
     resourceGallery();
 });
