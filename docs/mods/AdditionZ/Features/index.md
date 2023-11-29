@@ -55,7 +55,7 @@ The other stars are only visible through the <a href="https://minecraft.wiki/w/S
 
 ## Evoker Use Totem Chance
 ```json
-"evoker_use_totem_chance": 0.10000000149011612,
+"evoker_use_totem_chance": 0.1,
 // default: 0.1,
 // 0.1 = 10% chance
 ```
@@ -77,7 +77,7 @@ If you kill an <a href="https://minecraft.wiki/w/Evoker" target="_blank">evoker<
 
 ## Charged Creeper Spawn Chance
 ```json
-"charged_creeper_spawn_chance": 0.004999999888241291,
+"charged_creeper_spawn_chance": 0.005,
 // default: 0.005,
 // 0.005 = 0,5% chance
 ```
@@ -93,20 +93,16 @@ If you kill an <a href="https://minecraft.wiki/w/Evoker" target="_blank">evoker<
 "fast_oxidization": true,
 // default: true,
 ```
-<div class="result" markdown>
-![Polar Star](https://i.imgur.com/meMK6wE.png){ align=left width=40% loading=lazy }
-</div>
+![Polar Star](https://i.imgur.com/meMK6wE.png){ width=40% loading=lazy }
 
 ## Spectral Arrow Light
 ```json
 "spectral_arrow_light": true,
 // default: true,
 ```
-<div class="result" markdown>
-![Polar Star](https://i.imgur.com/ZniCRkU.gif){ align=left width=40% loading=lazy }
+![Polar Star](https://i.imgur.com/ZniCRkU.gif){ width=40% loading=lazy }
 
 When <a href="https://minecraft.wiki/w/Arrow#Spectral_arrows" target="_blank">spectral arrows</a> hit a block they provide a moderate light source.
-</div>
 
 ## Iron Golem Repair Friendly
 ```json
@@ -122,7 +118,7 @@ When <a href="https://minecraft.wiki/w/Arrow#Spectral_arrows" target="_blank">sp
 
 ## Break Skeleton Bow Chance
 ```json
-"break_skeleton_bow_chance": 0.004999999888241291,
+"break_skeleton_bow_chance": 0.005,
 // default: 0.005,
 // 0.005 = 0,5% chance
 ```
@@ -193,9 +189,7 @@ When <a href="https://minecraft.wiki/w/Arrow#Spectral_arrows" target="_blank">sp
 "beacon_shield_pattern": true,
 // default: true,
 ```
-<div class="result" markdown>
-Put a Banner on top of a beacon to prevent players from getting effects if they don't wear a shield with the <a href="https://minecraft.wiki/w/Banner_Pattern" target="_blank">same banner pattern</a>.
-</div>
+Put a Banner on top of a beacon to prevent players from getting effects if they don't wear a shield with the same [banner pattern](https://minecraft.wiki/w/Banner_Pattern).
 
 ## Max Spawner Count
 ```json
@@ -258,9 +252,7 @@ Put a Banner on top of a beacon to prevent players from getting effects if they 
 "fletching_table_use": true,
 // default: true,
 ```
-<div class="result" markdown>
-![Fletching Table](https://i.imgur.com/XOaYO8w.png){ align=left width=40% loading=lazy }
-</div>
+![Fletching Table](https://i.imgur.com/XOaYO8w.png){ width=40% loading=lazy }
 
 ## Show NBT Tooltip
 ```json
@@ -316,6 +308,18 @@ Put a Banner on top of a beacon to prevent players from getting effects if they 
 ```json
 "boat_fall_damage_nerf": true,
 // default: true,
+```
+
+## Sneak Through Berries
+```json
+"sneak_through_berries": true,
+// default: true,
+```
+
+## Phantom Tick Time
+```json
+"phantom_tick_time": 72000,
+// default: 72000,
 ```
 
 ## Passive Entity Modifications

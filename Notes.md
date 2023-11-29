@@ -92,6 +92,20 @@ Render entities use dimetric preset (Rotation: 135, Slant: 30), fit scale and po
 - Description
 - Generation
 
+### Enchantments
+- Meta
+- Title
+- Box
+  - Id
+  - Level
+  - Primary Items
+  - Enchantment Weight
+- Description
+- Obtaining
+  - Loot
+- Usage
+- Commands
+
 ### Random
 
 #### Example Recipe

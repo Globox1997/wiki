@@ -4,9 +4,9 @@ project: additionz
 summary: additionz item totem of non breaking
 ---
 # Totem of Non Breaking
-<div class="combi">
-<div class="divthing">
-<table class="tablething">
+<div class="main_table">
+<div class="left_main_table">
+<table class="left_table">
     <tbody>
         <tr>
             <td class="first-column">ID</td>
@@ -27,15 +27,17 @@ summary: additionz item totem of non breaking
     </tbody>
 </table>
 </div>
-<div class="div-img-center">
-<img src="../../../../assets/additionz/items/totem_of_non_breaking.png" loading="lazy" />
-</div>
+    <img src="/wiki/assets/additionz/items/totem_of_non_breaking.png" loading="lazy" class="right_img_table"/>
 </div>
 
-```json
-"totem_of_non_breaking": true,
-// default: true,
-```
-<div class="result" markdown>
-![Enchantment in action](https://i.imgur.com/H2QuLdc.gif){ align=left width=40% loading=lazy }
-</div>
+## Description
+The totem of non breaking is an [item](https://minecraft.wiki/w/Item) similar to the [totem of undying](https://minecraft.wiki/w/Totem_of_Undying) but instead of rescuing the [player](https://minecraft.wiki/w/Player) it will save a [tool](https://minecraft.wiki/w/Tool) when it is about to break.
+
+## Obtaining
+#### Loot
+The totem can only be found in [end city](https://minecraft.wiki/w/End_City) treasure [chests](https://minecraft.wiki/w/Chest).
+
+## Usage
+The totem of non breaking will activate when the [player](https://minecraft.wiki/w/Player) has one it the [inventory](https://minecraft.wiki/w/Inventory) and the [tool](https://minecraft.wiki/w/Tool) is about to break.
+
+![Enchantment in action](https://i.imgur.com/H2QuLdc.gif){ width=40% loading=lazy }

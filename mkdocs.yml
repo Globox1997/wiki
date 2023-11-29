@@ -110,8 +110,12 @@ nav:
       - Features:
         - mods/AdditionZ/Features/index.md
       - Items:
+        - mods/AdditionZ/Items/index.md
+        - mods/AdditionZ/Items/Teleport_Potion.md
+        - mods/AdditionZ/Items/Teleport_Scroll.md
         - mods/AdditionZ/Items/Totem_of_Non_Breaking.md
       - Enchantments:
+        - mods/AdditionZ/Enchantments/index.md
         - mods/AdditionZ/Enchantments/Block_Piercing.md
         - mods/AdditionZ/Enchantments/Curse_of_Inaccuracy.md
         - mods/AdditionZ/Enchantments/Dexterity.md
