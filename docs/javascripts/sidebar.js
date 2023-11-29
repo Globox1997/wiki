@@ -113,6 +113,7 @@ async function sidebar() {
 
     created.classList.add('sidebar');
     created.textContent = repositoryData['created_at'];
+    created.style.textAlign = 'left'
 
     createdDate.appendChild(createdText);
     createdDate.appendChild(created);
