@@ -65,6 +65,120 @@ extra:
     adventurez:
         repo: https://github.com/Globox1997/AdventureZ
         name: AdventureZ
+    backslot:
+        repo: https://github.com/Globox1997/BackSlot
+        name: BackSlot
+    backslotaddon:
+        repo: https://github.com/Globox1997/BackSlotAddon
+        name: BackSlotAddon
+    dehydration:
+        repo: https://github.com/Globox1997/Dehydration
+        name: Dehydration
+    dragonloot:
+        repo: https://github.com/GitPois1x/DragonLoot
+        name: DragonLoot
+    dualwielding:
+        repo: https://github.com/Globox1997/DualWielding
+        name: DualWielding
+    dungeonz:
+        repo: https://github.com/Globox1997/DungeonZ
+        name: DungeonZ
+    earlystage:
+        repo: https://github.com/Globox1997/EarlyStage
+        name: EarlyStage
+    environmentz:
+        repo: https://github.com/Globox1997/EnvironmentZ
+        name: EnvironmentZ
+    eventmod:
+        repo: https://github.com/Globox1997/EventMod
+        name: EventMod
+    extendeddrawersaddon:
+        repo: https://github.com/Globox1997/ExtendedDrawersAddon
+        name: ExtendedDrawersAddon
+    fleshz:
+        repo: https://github.com/Globox1997/FleshZ
+        name: FleshZ
+    inmis:
+        repo: https://github.com/Draylar/Inmis
+        name: Inmis
+    inmisaddon:
+        repo: https://github.com/Globox1997/InmisAddon
+        name: InmisAddon
+    herdspanic:
+        repo: https://github.com/Globox1997/HerdsPanic
+        name: HerdsPanic
+    jobsaddon:
+        repo: https://github.com/Globox1997/JobsAddon
+        name: JobsAddon
+    levelz:
+        repo: https://github.com/Globox1997/LevelZ
+        name: LevelZ
+    libz:
+        repo: https://github.com/Globox1997/LibZ
+        name: LibZ
+    medievalweapons:
+        repo: https://github.com/Globox1997/MedievalWeapons
+        name: MedievalWeapons
+    nameplate:
+        repo: https://github.com/Globox1997/Nameplate
+        name: Nameplate
+    numismaticclaim:
+        repo: https://github.com/Globox1997/NumismaticClaim
+        name: NumismaticClaim
+    partyaddon:
+        repo: https://github.com/Globox1997/PartyAddon
+        name: PartyAddon
+    patchoulibutton:
+        repo: https://github.com/Globox1997/PatchouliButton
+        name: PatchouliButton
+    reciperemover:
+        repo: https://github.com/Globox1997/RecipeRemover
+        name: RecipeRemover
+    revive:
+        repo: https://github.com/Globox1997/Revive
+        name: Revive
+    rewardz:
+        repo: https://github.com/Globox1997/RewardZ
+        name: RewardZ
+    rpgdifficulty:
+        repo: https://github.com/Globox1997/RpgDifficulty
+        name: RpgDifficulty
+    rpgz:
+        repo: https://github.com/Globox1997/RpgZ
+        name: RpgZ
+    smitherz:
+        repo: https://github.com/Globox1997/SmitherZ
+        name: SmitherZ
+    spartanweapons:
+        repo: https://github.com/Globox1997/SpartanWeapons
+        name: SpartanWeapons
+    spoiledz:
+        repo: https://github.com/Globox1997/SpoiledZ
+        name: SpoiledZ
+    talkbubbles:
+        repo: https://github.com/Globox1997/TalkBubbles
+        name: TalkBubbles
+    tieredz:
+        repo: https://github.com/Globox1997/Tiered
+        name: TieredZ
+    tooltiprareness:
+        repo: https://github.com/Globox1997/TooltipRareness
+        name: TooltipRareness
+    travelerz:
+        repo: https://github.com/Globox1997/TravelerZ
+        name: TravelerZ
+    villagerfix:
+        repo: https://github.com/Globox1997/VillagerTradeFix
+        name: VillagerFix
+    villagerquests:
+        repo: https://github.com/Globox1997/VillagerQuests
+        name: VillagerQuests
+    voidz:
+        repo: https://github.com/Globox1997/VoidZ
+        name: VoidZ
+    welcomescreen:
+        repo: https://github.com/Globox1997/WelcomeScreen
+        name: WelcomeScreen
 
 markdown_extensions:
   - pymdownx.highlight:
