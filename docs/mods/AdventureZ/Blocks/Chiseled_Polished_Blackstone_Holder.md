@@ -55,7 +55,7 @@ summary: adventurez block chiseled polished blackstone holder
 </div>
 
 ## Description
-The chiseled polished blackstone holder is a [block](https://minecraft.wiki/w/Block) used to build the [blackstone altar](/wiki/mods/AdventureZ/Structures/Blackstone_Altar). It can hold a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_shard) which will hover over the holder.
+The chiseled polished blackstone holder is a [block](https://minecraft.wiki/w/Block) used to build the [blackstone altar](/wiki/mods/AdventureZ/Structures/Blackstone_Altar). It can hold a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_Shard) which will hover over the holder.
 
 ## Obtaining
 #### Stonecutting
@@ -67,4 +67,4 @@ output[adventurez:chiseled_polished_blackstone_holder, Chiseled Polished Blackst
 </div>
 
 ## Usage
-Right click on the block while holding a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_shard) in the hand to fill the holder.
+Right click on the block while holding a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_Shard) in the hand to fill the holder.

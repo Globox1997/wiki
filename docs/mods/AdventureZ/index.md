@@ -6,7 +6,7 @@ summary: adventurez wiki
 <script src="/wiki/javascripts/data.js"></script>
 <script src="/wiki/javascripts/sidebar.js" id="adventurez"></script>
 
-![AdventureZ Banner](../../assets/general/banner/adventurezbanner.png)
+![AdventureZ Banner](/wiki/assets/general/banner/adventurezbanner.png)
 
 ---
 <div id="showcase-gallery" modid="adventurez" image_1="adventurez_image_1" image_2="adventurez_image_2" image_3="adventurez_image_3" image_4="adventurez_image_4"></div>

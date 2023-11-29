@@ -30,7 +30,7 @@ summary: adventurez structure blackstone altar
 The blackstone altar is a [structure](https://minecraft.wiki/w/Structure) where the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem) is summoned.
 
 ## Generation
-The [player](https://minecraft.wiki/w/Player) has to build the [structure](https://minecraft.wiki/w/Structure) anywhere in the [nether](https://minecraft.wiki/w/The_Nether) and place a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_shard) in each of the [chiseled polished blackstone holders](/wiki/mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder).  
+The [player](https://minecraft.wiki/w/Player) has to build the [structure](https://minecraft.wiki/w/Structure) anywhere in the [nether](https://minecraft.wiki/w/The_Nether) and place a [gilded blackstone shard](/wiki/mods/AdventureZ/Items/Gilded_Blackstone_Shard) in each of the [chiseled polished blackstone holders](/wiki/mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder).  
 When the [structure](https://minecraft.wiki/w/Structure) is build and all 4 shards are in place, the ritual will start.
 
 #### Blocks
