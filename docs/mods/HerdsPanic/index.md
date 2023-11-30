@@ -1,22 +1,21 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: HerdsPanic
+project: herdspanic
+summary: herdspanic wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="herdspanic"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
-
-
-# Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+![HerdsPanic Banner](/wiki/assets/general/banner/herdspanicbanner.png)
 
 ---
-## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+<div id="showcase-gallery" modid="herdspanic" image_1="herdspanic_image_1" image_2="herdspanic_image_2" image_3="herdspanic_image_3"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
+
+# Description
+HerdsPanic is a simple mod which gives [Minecraft](https://www.minecraft.net/en-us) [animals](https://minecraft.wiki/w/Animal) just a little bit more realism ;)  
+Herds like a bunch of [cows](https://minecraft.wiki/w/Cow) just panic when one of them gets hit.
   
 ---
 ## Misc

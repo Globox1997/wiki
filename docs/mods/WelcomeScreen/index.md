@@ -1,22 +1,31 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: WelcomeScreen
+project: welcomescreen
+summary: welcomescreen wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="welcomescreen"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![WelcomeScreen Banner](/wiki/assets/general/banner/welcomescreenbanner.png)
 
+---
+<div id="showcase-gallery" modid="welcomescreen" image_1="welcomescreen_image_1"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+WelcomeScreen lets you create a welcome screen where you can share information about your [server](https://minecraft.wiki/w/Server), [world](https://minecraft.wiki/w/World) or modpack.  
+It will open up on the [players](https://minecraft.wiki/w/Player) first join of the [world](https://minecraft.wiki/w/World).  
+A screen can be build via a [datapack](https://minecraft.wiki/w/Data_pack) (and resourcepack if resources are needed).  
+Check out the github readme for informanion.  
 
 ---
 ## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+- WIP
+<!-- - [Block List](/wiki/mods/welcomescreen/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/welcomescreen/Entities/#list-of-entities)
+- [Item List](/wiki/mods/welcomescreen/Items/#list-of-items)
+- [Structure List](/wiki/mods/welcomescreen/Structures/#list-of-structures) -->
   
 ---
 ## Misc

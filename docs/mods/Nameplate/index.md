@@ -1,22 +1,21 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: Nameplate
+project: nameplate
+summary: nameplate wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="nameplate"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
-
-
-# Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+![Nameplate Banner](/wiki/assets/general/banner/nameplatebanner.png)
 
 ---
-## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+<div id="showcase-gallery" modid="nameplate" image_1="nameplate_image_1" image_2="nameplate_image_2" image_3="nameplate_image_3"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
+
+# Description
+Display [mob](https://minecraft.wiki/w/Mob) levels based on their [health](https://minecraft.wiki/w/Health).  
+Needs a base mod like [RpgDifficulty](/wiki/mods/RpgDifficulty).
   
 ---
 ## Misc
@@ -41,3 +40,7 @@ Just report bugs at the github page.
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
+    
+    === "Optional :octicons-git-branch-16:"
+
+        [RpgDifficulty](/wiki/mods/RpgDifficulty){ .md-button .md-button--primary }

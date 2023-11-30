@@ -1,25 +1,29 @@
 ---
-title: BackSlot
-project: backslot
-summary: backslot wiki
+title: dragonloot
+project: dragonloot
+summary: dragonloot wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="backslot"></script>
+<script src="/wiki/javascripts/sidebar.js" id="dragonloot"></script>
 
-![BackSlot Banner](/wiki/assets/general/banner/backslotbanner.png)
+![DragonLoot Banner](/wiki/assets/general/banner/dragonlootbanner.png)
 
 ---
-<div id="showcase-gallery" modid="backslot" image_1="backslot_image_1" image_2="backslot_image_2" image_3="backslot_image_3" image_4="backslot_image_4"></div>
+<div id="showcase-gallery" modid="dragonloot" image_1="dragonloot_image_1" image_2="dragonloot_image_2" image_3="dragonloot_image_3" image_4="dragonloot_image_4"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 ---
 
 # Description
-BackSlot adds two slots to the [players](https://minecraft.wiki/w/Player) [inventory](https://minecraft.wiki/w/Inventory), the backslot and the beltslot, mainly used for [weapons](https://minecraft.wiki/w/Weapon).
-Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back and "Shift + G" to add your [sword](https://minecraft.wiki/w/Sword) to the belt.
+DragonLoot is a simple mod that adds a new [crafting](https://minecraft.wiki/w/Crafting) [material](https://minecraft.wiki/w/Materials) for the [Ender Dragon](https://minecraft.wiki/w/Ender_Dragon).
+Once you kill the [Ender Dragon](https://minecraft.wiki/w/Ender_Dragon) you'll get some dragon scales that can be used to craft a new set of [armor](https://minecraft.wiki/w/Armor) and an unbreakable [anvil](https://minecraft.wiki/w/Anvil).
 
 ---
 ## Content
 - WIP
+<!-- - [Block List](/wiki/mods/DragonLoot/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/DragonLoot/Entities/#list-of-entities)
+- [Item List](/wiki/mods/DragonLoot/Items/#list-of-items)
+- [Structure List](/wiki/mods/DragonLoot/Structures/#list-of-structures) -->
   
 ---
 ## Misc
@@ -47,4 +51,4 @@ Just report bugs at the github page.
 
     === "Optional :octicons-git-branch-16:"
 
-        [BackSlotAddon](/wiki/mods/BackSlotAddon){ .md-button .md-button--primary }
+        [MedievalWeapons](/wiki/mods/MedievalWeapons){ .md-button .md-button--primary }

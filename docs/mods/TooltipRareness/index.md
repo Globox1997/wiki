@@ -1,22 +1,29 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: TooltipRareness
+project: tooltiprareness
+summary: tooltiprareness wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="tooltiprareness"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![TooltipRareness Banner](/wiki/assets/general/banner/tooltiprarenessbanner.png)
 
+---
+<div id="showcase-gallery" modid="tooltiprareness" image_1="tooltiprareness_image_1" image_2="tooltiprareness_image_2" image_3="tooltiprareness_image_3"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+TooltipRareness divides [items](https://minecraft.wiki/w/Item) into rareness groups and shows it as a [tooltip](https://minecraft.wiki/w/Tooltip).  
+For a more Rpg'sh feeling.
 
 ---
 ## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+- WIP
+<!-- - [Block List](/wiki/mods/tooltiprareness/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/tooltiprareness/Entities/#list-of-entities)
+- [Item List](/wiki/mods/tooltiprareness/Items/#list-of-items)
+- [Structure List](/wiki/mods/tooltiprareness/Structures/#list-of-structures) -->
   
 ---
 ## Misc

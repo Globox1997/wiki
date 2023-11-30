@@ -1,22 +1,21 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: VillagerFix
+project: villagerfix
+summary: villagerfix wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="villagerfix"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![VillagerFix Banner](/wiki/assets/general/banner/villagerfixbanner.png)
 
+<!-- ---
+<div id="showcase-gallery" modid="villagerfix" image_1="villagerfix_image_1" image_2="villagerfix_image_2" image_3="villagerfix_image_3"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+--- -->
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
-
----
-## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+VillagerTradeFix gives the [Villagers](https://minecraft.wiki/w/Villager) the ability to remember their jobs with their specific offers.  
+If the [Villager](https://minecraft.wiki/w/Villager) looses his job and suddenly gets reemployed, he will sell the old [items](https://minecraft.wiki/w/Item) regardless of how many jobs he has worked in!
   
 ---
 ## Misc

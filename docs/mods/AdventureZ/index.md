@@ -45,7 +45,7 @@ Sound effects are either licensed under [SFX](https://audiojungle.net/licenses/t
     === "Curseforge :simple-curseforge:"
 
         [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api){ .md-button .md-button--primary }
-        [Cloth Config API](https://legacy.curseforge.com/minecraft/mc-mods/cloth-config){ .md-button .md-button--primary }
+        [Cloth Config API](https://curseforge.com/minecraft/mc-mods/cloth-config){ .md-button .md-button--primary }
 
     === "Modrinth :simple-modrinth:"
 
@@ -55,4 +55,4 @@ Sound effects are either licensed under [SFX](https://audiojungle.net/licenses/t
     === "Optional :octicons-git-branch-16:"
 
         [Patchouli](https://modrinth.com/mod/patchouli){ .md-button .md-button--primary }
-        [VoidZ](https://modrinth.com/mod/voidz){ .md-button .md-button--primary }
+        [VoidZ](/wiki/mods/VoidZ){ .md-button .md-button--primary }

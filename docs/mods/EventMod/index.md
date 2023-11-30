@@ -1,22 +1,16 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: EventMod
+project: eventmod
+summary: eventmod wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="eventmod"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
-
+![EventMod Banner](/wiki/assets/general/banner/eventmodbanner.png)
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
-
----
-## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+EventMod is made for events. It is made for server owners and only adds one item, the debugger.
+It won't do anything by itself, it has to get configured properly.
   
 ---
 ## Misc
@@ -35,9 +29,7 @@ Just report bugs at the github page.
     === "Curseforge :simple-curseforge:"
 
         [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api){ .md-button .md-button--primary }
-        [Cloth Config API](https://curseforge.com/minecraft/mc-mods/cloth-config){ .md-button .md-button--primary }
 
     === "Modrinth :simple-modrinth:"
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
-        [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }

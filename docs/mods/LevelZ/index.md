@@ -1,25 +1,29 @@
 ---
-title: BackSlot
-project: backslot
-summary: backslot wiki
+title: LevelZ
+project: levelz
+summary: levelz wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="backslot"></script>
+<script src="/wiki/javascripts/sidebar.js" id="levelz"></script>
 
-![BackSlot Banner](/wiki/assets/general/banner/backslotbanner.png)
+![LevelZ Banner](/wiki/assets/general/banner/levelzbanner.png)
 
 ---
-<div id="showcase-gallery" modid="backslot" image_1="backslot_image_1" image_2="backslot_image_2" image_3="backslot_image_3" image_4="backslot_image_4"></div>
+<div id="showcase-gallery" modid="levelz" image_1="levelz_image_1" image_2="levelz_image_2" image_3="levelz_image_3"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 ---
 
 # Description
-BackSlot adds two slots to the [players](https://minecraft.wiki/w/Player) [inventory](https://minecraft.wiki/w/Inventory), the backslot and the beltslot, mainly used for [weapons](https://minecraft.wiki/w/Weapon).
-Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back and "Shift + G" to add your [sword](https://minecraft.wiki/w/Sword) to the belt.
+LevelZ adds [player](https://minecraft.wiki/w/Player) skills which you have to level up to unlock [gear](https://minecraft.wiki/w/Tool)/[items](https://minecraft.wiki/w/Item)/[blocks](https://minecraft.wiki/w/Block).  
+Default key to open the skill screen is "k".
 
 ---
 ## Content
 - WIP
+<!-- - [Block List](/wiki/mods/levelz/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/levelz/Entities/#list-of-entities)
+- [Item List](/wiki/mods/levelz/Items/#list-of-items)
+- [Structure List](/wiki/mods/levelz/Structures/#list-of-structures) -->
   
 ---
 ## Misc
@@ -39,12 +43,15 @@ Just report bugs at the github page.
 
         [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://curseforge.com/minecraft/mc-mods/cloth-config){ .md-button .md-button--primary }
+        [LibZ](https://www.curseforge.com/minecraft/mc-mods/libz){ .md-button .md-button--primary }
 
     === "Modrinth :simple-modrinth:"
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
-
+        [LibZ](https://modrinth.com/mod/libz){ .md-button .md-button--primary }
+    
     === "Optional :octicons-git-branch-16:"
 
-        [BackSlotAddon](/wiki/mods/BackSlotAddon){ .md-button .md-button--primary }
+        [JobsAddon](/wiki/mods/JobsAddon){ .md-button .md-button--primary }
+        [PartyAddon](/wiki/mods/PartyAddon){ .md-button .md-button--primary }

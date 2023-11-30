@@ -1,25 +1,31 @@
 ---
-title: BackSlot
-project: backslot
-summary: backslot wiki
+title: EnvironmentZ
+project: environmentz
+summary: environmentz wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="backslot"></script>
+<script src="/wiki/javascripts/sidebar.js" id="environmentz"></script>
 
-![BackSlot Banner](/wiki/assets/general/banner/backslotbanner.png)
+![EnvironmentZ Banner](/wiki/assets/general/banner/environmentzbanner.png)
 
 ---
-<div id="showcase-gallery" modid="backslot" image_1="backslot_image_1" image_2="backslot_image_2" image_3="backslot_image_3" image_4="backslot_image_4"></div>
+<div id="showcase-gallery" modid="environmentz" image_1="environmentz_image_1" image_2="environmentz_image_2" image_3="environmentz_image_3"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 ---
 
 # Description
-BackSlot adds two slots to the [players](https://minecraft.wiki/w/Player) [inventory](https://minecraft.wiki/w/Inventory), the backslot and the beltslot, mainly used for [weapons](https://minecraft.wiki/w/Weapon).
-Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back and "Shift + G" to add your [sword](https://minecraft.wiki/w/Sword) to the belt.
+EnvironmentZ adds harsh environment behaviors to [Minecraft](https://www.minecraft.net/en-us) so keep cool in hot and warm in cold [biomes](https://minecraft.wiki/w/Biome).
+If the temperature gets to 0°C (32F) the player starts to freezing if not protected against the cold.
+If the temperature is too hot, make sure to wear no [armor](https://minecraft.wiki/w/Armor) or protect yourself in another way against the heat.
+So for the beginning, warm up at a cozy [fire place](https://minecraft.wiki/w/Campfire) or keep calm!
 
 ---
 ## Content
 - WIP
+<!-- - [Block List](/wiki/mods/environmentz/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/environmentz/Entities/#list-of-entities)
+- [Item List](/wiki/mods/environmentz/Items/#list-of-items)
+- [Structure List](/wiki/mods/environmentz/Structures/#list-of-structures) -->
   
 ---
 ## Misc
@@ -44,7 +50,7 @@ Just report bugs at the github page.
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
-
+    
     === "Optional :octicons-git-branch-16:"
 
-        [BackSlotAddon](/wiki/mods/BackSlotAddon){ .md-button .md-button--primary }
+        [Dehydration](/wiki/mods/Dehydration){ .md-button .md-button--primary }

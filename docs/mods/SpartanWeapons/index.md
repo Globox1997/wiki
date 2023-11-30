@@ -1,25 +1,28 @@
 ---
-title: BackSlot
-project: backslot
-summary: backslot wiki
+title: SpartanWeapons
+project: spartanweapons
+summary: spartanweapons wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="backslot"></script>
+<script src="/wiki/javascripts/sidebar.js" id="spartanweapons"></script>
 
-![BackSlot Banner](/wiki/assets/general/banner/backslotbanner.png)
+![SpartanWeapons Banner](/wiki/assets/general/banner/spartanweaponsbanner.png)
 
----
-<div id="showcase-gallery" modid="backslot" image_1="backslot_image_1" image_2="backslot_image_2" image_3="backslot_image_3" image_4="backslot_image_4"></div>
+<!-- ---
+<div id="showcase-gallery" modid="spartanweapons" image_1="spartanweapons_image_1" image_2="spartanweapons_image_2" image_3="spartanweapons_image_3"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
----
+--- -->
 
 # Description
-BackSlot adds two slots to the [players](https://minecraft.wiki/w/Player) [inventory](https://minecraft.wiki/w/Inventory), the backslot and the beltslot, mainly used for [weapons](https://minecraft.wiki/w/Weapon).
-Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back and "Shift + G" to add your [sword](https://minecraft.wiki/w/Sword) to the belt.
+SpartanWeapons adds new [weapons](https://minecraft.wiki/w/Weapon) with different abilities.
 
 ---
 ## Content
 - WIP
+<!-- - [Block List](/wiki/mods/spartanweapons/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/spartanweapons/Entities/#list-of-entities)
+- [Item List](/wiki/mods/spartanweapons/Items/#list-of-items)
+- [Structure List](/wiki/mods/spartanweapons/Structures/#list-of-structures) -->
   
 ---
 ## Misc
@@ -39,12 +42,12 @@ Just report bugs at the github page.
 
         [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://curseforge.com/minecraft/mc-mods/cloth-config){ .md-button .md-button--primary }
+        [ARRP](https://www.curseforge.com/minecraft/mc-mods/arrp){ .md-button .md-button--primary }
+        [BetterCombat](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus){ .md-button .md-button--primary }
 
     === "Modrinth :simple-modrinth:"
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
-
-    === "Optional :octicons-git-branch-16:"
-
-        [BackSlotAddon](/wiki/mods/BackSlotAddon){ .md-button .md-button--primary }
+        [ARRP](https://modrinth.com/mod/arrp){ .md-button .md-button--primary }
+        [BetterCombat](https://modrinth.com/mod/better-combat){ .md-button .md-button--primary }

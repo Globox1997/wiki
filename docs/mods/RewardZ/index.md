@@ -1,22 +1,30 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: RewardZ
+project: rewardz
+summary: rewardz wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="rewardz"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![RewardZ Banner](/wiki/assets/general/banner/rewardzbanner.png)
 
+---
+<div id="showcase-gallery" modid="rewardz" image_1="rewardz_image_1"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+Reward calendar which grants [items](https://minecraft.wiki/w/Item) on joining a [world](https://minecraft.wiki/w/World). Accessible through an [inventory](https://minecraft.wiki/w/Inventory) button or key.
+Configurable via [datapack](https://minecraft.wiki/w/Data_pack).
+Does not provide a default reward [datapack](https://minecraft.wiki/w/Data_pack).
 
 ---
 ## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+- WIP
+<!-- - [Block List](/wiki/mods/rewardz/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/rewardz/Entities/#list-of-entities)
+- [Item List](/wiki/mods/rewardz/Items/#list-of-items)
+- [Structure List](/wiki/mods/rewardz/Structures/#list-of-structures) -->
   
 ---
 ## Misc

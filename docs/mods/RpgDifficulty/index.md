@@ -1,22 +1,29 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: RpgDifficulty
+project: rpgdifficulty
+summary: rpgdifficulty wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="rpgdifficulty"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![RpgDifficulty Banner](/wiki/assets/general/banner/rpgdifficultybanner.png)
 
+---
+<div id="showcase-gallery" modid="rpgdifficulty" image_1="rpgdifficulty_image_1"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+RpgDifficulty increases the [health](https://minecraft.wiki/w/Health) and [damage](https://minecraft.wiki/w/Damage) of [mobs](https://minecraft.wiki/w/Mob) over time and distance.  
+Highly configureable.
 
 ---
 ## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+- WIP
+<!-- - [Block List](/wiki/mods/rpgdifficulty/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/rpgdifficulty/Entities/#list-of-entities)
+- [Item List](/wiki/mods/rpgdifficulty/Items/#list-of-items)
+- [Structure List](/wiki/mods/rpgdifficulty/Structures/#list-of-structures) -->
   
 ---
 ## Misc

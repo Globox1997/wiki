@@ -1,25 +1,30 @@
 ---
-title: BackSlot
-project: backslot
-summary: backslot wiki
+title: DungeonZ
+project: dungeonz
+summary: dungeonz wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="backslot"></script>
+<script src="/wiki/javascripts/sidebar.js" id="dungeonz"></script>
 
-![BackSlot Banner](/wiki/assets/general/banner/backslotbanner.png)
+![DungeonZ Banner](/wiki/assets/general/banner/dungeonzbanner.png)
 
 ---
-<div id="showcase-gallery" modid="backslot" image_1="backslot_image_1" image_2="backslot_image_2" image_3="backslot_image_3" image_4="backslot_image_4"></div>
+<div id="showcase-gallery" modid="dungeonz" image_1="dungeonz_image_1" image_2="dungeonz_image_2"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 ---
 
 # Description
-BackSlot adds two slots to the [players](https://minecraft.wiki/w/Player) [inventory](https://minecraft.wiki/w/Inventory), the backslot and the beltslot, mainly used for [weapons](https://minecraft.wiki/w/Weapon).
-Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back and "Shift + G" to add your [sword](https://minecraft.wiki/w/Sword) to the belt.
+DungeonZ is a base mod to add new dungeons to the [world](https://minecraft.wiki/w/World). You will be able to create a [datapack](https://minecraft.wiki/w/Data_pack) which adds new dungeons which can get accessed via [overworld](https://minecraft.wiki/w/Overworld) [structures](https://minecraft.wiki/w/Structure). Those dungeons will be joinable with friends, offer good [loot](https://minecraft.wiki/w/Drops) and usually have a cooldown.  
+
+By default, one dungeon is added. For further info, how to add your own dungeon, check out the [github readme](https://github.com/Globox1997/DungeonZ).
 
 ---
 ## Content
 - WIP
+<!-- - [Block List](/wiki/mods/dungeonz/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/dungeonz/Entities/#list-of-entities)
+- [Item List](/wiki/mods/dungeonz/Items/#list-of-items)
+- [Structure List](/wiki/mods/dungeonz/Structures/#list-of-structures) -->
   
 ---
 ## Misc
@@ -44,7 +49,3 @@ Just report bugs at the github page.
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
-
-    === "Optional :octicons-git-branch-16:"
-
-        [BackSlotAddon](/wiki/mods/BackSlotAddon){ .md-button .md-button--primary }

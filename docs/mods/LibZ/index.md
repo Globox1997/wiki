@@ -1,22 +1,17 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: LibZ
+project: libz
+summary: libz wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="libz"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
-
+![LibZ Banner](/wiki/assets/general/banner/libzbanner.png)
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
-
----
-## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+LibZ is a library mod for a couple of Globox_Z's mods.
+One main feature it adds is the tab registry for visible screen tabs.
+Honestly, I never wanted to create a library mod and publish it here like others did but after modding for quite some time now, this makes sense.
   
 ---
 ## Misc
@@ -41,3 +36,10 @@ Just report bugs at the github page.
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
+    
+    === "Optional :octicons-git-branch-16:"
+
+        [LevelZ](/wiki/mods/LevelZ){ .md-button .md-button--primary }
+        [JobsAddon](/wiki/mods/JobsAddon){ .md-button .md-button--primary }
+        [PartyAddon](/wiki/mods/PartyAddon){ .md-button .md-button--primary }
+        [InmisAddon](/wiki/mods/InmisAddon){ .md-button .md-button--primary }

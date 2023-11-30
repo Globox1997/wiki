@@ -1,22 +1,28 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: DualWielding
+project: dualwielding
+summary: dualwielding wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="dualwielding"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![DualWielding Banner](/wiki/assets/general/banner/dualwieldingbanner.png)
 
+---
+<div id="showcase-gallery" modid="dualwielding" image_1="dualwielding_image_1"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+DualWielding will enable you to fight with a [weapon](https://minecraft.wiki/w/Weapon) in your [off hand](https://minecraft.wiki/w/Dual_wield).
 
 ---
 ## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+- WIP
+<!-- - [Block List](/wiki/mods/dualwielding/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/dualwielding/Entities/#list-of-entities)
+- [Item List](/wiki/mods/dualwielding/Items/#list-of-items)
+- [Structure List](/wiki/mods/dualwielding/Structures/#list-of-structures) -->
   
 ---
 ## Misc

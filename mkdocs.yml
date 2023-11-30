@@ -311,13 +311,84 @@ nav:
         - mods/AdventureZ/Structures/Floating_Island.md
     - BackSlot:
       - mods/BackSlot/index.md
+    - BackSlotAddon:
+      - mods/BackSlotAddon/index.md
+    - Dehydration:
+      - mods/Dehydration/index.md
+    - DragonLoot:
+      - mods/DragonLoot/index.md
+    - DualWielding:
+      - mods/DualWielding/index.md
+    - DungeonZ:
+      - mods/DungeonZ/index.md
+    - EarlyStage:
+      - mods/EarlyStage/index.md
+    - EnvironmentZ:
+      - mods/EnvironmentZ/index.md
+    - EventMod:
+      - mods/EventMod/index.md
+    - ExtendedDrawersAddon:
+      - mods/ExtendedDrawersAddon/index.md
+    - FleshZ:
+      - mods/FleshZ/index.md
+    - HerdsPanic:
+      - mods/HerdsPanic/index.md
+    - InmisAddon:
+      - mods/InmisAddon/index.md
+    - JobsAddon:
+      - mods/JobsAddon/index.md
+    - LevelZ:
+      - mods/LevelZ/index.md
+    - LibZ:
+      - mods/LibZ/index.md
+    - MedievalWeapons:
+      - mods/MedievalWeapons/index.md
+    - Nameplate:
+      - mods/Nameplate/index.md
+    - NumismaticClaim:
+      - mods/NumismaticClaim/index.md
+    - PartyAddon:
+      - mods/PartyAddon/index.md
+    - PatchouliButton:
+      - mods/PatchouliButton/index.md
+    - RecipeRemover:
+      - mods/RecipeRemover/index.md
+    - Revive:
+      - mods/Revive/index.md
+    - RewardZ:
+      - mods/RewardZ/index.md
+    - RpgDifficulty:
+      - mods/RpgDifficulty/index.md
+    - RpgZ:
+      - mods/RpgZ/index.md
+    - SmitherZ:
+      - mods/SmitherZ/index.md
+    - SpartanWeapons:
+      - mods/SpartanWeapons/index.md
+    - SpoiledZ:
+      - mods/SpoiledZ/index.md
+    - TalkBubbles:
+      - mods/TalkBubbles/index.md
+    - TieredZ:
+      - mods/TieredZ/index.md
+    - TooltipRareness:
+      - mods/TooltipRareness/index.md
+    - TravelerZ:
+      - mods/TravelerZ/index.md
+    - VillagerFix:
+      - mods/VillagerFix/index.md
+    - VillagerQuests:
+      - mods/VillagerQuests/index.md
+    - VoidZ:
+      - mods/VoidZ/index.md
+    - WelcomeScreen:
+      - mods/WelcomeScreen/index.md
   - About:
     - about/installation.md
     - about/developer.md
     - about/support.md
     - about/credits.md
     - about/licensing.md
-
   - FAQ:
     - about/faq.md
     

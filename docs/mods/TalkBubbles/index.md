@@ -1,22 +1,29 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: TalkBubbles
+project: talkbubbles
+summary: talkbubbles wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="talkbubbles"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![TalkBubbles Banner](/wiki/assets/general/banner/talkbubblesbanner.png)
 
+---
+<div id="showcase-gallery" modid="talkbubbles" image_1="talkbubbles_image_1"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+TalkBubbles adds bubbles above the [players](https://minecraft.wiki/w/Player) head when you chat with your friend nearby.  
+It is client sided.
 
 ---
 ## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+- WIP
+<!-- - [Block List](/wiki/mods/talkbubbles/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/talkbubbles/Entities/#list-of-entities)
+- [Item List](/wiki/mods/talkbubbles/Items/#list-of-items)
+- [Structure List](/wiki/mods/talkbubbles/Structures/#list-of-structures) -->
   
 ---
 ## Misc

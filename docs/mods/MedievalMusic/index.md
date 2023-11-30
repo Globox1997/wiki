@@ -10,8 +10,10 @@ summary: medievalmusic wiki
 
 # Description
 This resource pack just adds medieval game music to minecraft but keeps the vanilla music.  
-
 This is for all medieval and minecraft fans out there :)  
+
+---
+## Content
 
 Music promoted by [https://www.free-stock-music.com](https://www.free-stock-music.com)  
 
@@ -25,9 +27,13 @@ Music promoted by [https://www.free-stock-music.com](https://www.free-stock-musi
 - Adventure by Alexander Nakarada | [https://www.serpentsoundstudios.com](https://www.serpentsoundstudios.com)
 - Nowhere Land by Alexander Nakarada | [https://www.serpentsoundstudios.com](https://www.serpentsoundstudios.com)
 
+#### License
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+
+---
 
 - Red Forest by Arthur Vyncke | https://soundcloud.com/arthurvost
 - World OP by PeriTune | http://peritune.com#
 
+#### License
 [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/deed.en_US)

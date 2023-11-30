@@ -1,22 +1,29 @@
 ---
-title: AdditionZ
-project: additionz
-summary: additionz wiki
+title: RpgZ
+project: rpgz
+summary: rpgz wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="additionz"></script>
+<script src="/wiki/javascripts/sidebar.js" id="rpgz"></script>
 
-![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
+![RpgZ Banner](/wiki/assets/general/banner/rpgzbanner.png)
 
+---
+<div id="showcase-gallery" modid="rpgz" image_1="rpgz_image_1"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
-This mod adds a couple of features to Minecraft which can enabled or disabled.
+RpgZ changes the way how the [player](https://minecraft.wiki/w/Player) obtains [mob](https://minecraft.wiki/w/Mob) [loot](https://minecraft.wiki/w/Drops). #RpgStyle  
+Instead of just turning red to the site and dropping [items](https://minecraft.wiki/w/Items), the killed [mob](https://minecraft.wiki/w/Mob) will stay until it gets looted (default: 4min countdown).
 
 ---
 ## Content
-- [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
-- [Feature List](/wiki/mods/AdditionZ/Features)
-- [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+- WIP
+<!-- - [Block List](/wiki/mods/rpgz/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/rpgz/Entities/#list-of-entities)
+- [Item List](/wiki/mods/rpgz/Items/#list-of-items)
+- [Structure List](/wiki/mods/rpgz/Structures/#list-of-structures) -->
   
 ---
 ## Misc

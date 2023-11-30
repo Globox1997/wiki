@@ -1,25 +1,29 @@
 ---
-title: BackSlot
-project: backslot
-summary: backslot wiki
+title: Dehydration
+project: dehydration
+summary: dehydration wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="backslot"></script>
+<script src="/wiki/javascripts/sidebar.js" id="dehydration"></script>
 
-![BackSlot Banner](/wiki/assets/general/banner/backslotbanner.png)
+![Dehydration Banner](/wiki/assets/general/banner/dehydrationbanner.png)
 
 ---
-<div id="showcase-gallery" modid="backslot" image_1="backslot_image_1" image_2="backslot_image_2" image_3="backslot_image_3" image_4="backslot_image_4"></div>
+<div id="showcase-gallery" modid="dehydration" image_1="dehydration_image_1" image_2="dehydration_image_2" image_3="dehydration_image_3"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 ---
 
 # Description
-BackSlot adds two slots to the [players](https://minecraft.wiki/w/Player) [inventory](https://minecraft.wiki/w/Inventory), the backslot and the beltslot, mainly used for [weapons](https://minecraft.wiki/w/Weapon).
-Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back and "Shift + G" to add your [sword](https://minecraft.wiki/w/Sword) to the belt.
+Dehydration adds thirst to [Minecraft](https://www.minecraft.net/en-us). Just like [food](https://minecraft.wiki/w/Food), you'll need to stay hydrated to survive and thrive.  
+For an easier start, use the [bonus chest](https://minecraft.wiki/w/Bonus_Chest) on [world generation](https://minecraft.wiki/w/Seed_(level_generation)).  
 
 ---
 ## Content
 - WIP
+<!-- - [Block List](/wiki/mods/Dehydration/Blocks/#list-of-blocks)
+- [Entity List](/wiki/mods/Dehydration/Entities/#list-of-entities)
+- [Item List](/wiki/mods/Dehydration/Items/#list-of-items)
+- [Structure List](/wiki/mods/Dehydration/Structures/#list-of-structures) -->
   
 ---
 ## Misc
@@ -47,4 +51,5 @@ Just report bugs at the github page.
 
     === "Optional :octicons-git-branch-16:"
 
-        [BackSlotAddon](/wiki/mods/BackSlotAddon){ .md-button .md-button--primary }
+        [EnvironmentZ](/wiki/mods/EnvironmentZ){ .md-button .md-button--primary }
+        [Motschen's Puddles](https://modrinth.com/mod/puddles){ .md-button .md-button--primary }
