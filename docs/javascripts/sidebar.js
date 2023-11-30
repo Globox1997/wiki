@@ -10,8 +10,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 async function sidebar() {
 
-
-
     var modid = document.querySelector('script[src="/wiki/javascripts/sidebar.js"]').getAttribute('id');
     const repositoryData = await getRepositoryData('repository', modid);
 
