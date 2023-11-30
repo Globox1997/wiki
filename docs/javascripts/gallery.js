@@ -75,7 +75,7 @@ function resourceGallery() {
             icon.src = '/wiki/assets/general/icons/' + iconData.texture + '.png';
             icon.className = 'icon';
 
-            // tooltip(icon, iconData.tooltip, iconData.url, true);
+            tooltip(icon, iconData.tooltip, iconData.url, true);
             gallery.appendChild(icon);
         });
     }
