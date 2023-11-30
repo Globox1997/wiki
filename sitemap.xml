@@ -246,6 +246,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Void_Fragment/</loc>
+         <lastmod>2023-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Void_Shade/</loc>
+         <lastmod>2023-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Void_Shadow/</loc>
+         <lastmod>2023-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://globox1997.github.io/wiki/mods/AdventureZ/Entities/Wither_Puppet/</loc>
          <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
@@ -626,12 +641,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://globox1997.github.io/wiki/mods/VillagerFix/</loc>
+         <loc>https://globox1997.github.io/wiki/mods/VillagerQuests/</loc>
          <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://globox1997.github.io/wiki/mods/VillagerQuests/</loc>
+         <loc>https://globox1997.github.io/wiki/mods/VillagerTradeFix/</loc>
          <lastmod>2023-11-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
