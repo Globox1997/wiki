@@ -8,6 +8,10 @@ summary: additionz wiki
 
 ![AdditionZ Banner](/wiki/assets/general/banner/additionzbanner.png)
 
+---
+<div id="showcase-gallery" modid="additionz" image_1="additionz_image_1" image_2="additionz_image_2"></div>
+<script src="/wiki/javascripts/showcase.js"></script>
+---
 
 # Description
 This mod adds a couple of features to Minecraft which can enabled or disabled.
