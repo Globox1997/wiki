@@ -12,7 +12,7 @@ summary: adventurez entity blackstone golem boss
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            adventurez:stone_golem
+            adventurez:blackstone_golem
             ```
             </td>
         </tr>

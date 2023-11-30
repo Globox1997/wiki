@@ -167,9 +167,9 @@ extra:
     travelerz:
         repo: https://github.com/Globox1997/TravelerZ
         name: TravelerZ
-    villagerfix:
+    villagertradefix:
         repo: https://github.com/Globox1997/VillagerTradeFix
-        name: VillagerFix
+        name: VillagerTradeFix
     villagerquests:
         repo: https://github.com/Globox1997/VillagerQuests
         name: VillagerQuests
@@ -261,6 +261,9 @@ nav:
         - mods/AdventureZ/Entities/Soul_Reaper.md
         - mods/AdventureZ/Entities/Summoner.md
         - mods/AdventureZ/Entities/The_Eye.md
+        - mods/AdventureZ/Entities/Void_Fragment.md
+        - mods/AdventureZ/Entities/Void_Shade.md
+        - mods/AdventureZ/Entities/Void_Shadow.md
         - mods/AdventureZ/Entities/Wither_Puppet.md
       - Items:
         - mods/AdventureZ/Items/index.md
@@ -375,8 +378,8 @@ nav:
       - mods/TooltipRareness/index.md
     - TravelerZ:
       - mods/TravelerZ/index.md
-    - VillagerFix:
-      - mods/VillagerFix/index.md
+    - VillagerTradeFix:
+      - mods/VillagerTradeFix/index.md
     - VillagerQuests:
       - mods/VillagerQuests/index.md
     - VoidZ:

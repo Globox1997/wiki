@@ -26,11 +26,11 @@ summary: adventurez entity wither puppet
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">Only summoned by the <a href="wiki/mods/AdventureZ/Entities/Necromancer">Necromancer</a></td>
+            <td class="second-column">Only summoned by the <a href="/wiki/mods/AdventureZ/Entities/Necromancer">Necromancer</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>
-            <td class="second-column icon-element" icon-count="5" icon-id="experience" icon-exclusive></td>
+            <td class="second-column icon-element" icon-count="0" icon-id="experience" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Behavior</td>

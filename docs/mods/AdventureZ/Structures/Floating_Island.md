@@ -28,7 +28,7 @@ summary: adventurez structure floating island
 
 ## Description
 The floating island is a [structure](https://minecraft.wiki/w/Structure) which will generate on death of [the eye](/wiki/mods/AdventureZ/Entities/The_Eye).  
-If [VoidZ](https://www.curseforge.com/minecraft/mc-mods/voidz) mod is installed, the structure will have a portal block generated instead of a [dragon egg](https://minecraft.wiki/w/Dragon_Egg) which will lead to the another [dimension](https://minecraft.wiki/w/Dimension) where the [player](https://minecraft.wiki/w/Player) can encounter the [void shadow](/wiki/mods/AdventureZ/Entities/Void_Shadow).
+If [VoidZ](/wiki/mods/VoidZ/) mod is installed, the structure will have a portal block generated instead of a [dragon egg](https://minecraft.wiki/w/Dragon_Egg) which will lead to the another [dimension](https://minecraft.wiki/w/Dimension) where the [player](https://minecraft.wiki/w/Player) can encounter the [void shadow](/wiki/mods/AdventureZ/Entities/Void_Shadow).
 
 ## Generation
 The [structure](https://minecraft.wiki/w/Structure) will only generate on death of [the eye](/wiki/mods/AdventureZ/Entities/The_Eye).  

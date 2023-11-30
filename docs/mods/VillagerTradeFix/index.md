@@ -1,15 +1,15 @@
 ---
-title: VillagerFix
-project: villagerfix
-summary: villagerfix wiki
+title: VillagerTradeFix
+project: villagertradefix
+summary: villagertradefix wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="villagerfix"></script>
+<script src="/wiki/javascripts/sidebar.js" id="villagertradefix"></script>
 
-![VillagerFix Banner](/wiki/assets/general/banner/villagerfixbanner.png)
+![VillagerTradeFix Banner](/wiki/assets/general/banner/villagertradefixbanner.png)
 
 <!-- ---
-<div id="showcase-gallery" modid="villagerfix" image_1="villagerfix_image_1" image_2="villagerfix_image_2" image_3="villagerfix_image_3"></div>
+<div id="showcase-gallery" modid="villagertradefix" image_1="villagertradefix_image_1" image_2="villagertradefix_image_2" image_3="villagertradefix_image_3"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
 --- -->
 
