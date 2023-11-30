@@ -1,5 +1,7 @@
 var informationMap = new Map();
 
+const githubNames = ["Globox1997", "GitPois1x", "xR4YM0ND"];
+
 fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
     headers: {
         'User-Agent': 'Globox1997/Globox_Z Wiki'
