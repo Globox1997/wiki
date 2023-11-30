@@ -130,6 +130,7 @@ async function sidebar() {
 
         updated.classList.add('sidebar');
         updated.textContent = repositoryData['updated_at'];
+        updated.style.textAlign = 'left'
 
         updatedDate.appendChild(updatedText);
         updatedDate.appendChild(updated);
