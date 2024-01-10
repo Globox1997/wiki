@@ -1,1 +1,602 @@
-{"inmisaddon":{"title":"InmisAddon","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Optional","created_at":"August 31, 2022","updated_at":"September 16, 2023","open_issues":3,"forks":1,"stargazers_count":2,"license":"MIT"},"adventurez":{"title":"AdventureZ","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"June 21, 2020","updated_at":"September 2, 2023","open_issues":5,"forks":23,"stargazers_count":31,"license":"GPL-3.0"},"libz":{"title":"LibZ","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"March 21, 2023","updated_at":"November 3, 2023","open_issues":1,"forks":0,"stargazers_count":2,"license":"MIT"},"talkbubbles":{"title":"TalkBubbles","game_versions":["1.19.2","1.19.4","1.20","1.20.1"],"client_side":"Required","server_side":"Optional","created_at":"September 28, 2021","updated_at":"November 17, 2023","open_issues":8,"forks":6,"stargazers_count":9,"license":"MIT"},"levelz":{"title":"LevelZ","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"July 28, 2021","updated_at":"September 27, 2023","open_issues":88,"forks":42,"stargazers_count":39,"license":"GPL-3.0"},"voidz":{"title":"VoidZ","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"March 22, 2021","updated_at":"June 8, 2023","open_issues":4,"forks":1,"stargazers_count":0,"license":"GPL-3.0"},"dungeonz":{"title":"DungeonZ","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"April 4, 2023","updated_at":"October 18, 2023","open_issues":4,"forks":1,"stargazers_count":3,"license":"MIT"},"backslot":{"title":"BackSlot","game_versions":["1.19.2","1.19.4","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"September 15, 2020","updated_at":"September 25, 2023","open_issues":8,"forks":11,"stargazers_count":7,"license":"GPL-3.0"},"dehydration":{"title":"Dehydration","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"October 1, 2020","updated_at":"November 29, 2023","open_issues":12,"forks":16,"stargazers_count":15,"license":"GPL-3.0"},"backslotaddon":{"title":"BackSlotAddon","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"July 22, 2021","updated_at":"June 9, 2023","open_issues":1,"forks":3,"stargazers_count":2,"license":"GPL-3.0"},"patchoulibutton":{"title":"PatchouliButton","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"November 15, 2022","updated_at":"July 21, 2023","open_issues":0,"forks":3,"stargazers_count":4,"license":"MIT"},"jobsaddon":{"title":"JobsAddon","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"September 8, 2022","updated_at":"June 9, 2023","open_issues":3,"forks":4,"stargazers_count":2,"license":"GPL-3.0"},"partyaddon":{"title":"PartyAddon","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"May 16, 2023","updated_at":"June 9, 2023","open_issues":3,"forks":0,"stargazers_count":0,"license":"GPL-3.0"},"rpgdifficulty":{"title":"RpgDifficulty","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"May 10, 2021","updated_at":"June 15, 2023","open_issues":14,"forks":6,"stargazers_count":2,"license":"MIT"},"medievalweapons":{"title":"MedievalWeapons","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"October 4, 2020","updated_at":"September 2, 2023","open_issues":8,"forks":13,"stargazers_count":7,"license":"MIT"},"fleshz":{"title":"FleshZ","game_versions":["1.19.2","1.19.4","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"March 20, 2020","updated_at":"June 10, 2023","open_issues":1,"forks":0,"stargazers_count":2,"license":"MIT"},"nameplate":{"title":"Nameplate","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"December 2, 2021","updated_at":"June 9, 2023","open_issues":4,"forks":2,"stargazers_count":0,"license":"MIT"},"revive":{"title":"Revive","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"October 1, 2021","updated_at":"June 12, 2023","open_issues":2,"forks":3,"stargazers_count":4,"license":"MIT"},"tieredz":{"title":"TieredZ","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"April 21, 2022","updated_at":"August 4, 2023","open_issues":13,"forks":8,"stargazers_count":0,"license":"MIT"},"herdspanic":{"title":"HerdsPanic","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"December 21, 2020","updated_at":"June 30, 2023","open_issues":5,"forks":0,"stargazers_count":4,"license":"MIT"},"dragonloot":{"title":"DragonLoot","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Required"},"additionz":{"title":"AdditionZ","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"June 13, 2022","updated_at":"August 14, 2023","open_issues":2,"forks":0,"stargazers_count":2,"license":"MIT"},"aged":{"title":"Aged","game_versions":["1.19.2"],"client_side":"Required","server_side":"Required"},"environmentz":{"title":"EnvironmentZ","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"September 27, 2020","updated_at":"September 18, 2023","open_issues":10,"forks":13,"stargazers_count":9,"license":"GPL-3.0"},"reciperemover":{"title":"RecipeRemover","game_versions":["1.19.2","1.19.3","1.20","1.20.1"],"client_side":"Optional","server_side":"Required","created_at":"September 1, 2022","updated_at":"June 10, 2023","open_issues":2,"forks":0,"stargazers_count":0,"license":"MIT"},"spoiledz":{"title":"SpoiledZ","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"March 6, 2023","updated_at":"July 21, 2023","open_issues":6,"forks":1,"stargazers_count":3,"license":"MIT"},"earlystage":{"title":"EarlyStage","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"December 13, 2022","updated_at":"June 10, 2023","open_issues":3,"forks":2,"stargazers_count":1,"license":"MIT"},"villagertradefix":{"title":"VillagerTradeFix","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"July 24, 2021","updated_at":"June 12, 2023","open_issues":2,"forks":2,"stargazers_count":1,"license":"MIT"},"numismaticclaim":{"title":"NumismaticClaim","game_versions":["1.19.2","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"October 25, 2022","updated_at":"June 19, 2023","open_issues":0,"forks":3,"stargazers_count":2,"license":"MIT"},"rpgz":{"title":"RpgZ","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"September 20, 2020","updated_at":"July 18, 2023","open_issues":15,"forks":2,"stargazers_count":1,"license":"GPL-3.0"},"eventmod":{"title":"EventMod","game_versions":["1.19.2"],"client_side":"Required","server_side":"Required"},"tooltiprareness":{"title":"TooltipRareness","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Optional","created_at":"April 16, 2021","updated_at":"June 10, 2023","open_issues":4,"forks":1,"stargazers_count":3,"license":"MIT"},"dualwielding":{"title":"DualWielding","game_versions":["1.19.2","1.20","1.20.1"],"client_side":"Required","server_side":"Required","created_at":"May 10, 2021","updated_at":"June 10, 2023","open_issues":6,"forks":1,"stargazers_count":1,"license":"MIT"},"travelerz":{"title":"TravelerZ","game_versions":["1.20.1"],"client_side":"Required","server_side":"Required","created_at":"August 30, 2023","updated_at":"August 30, 2023","open_issues":2,"forks":0,"stargazers_count":0,"license":"MIT"},"villagerquests":{"title":"VillagerQuests","game_versions":["1.19.2"],"client_side":"Required","server_side":"Required","created_at":"September 17, 2021","updated_at":"September 20, 2023","open_issues":26,"forks":7,"stargazers_count":3,"license":"MIT"},"fireplacemode":{"title":"FireplaceMode","game_versions":["1.19.2","1.20"],"client_side":"Required","server_side":"Required","created_at":"May 11, 2021","updated_at":"June 12, 2023","open_issues":0,"forks":0,"stargazers_count":0,"license":"MIT"},"medievalmusic":{"title":"MedievalMusic","game_versions":["1.19","1.19.1","1.19.2","1.19.3","1.20","1.20.1"],"client_side":"Required","server_side":"Unsupported"},"welcomescreen":{"title":"WelcomeScreen","game_versions":["1.20.1"],"client_side":"Required","server_side":"Required","created_at":"September 1, 2023","updated_at":"September 2, 2023","open_issues":1,"forks":0,"stargazers_count":1,"license":"MIT"},"rewardz":{"title":"RewardZ","game_versions":["1.20.1"],"client_side":"Required","server_side":"Required","created_at":"September 1, 2023","updated_at":"September 1, 2023","open_issues":0,"forks":0,"stargazers_count":0,"license":"MIT"},"extendeddrawersaddon":{"title":"ExtendedDrawersAddon","game_versions":["1.20.1"],"client_side":"Required","server_side":"Required","created_at":"November 11, 2023","updated_at":"November 11, 2023","open_issues":2,"forks":1,"stargazers_count":0,"license":"MIT"}}
+{
+    "inmisaddon": {
+        "title": "InmisAddon",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Optional",
+        "created_at": "August 31, 2022",
+        "updated_at": "September 16, 2023",
+        "open_issues": 3,
+        "forks": 1,
+        "stargazers_count": 2,
+        "license": "MIT"
+    },
+    "adventurez": {
+        "title": "AdventureZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "June 21, 2020",
+        "updated_at": "September 2, 2023",
+        "open_issues": 5,
+        "forks": 23,
+        "stargazers_count": 31,
+        "license": "GPL-3.0"
+    },
+    "libz": {
+        "title": "LibZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "March 21, 2023",
+        "updated_at": "November 3, 2023",
+        "open_issues": 1,
+        "forks": 0,
+        "stargazers_count": 2,
+        "license": "MIT"
+    },
+    "talkbubbles": {
+        "title": "TalkBubbles",
+        "game_versions": [
+            "1.19.2",
+            "1.19.4",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Optional",
+        "created_at": "September 28, 2021",
+        "updated_at": "November 17, 2023",
+        "open_issues": 8,
+        "forks": 6,
+        "stargazers_count": 9,
+        "license": "MIT"
+    },
+    "levelz": {
+        "title": "LevelZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "July 28, 2021",
+        "updated_at": "September 27, 2023",
+        "open_issues": 88,
+        "forks": 42,
+        "stargazers_count": 39,
+        "license": "GPL-3.0"
+    },
+    "voidz": {
+        "title": "VoidZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "March 22, 2021",
+        "updated_at": "June 8, 2023",
+        "open_issues": 4,
+        "forks": 1,
+        "stargazers_count": 0,
+        "license": "GPL-3.0"
+    },
+    "dungeonz": {
+        "title": "DungeonZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "April 4, 2023",
+        "updated_at": "October 18, 2023",
+        "open_issues": 4,
+        "forks": 1,
+        "stargazers_count": 3,
+        "license": "MIT"
+    },
+    "backslot": {
+        "title": "BackSlot",
+        "game_versions": [
+            "1.19.2",
+            "1.19.4",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "September 15, 2020",
+        "updated_at": "September 25, 2023",
+        "open_issues": 8,
+        "forks": 11,
+        "stargazers_count": 7,
+        "license": "GPL-3.0"
+    },
+    "dehydration": {
+        "title": "Dehydration",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "October 1, 2020",
+        "updated_at": "November 29, 2023",
+        "open_issues": 12,
+        "forks": 16,
+        "stargazers_count": 15,
+        "license": "GPL-3.0"
+    },
+    "backslotaddon": {
+        "title": "BackSlotAddon",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "July 22, 2021",
+        "updated_at": "June 9, 2023",
+        "open_issues": 1,
+        "forks": 3,
+        "stargazers_count": 2,
+        "license": "GPL-3.0"
+    },
+    "patchoulibutton": {
+        "title": "PatchouliButton",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "November 15, 2022",
+        "updated_at": "July 21, 2023",
+        "open_issues": 0,
+        "forks": 3,
+        "stargazers_count": 4,
+        "license": "MIT"
+    },
+    "jobsaddon": {
+        "title": "JobsAddon",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "September 8, 2022",
+        "updated_at": "June 9, 2023",
+        "open_issues": 3,
+        "forks": 4,
+        "stargazers_count": 2,
+        "license": "GPL-3.0"
+    },
+    "partyaddon": {
+        "title": "PartyAddon",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "May 16, 2023",
+        "updated_at": "June 9, 2023",
+        "open_issues": 3,
+        "forks": 0,
+        "stargazers_count": 0,
+        "license": "GPL-3.0"
+    },
+    "rpgdifficulty": {
+        "title": "RpgDifficulty",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "May 10, 2021",
+        "updated_at": "June 15, 2023",
+        "open_issues": 14,
+        "forks": 6,
+        "stargazers_count": 2,
+        "license": "MIT"
+    },
+    "medievalweapons": {
+        "title": "MedievalWeapons",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "October 4, 2020",
+        "updated_at": "September 2, 2023",
+        "open_issues": 8,
+        "forks": 13,
+        "stargazers_count": 7,
+        "license": "MIT"
+    },
+    "fleshz": {
+        "title": "FleshZ",
+        "game_versions": [
+            "1.19.2",
+            "1.19.4",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "March 20, 2020",
+        "updated_at": "June 10, 2023",
+        "open_issues": 1,
+        "forks": 0,
+        "stargazers_count": 2,
+        "license": "MIT"
+    },
+    "nameplate": {
+        "title": "Nameplate",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "December 2, 2021",
+        "updated_at": "June 9, 2023",
+        "open_issues": 4,
+        "forks": 2,
+        "stargazers_count": 0,
+        "license": "MIT"
+    },
+    "revive": {
+        "title": "Revive",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "October 1, 2021",
+        "updated_at": "June 12, 2023",
+        "open_issues": 2,
+        "forks": 3,
+        "stargazers_count": 4,
+        "license": "MIT"
+    },
+    "tieredz": {
+        "title": "TieredZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "April 21, 2022",
+        "updated_at": "August 4, 2023",
+        "open_issues": 13,
+        "forks": 8,
+        "stargazers_count": 0,
+        "license": "MIT"
+    },
+    "herdspanic": {
+        "title": "HerdsPanic",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "December 21, 2020",
+        "updated_at": "June 30, 2023",
+        "open_issues": 5,
+        "forks": 0,
+        "stargazers_count": 4,
+        "license": "MIT"
+    },
+    "dragonloot": {
+        "title": "DragonLoot",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required"
+    },
+    "additionz": {
+        "title": "AdditionZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "June 13, 2022",
+        "updated_at": "August 14, 2023",
+        "open_issues": 2,
+        "forks": 0,
+        "stargazers_count": 2,
+        "license": "MIT"
+    },
+    "aged": {
+        "title": "Aged",
+        "game_versions": [
+            "1.19.2"
+        ],
+        "client_side": "Required",
+        "server_side": "Required"
+    },
+    "environmentz": {
+        "title": "EnvironmentZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "September 27, 2020",
+        "updated_at": "September 18, 2023",
+        "open_issues": 10,
+        "forks": 13,
+        "stargazers_count": 9,
+        "license": "GPL-3.0"
+    },
+    "reciperemover": {
+        "title": "RecipeRemover",
+        "game_versions": [
+            "1.19.2",
+            "1.19.3",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Optional",
+        "server_side": "Required",
+        "created_at": "September 1, 2022",
+        "updated_at": "June 10, 2023",
+        "open_issues": 2,
+        "forks": 0,
+        "stargazers_count": 0,
+        "license": "MIT"
+    },
+    "spoiledz": {
+        "title": "SpoiledZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "March 6, 2023",
+        "updated_at": "July 21, 2023",
+        "open_issues": 6,
+        "forks": 1,
+        "stargazers_count": 3,
+        "license": "MIT"
+    },
+    "earlystage": {
+        "title": "EarlyStage",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "December 13, 2022",
+        "updated_at": "June 10, 2023",
+        "open_issues": 3,
+        "forks": 2,
+        "stargazers_count": 1,
+        "license": "MIT"
+    },
+    "villagertradefix": {
+        "title": "VillagerTradeFix",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "July 24, 2021",
+        "updated_at": "June 12, 2023",
+        "open_issues": 2,
+        "forks": 2,
+        "stargazers_count": 1,
+        "license": "MIT"
+    },
+    "numismaticclaim": {
+        "title": "NumismaticClaim",
+        "game_versions": [
+            "1.19.2",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "October 25, 2022",
+        "updated_at": "June 19, 2023",
+        "open_issues": 0,
+        "forks": 3,
+        "stargazers_count": 2,
+        "license": "MIT"
+    },
+    "rpgz": {
+        "title": "RpgZ",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "September 20, 2020",
+        "updated_at": "July 18, 2023",
+        "open_issues": 15,
+        "forks": 2,
+        "stargazers_count": 1,
+        "license": "GPL-3.0"
+    },
+    "eventmod": {
+        "title": "EventMod",
+        "game_versions": [
+            "1.19.2"
+        ],
+        "client_side": "Required",
+        "server_side": "Required"
+    },
+    "tooltiprareness": {
+        "title": "TooltipRareness",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Optional",
+        "created_at": "April 16, 2021",
+        "updated_at": "June 10, 2023",
+        "open_issues": 4,
+        "forks": 1,
+        "stargazers_count": 3,
+        "license": "MIT"
+    },
+    "dualwielding": {
+        "title": "DualWielding",
+        "game_versions": [
+            "1.19.2",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "May 10, 2021",
+        "updated_at": "June 10, 2023",
+        "open_issues": 6,
+        "forks": 1,
+        "stargazers_count": 1,
+        "license": "MIT"
+    },
+    "travelerz": {
+        "title": "TravelerZ",
+        "game_versions": [
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "August 30, 2023",
+        "updated_at": "August 30, 2023",
+        "open_issues": 2,
+        "forks": 0,
+        "stargazers_count": 0,
+        "license": "MIT"
+    },
+    "villagerquests": {
+        "title": "VillagerQuests",
+        "game_versions": [
+            "1.19.2"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "September 17, 2021",
+        "updated_at": "September 20, 2023",
+        "open_issues": 26,
+        "forks": 7,
+        "stargazers_count": 3,
+        "license": "MIT"
+    },
+    "fireplacemode": {
+        "title": "FireplaceMode",
+        "game_versions": [
+            "1.19.2",
+            "1.20"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "May 11, 2021",
+        "updated_at": "June 12, 2023",
+        "open_issues": 0,
+        "forks": 0,
+        "stargazers_count": 0,
+        "license": "MIT"
+    },
+    "medievalmusic": {
+        "title": "MedievalMusic",
+        "game_versions": [
+            "1.19",
+            "1.19.1",
+            "1.19.2",
+            "1.19.3",
+            "1.20",
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Unsupported"
+    },
+    "welcomescreen": {
+        "title": "WelcomeScreen",
+        "game_versions": [
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "September 1, 2023",
+        "updated_at": "September 2, 2023",
+        "open_issues": 1,
+        "forks": 0,
+        "stargazers_count": 1,
+        "license": "MIT"
+    },
+    "rewardz": {
+        "title": "RewardZ",
+        "game_versions": [
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "September 1, 2023",
+        "updated_at": "September 1, 2023",
+        "open_issues": 0,
+        "forks": 0,
+        "stargazers_count": 0,
+        "license": "MIT"
+    },
+    "extendeddrawersaddon": {
+        "title": "ExtendedDrawersAddon",
+        "game_versions": [
+            "1.20.1"
+        ],
+        "client_side": "Required",
+        "server_side": "Required",
+        "created_at": "November 11, 2023",
+        "updated_at": "November 11, 2023",
+        "open_issues": 2,
+        "forks": 1,
+        "stargazers_count": 0,
+        "license": "MIT"
+    }
+}
