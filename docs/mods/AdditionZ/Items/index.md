@@ -10,7 +10,7 @@
 
 *If an [item](https://minecraft.wiki/w/Item) that does not become a [block](https://minecraft.wiki/w/Block) is dropped, it becomes an [entity](https://minecraft.wiki/w/Entity) represented by a sprite that floats above the ground for 5 minutes in a loaded [chunk](https://minecraft.wiki/w/Chunk) before despawning, unless the [player](https://minecraft.wiki/w/Player) walks over it to pick it up before it despawns, it is picked up by a [mob](https://minecraft.wiki/w/Mob), [hopper](https://minecraft.wiki/w/Hopper) or [minecart with hopper](https://minecraft.wiki/w/Minecart_with_Hopper), or it is destroyed by [fire](https://minecraft.wiki/w/Fire), [lava](https://minecraft.wiki/w/Lava), [cactus](https://minecraft.wiki/w/Cactus), or [explosions](https://minecraft.wiki/w/Explosion).*
 
-*A submerged object ascends towards the ([water](https://minecraft.wiki/w/Water)’s edge. When the surface current is in motion, the object is propelled along with it.*
+*A submerged object ascends towards the [water](https://minecraft.wiki/w/Water)’s edge. When the surface current is in motion, the object is propelled along with it.*
 
 *[Hoppers](https://minecraft.wiki/w/Hopper) draw in any [items](https://minecraft.wiki/w/Item) that are placed above them.*
 
