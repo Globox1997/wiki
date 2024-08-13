@@ -46,8 +46,6 @@ extra:
       link: https://github.com/Globox1997
     - icon: fontawesome/brands/discord
       link: https://discord.gg/cV4cJyGXqF
-    - icon: fontawesome/brands/patreon
-      link: https://www.patreon.com/globox_z
   analytics:
     provider: google
     property: G-PBXPTBWXFR
