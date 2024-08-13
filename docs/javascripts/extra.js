@@ -1,4 +1,4 @@
-if (window.location.pathname.includes('Entities') || window.location.pathname.includes('Items')) {
+if (window.location.pathname.includes('Entities') || window.location.pathname.includes('Items') || window.location.pathname.includes('Effects')) {
     window.addEventListener('DOMContentLoaded', () => {
         icon();
     });
