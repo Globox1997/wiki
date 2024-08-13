@@ -316,6 +316,29 @@ nav:
       - mods/BackSlotAddon/index.md
     - Dehydration:
       - mods/Dehydration/index.md
+      - Blocks:
+        - mods/Dehydration/Blocks/index.md
+        - mods/Dehydration/Blocks/Bamboo_Pump.md
+        - mods/Dehydration/Blocks/Campfire_Cauldron.md
+        - mods/Dehydration/Blocks/Copper_Cauldron.md
+        - mods/Dehydration/Blocks/Purified_Water.md
+      - Effects:
+        - mods/Dehydration/Effects/index.md
+        - mods/Dehydration/Effects/Hydration.md
+        - mods/Dehydration/Effects/Thirst.md
+      - Items:
+        - mods/Dehydration/Items/index.md
+        - mods/Dehydration/Items/Handbook.md
+        - mods/Dehydration/Items/Leather_Flask.md
+        - mods/Dehydration/Items/Iron_Leather_Flask.md
+        - mods/Dehydration/Items/Golden_Leather_Flask.md
+        - mods/Dehydration/Items/Diamond_Leather_Flask.md
+        - mods/Dehydration/Items/Netherite_Leather_Flask.md
+        - mods/Dehydration/Items/Purified_Water_Bowl.md
+        - mods/Dehydration/Items/Purified_Water_Bucket.md
+        - mods/Dehydration/Items/Water_Bowl.md
+      - Mechanic:
+        - mods/Dehydration/Mechanic/index.md
     - DragonLoot:
       - mods/DragonLoot/index.md
     - DualWielding:

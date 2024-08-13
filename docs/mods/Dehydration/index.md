@@ -14,16 +14,14 @@ summary: dehydration wiki
 ---
 
 # Description
-Dehydration adds thirst to [Minecraft](https://www.minecraft.net/en-us). Just like [food](https://minecraft.wiki/w/Food), you'll need to stay hydrated to survive and thrive.  
+Dehydration adds [hydration](/wiki/mods/Dehydration/Mechanic/index) to [Minecraft](https://www.minecraft.net/en-us). Just like [food](https://minecraft.wiki/w/Food), you'll need to stay [hydrated](/wiki/mods/Dehydration/Mechanic/index) to survive and thrive.
 For an easier start, use the [bonus chest](https://minecraft.wiki/w/Bonus_Chest) on [world generation](https://minecraft.wiki/w/Seed_(level_generation)).  
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/Dehydration/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/Dehydration/Entities/#list-of-entities)
+- [Block List](/wiki/mods/Dehydration/Blocks/#list-of-blocks)
+- [Effect List](/wiki/mods/Dehydration/Effects/#list-of-effects)
 - [Item List](/wiki/mods/Dehydration/Items/#list-of-items)
-- [Structure List](/wiki/mods/Dehydration/Structures/#list-of-structures) -->
   
 ---
 ## Misc
