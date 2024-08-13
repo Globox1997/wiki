@@ -1,4 +1,4 @@
-if (window.location.pathname.includes('Entities') || window.location.pathname.includes('Items')) {
+if (window.location.pathname.includes('Entities') || window.location.pathname.includes('Items') || window.location.pathname.includes('Effects')) {
     window.addEventListener('DOMContentLoaded', () => {
         icon();
     });
@@ -18,65 +18,69 @@ if (window.location.pathname.includes('Structures')) {
 }
 
 function table() {
-    if (document.getElementById('crafting-table') != null) {
-        const tableContainer = document.getElementById('crafting-table');
+    let elements = document.querySelectorAll("#crafting-table");
 
-        const table = document.createElement('table');
-        const headerRow = document.createElement("tr");
+    elements.forEach((element) => {
+        if (element != null) {
+            const tableContainer = element;
 
-        const ingredientCell = document.createElement("th");
-        ingredientCell.textContent = "Ingredients";
-        ingredientCell.style.textAlign = "center";
-        const recipeCell = document.createElement("th");
-        recipeCell.textContent = "Recipe";
-        recipeCell.style.textAlign = "center";
-        const descriptionCell = document.createElement("th");
-        descriptionCell.textContent = "Description";
-        descriptionCell.style.textAlign = "center";
+            const table = document.createElement('table');
+            const headerRow = document.createElement('tr');
 
-        headerRow.appendChild(ingredientCell);
-        headerRow.appendChild(recipeCell);
-        headerRow.appendChild(descriptionCell);
+            const ingredientCell = document.createElement('th');
+            ingredientCell.textContent = "Ingredients";
+            ingredientCell.style.textAlign = "center";
+            const recipeCell = document.createElement('th');
+            recipeCell.textContent = "Recipe";
+            recipeCell.style.textAlign = "center";
+            const descriptionCell = document.createElement('th');
+            descriptionCell.textContent = "Description";
+            descriptionCell.style.textAlign = "center";
 
-        table.appendChild(headerRow);
+            headerRow.appendChild(ingredientCell);
+            headerRow.appendChild(recipeCell);
+            headerRow.appendChild(descriptionCell);
 
-        const elements = document.getElementsByClassName('crafting-element');
-        for (let k = 0; k < elements.length; k++) {
-            const element = elements[k];
-            const dataRow = document.createElement("tr");
+            table.appendChild(headerRow);
+            const elements = element.getElementsByClassName('crafting-element');
+            for (let k = 0; k < elements.length; k++) {
+                const element = elements[k];
+                const dataRow = document.createElement('tr');
 
-            for (let j = 0; j < 3; j++) {
-                const dataCell = document.createElement("td");
-                dataCell.style.verticalAlign = "middle";
-                if (j === 0) {
-                    for (let o = 0; o < element.data.length; o += 2) {
-                        if (o > 0) {
-                            var plusSpan = document.createElement("span");
-                            plusSpan.textContent = " + ";
-                            dataCell.appendChild(plusSpan);
-                            var lineBreak = document.createElement("br");
-                            dataCell.appendChild(lineBreak);
+                for (let j = 0; j < 3; j++) {
+                    const dataCell = document.createElement('td');
+                    dataCell.style.verticalAlign = "middle";
+                    if (j === 0) {
+                        for (let o = 0; o < element.data.length; o += 2) {
+                            if (o > 0) {
+                                var plusSpan = document.createElement("span");
+                                plusSpan.textContent = " + ";
+                                dataCell.appendChild(plusSpan);
+                                var lineBreak = document.createElement('br');
+                                dataCell.appendChild(lineBreak);
+                            }
+                            var linkElement = document.createElement('a');
+                            linkElement.href = element.data[o + 1];
+                            linkElement.textContent = element.data[o];
+
+                            dataCell.appendChild(linkElement);
                         }
-                        var linkElement = document.createElement("a");
-                        linkElement.href = element.data[o + 1];
-                        linkElement.textContent = element.data[o];
-
-                        dataCell.appendChild(linkElement);
+                    } else if (j === 1) {
+                        element.style.display = "contents";
+                        dataCell.appendChild(element);
+                        k--;
+                    } else {
+                        dataCell.textContent = element.description;
                     }
-                } else if (j === 1) {
-                    element.style.display = "contents";
-                    dataCell.appendChild(element);
-                    k--;
-                } else {
-                    dataCell.textContent = element.description;
+                    dataRow.appendChild(dataCell);
                 }
-                dataRow.appendChild(dataCell);
+                table.appendChild(dataRow);
             }
-            table.appendChild(dataRow);
-        }
 
-        tableContainer.appendChild(table);
-    }
+            tableContainer.appendChild(table);
+        }
+    });
+
 }
 
 // vanilla_crafting; smithing; furnace_smelting; anvil; fletching; brewing; stonecutting;
