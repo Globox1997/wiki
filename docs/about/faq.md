@@ -132,10 +132,16 @@ Write us on discord if you have any suggestions for what to add to this faq.
 ## PartyAddon
 
 ## PatchouliButton
+> How to access and view all the books?  
+*Check out the inventory, there is a new button to click on*
 
 ## RecipeRemover
+> How do I remove recipes?  
+*Add the recipe id to the list inside the recipe remover config, accessible via [mod menu](https://modrinth.com/mod/modmenu). Recipe id and item id can differ!*
 
 ## Revive
+> I can not revive my friend with a normal potion, do I need a splash potion?  
+*You have to right click the hitbox of your friend with the normal potion*
 
 ## RewardZ
 > How do I create and add my own rewards?  
@@ -150,6 +156,8 @@ Write us on discord if you have any suggestions for what to add to this faq.
 *Disable the "timeFactor" & "increasingTime" ( set both to 0.0, )*
 
 ## RpgZ
+> I can not open the corpse loot?  
+*You have to click on the hitbox which might not align with the rendered mob model*
 
 ## SmitherZ
 
