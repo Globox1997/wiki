@@ -15,16 +15,13 @@ summary: voidz wiki
 
 # Description
 VoidZ is an addon for the [AdventureZ](/wiki/mods/AdventureZ/) mod.  
-It adds a new [dimension](https://minecraft.wiki/w/Dimension) where you will find and fight the [Void Shadow](/wiki/mods/AdventureZ/Entities/Void_Shadow).  
+It adds a new [void dimension](/wiki/mods/VoidZ/Dimension/) where you will find and fight the [Void Shadow](/wiki/mods/AdventureZ/Entities/Void_Shadow).  
 It's an addon to make sure that [AdventureZ](/wiki/mods/AdventureZ/) can get updated without depending on the fabric dimension api.
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/voidz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/voidz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/voidz/Items/#list-of-items)
-- [Structure List](/wiki/mods/voidz/Structures/#list-of-structures) -->
+- [Block List](/wiki/mods/VoidZ/Blocks/#list-of-blocks)
+- [Dimension](/wiki/mods/VoidZ/Dimension/)
   
 ---
 ## Misc

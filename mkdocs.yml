@@ -405,6 +405,13 @@ nav:
       - mods/VillagerQuests/index.md
     - VoidZ:
       - mods/VoidZ/index.md
+      - Blocks:
+        - mods/VoidZ/Blocks/index.md
+        - mods/VoidZ/Blocks/Infested_Void_Stone.md
+        - mods/VoidZ/Blocks/Void_Portal.md
+        - mods/VoidZ/Blocks/Void_Stone.md
+      - Dimension:
+        - mods/VoidZ/Dimension/index.md
     - WelcomeScreen:
       - mods/WelcomeScreen/index.md
   - About:
