@@ -22,6 +22,7 @@ For an easier start, use the [bonus chest](https://minecraft.wiki/w/Bonus_Chest)
 - [Block List](/wiki/mods/Dehydration/Blocks/#list-of-blocks)
 - [Effect List](/wiki/mods/Dehydration/Effects/#list-of-effects)
 - [Item List](/wiki/mods/Dehydration/Items/#list-of-items)
+- [Hydration](/wiki/mods/Dehydration/Mechanic/)
   
 ---
 ## Misc
