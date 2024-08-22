@@ -14,7 +14,7 @@ summary: dehydration wiki
 ---
 
 # Description
-Dehydration adds [hydration](/wiki/mods/Dehydration/Mechanic/index) to [Minecraft](https://www.minecraft.net/en-us). Just like [food](https://minecraft.wiki/w/Food), you'll need to stay [hydrated](/wiki/mods/Dehydration/Mechanic/index) to survive and thrive.
+Dehydration adds [hydration](/wiki/mods/Dehydration/Mechanic/) to [Minecraft](https://www.minecraft.net/en-us). Just like [food](https://minecraft.wiki/w/Food), you'll need to stay [hydrated](/wiki/mods/Dehydration/Mechanic/) to survive and thrive.
 For an easier start, use the [bonus chest](https://minecraft.wiki/w/Bonus_Chest) on [world generation](https://minecraft.wiki/w/Seed_(level_generation)).  
 
 ---

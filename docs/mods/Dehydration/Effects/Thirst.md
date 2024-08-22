@@ -31,7 +31,7 @@ summary: dehydration effect thirst
 </div>
 
 ## Description
-Thirst is a [status effect](https://minecraft.wiki/w/Effect) which causes the [players](https://minecraft.wiki/w/Player) [hydration](/wiki/mods/Dehydration/Mechanic/index) to deplete faster than normal.
+Thirst is a [status effect](https://minecraft.wiki/w/Effect) which causes the [players](https://minecraft.wiki/w/Player) [hydration](/wiki/mods/Dehydration/Mechanic/) to deplete faster than normal.
 
 ## Effect
-Thirst increases [hydration](/wiki/mods/Dehydration/Mechanic/index) exhaustion by 0.05 × level per game tick. It also turns the [hydration](/wiki/mods/Dehydration/Mechanic/index) bar a yellow-green color.
+Thirst increases [hydration](/wiki/mods/Dehydration/Mechanic/) exhaustion by 0.05 × level per game tick. It also turns the [hydration](/wiki/mods/Dehydration/Mechanic/) bar a yellow-green color.

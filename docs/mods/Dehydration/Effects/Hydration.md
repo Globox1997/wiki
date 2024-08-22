@@ -31,7 +31,7 @@ summary: dehydration effect hydration
 </div>
 
 ## Description
-Hydration is a [status effect](https://minecraft.wiki/w/Effect) which causes the [players](https://minecraft.wiki/w/Player) [hydration](/wiki/mods/Dehydration/Mechanic/index) to fill up.
+Hydration is a [status effect](https://minecraft.wiki/w/Effect) which causes the [players](https://minecraft.wiki/w/Player) [hydration](/wiki/mods/Dehydration/Mechanic/) to fill up.
 
 ## Effect
 The hydration effect replenishes <span class="icon-element" icon-count="1" icon-id="thirst"></span> × level of hydration.

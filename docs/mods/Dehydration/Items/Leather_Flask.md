@@ -29,7 +29,7 @@ summary: dehydration item leather flask
             <td class="second-column">No</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="/wiki/mods/Dehydration/Mechanic/index" target="_blank">Restores</a></td>
+            <td class="first-column"><a href="/wiki/mods/Dehydration/Mechanic/" target="_blank">Restores</a></td>
             <td class="second-column icon-element" icon-count="4" icon-id="thirst"></td>
         </tr>
     </tbody>
@@ -39,7 +39,7 @@ summary: dehydration item leather flask
 </div>
 
 ## Description
-A leather flask is an [item](https://minecraft.wiki/w/Item) that can hold [water](https://minecraft.wiki/w/Water) and [purified water](/wiki/mods/Dehydration/Blocks/Purified_Water). It can hold up to <span class="icon-element" icon-count="8" icon-id="thirst"></span> [hydration](/wiki/mods/Dehydration/Mechanic/index).
+A leather flask is an [item](https://minecraft.wiki/w/Item) that can hold [water](https://minecraft.wiki/w/Water) and [purified water](/wiki/mods/Dehydration/Blocks/Purified_Water). It can hold up to <span class="icon-element" icon-count="8" icon-id="thirst"></span> [hydration](/wiki/mods/Dehydration/Mechanic/).
 
 ## Obtaining
 #### Crafting
@@ -59,7 +59,7 @@ output[dehydration:leather_flask, Leather Flask ]
 ## Usage
 The leather flask can be filled at the [copper cauldron](/wiki/mods/Dehydration/Blocks/Copper_Cauldron), [campfire cauldron](/wiki/mods/Dehydration/Blocks/Campfire_Cauldron) and on [purified water](/wiki/mods/Dehydration/Blocks/Purified_Water) and [water](https://minecraft.wiki/w/Water).
 
-There are three grades of water purity: purified, impurified and dirty. While drinking purified water just increases [hydration](/wiki/mods/Dehydration/Mechanic/index) of the player, impurified water has a 37.5% chance of inflicting water poisoning ([thirst](/wiki/mods/Dehydration/Effects/Thirst) for 25 seconds) and dirty water has a 75% chance of inflicint water poisoning.
+There are three grades of water purity: purified, impurified and dirty. While drinking purified water just increases [hydration](/wiki/mods/Dehydration/Mechanic/) of the player, impurified water has a 37.5% chance of inflicting water poisoning ([thirst](/wiki/mods/Dehydration/Effects/Thirst) for 25 seconds) and dirty water has a 75% chance of inflicint water poisoning.
 
 To empty the flask, sneak + right click on a [water](https://minecraft.wiki/w/Water) source or just put the item in the [crafting](https://minecraft.wiki/w/Crafting) grid.
 

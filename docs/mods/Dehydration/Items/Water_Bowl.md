@@ -29,7 +29,7 @@ summary: dehydration item water bowl
             <td class="second-column">No</td>
         </tr>
         <tr id="linear-top">
-            <td class="first-column"><a href="/wiki/mods/Dehydration/Mechanic/index" target="_blank">Restores</a></td>
+            <td class="first-column"><a href="/wiki/mods/Dehydration/Mechanic/" target="_blank">Restores</a></td>
             <td class="second-column icon-element" icon-count="3" icon-id="thirst"></td>
         </tr>
     </tbody>
@@ -39,7 +39,7 @@ summary: dehydration item water bowl
 </div>
 
 ## Description
-The water bowl contains a sip of [water](https://minecraft.wiki/w/Water) to [hydrate](/wiki/mods/Dehydration/Mechanic/index) the [player](https://minecraft.wiki/w/Player).
+The water bowl contains a sip of [water](https://minecraft.wiki/w/Water) to [hydrate](/wiki/mods/Dehydration/Mechanic/) the [player](https://minecraft.wiki/w/Player).
 
 ## Obtaining
 A water bowl can only be obtained though filling a [bowl](https://minecraft.wiki/w/Bowl) with [water](https://minecraft.wiki/w/Water).
