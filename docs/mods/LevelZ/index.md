@@ -17,6 +17,9 @@ summary: levelz wiki
 LevelZ adds [player](https://minecraft.wiki/w/Player) skills which you have to level up to unlock [gear](https://minecraft.wiki/w/Tool)/[items](https://minecraft.wiki/w/Item)/[blocks](https://minecraft.wiki/w/Block).  
 Default key to open the skill screen is "k".
 
+# Info
+There are plans for a complete rewrite of this mod since 2023. When there is enough time, it will be worked on but the focus are on other mods lately.  
+
 ---
 ## Content
 - WIP
