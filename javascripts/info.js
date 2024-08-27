@@ -7,7 +7,7 @@ function list() {
         const element = document.getElementById('list');
         element.className = 'icon-list-container';
 
-        if (document.getElementsByClassName('md-nav' != null)) {
+        if (document.getElementsByClassName('md-nav') != null) {
             const navElements = document.getElementsByClassName('md-nav');
             for (let i = 0; i < navElements.length; i++) {
                 const navElement = navElements[i];

@@ -294,7 +294,7 @@ function tooltip(element, tooltipText, url, defaultWebsite) {
     element.addEventListener('mouseenter', () => {
         element.addEventListener('mousemove', (event) => {
             tooltip.style.left = (event.pageX - window.scrollX + 5) + "px";
-            tooltip.style.top = (event.pageY - window.scrollY) + "px";
+            tooltip.style.top = (event.pageY - window.scrollY - 32) + "px";
         });
         document.body.appendChild(tooltip);
     });
