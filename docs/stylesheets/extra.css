@@ -26,7 +26,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 9999;
-  }
+}
 
 .showcase-overlay-content {
     position: absolute;
@@ -44,7 +44,7 @@
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     width: 10%;
-    height: auto; 
+    height: auto;
     max-width: 100px;
     position: relative;
     transition: transform 0.3s ease;
@@ -70,7 +70,7 @@
     top: 0;
     left: 0;
     background-color: #100010;
-    background-color: rgba(16,0,16,0.94);
+    background-color: rgba(16, 0, 16, 0.94);
     color: white;
     padding: 0.375em;
     font-size: 16px;
@@ -81,6 +81,7 @@
     pointer-events: none;
     z-index: 9999;
 }
+
 .tooltip::before {
     content: "";
     position: absolute;
@@ -90,8 +91,9 @@
     left: -0.1em;
     border: 0.125em solid #100010;
     border-style: none solid;
-    border-color: rgba(16,0,16,0.94);
+    border-color: rgba(16, 0, 16, 0.94);
 }
+
 .tooltip::after {
     content: "";
     position: absolute;
@@ -100,36 +102,36 @@
     bottom: 0.125em;
     left: 0;
     border: 0.125em solid #2D0A63;
-    border-image: -webkit-linear-gradient(rgba(80,0,255,0.31),rgba(40,0,127,0.31)) 1;
-    border-image: linear-gradient(rgba(80,0,255,0.31),rgba(40,0,127,0.31)) 1;
+    border-image: -webkit-linear-gradient(rgba(80, 0, 255, 0.31), rgba(40, 0, 127, 0.31)) 1;
+    border-image: linear-gradient(rgba(80, 0, 255, 0.31), rgba(40, 0, 127, 0.31)) 1;
 }
 
 .crafting-element {
     display: none;
 }
 
-#showcase-gallery{
+#showcase-gallery {
     display: flex;
     justify-content: center;
 }
 
-.md-social-info{
+.md-social-info {
     font-size: .6rem;
 }
 
 @media screen and (min-width: 45em) {
-    .md-social-info{
+    .md-social-info {
         text-align: center;
         font-size: .6rem;
     }
 }
 
-.sidebar{
+.sidebar {
     text-align: right;
     margin-top: 0em;
 }
 
-.svg-image{
+.svg-image {
     fill: currentcolor;
     width: 1.125em;
     height: auto;
@@ -193,9 +195,8 @@
     font-size: 12px;
 }
 
-
 [data-md-color-scheme="default"] #linear-top {
-    border-top: 0.4mm solid rgb(224,224,224);
+    border-top: 0.4mm solid rgb(224, 224, 224);
 }
 
 #linear-top {
