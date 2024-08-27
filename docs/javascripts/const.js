@@ -38,3 +38,5 @@ const icons = [
     { texture: 'voidz_icon', url: 'VoidZ', tooltip: 'VoidZ' },
     { texture: 'welcomescreen_icon', url: 'WelcomeScreen', tooltip: 'WelcomeScreen' }
 ];
+
+const types = ['blocks', 'items', 'entities'];

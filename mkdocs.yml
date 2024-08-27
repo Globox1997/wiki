@@ -215,6 +215,8 @@ copyright: |
 nav:
   - Home:
     - index.md
+    - datapack.md
+    - overview.md
   - Mods:
     - mods/index.md
     - AdditionZ:
