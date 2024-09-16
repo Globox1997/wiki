@@ -29,6 +29,7 @@ const icons = [
     { texture: 'smitherz_icon', url: 'SmitherZ', tooltip: 'SmitherZ' },
     { texture: 'spartanweapons_icon', url: 'SpartanWeapons', tooltip: 'SpartanWeapons' },
     { texture: 'spoiledz_icon', url: 'SpoiledZ', tooltip: 'SpoiledZ' },
+    { texture: 'stamina_icon', url: 'Stamina', tooltip: 'Stamina' },
     { texture: 'talkbubbles_icon', url: 'TalkBubbles', tooltip: 'TalkBubbles' },
     { texture: 'tiered_icon', url: 'TieredZ', tooltip: 'TieredZ' },
     { texture: 'tooltiprareness_icon', url: 'TooltipRareness', tooltip: 'TooltipRareness' },

@@ -153,6 +153,9 @@ extra:
     spoiledz:
         repo: https://github.com/Globox1997/SpoiledZ
         name: SpoiledZ
+    stamina:
+        repo: https://github.com/Globox1997/Stamina
+        name: Stamina
     talkbubbles:
         repo: https://github.com/Globox1997/TalkBubbles
         name: TalkBubbles
@@ -393,6 +396,8 @@ nav:
       - mods/SpartanWeapons/index.md
     - SpoiledZ:
       - mods/SpoiledZ/index.md
+    - Stamina:
+      - mods/Stamina/index.md
     - TalkBubbles:
       - mods/TalkBubbles/index.md
     - TieredZ:
