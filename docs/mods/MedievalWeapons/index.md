@@ -24,12 +24,9 @@ MedievalWeapons adds [weapons](https://minecraft.wiki/w/Weapon) from the series 
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/medievalweapons/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/medievalweapons/Entities/#list-of-entities)
+- [Effect List](/wiki/mods/medievalweapons/Effect/#list-of-effects)
 - [Item List](/wiki/mods/medievalweapons/Items/#list-of-items)
-- [Structure List](/wiki/mods/medievalweapons/Structures/#list-of-structures) -->
-  
+
 ---
 ## Misc
 This mod is developed for <img src="https://fabricmc.net/assets/logo.png" alt="Fabric" width="16" height="16" style="position: relative; top: 3px;"> [Fabric](https://fabricmc.net/).  
