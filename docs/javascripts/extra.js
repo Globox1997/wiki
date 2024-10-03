@@ -237,7 +237,7 @@ function crafting() {
     }
 }
 
-// armor, experience, heart, hunger, melee, projectile, saturation, thirst, explosion
+// armor, experience, heart, hunger, melee, projectile, saturation, thirst, explosion, melee_speed
 function icon() {
     if (document.getElementsByClassName('icon-element') != null) {
         const elements = document.getElementsByClassName('icon-element');
