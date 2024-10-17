@@ -16,6 +16,10 @@ summary: herdspanic wiki
 # Description
 HerdsPanic is a simple mod which gives [Minecraft](https://www.minecraft.net/en-us) [animals](https://minecraft.wiki/w/Animal) just a little bit more realism ;)  
 Herds like a bunch of [cows](https://minecraft.wiki/w/Cow) just panic when one of them gets hit.
+
+---
+## Content
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

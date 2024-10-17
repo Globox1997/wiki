@@ -36,7 +36,7 @@ Feel free to use it in any modpacks.
 
 #### Bug Report
 Just report bugs at the github page.  
-s
+
 ## Dependencies
 
 !!! apple-keyboard-control "Required"

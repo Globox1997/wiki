@@ -19,11 +19,8 @@ It adds the ability to buy bonus claims from certain [villagers](https://minecra
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/numismaticclaim/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/numismaticclaim/Entities/#list-of-entities)
-- [Item List](/wiki/mods/numismaticclaim/Items/#list-of-items)
-- [Structure List](/wiki/mods/numismaticclaim/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
+A claim trader can be summoned with the command `/summon numismaticclaim:villager ~ ~ ~`
   
 ---
 ## Misc

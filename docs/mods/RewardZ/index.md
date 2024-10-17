@@ -20,11 +20,8 @@ Does not provide a default reward [datapack](https://minecraft.wiki/w/Data_pack)
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/rewardz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/rewardz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/rewardz/Items/#list-of-items)
-- [Structure List](/wiki/mods/rewardz/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
+Check out the [github readme](https://github.com/Globox1997/RewardZ) for further information about the datapack.
   
 ---
 ## Misc

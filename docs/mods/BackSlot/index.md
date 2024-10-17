@@ -19,7 +19,7 @@ Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back a
 
 ---
 ## Content
-- WIP
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

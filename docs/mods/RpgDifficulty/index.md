@@ -15,15 +15,12 @@ summary: rpgdifficulty wiki
 
 # Description
 RpgDifficulty increases the [health](https://minecraft.wiki/w/Health) and [damage](https://minecraft.wiki/w/Damage) of [mobs](https://minecraft.wiki/w/Mob) over time and distance.  
-Highly configureable.
+Highly configureable. It is recommended to turn off the time setting for servers.
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/rpgdifficulty/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/rpgdifficulty/Entities/#list-of-entities)
-- [Item List](/wiki/mods/rpgdifficulty/Items/#list-of-items)
-- [Structure List](/wiki/mods/rpgdifficulty/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
+Check out the [github readme](https://github.com/Globox1997/RpgDifficulty) for further information about the config options.
   
 ---
 ## Misc

@@ -16,6 +16,10 @@ summary: nameplate wiki
 # Description
 Display [mob](https://minecraft.wiki/w/Mob) levels based on their [health](https://minecraft.wiki/w/Health).  
 Needs a base mod like [RpgDifficulty](/wiki/mods/RpgDifficulty).
+
+---
+## Content
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

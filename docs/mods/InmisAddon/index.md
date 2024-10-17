@@ -15,6 +15,10 @@ summary: inmisaddon wiki
 
 # Description
 This mod is an addon for the mod [inmis](https://modrinth.com/mod/inmis) which enhances the visuals for the backpack models.
+
+---
+## Content
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

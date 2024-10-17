@@ -19,11 +19,7 @@ It adds titles on traveling through [biomes](https://minecraft.wiki/w/Biome) inc
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/travelerz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/travelerz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/travelerz/Items/#list-of-items)
-- [Structure List](/wiki/mods/travelerz/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

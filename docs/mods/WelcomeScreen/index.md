@@ -17,15 +17,11 @@ summary: welcomescreen wiki
 WelcomeScreen lets you create a welcome screen where you can share information about your [server](https://minecraft.wiki/w/Server), [world](https://minecraft.wiki/w/World) or modpack.  
 It will open up on the [players](https://minecraft.wiki/w/Player) first join of the [world](https://minecraft.wiki/w/World).  
 A screen can be build via a [datapack](https://minecraft.wiki/w/Data_pack) (and resourcepack if resources are needed).  
-Check out the github readme for informanion.  
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/welcomescreen/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/welcomescreen/Entities/#list-of-entities)
-- [Item List](/wiki/mods/welcomescreen/Items/#list-of-items)
-- [Structure List](/wiki/mods/welcomescreen/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
+Check out the [github readme](https://github.com/Globox1997/WelcomeScreen) for further information about the datapack.
   
 ---
 ## Misc

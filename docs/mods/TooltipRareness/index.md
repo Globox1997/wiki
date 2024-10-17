@@ -19,11 +19,8 @@ For a more Rpg'sh feeling.
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/tooltiprareness/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/tooltiprareness/Entities/#list-of-entities)
-- [Item List](/wiki/mods/tooltiprareness/Items/#list-of-items)
-- [Structure List](/wiki/mods/tooltiprareness/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
+Check out the [github readme](https://github.com/Globox1997/TooltipRareness) for further information about the datapack.
   
 ---
 ## Misc

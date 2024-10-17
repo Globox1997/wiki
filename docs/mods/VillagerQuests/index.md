@@ -14,18 +14,27 @@ summary: villagerquests wiki
 ---
 
 # Description
-VillagerQuests adds quests to [villagers](https://minecraft.wiki/w/Villager) by their profession and level via [datapacks](https://minecraft.wiki/w/Data_pack).  
-Accepted quests can be found via the [player](https://minecraft.wiki/w/Player) accepted quest screen, default key to open is "i".  
-The mod itself doesn't add quests by itself, you can find quest [datapacks](https://minecraft.wiki/w/Data_pack) under "Datapacks".  
-Check out the github readme for how to create a villagerquests [datapack](https://minecraft.wiki/w/Data_pack).
+VillagerQuests adds (since v.1.1.0) the option to add quests by [FTBQuests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric) to [villagers](https://minecraft.wiki/w/Villager). The player can only start and complete these quests when accepted and completed at the specific [villager](https://minecraft.wiki/w/Villager).   
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/villagerquests/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/villagerquests/Entities/#list-of-entities)
-- [Item List](/wiki/mods/villagerquests/Items/#list-of-items)
-- [Structure List](/wiki/mods/villagerquests/Structures/#list-of-structures) -->
+How it works:
+To set a quest as a villager quest, click on the left top villager head and set a merchant uuid there.
+While looking at a merchant, right click the villager head to set the merchants uuid.
+
+![Merchants Uuid](/wiki/assets/villagerquests/content/merchants_uuid.png)
+
+If the player now talks to the villager, a new quest screen will show up.
+
+![Villager Quest Screen](/wiki/assets/villagerquests/content/villager_quest_screen.png)
+
+It also adds a new task type called Villager Talk, where the task is, as the name suggests, talking to a specific villager.
+
+![Talk Quest](/wiki/assets/villagerquests/content/talk_quest.png)
+
+For creators there is also an op screen (only accessible when in creative mode by shift+right click)
+
+![Villager Quest Op Screen](/wiki/assets/villagerquests/content/villager_quest_op_screen.png)
   
 ---
 ## Misc

@@ -19,11 +19,7 @@ Instead of just turning red to the site and dropping [items](https://minecraft.w
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/rpgz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/rpgz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/rpgz/Items/#list-of-items)
-- [Structure List](/wiki/mods/rpgz/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

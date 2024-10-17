@@ -16,6 +16,10 @@ summary: villagertradefix wiki
 # Description
 VillagerTradeFix gives the [Villagers](https://minecraft.wiki/w/Villager) the ability to remember their jobs with their specific offers.  
 If the [Villager](https://minecraft.wiki/w/Villager) looses his job and suddenly gets reemployed, he will sell the old [items](https://minecraft.wiki/w/Item) regardless of how many jobs he has worked in!
+
+---
+## Content
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

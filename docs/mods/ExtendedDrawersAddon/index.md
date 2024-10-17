@@ -21,11 +21,7 @@ The count rendering of [items](https://minecraft.wiki/w/Item) inside the drawer 
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/extendeddrawersaddon/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/extendeddrawersaddon/Entities/#list-of-entities)
-- [Item List](/wiki/mods/extendeddrawersaddon/Items/#list-of-items)
-- [Structure List](/wiki/mods/extendeddrawersaddon/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc

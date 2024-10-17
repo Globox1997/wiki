@@ -15,17 +15,14 @@ summary: reciperemover wiki
 
 # Description
 Remove [recipes](https://minecraft.wiki/w/Recipe) by adding the identifier like "minecraft:bucket" to the [recipe](https://minecraft.wiki/w/Recipe) list in the config.  
-This mod was made in a few minutes cause there is no recipe remover mod for 1.19.2.  
+This mod was made in a few minutes cause there was no recipe remover mod for mc version 1.19.2.  
 This is server sided.  
 For compatibility with [EMI](https://modrinth.com/mod/emi) or [REI](https://modrinth.com/mod/rei), it will be required on the client side too.
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/reciperemover/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/reciperemover/Entities/#list-of-entities)
-- [Item List](/wiki/mods/reciperemover/Items/#list-of-items)
-- [Structure List](/wiki/mods/reciperemover/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
+Check out the ingame config via [mod menu](https://modrinth.com/mod/modmenu/versions) or the config file for servers.
   
 ---
 ## Misc

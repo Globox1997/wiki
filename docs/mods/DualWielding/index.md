@@ -18,11 +18,7 @@ DualWielding will enable you to fight with a [weapon](https://minecraft.wiki/w/W
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/dualwielding/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/dualwielding/Entities/#list-of-entities)
-- [Item List](/wiki/mods/dualwielding/Items/#list-of-items)
-- [Structure List](/wiki/mods/dualwielding/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc
