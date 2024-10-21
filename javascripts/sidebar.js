@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
     sidebar();
+    changelog();
 });
 
 //https://www.gnu.org/licenses/gpl-3.0.html
@@ -290,5 +291,27 @@ async function sidebar() {
         var firstChild = parentDiv.firstChild;
         parentDiv.insertBefore(newDiv, firstChild);
 
+    }
+}
+
+async function changelog() {
+    if (document.getElementById('log') != null) {
+        const modid = document.getElementById('log').getAttribute('modid');
+
+        const repositoryData = await getRepositoryData('changelog', modid);
+        if (repositoryData !== undefined) {
+
+            console.log(repositoryData[modid])
+
+            var changelogText = "";
+
+            Object.entries(repositoryData[modid]).forEach(([version, releaseNotes]) => {
+                let processText = marked.parse(repositoryData[modid][version]);
+                processText = "<details><summary>" + version + "</summary>" + processText + "</details>"
+                changelogText = changelogText + processText;
+            });
+
+            document.getElementById('log').innerHTML = changelogText;
+        }
     }
 }

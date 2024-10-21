@@ -1,4 +1,4 @@
-const icons = [
+const modIcons = [
     { texture: 'additionz_icon', url: 'AdditionZ', tooltip: 'AdditionZ' },
     { texture: 'adventurez_icon', url: 'AdventureZ', tooltip: 'AdventureZ' },
     { texture: 'backslot_icon', url: 'BackSlot', tooltip: 'BackSlot' },
@@ -38,6 +38,17 @@ const icons = [
     { texture: 'villagertradefix_icon', url: 'VillagerTradeFix', tooltip: 'VillagerTradeFix' },
     { texture: 'voidz_icon', url: 'VoidZ', tooltip: 'VoidZ' },
     { texture: 'welcomescreen_icon', url: 'WelcomeScreen', tooltip: 'WelcomeScreen' }
+];
+
+const resourceIcons = [
+    { texture: 'medievalmusic_icon', url: 'MedievalMusic', tooltip: 'MedievalMusic' },
+    { texture: 'rays3drails_icon', url: 'Rays3DRails', tooltip: "Ray's 3D Rails" },
+    { texture: 'rays3dladders_icon', url: 'Rays3DLadders', tooltip: "Ray's 3D Ladders" }
+];
+
+const packIcons = [
+    { texture: 'aged_icon', url: 'Aged', tooltip: 'Aged' },
+    { texture: 'agedlite_icon', url: 'AgedLite', tooltip: 'Aged Lite' }
 ];
 
 const types = ['blocks', 'items', 'entities'];

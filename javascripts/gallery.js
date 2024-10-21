@@ -1,7 +1,25 @@
 window.addEventListener('DOMContentLoaded', () => {
     iconGallery();
     resourceGallery();
+    packGallery();
 });
+
+function packGallery() {
+    if (document.getElementById('pack-gallery') != null) {
+        // Get the gallery element
+        const gallery = document.getElementById('pack-gallery');
+
+        // Create and append the icons to the gallery
+        packIcons.forEach((iconData) => {
+            const icon = document.createElement('img');
+            icon.src = '/wiki/assets/general/icons/' + iconData.texture + '.png';
+            icon.className = 'icon';
+
+            tooltip(icon, iconData.tooltip, iconData.url, false);
+            gallery.appendChild(icon);
+        });
+    }
+}
 
 function iconGallery() {
     if (document.getElementById('icon-gallery') != null) {
@@ -9,7 +27,7 @@ function iconGallery() {
         const gallery = document.getElementById('icon-gallery');
 
         // Create and append the icons to the gallery
-        icons.forEach((iconData) => {
+        modIcons.forEach((iconData) => {
             const icon = document.createElement('img');
             icon.src = '/wiki/assets/general/icons/' + iconData.texture + '.png';
             icon.className = 'icon';
@@ -22,20 +40,16 @@ function iconGallery() {
 
 function resourceGallery() {
     if (document.getElementById('resource-gallery') != null) {
-        const icons = [
-            { texture: 'medievalmusic_icon', url: 'MedievalMusic', tooltip: 'MedievalMusic' }
-        ];
-
         // Get the gallery element
         const gallery = document.getElementById('resource-gallery');
 
         // Create and append the icons to the gallery
-        icons.forEach((iconData) => {
+        resourceIcons.forEach((iconData) => {
             const icon = document.createElement('img');
             icon.src = '/wiki/assets/general/icons/' + iconData.texture + '.png';
             icon.className = 'icon';
 
-            tooltip(icon, iconData.tooltip, iconData.url, true);
+            tooltip(icon, iconData.tooltip, iconData.url, false);
             gallery.appendChild(icon);
         });
     }
