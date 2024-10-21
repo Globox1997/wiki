@@ -298,15 +298,14 @@ async function changelog() {
     if (document.getElementById('log') != null) {
         const modid = document.getElementById('log').getAttribute('modid');
 
-        const repositoryData = await getRepositoryData('changelog', modid);
-        if (repositoryData !== undefined) {
+        const changelogData = await getRepositoryData('changelog', modid);
 
-            console.log(repositoryData[modid])
+        if (changelogData !== undefined) {
 
             var changelogText = "";
 
-            Object.entries(repositoryData[modid]).forEach(([version, releaseNotes]) => {
-                let processText = marked.parse(repositoryData[modid][version]);
+            Object.entries(changelogData).forEach(([version, releaseNotes]) => {
+                let processText = marked.parse(releaseNotes);
                 processText = "<details><summary>" + version + "</summary>" + processText + "</details>"
                 changelogText = changelogText + processText;
             });
