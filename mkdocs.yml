@@ -180,6 +180,18 @@ extra:
     welcomescreen:
         repo: https://github.com/Globox1997/WelcomeScreen
         name: WelcomeScreen
+    aged:
+        repo: https://github.com/xR4YM0ND/Aged
+        name: Aged
+    agedlite:
+        repo: https://github.com/xR4YM0ND/Aged-Lite
+        name: Aged Lite
+    rays3drails:
+        repo: https://github.com/xR4YM0ND/RAYs-3D-Rails
+        name: Rays 3D Rails
+    rays3dladders:
+        repo: https://github.com/xR4YM0ND/RAYs-3D-Ladders
+        name: Rays 3D Ladders
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -502,6 +514,20 @@ nav:
         - mods/VoidZ/Dimension/index.md
     - WelcomeScreen:
       - mods/WelcomeScreen/index.md
+  - Resource Packs:
+    - resourcepacks/index.md
+    - MedievalMusic:
+      - resourcepacks/MedievalMusic/index.md
+    - Rays3DRails:
+      - resourcepacks/Rays3DRails/index.md
+    - Rays3DLadders:
+      - resourcepacks/Rays3DLadders/index.md
+  - Modpacks:
+    - modpacks/index.md
+    - Aged:
+      - modpacks/Aged/index.md
+    - AgedLite:
+      - modpacks/AgedLite/index.md
   - About:
     - about/installation.md
     - about/developer.md
