@@ -54,3 +54,7 @@ Just report bugs at the github page.
     === "Optional :octicons-git-branch-16:"
 
         [Dehydration](/wiki/mods/Dehydration){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="environmentz"></div>

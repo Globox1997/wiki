@@ -43,3 +43,7 @@ Just report bugs at the github page.
         [JobsAddon](/wiki/mods/JobsAddon){ .md-button .md-button--primary }
         [PartyAddon](/wiki/mods/PartyAddon){ .md-button .md-button--primary }
         [InmisAddon](/wiki/mods/InmisAddon){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="libz"></div>

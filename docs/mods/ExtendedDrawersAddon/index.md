@@ -48,3 +48,7 @@ Just report bugs at the github page.
         [Extended Drawers](https://modrinth.com/mod/extended-drawers){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
         [Model Gap Fix](https://modrinth.com/mod/modelfix){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="extendeddrawersaddon"></div>

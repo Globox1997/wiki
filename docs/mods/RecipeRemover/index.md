@@ -52,3 +52,7 @@ Just report bugs at the github page.
 
         [EMI](https://modrinth.com/mod/emi){ .md-button .md-button--primary }
         [REI](https://modrinth.com/mod/rei){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="reciperemover"></div>

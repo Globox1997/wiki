@@ -52,3 +52,7 @@ Just report bugs at the github page.
 
         [EnvironmentZ](/wiki/mods/EnvironmentZ){ .md-button .md-button--primary }
         [Motschen's Puddles](https://modrinth.com/mod/puddles){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="dehydration"></div>

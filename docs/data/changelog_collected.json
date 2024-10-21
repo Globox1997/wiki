@@ -1,0 +1,258 @@
+{
+  "travelerz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed render edge case\n### Changed:\n- "
+  },
+  "welcomescreen": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed commands\n- Fixed null background\n### Changed:\n- "
+  },
+  "staminaz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed console printing\n### Changed:\n- "
+  },
+  "dehydration": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Added bonus chest loot\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.2": "### Added:\n- Added water body temperature cooling\n### Fixed:\n- \n### Changed:\n- Changed hud icons",
+    "1.0.3": "### Added:\n- Added potion config\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.4": "### Added:\n- Added translations\n- Added leather flasks\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.5": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Tweaked droplet rendering",
+    "1.0.6": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Tweaked hydration mechanic",
+    "1.0.7": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Tweaked configs\n- Tweaked droplet rendering",
+    "1.0.8": "### Added:\n- \n### Fixed:\n- Fixed droplet rendering\n- Fixed freezing damage source\n### Changed:\n- ",
+    "1.0.9": "### Added:\n- Added translations\n- Added stew hydration tag\n- Added hydration factor config\n- Added player exclusion list\n- Added flask recipes\n### Fixed:\n- Fixed requiem compat\n### Changed:\n- Tweaked thirst icons by Pois1x\n- Removed dehydration damage\n- Tweaked effects",
+    "1.0.10": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Tweaked flask filling",
+    "1.0.11": "### Added:\n- \n### Fixed:\n- Fixed flask stack limit\n### Changed:\n- ",
+    "1.1.0": "### Added:\n- Added translations\n- Added sprint restriction while very thirsty\n- Added sleep thirst config\n- Added puddles compat\n- Added low thirst debuffs\n- Added sounds\n- Added purified potions\n- Added water source sipping effect chance\n- Added campfire cauldron\n- Added milk bucket thirst chance\n- Added recipe book recipes\n- Added bad potion thirst chance\n- Added cauldron flask compat\n- Added thirst effect\n### Fixed:\n- \n### Changed:\n- Removed dehydration effect\n- Removed custom dehydration mechanic\n- Tweaked rabbit stew hydration\n- Tweaked hud\n- Tweaked some textures by Vaporeon",
+    "1.1.1": "### Added:\n- Added new sounds\n### Fixed:\n- Fixed minor effect issue\n### Changed:\n- Tweaked config comments",
+    "1.1.2": "### Added:\n- Added tooltiprareness compat\n### Fixed:\n- \n### Changed:\n- Tweaked russian translation by Yavental",
+    "1.1.3": "### Added:\n- Added croptopia compat\n### Fixed:\n- Fixed sounds to mono\n### Changed:\n- ",
+    "1.1.4": "### Added:\n- Added water boiling system\n### Fixed:\n- \n### Changed:\n- ",
+    "1.1.5": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.17",
+    "1.1.6": "### Added:\n- Added campfire cauldron dispenser compat\n- Added nether dehydration config\n- Added droplet bounciness\n### Fixed:\n- Fixed teleportation render issue\n### Changed:\n- Removed hydration draining from hunger effect",
+    "1.1.7": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.17.1",
+    "1.2.0": "### Added:\n- Added hydration API by kanpov\n- Added river water grade\n### Fixed:\n- \n### Changed:\n- Tweaked assets by K0-RR",
+    "1.2.1": "### Added:\n- Added potion tooltip\n- Added copper cauldron\n### Fixed:\n- \n### Changed:\n- ",
+    "1.2.2": "### Added:\n- Added origins compat\n### Fixed:\n- Fixed dispenser crash\n### Changed:\n- ",
+    "1.2.3": "### Added:\n- \n### Fixed:\n- Fixed compat issue\n### Changed:\n- ",
+    "1.2.4": "### Added:\n- Added commands\n### Fixed:\n- Fixed compat another issue\n- Fixed cauldron crash\n- Fixed odd dispenser behavior\n### Changed:\n- Removed player list config",
+    "1.2.5": "### Added:\n- Added advanced hug config options\n### Fixed:\n- Fixed render crash\n### Changed:\n- Tweaked sip hydration strength",
+    "1.2.6": "### Added:\n- Added flask capacity config\n### Fixed:\n- Fixed render bug\n### Changed:\n- Updated to mc 1.18",
+    "1.2.7": "### Added:\n- \n### Fixed:\n- Fixed copper cauldron\n- Fixed respawn bug\n- Fixed hydration syncing\n### Changed:\n- ",
+    "1.2.8": "### Added:\n- Added separate drink config options\n### Fixed:\n- \n### Changed:\n- Updated croptopia compat",
+    "1.2.9": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19",
+    "1.2.10": "### Added:\n- Added tooltip component\n- Added more hydration tags\n### Fixed:\n- Fixed mixin plugin issue\n- Fixed flask cauldron filling\n### Changed:\n- Updated to mc 1.19.2\n- Tweaked hydration hud\n- Removed flask size config\n- Tweaked rain/snow cauldron filling chance",
+    "1.2.11": "### Added:\n- Added patchouli handbook\n- Added water source sipping\n### Fixed:\n- \n### Changed:\n- Updated origin compat\n- Tweaked campfire cauldron water fill up chance\n- Tweaked thirst effect",
+    "1.2.12": "### Added:\n- \n### Fixed:\n- Fixed hud compat\n- Fixed origin compat\n### Changed:\n- ",
+    "1.3.0": "### Added:\n- Added bamboo pump\n- Added purified bucket\n### Fixed:\n- Fixed jitpack compat\n### Changed:\n- ",
+    "1.3.1": "### Added:\n- Added bamboo pump config\n- Added purified water fluid\n- Added block config options\n### Fixed:\n- \n### Changed:\n- ",
+    "1.3.2": "### Added:\n- Added water bucket recipe\n### Fixed:\n- \n### Changed:\n- Tweaked river sipping check",
+    "1.3.3": "### Added:\n- Added hydration datapack system\n### Fixed:\n- Fixed waterlogged block issue\n### Changed:\n- ",
+    "1.3.4": "### Added:\n- Added translations\n- Added emptying bottle feature\n- Added hydration effect\n- Added charcoal recipe\n- Added special effect config\n### Fixed:\n- \n### Changed:\n- Disabled origin compat\n- Tweaked flask emptying",
+    "1.3.5": "### Added:\n- Added water bowl\n### Fixed:\n- Fixed patchouli book\n- Fixed knockback issue by Phischermen\n### Changed:\n- Updated to mc 1.20",
+    "1.3.6": "### Added:\n- Added translations\n### Fixed:\n- Fixed bamboo pump cooldown\n- Fixed dispenser crash\n### Changed:\n- Tweaked some stuff by LangYueMc\n- Tweaked purified water bucket as storage by Tiviacz1337",
+    "1.3.7": "### Added:\n- Added hydration tag\n### Fixed:\n- Fixed potion crash\n- Fixed bowl tooltip\n- Fixed potion quench\n### Changed:\n- "
+  },
+  "nutritionz": {
+    "1.0.0": "### Initial Release",
+    "1.0.6": "### Added:\n- Nature's Spirit `1.4.5` compat\n### Updated:\n- [Let's Do] Meadow `1.3.14` compat\n- [Let's Do] Vinery `1.4.19` compat\n"
+  },
+  "villagerquests": {
+    "1.0.0": "### Initial Release",
+    "1.1.1": "### Added:\n- \n### Fixed:\n- Fixed REI + EMI compat\n- Fixed a null crash\n- Fixed default trade + name behavior\n### Changed:\n- ",
+    "1.1.2": "### Added:\n- \n### Fixed:\n- Fixed numismatic overhaul crash\n### Changed:\n- Updated to latest ftb quest version"
+  },
+  "talkbubbles": {
+    "1.0.0": "### Initial Release",
+    "1.0.8": "### Added:\n- Added max check config option\n### Fixed:\n- Fixed advancement bubble\n- Fixed command bubble\n### Changed:\n- "
+  },
+  "rewardz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed reward days\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- Added reward commands\n### Fixed:\n- Fixed reward inventory\n- Fixed button position\n### Changed:\n- ",
+    "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed double rewards\n### Changed:\n- "
+  },
+  "patchoulibutton": {
+    "1.0.0": "### Initial Release"
+  },
+  "villagertradefix": {
+    "1.0.0": "### Initial Release"
+  },
+  "libz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed tab render\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- Added config sync api\n- Added mouse positioner\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.3": "### Added:\n- Added emi compat\n### Fixed:\n- \n### Changed:\n- "
+  },
+  "adventurez": {
+    "1.0.0": "### Initial Release",
+    "1.4.20": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated VoidZ dependency",
+    "1.4.22": "### Added:\n- \n### Fixed:\n- Fixed shadow chest loot\n### Changed:\n- ",
+    "1.4.23": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Tweaked entity loot table chances"
+  },
+  "inmisaddon": {
+    "1.0.0": "### Initial Release"
+  },
+  "levelz": {
+    "1.0.0": "### Initial Release",
+    "1.4.11": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.20.1",
+    "1.4.12": "### Added:\n- \n### Fixed:\n- Fixed xp bug\n- Fixed shield restriction\n### Changed:\n- ",
+    "1.4.13": "### Added:\n- Added spawner mob xp config option\n### Fixed:\n- Fixed armor switching\n- Fixed rei tooltip issue\n### Changed:\n- Tweaked advancement criteria"
+  },
+  "smitherz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- ",
+    "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed gem attribute mechanic\n### Changed:\n- ",
+    "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed gem tooltip\n### Changed:\n- "
+  },
+  "rpgdifficulty": {
+    "1.0.0": "### Initial Release",
+    "1.3.12": "### Added:\n- \n### Fixed:\n- Fixed baby zombie speed\n### Changed:\n- ",
+    "1.3.13": "### Added:\n- \n### Fixed:\n- Fixed levelz compat\n### Changed:\n- ",
+    "1.3.14": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.21.1"
+  },
+  "backslot": {
+    "1.0.0": "### Initial Release",
+    "1.2.13": "### Added:\n- Added hud config settings\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19.4",
+    "1.2.14": "### Added:\n- \n### Fixed:\n- Fixed universal grave compat\n- Fixed unsafe handling crash\n### Changed:\n- ",
+    "1.2.15": "### Added:\n- \n### Fixed:\n- Fixed slot arrangement config\n### Changed:\n- "
+  },
+  "medievalweapons": {
+    "1.0.0": "### Initial Release",
+    "1.4.6": "### Added:\n- \n### Fixed:\n- Fixed netherite recipes\n### Changed:\n- ",
+    "1.4.7": "### Added:\n- \n### Fixed:\n- Fixed better nether compat\n### Changed:\n- ",
+    "1.4.8": "### Added:\n- \n### Fixed:\n- Fixed mythic upgrades compat\n- Fixed better nether compat\n- Fixed advancement log error\n### Changed:\n- Tweaked francisca renderer",
+    "1.5.0": "### Added:\n- \n### Fixed:\n- Fixed blocking animation\n- Fixed entity crash\n### Changed:\n- Removed dependency on ARRP/BRRP\n- Applies when non compat mods are loaded"
+  },
+  "extendeddrawersaddon": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Added block scale config option\n- Added flat item rendering config option\n### Fixed:\n- Fixed crash\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated dependency",
+    "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed drawer crash\n### Changed:\n- ",
+    "1.1.0": "### Added:\n- \n### Fixed:\n- Fixed upgrade dupe\n- Fixed general crash\n### Changed:\n- Enabled shift right click"
+  },
+  "fireplacemode": {
+    "1.0.0": "### Initial Release"
+  },
+  "dungeonz": {
+    "1.0.0": "### Initial Release",
+    "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed portal invisibility\n- Fixed teleport position\n### Changed:\n- ",
+    "1.0.5": "### Added:\n- Added dungeon join countdown\n### Fixed:\n- Fixed dungeon mob spawn\n- Fixed compass bug\n### Changed:\n- ",
+    "1.0.6": "### Added:\n- \n### Fixed:\n- Fixed null crash\n### Changed:\n- ",
+    "1.1.0": "## Important!\n- Backup your world before updating to this version\n\n### Added:\n- Added temple dungeon (made by xeven, datapacked by LeDok)\n### Fixed:\n- Fixed multiportal generation\n### Changed:\n- Updated to mc 1.21.1"
+  },
+  "earlystage": {
+    "1.0.0": "### Initial Release",
+    "1.0.11": "### Added:\n- \n### Fixed:\n- Fixed block placement crash\n### Changed:\n- ",
+    "1.1.0": "### Added:\n- Readded wooden shield\n- Added clay bucket\n- Added brick bucket\n- Added stone shears\n- Added steel gear\n### Fixed:\n- \n### Changed:\n- ",
+    "1.1.1": "### Added:\n- \n### Fixed:\n- Fixed better third person crash\n- Fixed crafting rock hit 1 config\n### Changed:\n- "
+  },
+  "voidz": {
+    "1.0.0": "### Initial Release",
+    "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed elytra flight in void\n### Changed:\n- ",
+    "1.0.11": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Changed portal block to solid\n- Changed void stone block name"
+  },
+  "partyaddon": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.2": "### Added:\n- \n### Fixed:\n- Fixed world map bug\n### Changed:\n- ",
+    "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed sharing xp bug\n### Changed:\n- ",
+    "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed xaeroplus compat\n- Fixed party issue on player death\n### Changed:\n- "
+  },
+  "fleshz": {
+    "1.0.0": "### Initial Release",
+    "1.5.0": "### Added:\n- Added emi rack category\n### Fixed:\n- \n### Changed:\n- Changed \"rotten\" id to \"fleshz\"",
+    "1.5.1": "### Added:\n- Added adventurez, meadow, naturalist compat\n### Fixed:\n- Fixed hopper interaction\n### Changed:\n- ",
+    "1.6.1": "### Added:\n- Added rack variants\n### Fixed:\n- \n### Changed:\n- "
+  },
+  "nameplate": {
+    "1.0.0": "### Initial Release",
+    "1.1.3": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Moved to main initializer",
+    "1.1.4": "### Added:\n- Added rpgdiff config option\n### Fixed:\n- Fixed travelers title compat\n- Fixed waila error\n### Changed:\n- ",
+    "1.1.5": "### Added:\n- \n### Fixed:\n- Fixed geckolib compat\n### Changed:\n- "
+  },
+  "revive": {
+    "1.0.0": "### Initial Release"
+  },
+  "dragonloot": {
+    "1.0.0": "### Initial Release"
+  },
+  "tieredz": {
+    "1.0.0": "### Initial Release",
+    "1.3.0": "### Added:\n- \n### Fixed:\n- Fixed offhand usage\n- Fixed bow damage\n- Fixed special toughness tooltip case\n- Fixed tiering item client bug\n### Changed:\n- Changed reforge loader",
+    "1.3.1": "### Added:\n- \n### Fixed:\n- Fixed item durability bar\n### Changed:\n- ",
+    "1.3.2": "### Added:\n- \n### Fixed:\n- Fixed bclib incompat\n### Changed:\n- ",
+    "1.3.3": "### Added:\n- Added modifier restriction item tag \n### Fixed:\n- \n### Changed:\n- ",
+    "1.3.4": "### Added:\n- \n### Fixed:\n- Fixed shield tier\n- Fixed mainhand tier tooltip\n### Changed:\n- "
+  },
+  "backslotaddon": {
+    "1.0.0": "### Initial Release",
+    "1.1.0": "### Added:\n- Added Iris light compat\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19.4",
+    "1.1.1": "### Added:\n- \n### Fixed:\n- Fixed backslot dependency\n### Changed:\n- "
+  },
+  "rpgz": {
+    "0.6.0": "### Added:\n- Added SpoiledZ compat\n### Fixed:\n- Fixed mount dismounting\n- Fixed missing drops\n### Changed:\n- Tweaked internals",
+    "0.7.0": "### Added:\n- \n### Fixed:\n- Fixed inventory owner bug\n### Changed:\n- ",
+    "1.0.0": "### Initial Release"
+  },
+  "herdspanic": {
+    "1.0.0": "### Initial Release",
+    "1.1.0": "### Added:\n- \n### Fixed:\n- Fixed config list\n- Fixed config list delimiter\n- Fixed seek shelter config option\n### Changed:\n- Changed config from json5 to json"
+  },
+  "dualwielding": {
+    "1.0.0": "### Initial Release",
+    "1.1.3": "### Added:\n- \n### Fixed:\n- Fixed mod compats\n### Changed:\n- "
+  },
+  "spoiledz": {
+    "1.0.0": "### Initial Release",
+    "1.0.6": "### Added:\n- \n### Fixed:\n- Fixed vinery compat\n### Changed:\n- ",
+    "1.0.7": "### Added:\n- \n### Fixed:\n- Fixed vinery compat #2\n### Changed:\n- ",
+    "1.0.8": "### Added:\n- \n### Fixed:\n- Fixed farmers delight compat\n### Changed:\n- ",
+    "1.0.9": "### Added:\n- Added food block spoilage\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- "
+  },
+  "environmentz": {
+    "1.0.0": "### Initial Release",
+    "2.0.4": "### Added:\n- \n### Fixed:\n- Fixed item temperature\n### Changed:\n- Tweaked default settings",
+    "2.0.5": "### Added:\n- \n### Fixed:\n- Fixed temperature cutoff\n### Changed:\n- Tweaked block check, now spiral",
+    "2.0.6": "### Added:\n- Added comfort effect\n### Fixed:\n- Fixed compat crash\n### Changed:\n- Readded emi compat",
+    "2.0.7": "### Added:\n- \n### Fixed:\n- Fixed lithium crash\n- Fixed wanderer armor rendering\n### Changed:\n- Tweaked block heat check",
+    "2.0.9": "### Added:\n- \n### Fixed:\n- Fixed armor item tags\n### Changed:\n- "
+  },
+  "jobsaddon": {
+    "1.0.0": "### Initial Release",
+    "1.1.2": "### Added:\n- \n### Fixed:\n- Fixed smither job\n### Changed:\n- ",
+    "1.1.3": "### Added:\n- \n### Fixed:\n- Fixed treechop compat\n### Changed:\n- ",
+    "1.1.4": "### Added:\n- \n### Fixed:\n- Fixed crafting xp bug\n### Changed:\n- ",
+    "1.1.5": "### Added:\n- Added default datapacks\n### Fixed:\n- \n### Changed:\n- Tweaked recipe restrictions",
+    "1.1.6": "### Added:\n- Added composter xp\n### Fixed:\n- \n### Changed:\n- "
+  },
+  "tooltiprareness": {
+    "1.0.0": "### Initial Release",
+    "1.0.9": "### Added:\n- Added emi exclusion\n### Fixed:\n- \n### Changed:\n- "
+  },
+  "additionz": {
+    "1.0.0": "### Initial Release",
+    "1.2.0": "### Added:\n- Added emi fletching recipe category\n- Added teleport scroll\n- Added teleport potion\n- Added sneak through berries feature\n### Fixed:\n- \n### Changed:\n- ",
+    "1.2.1": "### Added:\n- Added rei fletching recipe category\n- Added female villager option\n### Fixed:\n- Fixed jukebox issue\n### Changed:\n- ",
+    "1.2.2": "### Added:\n- Added experience drop loader\n- Added leather climbing speed feature\n### Fixed:\n- Fixed jukebox issue\n### Changed:\n- ",
+    "1.2.3": "### Added:\n- \n### Fixed:\n- Fixed dexterity enchantment\n### Changed:\n- ",
+    "1.3.0": "### Added:\n- Added chunk loader\n- Added trinkets inventory feature\n- Added passive entity extra spawn feature\n### Fixed:\n- \n### Changed:\n- ",
+    "1.3.1": "### Added:\n- \n### Fixed:\n- Fixed trinket slot positions\n### Changed:\n- Changed trinket feature option to off by default",
+    "1.3.2": "### Added:\n- \n### Fixed:\n- Fixed creative trinket slot positions\n- Fixed trinket slot backslot compat\n### Changed:\n- "
+  },
+  "reciperemover": {
+    "1.0.0": "### Initial Release",
+    "1.0.8": "### Added:\n- Added inventory recipe book config\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.9": "### Added:\n- \n### Fixed:\n- Fixed start up crash\n### Changed:\n- ",
+    "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed start up crash again\n### Changed:\n- ",
+    "1.0.11": "### Added:\n- \n### Fixed:\n- Fixed start up crash again\n### Changed:\n- "
+  },
+  "numismaticclaim": {
+    "1.0.0": "### Initial Release",
+    "1.0.9": "### Added:\n- \n### Fixed:\n- Fixed opac crash\n### Changed:\n- ",
+    "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed opac crash\n### Changed:\n- "
+  }
+}

@@ -42,3 +42,7 @@ Just report bugs at the github page.
     === "Modrinth :simple-modrinth:"
 
         [Nameplate](https://modrinth.com/mod/nameplate){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="travelerz"></div>

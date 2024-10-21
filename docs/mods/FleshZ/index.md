@@ -46,3 +46,7 @@ Just report bugs at the github page.
     === "Modrinth :simple-modrinth:"
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="fleshz"></div>

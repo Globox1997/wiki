@@ -19,11 +19,7 @@ It is client sided.
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/talkbubbles/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/talkbubbles/Entities/#list-of-entities)
-- [Item List](/wiki/mods/talkbubbles/Items/#list-of-items)
-- [Structure List](/wiki/mods/talkbubbles/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.  
   
 ---
 ## Misc
@@ -48,3 +44,7 @@ Just report bugs at the github page.
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
+
+## Changelog
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="log" modid="talkbubbles"></div>
