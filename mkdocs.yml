@@ -358,6 +358,26 @@ nav:
         - mods/Dehydration/Mechanic/index.md
     - DragonLoot:
       - mods/DragonLoot/index.md
+      - Blocks:
+        - mods/DragonLoot/Blocks/index.md
+        - mods/DragonLoot/Blocks/Dragon_Anvil.md
+      - Items:
+        - mods/DragonLoot/Items/index.md
+        - mods/DragonLoot/Items/Dragon_Axe.md
+        - mods/DragonLoot/Items/Dragon_Bow.md
+        - mods/DragonLoot/Items/Dragon_Crossbow.md
+        - mods/DragonLoot/Items/Dragon_Hoe.md
+        - mods/DragonLoot/Items/Dragon_Horse_Armor.md
+        - mods/DragonLoot/Items/Dragon_Pickaxe.md
+        - mods/DragonLoot/Items/Dragon_Scale_Boots.md
+        - mods/DragonLoot/Items/Dragon_Scale_Chestplate.md
+        - mods/DragonLoot/Items/Dragon_Scale_Helmet.md
+        - mods/DragonLoot/Items/Dragon_Scale_Leggings.md
+        - mods/DragonLoot/Items/Dragon_Scale.md
+        - mods/DragonLoot/Items/Dragon_Shovel.md
+        - mods/DragonLoot/Items/Dragon_Sword.md
+        - mods/DragonLoot/Items/Dragon_Trident.md
+        - mods/DragonLoot/Items/Winged_Dragon_Scale_Chestplate.md
     - DualWielding:
       - mods/DualWielding/index.md
     - DungeonZ:

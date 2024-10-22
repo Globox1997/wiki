@@ -19,11 +19,8 @@ Once you kill the [Ender Dragon](https://minecraft.wiki/w/Ender_Dragon) you'll g
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/DragonLoot/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/DragonLoot/Entities/#list-of-entities)
-- [Item List](/wiki/mods/DragonLoot/Items/#list-of-items)
-- [Structure List](/wiki/mods/DragonLoot/Structures/#list-of-structures) -->
+- [Block List](/wiki/mods/AdventureZ/Blocks/#list-of-blocks)
+- [Item List](/wiki/mods/AdventureZ/Items/#list-of-items)
   
 ---
 ## Misc
