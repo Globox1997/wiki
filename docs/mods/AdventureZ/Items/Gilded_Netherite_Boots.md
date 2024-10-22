@@ -1,7 +1,7 @@
 ---
 title: Gilded Netherite Boots
 project: adventurez
-summary: Madventurez item gilded netherite boots
+summary: adventurez item gilded netherite boots
 ---
 # Gilded Netherite Boots
 <div class="main_table">
