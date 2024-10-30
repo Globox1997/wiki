@@ -22,7 +22,7 @@ fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
             informationMap.forEach((value, key) => {
                 var newRepoMap = value;
                 for (const repo of repoData) {
-                    if (repo['name'] === value.get('title') || (value.get('title') === 'TieredZ' && repo['name'] === 'tiered')) {
+                    if (repo['name'] === value.get('title') || repoCheck(value.get('title'), repo['name'])) {
                         newRepoMap.set('created_at', convertDate(repo['created_at']));
                         newRepoMap.set('updated_at', convertDate(repo['updated_at']));
                         newRepoMap.set('open_issues', repo['open_issues']);
@@ -45,6 +45,15 @@ fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
 ).catch(error => {
     console.error('Error:', error);
 });
+
+function repoCheck(title, name) {
+    if (title === 'TieredZ' && name === 'tiered') {
+        return true;
+    } else if (title === 'StaminaZ' && name === 'Stamina') {
+        return true;
+    }
+    return false;
+}
 
 function convertDate(dateString) {
     const dateObj = new Date(dateString);
