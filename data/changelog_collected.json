@@ -65,6 +65,13 @@
   },
   "talkbubbles": {
     "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Added background color option\n### Fixed:\n- Fixed on death bubble\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19\n- Changed default background color",
+    "1.0.3": "### Added:\n- Added invisibility check\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.4": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19.2",
+    "1.0.5": "### Added:\n- \n### Fixed:\n- Fixed null crash\n### Changed:\n- Updated to mc 1.19.3",
+    "1.0.6": "### Added:\n- Added chat height config\n### Fixed:\n- Fixed bugs by NateMob1\n### Changed:\n- Updated to mc 1.20",
+    "1.0.7": "### Added:\n- \n### Fixed:\n- Fixed bugs by belcar-s\n### Changed:\n- Updated to mc 1.20.1",
     "1.0.8": "### Added:\n- Added max check config option\n### Fixed:\n- Fixed advancement bubble\n- Fixed command bubble\n### Changed:\n- "
   },
   "rewardz": {
