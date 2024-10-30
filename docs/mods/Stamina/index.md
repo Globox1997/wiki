@@ -4,7 +4,7 @@ project: stamina
 summary: stamina wiki
 ---
 <script src="/wiki/javascripts/data.js"></script>
-<script src="/wiki/javascripts/sidebar.js" id="stamina"></script>
+<script src="/wiki/javascripts/sidebar.js" id="staminaz"></script>
 
 ![Stamina Banner](/wiki/assets/general/banner/staminabanner.png)
 
