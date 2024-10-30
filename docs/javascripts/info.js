@@ -109,6 +109,17 @@ function getCustomTexture(texture) {
         case 'netherite_war_axe':
             return 'netherite_big_axe';
 
+        case 'dragon_scale_boots':
+            return 'dragon_boots';
+        case 'dragon_scale_leggings':
+            return 'dragon_leggings';
+        case 'dragon_scale_chestplate':
+            return 'dragon_chestplate';
+        case 'dragon_scale_helmet':
+            return 'dragon_helmet';
+        case 'winged_dragon_scale_chestplate':
+            return 'upgraded_dragon_chestplate';
+
         default:
             return null;
     }
