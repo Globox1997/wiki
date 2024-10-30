@@ -1,5 +1,5 @@
 ---
-title: dragonloot
+title: DragonLoot
 project: dragonloot
 summary: dragonloot wiki
 ---
