@@ -123,6 +123,9 @@ extra:
     numismaticclaim:
         repo: https://github.com/Globox1997/NumismaticClaim
         name: NumismaticClaim
+    nutritionz:
+        repo: https://github.com/xR4YM0ND/NutritionZ
+        name: NutritionZ
     partyaddon:
         repo: https://github.com/Globox1997/PartyAddon
         name: PartyAddon
@@ -489,6 +492,8 @@ nav:
       - mods/Nameplate/index.md
     - NumismaticClaim:
       - mods/NumismaticClaim/index.md
+    - NutritionZ:
+      - mods/NutritionZ/index.md
     - PartyAddon:
       - mods/PartyAddon/index.md
     - PatchouliButton:

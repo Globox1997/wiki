@@ -19,6 +19,7 @@ const modIcons = [
     { texture: 'medievalweapons_icon', url: 'MedievalWeapons', tooltip: 'MedievalWeapons' },
     { texture: 'nameplate_icon', url: 'Nameplate', tooltip: 'Nameplate' },
     { texture: 'numismaticclaim_icon', url: 'NumismaticClaim', tooltip: 'NumismaticClaim' },
+    { texture: 'nutritionz_icon', url: 'NutritionZ', tooltip: 'NutritionZ' },
     { texture: 'partyaddon_icon', url: 'PartyAddon', tooltip: 'PartyAddon' },
     { texture: 'patchoulibutton_icon', url: 'PatchouliButton', tooltip: 'PatchouliButton' },
     { texture: 'reciperemover_icon', url: 'RecipeRemover', tooltip: 'RecipeRemover' },
