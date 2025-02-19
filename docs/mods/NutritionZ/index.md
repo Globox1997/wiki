@@ -14,91 +14,83 @@ summary: nutritionz wiki
 ---
 
 # Description
-A nutrients mod for fabric. Eat a balanced diet.
+NutritionZ adds a nutrition system to enhance the gameplay.
 
-The mod is fully data driven.
-Add modded item values via [datapack](https://github.com/xR4YM0ND/NutritionZ/tree/1.20/src/main/resources/data/nutritionz) / each item has its own 5 nutrient values.
-You can add support for modded food items & blocks via [datapack](https://github.com/xR4YM0ND/NutritionZ/tree/1.20/src/main/resources/data/nutritionz).
-You get effects & attributes if one of your nutrients is below or above a certain amount.
+# Adjustments
+## Default Datapacks & Mod Compat
+NutritionZ provides some [default datapacks](https://github.com/xR4YM0ND/NutritionZ/tree/1.21/src/main/resources/resourcepacks) for other mods. You can disable/enable them via config.
+You can add other mod compats via datapack. Just follow the structure `data/somemod/nutrition/somename.json`.
 
-<details><summary>[Let's Do] Series</summary>
-<li><a href="https://modrinth.com/mod/lets-do-addon-corn-expansion">[Let's Do Addon] Corn Expansion </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-bakery-farmcharm-compat">[Let's Do] Bakery - Farm&Charm Compat </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-beachparty">[Let's Do] Beachparty </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-brewery-farmcharm-compat">[Let's Do] Brewery - Farm&Charm Compat </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-candlelight-farmcharm-compat">[Let's Do] Candlelight - Farm&Charm Compat </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-farm-charm">[Let's Do] Farm & Charm </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-herbalbrews">[Let's Do] HerbalBrews </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-meadow">[Let's Do] Meadow </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-nethervinery">[Let's Do] NetherVinery </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-vinery">[Let's Do] Vinery </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-wildernature">[Let's Do] WilderNature </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-bakery">Legacy: [Let's Do] Bakery // dropped support after 1.0.9 </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-brewery">Legacy: [Let's Do] Brewery // dropped support after 1.0.9 </a></li>
-<li><a href="https://modrinth.com/mod/lets-do-candlelight">Legacy: [Let's Do] Candlelight // dropped support after 1.0.9 </a></li>
-</details>
+Here's an example from the default vanilla datapack:
 
-<details><summary>Farmer's Delight Series</summary>
-<li><a href="https://modrinth.com/mod/brewin-and-chewin-fabric">Brewin' And Chewin'</a></li>
-<li><a href="https://modrinth.com/mod/cultural-delights-fabric">Cultural Delights</a></li>
-<li><a href="https://modrinth.com/mod/ends-delight">End's Delight</a></li>
-<li><a href="https://modrinth.com/mod/expanded-delight">Expanded Delight</a></li>
-<li><a href="https://modrinth.com/mod/farmers-delight-refabricated">Farmer's Delight Refabricated</a></li>
-<li><a href="https://modrinth.com/mod/festive-delight">Festive Delight</a></li>
-<li><a href="https://modrinth.com/mod/more-delight">More Delight</a></li>
-<li><a href="https://modrinth.com/mod/natures-delight">Nature's Delight</a></li>
-<li><a href="https://modrinth.com/mod/nethers-delight-refabricated">Nether's Delight Refabricated</a></li>
-<li><a href="https://modrinth.com/mod/oceans-delight">Ocean's Delight</a></li>
-<li><a href="https://modrinth.com/mod/ubes-delight">Ube's Delight</a></li>
-</details>
+```json
+{
+    "minecraft:cooked_cod": { // The default datapacks provide 5 points for half saturation
+        "carbohydrates": 0,
+        "protein": 16,
+        "fat": 3,
+        "vitamins": 0,
+        "minerals": 6
+    }
+}
+```
 
-<details><summary>Create Series</summary>
-<li><a href="https://modrinth.com/mod/create-fabric">Create</a></li>
-<li><a href="https://modrinth.com/mod/createaddition">Create Crafts &amp; Additions</a></li>
-</details>
+## Nutrition Manager
+You can tweak the [default manager](https://github.com/xR4YM0ND/NutritionZ/blob/1.21/src/main/resources/data/nutritionz/nutrition_manager/default.json) via datapack as well. `data/somemod/nutrition_manager/somename.json`
 
-<details><summary>Others</summary>
-<li><a href="https://modrinth.com/mod/ad-astra">Ad Astra</a></li>
-<li><a href="https://modrinth.com/mod/adventurez">AdventureZ</a></li>
-<li><a href="https://modrinth.com/mod/aquamirae">Aquamirae</a></li>
-<li><a href="https://modrinth.com/mod/betterend">BetterEnd</a></li>
-<li><a href="https://modrinth.com/mod/betternether">BetterNether</a></li>
-<li><a href="https://modrinth.com/mod/biome-makeover">Biome Makeover</a></li>
-<li><a href="https://modrinth.com/mod/bountiful-fares">Bountiful Fares</a></li>
-<li><a href="https://modrinth.com/mod/culinaire">Culinaire</a></li>
-<li><a href="https://modrinth.com/mod/exlines-fishing">Exline's Fishing</a></li>
-<li><a href="https://modrinth.com/mod/fish-of-thieves">Fish of Thieves</a><li><a href="https://modrinth.com/mod/exlines-fishing">Exline's Fishing</a></li></li>
-<li><a href="https://modrinth.com/mod/hybrid-aquatic">Hybrid Aquatic</a></li>
-<li><a href="https://modrinth.com/mod/immersive-weathering">Immersive Weathering</a></li>
-<li><a href="https://modrinth.com/mod/living-things">Living Things</a></li>
-<li><a href="https://modrinth.com/mod/mob-catalog">Mob Catalog</a></li>
-<li><a href="https://modrinth.com/mod/naturalist">Naturalist</a></li>
-<li><a href="https://modrinth.com/mod/natures-spirit">Natures Spirit</a></li>
-<li><a href="https://modrinth.com/mod/promenade">Promenade</a></li>
-<li><a href="https://modrinth.com/mod/regions-unexplored">Regions Unexplored</a></li>
-<li><a href="https://modrinth.com/mod/spawn-mod">Spawn</a></li>
-<li><a href="https://modrinth.com/mod/spelunkery">Spelunkery</a></li>
-<li><a href="https://modrinth.com/mod/supplementaries">Supplementaries</a></li>
-<li><a href="https://modrinth.com/mod/the-bumblezone-fabric">The Bumblezone</a></li>
-<li><a href="https://modrinth.com/mod/wilder-wild">Wilder Wild</a></li>
-</details>
+With this you can replace the positive effects & attributes from all 5 nutrients, as well as the negatives.
 
----
-## Content
-This mod does not add blocks, items nor entities.  
-  
----
-## Misc
+Example:
+
+```json
+{
+    "minerals": {
+        "replace": true,
+        "positive": {
+            "generic.armor_toughness": { // attribute
+                "operation": "ADD_VALUE", // ADD_VALUE, ADD_MULTIPLIED_BASE , ADD_MULTIPLIED_TOTAL
+                "value": 1.0 // gives +1 Armor Toughness per level -> e.g. +20 max level
+            },
+            "minecraft:haste": { // effect
+                "duration": 319, // wouldn`t recommend to lower this on effects
+                "amplifier": 0 // equals Haste I
+            }
+        },
+        "negative": {
+            "generic.armor_toughness": {
+                "operation": "ADD_VALUE",
+                "value": 1.0 // needs to be positive value -> will be negative automatically
+            },
+            "minecraft:mining_fatigue": {
+                "duration": 319,
+                "amplifier": 0
+            }
+        }
+    }
+}
+```
+
+Max Nutrition & thresholds can be set in the `nutritionz.json5` config.
+
+```json
+{
+	"maxNutrition": 100, // Max nutrition for one nutrient
+	"negativeNutrition": 10, // 0 - 10 = negative effects / attributes (negative threshold)
+	"positiveNutrition": 90, // 90 - 100 = positive effects / attributes (positive threshold)
+}
+```
+
+# Misc
 This mod is developed for <img src="https://fabricmc.net/assets/logo.png" alt="Fabric" width="16" height="16" style="position: relative; top: 3px;"> [Fabric](https://fabricmc.net/).  
 There are no plans to develop a <img src="https://neoforged.net/img/authors/neoforged.png" alt="NeoForged" width="16" height="16" style="position: relative; top: 3px;"> [Forge](https://neoforged.net/) version.  
 
-#### Modpack Permission
+## Modpack Permission
 Feel free to use it in any modpacks.  
 
-#### Bug Report
+## Bug Report
 Just report bugs at the github page.  
 
-## Dependencies
+# Dependencies
 
 !!! apple-keyboard-control "Required"
     === "Curseforge :simple-curseforge:"
