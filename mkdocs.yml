@@ -553,6 +553,8 @@ nav:
       - modpacks/Aged/index.md
     - AgedLite:
       - modpacks/AgedLite/index.md
+  - Server:
+    - about/server.md
   - About:
     - about/installation.md
     - about/developer.md

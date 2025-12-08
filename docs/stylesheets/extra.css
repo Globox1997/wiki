@@ -231,3 +231,26 @@ td {
     padding-right: 10px;
     font-weight: 400;
 }
+
+.md-tabs__badge {
+    position: absolute;
+    top: -12px;
+    right: -20px;
+
+    background-color: #f44336;
+    color: white;
+
+    font-size: 0.6rem;
+    font-weight: 700;
+
+    padding: 2px 5px;
+    border-radius: 4px;
+    line-height: 1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.md-tabs__link--with-badge {
+    position: relative;
+    padding-right: 10px !important;
+}
