@@ -1,5 +1,9 @@
 # General notes
 
+How to start localhost dev:
+type in the terminal the following:
+mkdocs serve
+
 Add the following meta on top of every page with the right info
 ```
 ---
