@@ -27,6 +27,7 @@ const modIcons = [
     { texture: 'rewardz_icon', url: 'RewardZ', tooltip: 'RewardZ' },
     { texture: 'rpgdifficulty_icon', url: 'RpgDifficulty', tooltip: 'RpgDifficulty' },
     { texture: 'rpgloot_icon', url: 'RpgZ', tooltip: 'RpgZ' },
+    { texture: 'sitlog_icon', url: 'SitLog', tooltip: 'SitLog' },
     { texture: 'smitherz_icon', url: 'SmitherZ', tooltip: 'SmitherZ' },
     { texture: 'spartanweapons_icon', url: 'SpartanWeapons', tooltip: 'SpartanWeapons' },
     { texture: 'spoiledz_icon', url: 'SpoiledZ', tooltip: 'SpoiledZ' },
