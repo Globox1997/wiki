@@ -147,6 +147,9 @@ extra:
     rpgz:
         repo: https://github.com/Globox1997/RpgZ
         name: RpgZ
+    sitlog:
+        repo: https://github.com/Globox1997/SitLog
+        name: SitLog
     smitherz:
         repo: https://github.com/Globox1997/SmitherZ
         name: SmitherZ
@@ -508,6 +511,8 @@ nav:
       - mods/RpgDifficulty/index.md
     - RpgZ:
       - mods/RpgZ/index.md
+    - SitLog:
+      - mods/SitLog/index.md
     - SmitherZ:
       - mods/SmitherZ/index.md
     - SpartanWeapons:
