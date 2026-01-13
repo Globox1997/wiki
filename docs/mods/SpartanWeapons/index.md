@@ -8,10 +8,10 @@ summary: spartanweapons wiki
 
 ![SpartanWeapons Banner](/wiki/assets/general/banner/spartanweaponsbanner.png)
 
-<!-- ---
-<div id="showcase-gallery" modid="spartanweapons" image_1="spartanweapons_image_1" image_2="spartanweapons_image_2" image_3="spartanweapons_image_3"></div>
+---
+<div id="showcase-gallery" modid="spartanweapons" image_1="spartanweapons_image_1"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
---- -->
+---
 
 # Description
 SpartanWeapons adds new [weapons](https://minecraft.wiki/w/Weapon) with different abilities.
@@ -42,12 +42,10 @@ Just report bugs at the github page.
 
         [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://curseforge.com/minecraft/mc-mods/cloth-config){ .md-button .md-button--primary }
-        [ARRP](https://www.curseforge.com/minecraft/mc-mods/arrp){ .md-button .md-button--primary }
         [BetterCombat](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus){ .md-button .md-button--primary }
 
     === "Modrinth :simple-modrinth:"
 
         [Fabric API](https://modrinth.com/mod/fabric-api){ .md-button .md-button--primary }
         [Cloth Config API](https://modrinth.com/mod/cloth-config){ .md-button .md-button--primary }
-        [ARRP](https://modrinth.com/mod/arrp){ .md-button .md-button--primary }
         [BetterCombat](https://modrinth.com/mod/better-combat){ .md-button .md-button--primary }
