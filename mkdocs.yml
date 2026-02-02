@@ -93,6 +93,9 @@ extra:
     extendeddrawersaddon:
         repo: https://github.com/Globox1997/ExtendedDrawersAddon
         name: ExtendedDrawersAddon
+    farmz:
+        repo: https://github.com/Globox1997/FarmZ
+        name: FarmZ
     fleshz:
         repo: https://github.com/Globox1997/FleshZ
         name: FleshZ
@@ -396,6 +399,8 @@ nav:
       - mods/EventMod/index.md
     - ExtendedDrawersAddon:
       - mods/ExtendedDrawersAddon/index.md
+    - FarmZ:
+      - mods/FarmZ/index.md
     - FleshZ:
       - mods/FleshZ/index.md
     - HerdsPanic:
