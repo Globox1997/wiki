@@ -405,6 +405,10 @@ nav:
         - mods/DungeonZ/Structures/Temple_Dungeon_Structure.md
     - EarlyStage:
       - mods/EarlyStage/index.md
+      - Items:
+        - mods/EarlyStage/Items/index.md
+      - Blocks:
+        - mods/EarlyStage/Blocks/index.md
     - EnvironmentZ:
       - mods/EnvironmentZ/index.md
     - EventMod:
@@ -413,6 +417,9 @@ nav:
       - mods/ExtendedDrawersAddon/index.md
     - FarmZ:
       - mods/FarmZ/index.md
+      - Entities:
+        - mods/FarmZ/Entities/index.md
+        - mods/FarmZ/Entities/Beethuut.md
       - Items:
         - mods/FarmZ/Items/index.md
         - mods/FarmZ/Items/Baked_Golden_Potato.md
@@ -431,6 +438,10 @@ nav:
         - mods/FarmZ/Items/Golden_Watering_Can.md
         - mods/FarmZ/Items/Iron_Watering_Can.md
         - mods/FarmZ/Items/Netherite_Watering_Can.md
+      - Blocks:
+        - mods/FarmZ/Blocks/index.md
+        - mods/FarmZ/Blocks/Beethuut_Egg.md
+        - mods/FarmZ/Blocks/Sprinkler.md
     - FleshZ:
       - mods/FleshZ/index.md
     - HerdsPanic:
