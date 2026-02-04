@@ -452,6 +452,10 @@ nav:
       - mods/JobsAddon/index.md
     - LevelZ:
       - mods/LevelZ/index.md
+      - Items:
+        - mods/LevelZ/Items/index.md
+        - mods/LevelZ/Items/Rare_Candy.md
+        - mods/LevelZ/Items/Strange_Potion.md
     - LibZ:
       - mods/LibZ/index.md
     - MedievalWeapons:
