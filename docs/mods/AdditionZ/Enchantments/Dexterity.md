@@ -35,6 +35,8 @@ summary: additionz enchantment dexterity
 </div>
 
 ## Description
+Important! This feature got removed in Minecraft versions 1.21.1+!
+
 Dexterity is an [enchantment](https://minecraft.wiki/w/Enchanting#Summary_of_enchantments) applied to [boots](https://minecraft.wiki/w/Boots) which increases the [ladder](https://minecraft.wiki/w/Ladder) climbing speed from the [player](https://minecraft.wiki/w/Player).
 
 ![Enchantment in action](https://i.imgur.com/TC1scQL.gif){  width=40% loading=lazy }
