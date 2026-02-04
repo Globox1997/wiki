@@ -14,6 +14,8 @@ summary: patchoulibutton wiki
 ---
 
 # Description
+Important! This mod is not maintained anymore! This mod will not get updated after Minecraft version 1.20.1!
+
 This mod is an addon for the mod [Patchouli](https://modrinth.com/mod/patchouli) which adds all [patchouli](https://modrinth.com/mod/patchouli) [books](https://minecraft.wiki/w/Book) into one.  
 The book can get accessed through the [inventory](https://minecraft.wiki/w/Inventory).  
 For modpack devs: this mod can instead of listing all mod [books](https://minecraft.wiki/w/Book), give direct access to a specific [book](https://minecraft.wiki/w/Book) like your modpack [book](https://minecraft.wiki/w/Book).

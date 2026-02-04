@@ -14,6 +14,8 @@ summary: dualwielding wiki
 ---
 
 # Description
+Important! This mod is not maintained anymore! This mod will not get updated after Minecraft version 1.20.1!
+
 DualWielding will enable you to fight with a [weapon](https://minecraft.wiki/w/Weapon) in your [off hand](https://minecraft.wiki/w/Dual_wield).
 
 ---

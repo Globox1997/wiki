@@ -9,6 +9,8 @@ summary: eventmod wiki
 ![EventMod Banner](/wiki/assets/general/banner/eventmodbanner.png)
 
 # Description
+Important! This mod is not maintained anymore! This mod will not get updated after Minecraft version 1.20!
+
 EventMod is made for events. It is made for server owners and only adds one item, the debugger.
 It won't do anything by itself, it has to get configured properly.
   
