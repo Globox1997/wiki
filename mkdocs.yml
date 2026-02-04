@@ -401,6 +401,24 @@ nav:
       - mods/ExtendedDrawersAddon/index.md
     - FarmZ:
       - mods/FarmZ/index.md
+      - Items:
+        - mods/FarmZ/Items/index.md
+        - mods/FarmZ/Items/Baked_Golden_Potato.md
+        - mods/FarmZ/Items/Glistering_Sweet_Berries.md
+        - mods/FarmZ/Items/Golden_Beetroot.md
+        - mods/FarmZ/Items/Golden_Bread.md
+        - mods/FarmZ/Items/Golden_Chorus_Fruit.md
+        - mods/FarmZ/Items/Golden_Cocoa_Beans.md
+        - mods/FarmZ/Items/Golden_Cookie.md
+        - mods/FarmZ/Items/Golden_Potato.md
+        - mods/FarmZ/Items/Popped_Golden_Chorus_Fruit.md
+        - mods/FarmZ/Items/Golden_Wheat.md
+        - mods/FarmZ/Items/Farmers_Hat.md
+        - mods/FarmZ/Items/Copper_Watering_Can.md
+        - mods/FarmZ/Items/Diamond_Watering_Can.md
+        - mods/FarmZ/Items/Golden_Watering_Can.md
+        - mods/FarmZ/Items/Iron_Watering_Can.md
+        - mods/FarmZ/Items/Netherite_Watering_Can.md
     - FleshZ:
       - mods/FleshZ/index.md
     - HerdsPanic:
