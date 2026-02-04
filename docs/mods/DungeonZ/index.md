@@ -20,11 +20,9 @@ By default, one dungeon is added. For further info, how to add your own dungeon,
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/dungeonz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/dungeonz/Entities/#list-of-entities)
+- [Block List](/wiki/mods/dungeonz/Blocks/#list-of-blocks)
 - [Item List](/wiki/mods/dungeonz/Items/#list-of-items)
-- [Structure List](/wiki/mods/dungeonz/Structures/#list-of-structures) -->
+- [Structure List](/wiki/mods/dungeonz/Structures/#list-of-structures)
   
 ---
 ## Misc

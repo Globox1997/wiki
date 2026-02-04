@@ -391,6 +391,18 @@ nav:
       - mods/DualWielding/index.md
     - DungeonZ:
       - mods/DungeonZ/index.md
+      - Items:
+        - mods/DungeonZ/Items/index.md
+        - mods/DungeonZ/Items/Dungeon_Compass.md
+      - Blocks:
+        - mods/DungeonZ/Blocks/index.md
+        - mods/DungeonZ/Blocks/Dungeon_Gate.md
+        - mods/DungeonZ/Blocks/Dungeon_Portal.md
+        - mods/DungeonZ/Blocks/Dungeon_Spawner.md
+      - Structures:
+        - mods/DungeonZ/Structures/index.md
+        - mods/DungeonZ/Structures/Dark_Dungeon_Structure.md
+        - mods/DungeonZ/Structures/Temple_Dungeon_Structure.md
     - EarlyStage:
       - mods/EarlyStage/index.md
     - EnvironmentZ:
