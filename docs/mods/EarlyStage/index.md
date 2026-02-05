@@ -26,6 +26,9 @@ How to get started: break [leaves](https://minecraft.wiki/w/Leaves) to get [stic
 - [Entity List](/wiki/mods/earlystage/Entities/#list-of-entities)
 - [Item List](/wiki/mods/earlystage/Items/#list-of-items)
 - [Structure List](/wiki/mods/earlystage/Structures/#list-of-structures) -->
+
+## Datapack
+Sievable blocks can get added, for more info checkout the [github readme](https://github.com/Globox1997/EarlyStage)
   
 ---
 ## Misc

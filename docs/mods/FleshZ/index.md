@@ -24,7 +24,10 @@ Mobs which used to drop [leather](https://minecraft.wiki/w/Leather), now drop hi
 - [Entity List](/wiki/mods/fleshz/Entities/#list-of-entities)
 - [Item List](/wiki/mods/fleshz/Items/#list-of-items)
 - [Structure List](/wiki/mods/fleshz/Structures/#list-of-structures) -->
-  
+
+## Datapack
+Drying rack recipes can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/FleshZ)
+
 ---
 ## Misc
 This mod is developed for <img src="https://fabricmc.net/assets/logo.png" alt="Fabric" width="16" height="16" style="position: relative; top: 3px;"> [Fabric](https://fabricmc.net/).  

@@ -21,6 +21,9 @@ This mod is originally made by [Draylar](https://github.com/Draylar) and this is
 ---
 ## Content
 This mod does not add blocks, items nor entities.
+
+## Datapack
+Tiers can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/tiered)
   
 ---
 ## Misc

@@ -19,7 +19,9 @@ Highly configureable. It is recommended to turn off the time setting for servers
 
 ---
 ## Content
-This mod does not add blocks, items nor entities.  
+This mod does not add blocks, items nor entities.
+
+## Datapack
 Check out the [github readme](https://github.com/Globox1997/RpgDifficulty) for further information about the config options.
   
 ---

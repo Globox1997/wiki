@@ -23,6 +23,9 @@ For an easier start, use the [bonus chest](https://minecraft.wiki/w/Bonus_Chest)
 - [Effect List](/wiki/mods/Dehydration/Effects/#list-of-effects)
 - [Item List](/wiki/mods/Dehydration/Items/#list-of-items)
 - [Hydration](/wiki/mods/Dehydration/Mechanic/)
+
+## Datapack
+The hydration of items can get tweaked, for more info checkout the [github readme](https://github.com/Globox1997/Dehydration)
   
 ---
 ## Misc

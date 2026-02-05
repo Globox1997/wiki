@@ -20,6 +20,9 @@ This mod adds [player](https://minecraft.wiki/w/Player) jobs which can get level
 ---
 ## Content
 This mod does not add blocks, items nor entities.
+
+## Datapack
+Jobs can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/JobsAddon)
   
 ---
 ## Misc

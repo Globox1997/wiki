@@ -26,6 +26,9 @@ So for the beginning, warm up at a cozy [fire place](https://minecraft.wiki/w/Ca
 - [Entity List](/wiki/mods/environmentz/Entities/#list-of-entities)
 - [Item List](/wiki/mods/environmentz/Items/#list-of-items)
 - [Structure List](/wiki/mods/environmentz/Structures/#list-of-structures) -->
+
+## Datapack
+Many environment settings can get adjusted, for more info checkout the [github readme](https://github.com/Globox1997/EnvironmentZ)
   
 ---
 ## Misc

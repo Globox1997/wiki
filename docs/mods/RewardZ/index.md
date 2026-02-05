@@ -20,7 +20,9 @@ Does not provide a default reward [datapack](https://minecraft.wiki/w/Data_pack)
 
 ---
 ## Content
-This mod does not add blocks, items nor entities.  
+This mod does not add blocks, items nor entities.
+
+## Datapack
 Check out the [github readme](https://github.com/Globox1997/RewardZ) for further information about the datapack.
   
 ---

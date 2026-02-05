@@ -20,7 +20,9 @@ A screen can be build via a [datapack](https://minecraft.wiki/w/Data_pack) (and 
 
 ---
 ## Content
-This mod does not add blocks, items nor entities.  
+This mod does not add blocks, items nor entities.
+
+## Datapack
 Check out the [github readme](https://github.com/Globox1997/WelcomeScreen) for further information about the datapack.
   
 ---

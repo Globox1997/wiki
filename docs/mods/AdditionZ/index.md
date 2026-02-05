@@ -21,6 +21,9 @@ This mod adds a couple of features to Minecraft which can enabled or disabled.
 - [Enchantment List](/wiki/mods/AdditionZ/Enchantments/#list-of-enchantments)
 - [Feature List](/wiki/mods/AdditionZ/Features)
 - [Item List](/wiki/mods/AdditionZ/Items/#list-of-items)
+
+## Datapack
+AdditionZ adds the ability to add fletching recipes and enables the configuration of mob xp drop, for more info checkout the [github readme](https://github.com/Globox1997/AdditionZ)
   
 ---
 ## Misc

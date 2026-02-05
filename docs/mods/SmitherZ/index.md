@@ -24,6 +24,9 @@ These gems will affect the [player](https://minecraft.wiki/w/Player). Gems can b
 - [Entity List](/wiki/mods/smitherz/Entities/#list-of-entities)
 - [Item List](/wiki/mods/smitherz/Items/#list-of-items)
 - [Structure List](/wiki/mods/smitherz/Structures/#list-of-structures) -->
+
+## Datapack
+Gems can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/SmitherZ)
   
 ---
 ## Misc

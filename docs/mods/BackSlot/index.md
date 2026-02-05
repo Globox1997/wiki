@@ -19,7 +19,10 @@ Press "G" to put your [trident](https://minecraft.wiki/w/Trident) on your back a
 
 ---
 ## Content
-This mod does not add blocks, items nor entities.  
+This mod does not add blocks, items nor entities.
+
+## Datapack
+BackSlot uses the head item model renderer to render the items on the players back and belt. For more info checkout the [github readme](https://github.com/Globox1997/BackSlot)
   
 ---
 ## Misc

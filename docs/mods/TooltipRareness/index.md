@@ -19,7 +19,9 @@ For a more Rpg'sh feeling.
 
 ---
 ## Content
-This mod does not add blocks, items nor entities.  
+This mod does not add blocks, items nor entities.
+
+## Datapack
 Check out the [github readme](https://github.com/Globox1997/TooltipRareness) for further information about the datapack.
   
 ---
