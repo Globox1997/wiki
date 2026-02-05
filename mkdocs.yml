@@ -407,8 +407,49 @@ nav:
       - mods/EarlyStage/index.md
       - Items:
         - mods/EarlyStage/Items/index.md
+        - mods/EarlyStage/Items/Acacia_Bark.md
+        - mods/EarlyStage/Items/Bamboo_Bark.md
+        - mods/EarlyStage/Items/Birch_Bark.md
+        - mods/EarlyStage/Items/Cherry_Bark.md
+        - mods/EarlyStage/Items/Crimson_Bark.md
+        - mods/EarlyStage/Items/Dark_Oak_Bark.md
+        - mods/EarlyStage/Items/Jungle_Bark.md
+        - mods/EarlyStage/Items/Mangrove_Bark.md
+        - mods/EarlyStage/Items/Oak_Bark.md
+        - mods/EarlyStage/Items/Spruce_Bark.md
+        - mods/EarlyStage/Items/Warped_Bark.md
+        - mods/EarlyStage/Items/Brick_Bucket.md
+        - mods/EarlyStage/Items/Clay_Bucket.md
+        - mods/EarlyStage/Items/Lava_Brick_Bucket.md
+        - mods/EarlyStage/Items/Water_Brick_Bucket.md
+        - mods/EarlyStage/Items/Wooden_Bucket.md
+        - mods/EarlyStage/Items/Flint_Axe.md
+        - mods/EarlyStage/Items/Flint_Hoe.md
+        - mods/EarlyStage/Items/Flint_Pickaxe.md
+        - mods/EarlyStage/Items/Flint_Shovel.md
+        - mods/EarlyStage/Items/Flint_Sword.md
+        - mods/EarlyStage/Items/Steel_Axe.md
+        - mods/EarlyStage/Items/Steel_Boots.md
+        - mods/EarlyStage/Items/Steel_Chestplate.md
+        - mods/EarlyStage/Items/Steel_Helmet.md
+        - mods/EarlyStage/Items/Steel_Hoe.md
+        - mods/EarlyStage/Items/Steel_Horse_Armor.md
+        - mods/EarlyStage/Items/Steel_Ingot.md
+        - mods/EarlyStage/Items/Steel_Leggings.md
+        - mods/EarlyStage/Items/Steel_Nugget.md
+        - mods/EarlyStage/Items/Steel_Pickaxe.md
+        - mods/EarlyStage/Items/Steel_Shovel.md
+        - mods/EarlyStage/Items/Steel_Sword.md
+        - mods/EarlyStage/Items/Stone_Shears.md
+        - mods/EarlyStage/Items/Wooden_Shield.md
       - Blocks:
         - mods/EarlyStage/Blocks/index.md
+        - mods/EarlyStage/Blocks/Crafting_Rock.md
+        - mods/EarlyStage/Blocks/Flint.md
+        - mods/EarlyStage/Blocks/Redstone_Sieve.md
+        - mods/EarlyStage/Blocks/Rock.md
+        - mods/EarlyStage/Blocks/Sieve.md
+        - mods/EarlyStage/Blocks/Steel_Block.md
     - EnvironmentZ:
       - mods/EnvironmentZ/index.md
     - EventMod:
