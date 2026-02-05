@@ -20,11 +20,7 @@ This mod is originally made by [Draylar](https://github.com/Draylar) and this is
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/tieredz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/tieredz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/tieredz/Items/#list-of-items)
-- [Structure List](/wiki/mods/tieredz/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.
   
 ---
 ## Misc

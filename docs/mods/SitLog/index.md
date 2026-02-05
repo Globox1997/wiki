@@ -19,11 +19,7 @@ If you want to you can configure how long the [players](https://minecraft.wiki/w
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/smitherz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/smitherz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/smitherz/Items/#list-of-items)
-- [Structure List](/wiki/mods/smitherz/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.
   
 ---
 ## Misc

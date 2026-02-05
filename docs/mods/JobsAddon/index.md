@@ -19,11 +19,7 @@ This mod adds [player](https://minecraft.wiki/w/Player) jobs which can get level
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/jobsaddon/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/jobsaddon/Entities/#list-of-entities)
-- [Item List](/wiki/mods/jobsaddon/Items/#list-of-items)
-- [Structure List](/wiki/mods/jobsaddon/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.
   
 ---
 ## Misc

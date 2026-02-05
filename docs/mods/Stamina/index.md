@@ -18,11 +18,7 @@ Stamina adds a stamina mechanic to get out of breath, indicated by a stamina bar
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/stamina/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/stamina/Entities/#list-of-entities)
-- [Item List](/wiki/mods/stamina/Items/#list-of-items)
-- [Structure List](/wiki/mods/stamina/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.
   
 ---
 ## Misc

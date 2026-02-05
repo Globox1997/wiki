@@ -18,7 +18,7 @@ BackSlotAddon is an addon mod for the mod [BackSlot](/wiki/mods/BackSlot) which 
 
 ---
 ## Content
-This mod does not add blocks, items nor entities.  
+This mod does not add blocks, items nor entities.
   
 ---
 ## Misc

@@ -19,11 +19,7 @@ This mod adds parties to be able to open up groups to level up together.
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/partyaddon/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/partyaddon/Entities/#list-of-entities)
-- [Item List](/wiki/mods/partyaddon/Items/#list-of-items)
-- [Structure List](/wiki/mods/partyaddon/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.
   
 ---
 ## Misc

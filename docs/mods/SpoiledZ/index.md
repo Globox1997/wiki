@@ -19,11 +19,7 @@ If the [food item](https://minecraft.wiki/w/Food) is spoiled and eaten, the nutr
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/spoiledz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/spoiledz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/spoiledz/Items/#list-of-items)
-- [Structure List](/wiki/mods/spoiledz/Structures/#list-of-structures) -->
+This mod does not add blocks, items nor entities.
   
 ---
 ## Misc
