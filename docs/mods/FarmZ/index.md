@@ -22,11 +22,9 @@ To moisture farmland you will either need to use the provided water cans or a sp
 
 ---
 ## Content
-- [Item List](/wiki/mods/farmz/Items/#list-of-items)
-<!-- - [Block List](/wiki/mods/farmz/Blocks/#list-of-blocks)
 - [Entity List](/wiki/mods/farmz/Entities/#list-of-entities)
+- [Block List](/wiki/mods/farmz/Blocks/#list-of-blocks)
 - [Item List](/wiki/mods/farmz/Items/#list-of-items)
-- [Structure List](/wiki/mods/farmz/Structures/#list-of-structures) -->
   
 ---
 ## Misc
