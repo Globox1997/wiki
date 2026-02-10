@@ -83,7 +83,7 @@ function table() {
 
 }
 
-// vanilla_crafting; smithing; furnace_smelting; anvil; fletching; brewing; stonecutting, blast_furnace_smelting;
+// vanilla_crafting; smithing; furnace_smelting; anvil; fletching; brewing; stonecutting, blast_furnace_smelting; wood_rack;
 const vanillaCraftingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], [4, [10, 46]], [5, [46, 46]], [6, [82, 46]], [7, [10, 82]], [8, [46, 82]], [9, [82, 82]], ['output', [202, 46]], ['size', [256, 124]]];
 const smithingPositions = [[1, [10, 10]], [2, [46, 10]], [3, [82, 10]], ['output', [198, 10]], ['size', [240, 52]]];
 const furnaceSmeltingPositions = [[1, [10, 18]], ['output', [130, 18]], ['size', [180, 92]]];
@@ -92,8 +92,9 @@ const anvilPositions = [[1, [10, 10]], [2, [108, 10]], ['output', [224, 10]], ['
 const fletchingPositions = [[1, [10, 10]], [2, [10, 46]], [3, [10, 82]], [4, [96, 46]], ['output', [206, 46]], ['size', [256, 124]]];
 const brewingPositions = [[1, [134, 14]], [2, [88, 82]], ['output', [180, 82]], ['size', [256, 138]]];
 const stonecuttingPositions = [[1, [10, 10]], ['output', [126, 10]], ['size', [168, 52]]];
+const woodRackPositions = [[1, [10, 10]], ['output', [126, 10]], ['size', [168, 52]]];
 
-const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)], ['blast_furnace_smelting', new Map(blastFurnaceSmeltingPositions)], ['anvil', new Map(anvilPositions)], ['fletching', new Map(fletchingPositions)], ['brewing', new Map(brewingPositions)], ['stonecutting', new Map(stonecuttingPositions)]]);
+const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)], ['blast_furnace_smelting', new Map(blastFurnaceSmeltingPositions)], ['anvil', new Map(anvilPositions)], ['fletching', new Map(fletchingPositions)], ['brewing', new Map(brewingPositions)], ['stonecutting', new Map(stonecuttingPositions)], ['wood_rack', new Map(woodRackPositions)]]);
 
 function crafting() {
     if (document.getElementsByClassName('crafting-element' != null)) {
@@ -204,12 +205,13 @@ function crafting() {
             div.style.top = recipePositions.get('output')[1] + 'px';
 
             const item = document.createElement('img');
-            item.src = '/wiki/assets/general/items/' + output[0] + '.png';
+            const currentOutputName = output[0];
+            item.src = '/wiki/assets/general/items/' + currentOutputName + '.png';
             item.alt = '';
             item.onerror = function () {
                 try {
                     if (!item.src.includes('blocks')) {
-                        item.src = '/wiki/assets/general/blocks/' + output[0] + '.png';
+                        item.src = '/wiki/assets/general/blocks/' + currentOutputName + '.png';
                     } else if (!item.src.includes('missing')) {
                         item.src = '/wiki/assets/general/items/vanilla/missing.png';
                     }
