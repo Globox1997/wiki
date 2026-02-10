@@ -22,11 +22,7 @@ There are plans for a complete rewrite of this mod since 2023. When there is eno
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/levelz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/levelz/Entities/#list-of-entities)
 - [Item List](/wiki/mods/levelz/Items/#list-of-items)
-- [Structure List](/wiki/mods/levelz/Structures/#list-of-structures) -->
 
 ## Datapack
 Skills and restrictions can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/LevelZ)

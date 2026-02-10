@@ -245,13 +245,6 @@ nav:
     - mods/index.md
     - AdditionZ:
       - mods/AdditionZ/index.md
-      - Features:
-        - mods/AdditionZ/Features/index.md
-      - Items:
-        - mods/AdditionZ/Items/index.md
-        - mods/AdditionZ/Items/Teleport_Potion.md
-        - mods/AdditionZ/Items/Teleport_Scroll.md
-        - mods/AdditionZ/Items/Totem_of_Non_Breaking.md
       - Enchantments:
         - mods/AdditionZ/Enchantments/index.md
         - mods/AdditionZ/Enchantments/Block_Piercing.md
@@ -259,8 +252,20 @@ nav:
         - mods/AdditionZ/Enchantments/Dexterity.md
         - mods/AdditionZ/Enchantments/Eagle_Eyed.md
         - mods/AdditionZ/Enchantments/Stampede.md
+      - Features:
+        - mods/AdditionZ/Features/index.md
+      - Items:
+        - mods/AdditionZ/Items/index.md
+        - mods/AdditionZ/Items/Teleport_Potion.md
+        - mods/AdditionZ/Items/Teleport_Scroll.md
+        - mods/AdditionZ/Items/Totem_of_Non_Breaking.md
     - AdventureZ:
       - mods/AdventureZ/index.md
+      - Blocks:
+        - mods/AdventureZ/Blocks/index.md
+        - mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder.md
+        - mods/AdventureZ/Blocks/Piglin_Flag.md
+        - mods/AdventureZ/Blocks/Shadow_Chest.md
       - Entities:
         - mods/AdventureZ/Entities/index.md
         - mods/AdventureZ/Entities/Amethyst_Golem.md
@@ -326,11 +331,6 @@ nav:
         - mods/AdventureZ/Items/Source_Stone.md
         - mods/AdventureZ/Items/Warthog_Meat.md
         - mods/AdventureZ/Items/Warthog_Shell_Piece.md
-      - Blocks:
-        - mods/AdventureZ/Blocks/index.md
-        - mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder.md
-        - mods/AdventureZ/Blocks/Piglin_Flag.md
-        - mods/AdventureZ/Blocks/Shadow_Chest.md
       - Structures:
         - mods/AdventureZ/Structures/index.md
         - mods/AdventureZ/Structures/Blackstone_Altar.md
@@ -391,20 +391,28 @@ nav:
       - mods/DualWielding/index.md
     - DungeonZ:
       - mods/DungeonZ/index.md
-      - Items:
-        - mods/DungeonZ/Items/index.md
-        - mods/DungeonZ/Items/Dungeon_Compass.md
       - Blocks:
         - mods/DungeonZ/Blocks/index.md
         - mods/DungeonZ/Blocks/Dungeon_Gate.md
         - mods/DungeonZ/Blocks/Dungeon_Portal.md
         - mods/DungeonZ/Blocks/Dungeon_Spawner.md
+      - Items:
+        - mods/DungeonZ/Items/index.md
+        - mods/DungeonZ/Items/Dungeon_Compass.md
       - Structures:
         - mods/DungeonZ/Structures/index.md
         - mods/DungeonZ/Structures/Dark_Dungeon_Structure.md
         - mods/DungeonZ/Structures/Temple_Dungeon_Structure.md
     - EarlyStage:
       - mods/EarlyStage/index.md
+      - Blocks:
+        - mods/EarlyStage/Blocks/index.md
+        - mods/EarlyStage/Blocks/Crafting_Rock.md
+        - mods/EarlyStage/Blocks/Flint.md
+        - mods/EarlyStage/Blocks/Redstone_Sieve.md
+        - mods/EarlyStage/Blocks/Rock.md
+        - mods/EarlyStage/Blocks/Sieve.md
+        - mods/EarlyStage/Blocks/Steel_Block.md
       - Items:
         - mods/EarlyStage/Items/index.md
         - mods/EarlyStage/Items/Acacia_Bark.md
@@ -443,14 +451,6 @@ nav:
         - mods/EarlyStage/Items/Steel_Sword.md
         - mods/EarlyStage/Items/Stone_Shears.md
         - mods/EarlyStage/Items/Wooden_Shield.md
-      - Blocks:
-        - mods/EarlyStage/Blocks/index.md
-        - mods/EarlyStage/Blocks/Crafting_Rock.md
-        - mods/EarlyStage/Blocks/Flint.md
-        - mods/EarlyStage/Blocks/Redstone_Sieve.md
-        - mods/EarlyStage/Blocks/Rock.md
-        - mods/EarlyStage/Blocks/Sieve.md
-        - mods/EarlyStage/Blocks/Steel_Block.md
     - EnvironmentZ:
       - mods/EnvironmentZ/index.md
     - EventMod:
@@ -459,6 +459,10 @@ nav:
       - mods/ExtendedDrawersAddon/index.md
     - FarmZ:
       - mods/FarmZ/index.md
+      - Blocks:
+        - mods/FarmZ/Blocks/index.md
+        - mods/FarmZ/Blocks/Beethuut_Egg.md
+        - mods/FarmZ/Blocks/Sprinkler.md
       - Entities:
         - mods/FarmZ/Entities/index.md
         - mods/FarmZ/Entities/Beethuut.md
@@ -480,12 +484,26 @@ nav:
         - mods/FarmZ/Items/Golden_Watering_Can.md
         - mods/FarmZ/Items/Iron_Watering_Can.md
         - mods/FarmZ/Items/Netherite_Watering_Can.md
-      - Blocks:
-        - mods/FarmZ/Blocks/index.md
-        - mods/FarmZ/Blocks/Beethuut_Egg.md
-        - mods/FarmZ/Blocks/Sprinkler.md
     - FleshZ:
       - mods/FleshZ/index.md
+      - Blocks:
+        - mods/FleshZ/Blocks/index.md
+        - mods/FleshZ/Blocks/Acacia_Wood_Rack.md
+        - mods/FleshZ/Blocks/Bamboo_Wood_Rack.md
+        - mods/FleshZ/Blocks/Birch_Wood_Rack.md
+        - mods/FleshZ/Blocks/Cherry_Wood_Rack.md
+        - mods/FleshZ/Blocks/Crimson_Wood_Rack.md
+        - mods/FleshZ/Blocks/Dark_Oak_Wood_Rack.md
+        - mods/FleshZ/Blocks/Jungle_Wood_Rack.md
+        - mods/FleshZ/Blocks/Mangrove_Wood_Rack.md
+        - mods/FleshZ/Blocks/Oak_Wood_Rack.md
+        - mods/FleshZ/Blocks/Spruce_Wood_Rack.md
+        - mods/FleshZ/Blocks/Warped_Wood_Rack.md
+      - Items:
+        - mods/FleshZ/Items/index.md
+        - mods/FleshZ/Items/Hide.md
+        - mods/FleshZ/Items/Prepared_Hide.md
+        - mods/FleshZ/Items/Rotten_Leather.md
     - HerdsPanic:
       - mods/HerdsPanic/index.md
     - InmisAddon:

@@ -19,11 +19,8 @@ Mobs which used to drop [leather](https://minecraft.wiki/w/Leather), now drop hi
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/fleshz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/fleshz/Entities/#list-of-entities)
+- [Block List](/wiki/mods/fleshz/Blocks/#list-of-blocks)
 - [Item List](/wiki/mods/fleshz/Items/#list-of-items)
-- [Structure List](/wiki/mods/fleshz/Structures/#list-of-structures) -->
 
 ## Datapack
 Drying rack recipes can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/FleshZ)
