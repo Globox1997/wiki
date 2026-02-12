@@ -615,6 +615,15 @@ nav:
       - mods/RecipeRemover/index.md
     - Revive:
       - mods/Revive/index.md
+      - Effects:
+        - mods/Revive/Effects/index.md
+        - mods/Revive/Effects/Aftermath.md
+        - mods/Revive/Effects/Lively_Aftermath.md
+      - Items:
+        - mods/Revive/Items/index.md
+        - mods/Revive/Items/Revival_Star.md
+        - mods/Revive/Items/Revivify_Potion.md
+        - mods/Revive/Items/Supportive_Revivify_Potion.md
     - RewardZ:
       - mods/RewardZ/index.md
     - RpgDifficulty:
