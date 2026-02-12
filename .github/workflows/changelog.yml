@@ -1,0 +1,34 @@
+name: changelog
+
+on: 
+  workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Run script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node ./docs/javascripts/changelog.js
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Globox1997"
+          git add ./docs/data/changelog_collected.json
+          git commit -m "Update changelog.json"
+          git push origin main
