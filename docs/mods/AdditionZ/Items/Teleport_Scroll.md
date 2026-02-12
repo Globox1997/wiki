@@ -3,7 +3,7 @@ title: Teleport Scroll
 project: additionz
 summary: additionz teleport scroll
 ---
-# Ender Flute
+# Teleport Scroll
 <div class="main_table">
 <div class="left_main_table">
 <table class="left_table">

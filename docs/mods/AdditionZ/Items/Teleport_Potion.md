@@ -3,7 +3,7 @@ title: Teleport Potion
 project: additionz
 summary: additionz teleport potion
 ---
-# Ender Flute
+# Teleport Potion
 <div class="main_table">
 <div class="left_main_table">
 <table class="left_table">
