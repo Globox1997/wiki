@@ -39,7 +39,7 @@ The teleport potion is a [consumable drink](https://minecraft.wiki/w/Drinks) [it
 
 ## Obtaining
 #### Trading
-The teleport potion is a trade of the [wandering trader](https://minecraft.wiki/w/Wandering_Trader) and requires [dragon breath](https://minecraft.wiki/w/Dragon%27s_Breath) and [emeralds](https://minecraft.wiki/w/Emerald).
+The teleport potion is a trade of the [wandering trader](https://minecraft.wiki/w/Wandering_Trader) and requires [dragon breath](https://minecraft.wiki/w/Dragon_Breath) and [emeralds](https://minecraft.wiki/w/Emerald).
 
 ## Usage
 To drink a teleport potion, press and hold right click while it is selected in the hotbar.
