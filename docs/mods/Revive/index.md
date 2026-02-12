@@ -20,11 +20,8 @@ It works in [hardcore](https://minecraft.wiki/w/Hardcore) mode too!
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/revive/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/revive/Entities/#list-of-entities)
+- [Effect List](/wiki/mods/revive/Effects/#list-of-effects)
 - [Item List](/wiki/mods/revive/Items/#list-of-items)
-- [Structure List](/wiki/mods/revive/Structures/#list-of-structures) -->
   
 ---
 ## Misc
