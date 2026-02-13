@@ -1,7 +1,8 @@
 {
   "travelerz": {
     "1.0.0": "### Initial Release",
-    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed render edge case\n### Changed:\n- "
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed render edge case\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- Added biome blacklist option\n### Fixed:\n- Fixed rpgdifficulty compat\n### Changed:\n- Moved from json5 to json config"
   },
   "welcomescreen": {
     "1.0.0": "### Initial Release",
@@ -56,7 +57,8 @@
   },
   "nutritionz": {
     "1.0.0": "### Initial Release",
-    "1.0.6": "### Added:\n- Nature's Spirit `1.4.5` compat\n### Updated:\n- [Let's Do] Meadow `1.3.14` compat\n- [Let's Do] Vinery `1.4.19` compat\n"
+    "1.0.6": "### Added:\n- Nature's Spirit `1.4.5` compat\n### Updated:\n- [Let's Do] Meadow `1.3.14` compat\n- [Let's Do] Vinery `1.4.19` compat\n",
+    "1.1.0": "## Changed:\n- Added button click sound\n- Fixed nutrition values for non food items"
   },
   "villagerquests": {
     "1.0.0": "### Initial Release",
@@ -105,26 +107,30 @@
     "1.0.0": "### Initial Release",
     "1.4.11": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.20.1",
     "1.4.12": "### Added:\n- \n### Fixed:\n- Fixed xp bug\n- Fixed shield restriction\n### Changed:\n- ",
-    "1.4.13": "### Added:\n- Added spawner mob xp config option\n### Fixed:\n- Fixed armor switching\n- Fixed rei tooltip issue\n### Changed:\n- Tweaked advancement criteria"
+    "1.4.13": "### Added:\n- Added spawner mob xp config option\n### Fixed:\n- Fixed armor switching\n- Fixed rei tooltip issue\n### Changed:\n- Tweaked advancement criteria",
+    "2.0.8": "### Added:\n- \n### Fixed:\n- Fixed second render layer\n### Changed:\n- "
   },
   "smitherz": {
     "1.0.0": "### Initial Release",
     "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- ",
     "1.0.2": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- ",
     "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed gem attribute mechanic\n### Changed:\n- ",
-    "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed gem tooltip\n### Changed:\n- "
+    "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed gem tooltip\n### Changed:\n- ",
+    "1.0.5": "### Added:\n- Added smither hammer recipe\n- Added smither commands\n- Added smithing sounds\n- Added gem slot randomness config option\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.21\n- Removed unused config options"
   },
   "rpgdifficulty": {
     "1.0.0": "### Initial Release",
     "1.3.12": "### Added:\n- \n### Fixed:\n- Fixed baby zombie speed\n### Changed:\n- ",
     "1.3.13": "### Added:\n- \n### Fixed:\n- Fixed levelz compat\n### Changed:\n- ",
-    "1.3.14": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.21.1"
+    "1.3.14": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated to mc 1.21.1",
+    "1.3.18": "### Added:\n- \n### Fixed:\n- Fixed C2ME error\n### Changed:\n- "
   },
   "backslot": {
     "1.0.0": "### Initial Release",
     "1.2.13": "### Added:\n- Added hud config settings\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19.4",
     "1.2.14": "### Added:\n- \n### Fixed:\n- Fixed universal grave compat\n- Fixed unsafe handling crash\n### Changed:\n- ",
-    "1.2.15": "### Added:\n- \n### Fixed:\n- Fixed slot arrangement config\n### Changed:\n- "
+    "1.2.15": "### Added:\n- \n### Fixed:\n- Fixed slot arrangement config\n### Changed:\n- ",
+    "1.3.0": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated amecs api dependency"
   },
   "medievalweapons": {
     "1.0.0": "### Initial Release",
@@ -166,7 +172,8 @@
     "1.0.1": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- ",
     "1.0.2": "### Added:\n- \n### Fixed:\n- Fixed world map bug\n### Changed:\n- ",
     "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed sharing xp bug\n### Changed:\n- ",
-    "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed xaeroplus compat\n- Fixed party issue on player death\n### Changed:\n- "
+    "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed xaeroplus compat\n- Fixed party issue on player death\n### Changed:\n- ",
+    "1.0.5": "### Added:\n- \n### Fixed:\n- Fixed accept invitation crash\n- Fixed xaeros world map crash\n### Changed:\n- "
   },
   "fleshz": {
     "1.0.0": "### Initial Release",
@@ -202,6 +209,7 @@
   "rpgz": {
     "0.6.0": "### Added:\n- Added SpoiledZ compat\n### Fixed:\n- Fixed mount dismounting\n- Fixed missing drops\n### Changed:\n- Tweaked internals",
     "0.7.0": "### Added:\n- \n### Fixed:\n- Fixed inventory owner bug\n### Changed:\n- ",
+    "0.7.1": "### Added:\n- \n### Fixed:\n- Fixed excluded entities\n### Changed:\n- ",
     "1.0.0": "### Initial Release"
   },
   "herdspanic": {
@@ -218,7 +226,8 @@
     "1.0.7": "### Added:\n- \n### Fixed:\n- Fixed vinery compat #2\n### Changed:\n- ",
     "1.0.8": "### Added:\n- \n### Fixed:\n- Fixed farmers delight compat\n### Changed:\n- ",
     "1.0.9": "### Added:\n- Added food block spoilage\n### Fixed:\n- \n### Changed:\n- ",
-    "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- "
+    "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- ",
+    "1.1.0": "### Added:\n- Added decorated pot freezing food\n### Fixed:\n- \n### Changed:\n- "
   },
   "environmentz": {
     "1.0.0": "### Initial Release",
@@ -261,5 +270,16 @@
     "1.0.0": "### Initial Release",
     "1.0.9": "### Added:\n- \n### Fixed:\n- Fixed opac crash\n### Changed:\n- ",
     "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed opac crash\n### Changed:\n- "
+  },
+  "serveratelier": {},
+  "spartanweapons": {},
+  "sitlog": {
+    "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed second render layer\n### Changed:\n- "
+  },
+  "farmz": {
+    "1.0.2": "### Added:\n- Added golden beetroot soup\n### Fixed:\n- Fixed 0 moisture setting\n### Changed:\n- "
+  },
+  "theoblivion": {
+    "1.1.0": "### Added:\n- Added oblivion grass blocks\n- Added oblivion stone blocks\n- Added skeletal\n### Fixed:\n- Fixed quicksand generation\n### Changed:\n- Changed oblivion world generation"
   }
 }

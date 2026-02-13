@@ -122,6 +122,61 @@ function getCustomTexture(texture) {
         case 'winged_dragon_scale_chestplate':
             return 'upgraded_dragon_chestplate';
 
+        case 'attack_speed_i_gem':
+            return 'attack_speed_1_gem';
+        case 'attack_speed_ii_gem':
+            return 'attack_speed_2_gem';
+        case 'attack_speed_iii_gem':
+            return 'attack_speed_3_gem';
+        case 'attack_speed_iv_gem':
+            return 'attack_speed_4_gem';
+        case 'attack_speed_v_gem':
+            return 'attack_speed_5_gem';
+
+        case 'defense_i_gem':
+            return 'defense_1_gem';
+        case 'defense_ii_gem':
+            return 'defense_2_gem';
+        case 'defense_iii_gem':
+            return 'defense_3_gem';
+        case 'defense_iv_gem':
+            return 'defense_4_gem';
+        case 'defense_v_gem':
+            return 'defense_5_gem';
+
+        case 'health_i_gem':
+            return 'health_1_gem';
+        case 'health_ii_gem':
+            return 'health_2_gem';
+        case 'health_iii_gem':
+            return 'health_3_gem';
+        case 'health_iv_gem':
+            return 'health_4_gem';
+        case 'health_v_gem':
+            return 'health_5_gem';
+
+        case 'speed_i_gem':
+            return 'speed_1_gem';
+        case 'speed_ii_gem':
+            return 'speed_2_gem';
+        case 'speed_iii_gem':
+            return 'speed_3_gem';
+        case 'speed_iv_gem':
+            return 'speed_4_gem';
+        case 'speed_v_gem':
+            return 'speed_5_gem';
+
+        case 'strength_i_gem':
+            return 'strength_1_gem';
+        case 'strength_ii_gem':
+            return 'strength_2_gem';
+        case 'strength_iii_gem':
+            return 'strength_3_gem';
+        case 'strength_iv_gem':
+            return 'strength_4_gem';
+        case 'strength_v_gem':
+            return 'strength_5_gem';
+
         default:
             return null;
     }
