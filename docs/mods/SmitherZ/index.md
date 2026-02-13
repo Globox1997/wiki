@@ -8,10 +8,10 @@ summary: smitherz wiki
 
 ![SmitherZ Banner](/wiki/assets/general/banner/smitherzbanner.png)
 
-<!-- ---
+---
 <div id="showcase-gallery" modid="smitherz" image_1="smitherz_image_1" image_2="smitherz_image_2" image_3="smitherz_image_3"></div>
 <script src="/wiki/javascripts/showcase.js"></script>
---- -->
+---
 
 # Description
 SmitherZ adds the ability for [players](https://minecraft.wiki/w/Player) to attach gems to [tools](https://minecraft.wiki/w/Tool) and [gear](https://minecraft.wiki/w/Tool).  
@@ -19,11 +19,7 @@ These gems will affect the [player](https://minecraft.wiki/w/Player). Gems can b
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/smitherz/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/smitherz/Entities/#list-of-entities)
-- [Item List](/wiki/mods/smitherz/Items/#list-of-items)
-- [Structure List](/wiki/mods/smitherz/Structures/#list-of-structures) -->
+- [Item List](/wiki/mods/SmitherZ/Items/#list-of-items)
 
 ## Datapack
 Gems can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/SmitherZ)

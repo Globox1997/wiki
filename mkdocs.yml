@@ -634,6 +634,35 @@ nav:
       - mods/SitLog/index.md
     - SmitherZ:
       - mods/SmitherZ/index.md
+      - Items:
+        - mods/SmitherZ/Items/index.md
+        - mods/SmitherZ/Items/Attack_Speed_I_Gem.md
+        - mods/SmitherZ/Items/Attack_Speed_II_Gem.md
+        - mods/SmitherZ/Items/Attack_Speed_III_Gem.md
+        - mods/SmitherZ/Items/Attack_Speed_IV_Gem.md
+        - mods/SmitherZ/Items/Attack_Speed_V_Gem.md
+        - mods/SmitherZ/Items/Defense_I_Gem.md
+        - mods/SmitherZ/Items/Defense_II_Gem.md
+        - mods/SmitherZ/Items/Defense_III_Gem.md
+        - mods/SmitherZ/Items/Defense_IV_Gem.md
+        - mods/SmitherZ/Items/Defense_V_Gem.md
+        - mods/SmitherZ/Items/Health_I_Gem.md
+        - mods/SmitherZ/Items/Health_II_Gem.md
+        - mods/SmitherZ/Items/Health_III_Gem.md
+        - mods/SmitherZ/Items/Health_IV_Gem.md
+        - mods/SmitherZ/Items/Health_V_Gem.md
+        - mods/SmitherZ/Items/Speed_I_Gem.md
+        - mods/SmitherZ/Items/Speed_II_Gem.md
+        - mods/SmitherZ/Items/Speed_III_Gem.md
+        - mods/SmitherZ/Items/Speed_IV_Gem.md
+        - mods/SmitherZ/Items/Speed_V_Gem.md
+        - mods/SmitherZ/Items/Strength_I_Gem.md
+        - mods/SmitherZ/Items/Strength_II_Gem.md
+        - mods/SmitherZ/Items/Strength_III_Gem.md
+        - mods/SmitherZ/Items/Strength_IV_Gem.md
+        - mods/SmitherZ/Items/Strength_V_Gem.md
+        - mods/SmitherZ/Items/Smither_Hammer.md
+        - mods/SmitherZ/Items/Extraction_Hammer.md
     - SpartanWeapons:
       - mods/SpartanWeapons/index.md
     - SpoiledZ:
