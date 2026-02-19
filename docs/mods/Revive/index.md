@@ -20,8 +20,8 @@ It works in [hardcore](https://minecraft.wiki/w/Hardcore) mode too!
 
 ---
 ## Content
-- [Effect List](/wiki/mods/revive/Effects/#list-of-effects)
-- [Item List](/wiki/mods/revive/Items/#list-of-items)
+- [Effect List](/wiki/mods/Revive/Effects/#list-of-effects)
+- [Item List](/wiki/mods/Revive/Items/#list-of-items)
   
 ---
 ## Misc

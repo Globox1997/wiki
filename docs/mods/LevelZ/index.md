@@ -22,7 +22,7 @@ There are plans for a complete rewrite of this mod since 2023. When there is eno
 
 ---
 ## Content
-- [Item List](/wiki/mods/levelz/Items/#list-of-items)
+- [Item List](/wiki/mods/LevelZ/Items/#list-of-items)
 
 ## Datapack
 Skills and restrictions can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/LevelZ)

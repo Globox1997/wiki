@@ -19,8 +19,8 @@ Mobs which used to drop [leather](https://minecraft.wiki/w/Leather), now drop hi
 
 ---
 ## Content
-- [Block List](/wiki/mods/fleshz/Blocks/#list-of-blocks)
-- [Item List](/wiki/mods/fleshz/Items/#list-of-items)
+- [Block List](/wiki/mods/FleshZ/Blocks/#list-of-blocks)
+- [Item List](/wiki/mods/FleshZ/Items/#list-of-items)
 
 ## Datapack
 Drying rack recipes can get added/changed, for more info checkout the [github readme](https://github.com/Globox1997/FleshZ)
