@@ -18,7 +18,7 @@ SpartanWeapons adds new [weapons](https://minecraft.wiki/w/Weapon) with differen
 
 ---
 ## Content
-- [Item List](/wiki/mods/spartanweapons/Items/#list-of-items)
+- [Item List](/wiki/mods/SpartanWeapons/Items/#list-of-items)
   
 ---
 ## Misc
