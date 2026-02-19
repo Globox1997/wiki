@@ -14,15 +14,11 @@ summary: spartanweapons wiki
 ---
 
 # Description
-SpartanWeapons adds new [weapons](https://minecraft.wiki/w/Weapon) with different abilities.
+SpartanWeapons adds new [weapons](https://minecraft.wiki/w/Weapon) with different abilities. The handlebar of each weapon will depend on the stick or pole variant.
 
 ---
 ## Content
-- WIP
-<!-- - [Block List](/wiki/mods/spartanweapons/Blocks/#list-of-blocks)
-- [Entity List](/wiki/mods/spartanweapons/Entities/#list-of-entities)
 - [Item List](/wiki/mods/spartanweapons/Items/#list-of-items)
-- [Structure List](/wiki/mods/spartanweapons/Structures/#list-of-structures) -->
   
 ---
 ## Misc

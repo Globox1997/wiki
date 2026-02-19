@@ -688,6 +688,45 @@ nav:
         - mods/SmitherZ/Items/Extraction_Hammer.md
     - SpartanWeapons:
       - mods/SpartanWeapons/index.md
+      - Items:
+        - mods/SpartanWeapons/Items/index.md
+        - mods/SpartanWeapons/Items/Acacia_Stick.md
+        - mods/SpartanWeapons/Items/Bamboo_Stick.md
+        - mods/SpartanWeapons/Items/Birch_Stick.md
+        - mods/SpartanWeapons/Items/Cherry_Stick.md
+        - mods/SpartanWeapons/Items/Crimson_Stick.md
+        - mods/SpartanWeapons/Items/Dark_Oak_Stick.md
+        - mods/SpartanWeapons/Items/Jungle_Stick.md
+        - mods/SpartanWeapons/Items/Mangrove_Stick.md
+        - mods/SpartanWeapons/Items/Spruce_Stick.md
+        - mods/SpartanWeapons/Items/Warped_Stick.md
+        - mods/SpartanWeapons/Items/Acacia_Pole.md
+        - mods/SpartanWeapons/Items/Bamboo_Pole.md
+        - mods/SpartanWeapons/Items/Birch_Pole.md
+        - mods/SpartanWeapons/Items/Cherry_Pole.md
+        - mods/SpartanWeapons/Items/Crimson_Pole.md
+        - mods/SpartanWeapons/Items/Dark_Oak_Pole.md
+        - mods/SpartanWeapons/Items/Jungle_Pole.md
+        - mods/SpartanWeapons/Items/Mangrove_Pole.md
+        - mods/SpartanWeapons/Items/Oak_Pole.md
+        - mods/SpartanWeapons/Items/Spruce_Pole.md
+        - mods/SpartanWeapons/Items/Warped_Pole.md
+        - mods/SpartanWeapons/Items/Battle_Axe.md
+        - mods/SpartanWeapons/Items/Club.md
+        - mods/SpartanWeapons/Items/Cutlass.md
+        - mods/SpartanWeapons/Items/Dagger.md
+        - mods/SpartanWeapons/Items/Glaive.md
+        - mods/SpartanWeapons/Items/Greatsword.md
+        - mods/SpartanWeapons/Items/Halberd.md
+        - mods/SpartanWeapons/Items/Javelin.md
+        - mods/SpartanWeapons/Items/Katana.md
+        - mods/SpartanWeapons/Items/Kunai.md
+        - mods/SpartanWeapons/Items/Mace.md
+        - mods/SpartanWeapons/Items/Rapier.md
+        - mods/SpartanWeapons/Items/Scythe.md
+        - mods/SpartanWeapons/Items/Spear.md
+        - mods/SpartanWeapons/Items/Staff.md
+        - mods/SpartanWeapons/Items/Wooden_Spear.md
     - SpoiledZ:
       - mods/SpoiledZ/index.md
     - Stamina:

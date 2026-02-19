@@ -36,6 +36,7 @@ function overview() {
                         icon.src = '/wiki/assets/general/' + type.toLowerCase() + '/' + modId.toLowerCase() + '/' + texture.toLowerCase() + '.png';
 
                         var text = texture.replaceAll('_', ' ');
+                        text = text.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
                         tooltip(icon, text, link, false);
 
                         if (type.toLowerCase() === 'items') {
@@ -176,6 +177,39 @@ function getCustomTexture(texture) {
             return 'strength_4_gem';
         case 'strength_v_gem':
             return 'strength_5_gem';
+
+        case 'battle_axe':
+            return 'diamond_oak_battle_axe';
+        case 'club':
+            return 'oak_club';
+        case 'cutlass':
+            return 'diamond_oak_cutlass';
+        case 'dagger':
+            return 'diamond_oak_dagger';
+        case 'glaive':
+            return 'diamond_oak_glaive';
+        case 'greatsword':
+            return 'diamond_oak_greatsword';
+        case 'halberd':
+            return 'diamond_oak_halberd';
+        case 'javelin':
+            return 'diamond_oak_javelin';
+        case 'katana':
+            return 'diamond_oak_katana';
+        case 'kunai':
+            return 'diamond_oak_kunai';
+        case 'mace':
+            return 'diamond_oak_mace';
+        case 'rapier':
+            return 'diamond_oak_rapier';
+        case 'scythe':
+            return 'diamond_oak_scythe';
+        case 'spear':
+            return 'diamond_oak_spear';
+        case 'staff':
+            return 'oak_staff';
+        case 'wooden_spear':
+            return 'oak_spear';
 
         default:
             return null;
