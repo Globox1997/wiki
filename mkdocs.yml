@@ -453,6 +453,29 @@ nav:
         - mods/EarlyStage/Items/Wooden_Shield.md
     - EnvironmentZ:
       - mods/EnvironmentZ/index.md
+      - Effects:
+        - mods/EnvironmentZ/Effects/index.md
+        - mods/EnvironmentZ/Effects/Comfort.md
+        - mods/EnvironmentZ/Effects/Cooling.md
+        - mods/EnvironmentZ/Effects/Warming.md
+      - Items:
+        - mods/EnvironmentZ/Items/index.md
+        - mods/EnvironmentZ/Items/Cold_Resistance_Potion.md
+        - mods/EnvironmentZ/Items/Overheating_Resistance_Potion.md
+        - mods/EnvironmentZ/Items/Heating_Stones.md
+        - mods/EnvironmentZ/Items/Ice_Pack.md
+        - mods/EnvironmentZ/Items/Polar_Bear_Fur.md
+        - mods/EnvironmentZ/Items/Wanderer_Helmet.md
+        - mods/EnvironmentZ/Items/Wanderer_Chestplate.md
+        - mods/EnvironmentZ/Items/Wanderer_Leggings.md
+        - mods/EnvironmentZ/Items/Wanderer_Boots.md
+        - mods/EnvironmentZ/Items/Wolf_Helmet.md
+        - mods/EnvironmentZ/Items/Wolf_Chestplate.md
+        - mods/EnvironmentZ/Items/Wolf_Leggings.md
+        - mods/EnvironmentZ/Items/Wolf_Boots.md
+        - mods/EnvironmentZ/Items/Wolf_Pelt.md
+      - Mechanic:
+        - mods/EnvironmentZ/Mechanic/index.md
     - EventMod:
       - mods/EventMod/index.md
     - ExtendedDrawersAddon:

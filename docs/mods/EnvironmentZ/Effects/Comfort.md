@@ -31,7 +31,7 @@ summary: environmentz effect comfort
 </div>
 
 ## Description
-Comfort is a [status effect](https://minecraft.wiki/w/Effect) that will . It can be removed by drinking [milk](https://minecraft.wiki/w/Milk_Bucket).
+Comfort is a [status effect](https://minecraft.wiki/w/Effect) that will reduce the [temperature effect](/wiki/mods/EnvironmentZ/Mechanic/) of the environment. It can be removed by drinking [milk](https://minecraft.wiki/w/Milk_Bucket). If the [player](https://minecraft.wiki/w/Player) is standing nearby a [campfire](https://minecraft.wiki/w/Campfire) for some time, the comfort effect will get applied.
 
 ## Effect
-The comfort effect damages the player by <span class="icon-element" icon-count="1" icon-id="heart"></span> × level of comfort every other second.
+The comfort effect will reduce or even completely eliminate the environment [temperature](/wiki/mods/EnvironmentZ/Mechanic/), keeping the player in a well state.

@@ -21,9 +21,9 @@ So for the beginning, warm up at a cozy [fire place](https://minecraft.wiki/w/Ca
 
 ---
 ## Content
-- [Block List](/wiki/mods/environmentz/Blocks/#list-of-blocks)
-- [Effect List](/wiki/mods/environmentz/Effect/#list-of-effects)
-- [Item List](/wiki/mods/environmentz/Items/#list-of-items)
+- [Effect List](/wiki/mods/EnvironmentZ/Effect/#list-of-effects)
+- [Item List](/wiki/mods/EnvironmentZ/Items/#list-of-items)
+- [Temperature](/wiki/mods/EnvironmentZ/Mechanic/)
 
 ## Datapack
 Many environment settings can get adjusted, for more info checkout the [github readme](https://github.com/Globox1997/EnvironmentZ)
