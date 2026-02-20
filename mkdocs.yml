@@ -129,6 +129,9 @@ extra:
     nutritionz:
         repo: https://github.com/xR4YM0ND/NutritionZ
         name: NutritionZ
+    oblivion:
+        repo: https://github.com/Globox1997/Oblivion
+        name: Oblivion
     partyaddon:
         repo: https://github.com/Globox1997/PartyAddon
         name: PartyAddon
@@ -630,6 +633,18 @@ nav:
       - mods/NumismaticClaim/index.md
     - NutritionZ:
       - mods/NutritionZ/index.md
+    - Oblivion:
+      - mods/Oblivion/index.md
+      - Blocks:
+        - mods/Oblivion/Blocks/index.md
+        - mods/Oblivion/Blocks/Guidelight.md
+      - Entities:
+        - mods/Oblivion/Entities/index.md
+      - Items:
+        - mods/Oblivion/Items/index.md
+      - Structures:
+        - mods/Oblivion/Structures/index.md
+        - mods/Oblivion/Structures/Guidelight.md
     - PartyAddon:
       - mods/PartyAddon/index.md
     - PatchouliButton:
