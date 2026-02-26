@@ -23,6 +23,7 @@ const modIcons = [
     { texture: 'nutritionz_icon', url: 'NutritionZ', tooltip: 'NutritionZ' },
     { texture: 'partyaddon_icon', url: 'PartyAddon', tooltip: 'PartyAddon' },
     { texture: 'patchoulibutton_icon', url: 'PatchouliButton', tooltip: 'PatchouliButton' },
+    { texture: 'questz_icon', url: 'QuestZ', tooltip: 'QuestZ' },
     { texture: 'reciperemover_icon', url: 'RecipeRemover', tooltip: 'RecipeRemover' },
     { texture: 'revive_icon', url: 'Revive', tooltip: 'Revive' },
     { texture: 'rewardz_icon', url: 'RewardZ', tooltip: 'RewardZ' },

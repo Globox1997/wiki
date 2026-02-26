@@ -138,6 +138,9 @@ extra:
     patchoulibutton:
         repo: https://github.com/Globox1997/PatchouliButton
         name: PatchouliButton
+    questz:
+        repo: https://github.com/Globox1997/QuestZ
+        name: QuestZ
     reciperemover:
         repo: https://github.com/Globox1997/RecipeRemover
         name: RecipeRemover
@@ -649,6 +652,8 @@ nav:
       - mods/PartyAddon/index.md
     - PatchouliButton:
       - mods/PatchouliButton/index.md
+    - QuestZ:
+      - mods/QuestZ/index.md
     - RecipeRemover:
       - mods/RecipeRemover/index.md
     - Revive:
