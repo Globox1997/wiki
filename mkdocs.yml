@@ -69,6 +69,9 @@ extra:
     backslotaddon:
         repo: https://github.com/Globox1997/BackSlotAddon
         name: BackSlotAddon
+    cupellation:
+        repo: https://github.com/Globox1997/Cupellation
+        name: Cupellation
     dehydration:
         repo: https://github.com/Globox1997/Dehydration
         name: Dehydration
@@ -346,6 +349,8 @@ nav:
       - mods/BackSlot/index.md
     - BackSlotAddon:
       - mods/BackSlotAddon/index.md
+    - Cupellation:
+      - mods/Cupellation/index.md
     - Dehydration:
       - mods/Dehydration/index.md
       - Blocks:
