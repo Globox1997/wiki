@@ -3,6 +3,7 @@ const modIcons = [
     { texture: 'adventurez_icon', url: 'AdventureZ', tooltip: 'AdventureZ' },
     { texture: 'backslot_icon', url: 'BackSlot', tooltip: 'BackSlot' },
     { texture: 'backslotaddon_icon', url: 'BackSlotAddon', tooltip: 'BackSlotAddon' },
+    { texture: 'cupellation_icon', url: 'Cupellation', tooltip: 'Cupellation' },
     { texture: 'dehydration_icon', url: 'Dehydration', tooltip: 'Dehydration' },
     { texture: 'dragonloot_icon', url: 'DragonLoot', tooltip: 'DragonLoot' },
     { texture: 'dualwield_icon', url: 'DualWielding', tooltip: 'DualWielding' },
