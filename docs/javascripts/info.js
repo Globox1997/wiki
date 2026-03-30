@@ -164,6 +164,28 @@ function getCustomTexture(texture) {
         case 'speed_v_gem':
             return 'speed_5_gem';
 
+        case 'reach_i_gem':
+            return 'reach_1_gem';
+        case 'reach_ii_gem':
+            return 'reach_2_gem';
+        case 'reach_iii_gem':
+            return 'reach_3_gem';
+        case 'reach_iv_gem':
+            return 'reach_4_gem';
+        case 'reach_v_gem':
+            return 'reach_5_gem';
+
+        case 'haste_i_gem':
+            return 'haste_1_gem';
+        case 'haste_ii_gem':
+            return 'haste_2_gem';
+        case 'haste_iii_gem':
+            return 'haste_3_gem';
+        case 'haste_iv_gem':
+            return 'haste_4_gem';
+        case 'haste_v_gem':
+            return 'haste_5_gem';
+
         case 'strength_i_gem':
             return 'strength_1_gem';
         case 'strength_ii_gem':
