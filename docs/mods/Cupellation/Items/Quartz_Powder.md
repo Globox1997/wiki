@@ -45,7 +45,7 @@ The quartz powder is a flux item used to reduce slag in the smelter.
 #### Stonecutting
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="stonecutting">
-input[ 1=calcite, Calcite, https://minecraft.wiki/w/Calcite ]
+input[ 1=quartz, Nether Quartz, https://minecraft.wiki/w/Nether_Quartz ]
 output[cupellation:quartz_powder, Quartz Powder]
 </div>
 </div>
