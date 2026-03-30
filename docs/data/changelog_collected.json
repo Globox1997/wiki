@@ -98,10 +98,12 @@
     "1.0.0": "### Initial Release",
     "1.4.20": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated VoidZ dependency",
     "1.4.22": "### Added:\n- \n### Fixed:\n- Fixed shadow chest loot\n### Changed:\n- ",
-    "1.4.23": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Tweaked entity loot table chances"
+    "1.4.23": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Tweaked entity loot table chances",
+    "1.5.0": "### Added:\n- Added skunk\n### Fixed:\n- \n### Changed:\n- "
   },
   "inmisaddon": {
-    "1.0.0": "### Initial Release"
+    "1.0.0": "### Initial Release",
+    "1.0.6": "### Added:\n- \n### Fixed:\n- Fixed shader compatibility\n### Changed:\n- "
   },
   "levelz": {
     "1.0.0": "### Initial Release",
@@ -116,7 +118,8 @@
     "1.0.2": "### Added:\n- \n### Fixed:\n- Fixed server crash\n### Changed:\n- ",
     "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed gem attribute mechanic\n### Changed:\n- ",
     "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed gem tooltip\n### Changed:\n- ",
-    "1.0.5": "### Added:\n- Added smither hammer recipe\n- Added smither commands\n- Added smithing sounds\n- Added gem slot randomness config option\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.21\n- Removed unused config options"
+    "1.0.5": "### Added:\n- Added smither hammer recipe\n- Added smither commands\n- Added smithing sounds\n- Added gem slot randomness config option\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.21\n- Removed unused config options",
+    "1.1.0": "### Added:\n- Added haste gem\n- Added reach gem\n### Fixed:\n- \n### Changed:\n- "
   },
   "rpgdifficulty": {
     "1.0.0": "### Initial Release",
@@ -130,6 +133,7 @@
     "1.2.13": "### Added:\n- Added hud config settings\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19.4",
     "1.2.14": "### Added:\n- \n### Fixed:\n- Fixed universal grave compat\n- Fixed unsafe handling crash\n### Changed:\n- ",
     "1.2.15": "### Added:\n- \n### Fixed:\n- Fixed slot arrangement config\n### Changed:\n- ",
+    "1.2.16": "### Added:\n- Added mace to backslot\n### Fixed:\n- Fixed medievalweapons compat\n- Fixed weird crash\n### Changed:\n- ",
     "1.3.0": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated amecs api dependency"
   },
   "medievalweapons": {
@@ -185,7 +189,8 @@
     "1.0.0": "### Initial Release",
     "1.1.3": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Moved to main initializer",
     "1.1.4": "### Added:\n- Added rpgdiff config option\n### Fixed:\n- Fixed travelers title compat\n- Fixed waila error\n### Changed:\n- ",
-    "1.1.5": "### Added:\n- \n### Fixed:\n- Fixed geckolib compat\n### Changed:\n- "
+    "1.1.5": "### Added:\n- \n### Fixed:\n- Fixed geckolib compat\n### Changed:\n- ",
+    "1.1.7": "### Added:\n- \n### Fixed:\n- Fixed geckolib compat\n### Changed:\n- "
   },
   "revive": {
     "1.0.0": "### Initial Release"
@@ -204,7 +209,8 @@
   "backslotaddon": {
     "1.0.0": "### Initial Release",
     "1.1.0": "### Added:\n- Added Iris light compat\n### Fixed:\n- \n### Changed:\n- Updated to mc 1.19.4",
-    "1.1.1": "### Added:\n- \n### Fixed:\n- Fixed backslot dependency\n### Changed:\n- "
+    "1.1.1": "### Added:\n- \n### Fixed:\n- Fixed backslot dependency\n### Changed:\n- ",
+    "1.1.2": "### Added:\n- \n### Fixed:\n- Fixed iris compat\n### Changed:\n- "
   },
   "rpgz": {
     "0.6.0": "### Added:\n- Added SpoiledZ compat\n### Fixed:\n- Fixed mount dismounting\n- Fixed missing drops\n### Changed:\n- Tweaked internals",
@@ -281,5 +287,10 @@
   },
   "theoblivion": {
     "1.1.0": "### Added:\n- Added oblivion grass blocks\n- Added oblivion stone blocks\n- Added skeletal\n### Fixed:\n- Fixed quicksand generation\n### Changed:\n- Changed oblivion world generation"
-  }
+  },
+  "questz": {},
+  "cupellation": {
+    "1.0.2": "### Added:\n- Smelter type data\n- EMI compatibility\n### Fixed:\n- \n### Changed:\n- datapack tag system\n- max metal count to 7"
+  },
+  "miningz": {}
 }
