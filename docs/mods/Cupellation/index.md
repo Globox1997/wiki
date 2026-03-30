@@ -18,7 +18,12 @@ This mod adds the smelter. A multi block mainly out of deepslate. The smelter gr
 
 ---
 ## Content
-To be done!
+- [Block List](/wiki/mods/Cupellation/Blocks/#list-of-blocks)
+- [Item List](/wiki/mods/Cupellation/Items/#list-of-items)
+- [Structure List](/wiki/mods/Cupellation/Structures/#list-of-structures)
+
+## Datapack
+The smeltable metals, items and fuels can get added and changed, for more info checkout the [github readme](https://github.com/Globox1997/Cupellation)
   
 ---
 ## Misc

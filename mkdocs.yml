@@ -351,6 +351,64 @@ nav:
       - mods/BackSlotAddon/index.md
     - Cupellation:
       - mods/Cupellation/index.md
+      - Blocks:
+        - mods/Cupellation/Blocks/index.md
+        - mods/Cupellation/Blocks/Deepslate_Brick_Casting_Basin.md
+        - mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table.md
+        - mods/Cupellation/Blocks/Deepslate_Brick_Drain.md
+        - mods/Cupellation/Blocks/Deepslate_Brick_Faucet.md
+        - mods/Cupellation/Blocks/Deepslate_Brick_Glass.md
+        - mods/Cupellation/Blocks/Deepslate_Brick_Lever.md
+        - mods/Cupellation/Blocks/Deepslate_Brick_Smelter.md
+        - mods/Cupellation/Blocks/Red_Nether_Brick_Casting_Basin.md
+        - mods/Cupellation/Blocks/Red_Nether_Brick_Casting_Table.md
+        - mods/Cupellation/Blocks/Red_Nether_Brick_Drain.md
+        - mods/Cupellation/Blocks/Red_Nether_Brick_Faucet.md
+        - mods/Cupellation/Blocks/Red_Nether_Brick_Glass.md
+        - mods/Cupellation/Blocks/Red_Nether_Brick_Lever.md
+        - mods/Cupellation/Blocks/Red_Nether_Brick_Smelter.md
+      - Items:
+        - mods/Cupellation/Items/index.md
+        - mods/Cupellation/Items/Calcite_Powder.md
+        - mods/Cupellation/Items/Quartz_Powder.md
+        - mods/Cupellation/Items/Axe_Head_Mold.md
+        - mods/Cupellation/Items/Boots_Mold.md
+        - mods/Cupellation/Items/Chestplate_Mold.md
+        - mods/Cupellation/Items/Helmet_Mold.md
+        - mods/Cupellation/Items/Hoe_Head_Mold.md
+        - mods/Cupellation/Items/Ingot_Mold.md
+        - mods/Cupellation/Items/Leggings_Mold.md
+        - mods/Cupellation/Items/Pickaxe_Head_Mold.md
+        - mods/Cupellation/Items/Shovel_Head_Mold.md
+        - mods/Cupellation/Items/Sword_Blade_Mold.md
+        - mods/Cupellation/Items/Diamond_Axe_Head.md
+        - mods/Cupellation/Items/Diamond_Hoe_Head.md
+        - mods/Cupellation/Items/Diamond_Pickaxe_Head.md
+        - mods/Cupellation/Items/Diamond_Shovel_Head.md
+        - mods/Cupellation/Items/Diamond_Sword_Blade.md
+        - mods/Cupellation/Items/Golden_Axe_Head.md
+        - mods/Cupellation/Items/Golden_Hoe_Head.md
+        - mods/Cupellation/Items/Golden_Pickaxe_Head.md
+        - mods/Cupellation/Items/Golden_Shovel_Head.md
+        - mods/Cupellation/Items/Golden_Sword_Blade.md
+        - mods/Cupellation/Items/Iron_Axe_Head.md
+        - mods/Cupellation/Items/Iron_Hoe_Head.md
+        - mods/Cupellation/Items/Iron_Pickaxe_Head.md
+        - mods/Cupellation/Items/Iron_Shovel_Head.md
+        - mods/Cupellation/Items/Iron_Sword_Blade.md
+        - mods/Cupellation/Items/Netherite_Axe_Head.md
+        - mods/Cupellation/Items/Netherite_Hoe_Head.md
+        - mods/Cupellation/Items/Netherite_Pickaxe_Head.md
+        - mods/Cupellation/Items/Netherite_Shovel_Head.md
+        - mods/Cupellation/Items/Netherite_Sword_Blade.md
+        - mods/Cupellation/Items/Stone_Axe_Head.md
+        - mods/Cupellation/Items/Stone_Hoe_Head.md
+        - mods/Cupellation/Items/Stone_Pickaxe_Head.md
+        - mods/Cupellation/Items/Stone_Shovel_Head.md
+        - mods/Cupellation/Items/Stone_Sword_Blade.md
+      - Structures:
+        - mods/Cupellation/Structures/index.md
+        - mods/Cupellation/Structures/Smelter.md
     - Dehydration:
       - mods/Dehydration/index.md
       - Blocks:
