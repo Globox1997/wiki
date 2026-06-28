@@ -16,32 +16,30 @@ fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
         informationMap.set(obj.slug, repoMap);
     }, 0);
 }).then(
-    fetch('https://api.github.com/users/Globox1997/repos?per_page=100')
-        .then(response => response.json()).then(data => {
-            const repoData = data;
-            informationMap.forEach((value, key) => {
-                var newRepoMap = value;
-                for (const repo of repoData) {
-                    if (repo['name'] === value.get('title') || repoCheck(value.get('title'), repo['name'])) {
-                        newRepoMap.set('created_at', convertDate(repo['created_at']));
-                        newRepoMap.set('updated_at', convertDate(repo['updated_at']));
-                        newRepoMap.set('open_issues', repo['open_issues']);
-                        newRepoMap.set('forks', repo['forks']);
-                        newRepoMap.set('stargazers_count', repo['stargazers_count']);
-                        newRepoMap.set('license', repo['license']['spdx_id']);
-                        // console.log('Found repository: ' + repo['name']);
-                        break;
+    Promise.all(githubNames.map(name =>
+        fetch(`https://api.github.com/users/${name}/repos?per_page=100`)
+            .then(response => response.json()))).then(allRepoData => {
+                const repoData = allRepoData.flat();
+
+                informationMap.forEach((value, key) => {
+                    for (const repo of repoData) {
+                        if (repo.name === value.get('title') || repoCheck(value.get('title'), repo.name)) {
+                            value.set('created_at', convertDate(repo.created_at));
+                            value.set('updated_at', convertDate(repo.updated_at));
+                            value.set('open_issues', repo.open_issues);
+                            value.set('forks', repo.forks);
+                            value.set('stargazers_count', repo.stargazers_count);
+                            value.set('license', repo.license?.spdx_id ?? "NONE");
+                            break;
+                        }
                     }
-                }
-                // console.log('New repository map: ' + value.get('title'));
-                // console.log(newRepoMap);
-                informationMap.set(key, newRepoMap);
+                });
+
+                writeFile(informationMap, "repository");
+
+            }).catch(error => {
+                console.error(error);
             })
-        }).then(data => {
-            writeFile(informationMap, "repository");
-        }).catch(error => {
-            console.error('Error:', error);
-        })
 ).catch(error => {
     console.error('Error:', error);
 });
