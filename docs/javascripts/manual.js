@@ -53,7 +53,7 @@ function repoCheck(title, name) {
     return false;
 }
 
-// Used when modrinth slug differs 
+// Used when modrinth slug differs, same at changelog.js
 function correctSlug(slug) {
     if (slug === 'theoblivion') {
         return 'oblivion';
