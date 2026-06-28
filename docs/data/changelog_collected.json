@@ -158,7 +158,8 @@
     "1.0.4": "### Added:\n- \n### Fixed:\n- Fixed portal invisibility\n- Fixed teleport position\n### Changed:\n- ",
     "1.0.5": "### Added:\n- Added dungeon join countdown\n### Fixed:\n- Fixed dungeon mob spawn\n- Fixed compass bug\n### Changed:\n- ",
     "1.0.6": "### Added:\n- \n### Fixed:\n- Fixed null crash\n### Changed:\n- ",
-    "1.1.0": "## Important!\n- Backup your world before updating to this version\n\n### Added:\n- Added temple dungeon (made by xeven, datapacked by LeDok)\n### Fixed:\n- Fixed multiportal generation\n### Changed:\n- Updated to mc 1.21.1"
+    "1.1.0": "## Important!\n- Backup your world before updating to this version\n\n### Added:\n- Added temple dungeon (made by xeven, datapacked by LeDok)\n### Fixed:\n- Fixed multiportal generation\n### Changed:\n- Updated to mc 1.21.1",
+    "1.2.2": "### Added:\n- Added ender pearl dungeon option\n- Added info button\n### Fixed:\n- Fixed open screen in other dimensions than overworld\n- Fixed lever placing in dungeons\n- Fixed keep inventory option\n- Fixed water removing portal\n### Changed:\n- Changed positive effects to data option"
   },
   "earlystage": {
     "1.0.0": "### Initial Release",
@@ -190,6 +191,7 @@
     "1.1.3": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Moved to main initializer",
     "1.1.4": "### Added:\n- Added rpgdiff config option\n### Fixed:\n- Fixed travelers title compat\n- Fixed waila error\n### Changed:\n- ",
     "1.1.5": "### Added:\n- \n### Fixed:\n- Fixed geckolib compat\n### Changed:\n- ",
+    "1.1.6": "### Added:\n- \n### Fixed:\n- \n### Changed:\n- Updated rpgdifficulty compat",
     "1.1.7": "### Added:\n- \n### Fixed:\n- Fixed geckolib compat\n### Changed:\n- "
   },
   "revive": {
@@ -283,7 +285,8 @@
     "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed second render layer\n### Changed:\n- "
   },
   "farmz": {
-    "1.0.2": "### Added:\n- Added golden beetroot soup\n### Fixed:\n- Fixed 0 moisture setting\n### Changed:\n- "
+    "1.0.2": "### Added:\n- Added golden beetroot soup\n### Fixed:\n- Fixed 0 moisture setting\n### Changed:\n- ",
+    "1.0.5": "### Added:\n- Added golden crop chance data\n### Fixed:\n- \n### Changed:\n- "
   },
   "theoblivion": {
     "1.1.0": "### Added:\n- Added oblivion grass blocks\n- Added oblivion stone blocks\n- Added skeletal\n### Fixed:\n- Fixed quicksand generation\n### Changed:\n- Changed oblivion world generation"
@@ -292,5 +295,6 @@
   "cupellation": {
     "1.0.2": "### Added:\n- Smelter type data\n- EMI compatibility\n### Fixed:\n- \n### Changed:\n- datapack tag system\n- max metal count to 7"
   },
-  "miningz": {}
+  "miningz": {},
+  "oblivion": {}
 }
