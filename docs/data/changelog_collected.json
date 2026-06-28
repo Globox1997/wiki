@@ -279,22 +279,46 @@
     "1.0.9": "### Added:\n- \n### Fixed:\n- Fixed opac crash\n### Changed:\n- ",
     "1.0.10": "### Added:\n- \n### Fixed:\n- Fixed opac crash\n### Changed:\n- "
   },
-  "serveratelier": {},
-  "spartanweapons": {},
+  "serveratelier": {
+    "1.0.0": "### Initial Release"
+  },
+  "spartanweapons": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Added missing tags\n- Added item config options\n### Fixed:\n- Fixed stick recipes and drop\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- \n### Fixed:\n- Fixed sticks drop\n### Changed:\n- "
+  },
   "sitlog": {
+    "1.0.0": "### Initial Release",
     "1.0.1": "### Added:\n- \n### Fixed:\n- Fixed second render layer\n### Changed:\n- "
   },
   "farmz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Added watering can recipes\n### Fixed:\n- Fixed glistering sweet berry bush crash\n### Changed:\n- ",
     "1.0.2": "### Added:\n- Added golden beetroot soup\n### Fixed:\n- Fixed 0 moisture setting\n### Changed:\n- ",
+    "1.0.3": "### Added:\n- \n### Fixed:\n- Fixed mod compat\n- Fixed missing lang\n### Changed:\n- Tweaked watering can mechanic",
+    "1.0.4": "### Added:\n- Added golden crop xp drop\n### Fixed:\n- \n### Changed:\n- Tweaked watering can gold and iron size",
     "1.0.5": "### Added:\n- Added golden crop chance data\n### Fixed:\n- \n### Changed:\n- "
   },
-  "theoblivion": {
-    "1.1.0": "### Added:\n- Added oblivion grass blocks\n- Added oblivion stone blocks\n- Added skeletal\n### Fixed:\n- Fixed quicksand generation\n### Changed:\n- Changed oblivion world generation"
+  "questz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Tab order field\n- Tag system\n- Creation mode visibility\n- Requirement override text\n- Component requirement\n### Fixed:\n- Tab deletion\n- Count issue\n### Changed:\n- "
   },
-  "questz": {},
   "cupellation": {
-    "1.0.2": "### Added:\n- Smelter type data\n- EMI compatibility\n### Fixed:\n- \n### Changed:\n- datapack tag system\n- max metal count to 7"
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Added red nether smelter variant\n- Added molds\n- Added tool heads\n### Fixed:\n- \n### Changed:\n- CAUTION!!! Old smelters will get deleted with this version!!!\n- Changed smelter to deepslate brick smelter",
+    "1.0.2": "### Added:\n- Smelter type data\n- EMI compatibility\n### Fixed:\n- \n### Changed:\n- datapack tag system\n- max metal count to 7",
+    "1.0.3": "### Added:\n- smelter type max temperature\n- smelter block registration api\n- mold registration api\n- clay and brick molds\n### Fixed:\n- too long fuel tooltip\n### Changed:\n- ",
+    "1.0.4": "### Added:\n- rain will cooldown a smelter\n### Fixed:\n- smelter redstone signal when full\n- mold casting\n- multi metal combining\n### Changed:\n- smelter type render api\n- density on shift info"
   },
-  "miningz": {},
-  "oblivion": {}
+  "miningz": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- added tooltip support\n### Fixed:\n- \n### Changed:\n- changed prospector pick reach"
+  },
+  "oblivion": {
+    "1.0.0": "### Initial Release",
+    "1.0.1": "### Added:\n- Added quicksand\n### Fixed:\n- Fixed data stuff\n### Changed:\n- ",
+    "1.0.2": "### Added:\n- Added entity tags\n- Added horned sheep\n- Added piranha\n### Fixed:\n- \n### Changed:\n- ",
+    "1.0.3": "### Added:\n- Added goblin holdable tag\n### Fixed:\n- \n### Changed:\n- Improved quicksand generation",
+    "1.1.0": "### Added:\n- Added oblivion grass blocks\n- Added oblivion stone blocks\n- Added skeletal\n### Fixed:\n- Fixed quicksand generation\n### Changed:\n- Changed oblivion world generation"
+  }
 }
