@@ -22,6 +22,7 @@ const modIcons = [
     { texture: 'nameplate_icon', url: 'Nameplate', tooltip: 'Nameplate' },
     { texture: 'numismaticclaim_icon', url: 'NumismaticClaim', tooltip: 'NumismaticClaim' },
     { texture: 'nutritionz_icon', url: 'NutritionZ', tooltip: 'NutritionZ' },
+    { texture: 'oblivion_icon', url: 'Oblivion', tooltip: 'Oblivion' },
     { texture: 'partyaddon_icon', url: 'PartyAddon', tooltip: 'PartyAddon' },
     { texture: 'patchoulibutton_icon', url: 'PatchouliButton', tooltip: 'PatchouliButton' },
     { texture: 'questz_icon', url: 'QuestZ', tooltip: 'QuestZ' },
