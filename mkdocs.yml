@@ -703,7 +703,16 @@ nav:
       - mods/Oblivion/index.md
       - Blocks:
         - mods/Oblivion/Blocks/index.md
+        - mods/Oblivion/Blocks/Drill.md
+        - mods/Oblivion/Blocks/Fiery_Ancient_Debris.md
+        - mods/Oblivion/Blocks/Fiery_Netherite_Block.md
         - mods/Oblivion/Blocks/Guidelight.md
+        - mods/Oblivion/Blocks/Quicksand.md
+        - mods/Oblivion/Blocks/Raw_Scarlet_Block.md
+        - mods/Oblivion/Blocks/Raw_Solarite_Block.md
+        - mods/Oblivion/Blocks/Scarlet_Block.md
+        - mods/Oblivion/Blocks/Shimmering_Grass.md
+        - mods/Oblivion/Blocks/Solarite_Block.md
       - Entities:
         - mods/Oblivion/Entities/index.md
       - Items:
