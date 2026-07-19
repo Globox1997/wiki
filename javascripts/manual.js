@@ -13,7 +13,7 @@ fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
         repoMap.set('game_versions', obj.game_versions);
         repoMap.set('client_side', capitalizeFirstLetter(obj.client_side));
         repoMap.set('server_side', capitalizeFirstLetter(obj.server_side));
-        informationMap.set(correctSlug(obj.slug), repoMap);
+        informationMap.set(obj.slug, repoMap);
     }, 0);
 }).then(
     Promise.all(githubNames.map(name =>
@@ -51,14 +51,6 @@ function repoCheck(title, name) {
         return true;
     }
     return false;
-}
-
-// Used when modrinth slug differs, same at changelog.js
-function correctSlug(slug) {
-    if (slug === 'theoblivion') {
-        return 'oblivion';
-    }
-    return slug;
 }
 
 function convertDate(dateString) {

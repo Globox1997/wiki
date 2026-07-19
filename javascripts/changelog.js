@@ -193,13 +193,6 @@ function writeFile(data, platform) {
         });
 }
 
-function correctSlug(slug) {
-    if (slug === 'theoblivion') {
-        return 'oblivion';
-    }
-    return slug;
-}
-
 async function fetchData() {
     try {
         const response = await fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
@@ -221,7 +214,7 @@ async function fetchData() {
                     return;
                 }
 
-                await collectChangelogs(repo, owner, correctSlug(obj.slug));
+                await collectChangelogs(repo, owner, obj.slug);
             } catch (error) {
                 console.error(obj.title + " : " + error);
             }
