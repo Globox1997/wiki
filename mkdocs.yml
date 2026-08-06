@@ -717,6 +717,14 @@ nav:
         - mods/Oblivion/Entities/index.md
       - Items:
         - mods/Oblivion/Items/index.md
+        - mods/Oblivion/Structures/Boar_Meat.md
+        - mods/Oblivion/Structures/Cooked_Boar_Meat.md
+        - mods/Oblivion/Structures/Cooked_Shlamb.md
+        - mods/Oblivion/Structures/Cooked_Turkey.md
+        - mods/Oblivion/Structures/Cooked_Venison.md
+        - mods/Oblivion/Structures/Shlamb.md
+        - mods/Oblivion/Structures/Turkey.md
+        - mods/Oblivion/Structures/Venison.md
       - Structures:
         - mods/Oblivion/Structures/index.md
         - mods/Oblivion/Structures/Guidelight.md
