@@ -250,6 +250,7 @@ nav:
     - index.md
     - datapack.md
     - overview.md
+    - quiz.md
   - Mods:
     - mods/index.md
     - AdditionZ:
@@ -717,14 +718,19 @@ nav:
         - mods/Oblivion/Entities/index.md
       - Items:
         - mods/Oblivion/Items/index.md
-        - mods/Oblivion/Structures/Boar_Meat.md
-        - mods/Oblivion/Structures/Cooked_Boar_Meat.md
-        - mods/Oblivion/Structures/Cooked_Shlamb.md
-        - mods/Oblivion/Structures/Cooked_Turkey.md
-        - mods/Oblivion/Structures/Cooked_Venison.md
-        - mods/Oblivion/Structures/Shlamb.md
-        - mods/Oblivion/Structures/Turkey.md
-        - mods/Oblivion/Structures/Venison.md
+        - mods/Oblivion/Items/Boar_Meat.md
+        - mods/Oblivion/Items/Cooked_Boar_Meat.md
+        - mods/Oblivion/Items/Cooked_Shlamb.md
+        - mods/Oblivion/Items/Cooked_Turkey.md
+        - mods/Oblivion/Items/Cooked_Venison.md
+        - mods/Oblivion/Items/Elysian_Bone.md
+        - mods/Oblivion/Items/Elysian_Bone_Meal.md
+        - mods/Oblivion/Items/Fiery_Netherite_Axe.md
+        - mods/Oblivion/Items/Scarlet_Axe.md
+        - mods/Oblivion/Items/Solarite_Axe.md
+        - mods/Oblivion/Items/Shlamb.md
+        - mods/Oblivion/Items/Turkey.md
+        - mods/Oblivion/Items/Venison.md
       - Structures:
         - mods/Oblivion/Structures/index.md
         - mods/Oblivion/Structures/Guidelight.md
