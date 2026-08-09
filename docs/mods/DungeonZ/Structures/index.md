@@ -7,4 +7,5 @@
 ## List of structures
 
 <div id="list" type="structures" mod="dungeonz" icons="false"></div>
+<script src="/wiki/javascripts/const.js"></script>
 <script src="/wiki/javascripts/info.js"></script>

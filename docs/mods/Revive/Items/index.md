@@ -21,4 +21,5 @@
 ## List of items
 
 <div id="list" type="items" mod="revive"></div>
+<script src="/wiki/javascripts/const.js"></script>
 <script src="/wiki/javascripts/info.js"></script>

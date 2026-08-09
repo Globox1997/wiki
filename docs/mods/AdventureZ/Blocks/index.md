@@ -19,4 +19,5 @@
 ## List of blocks
 
 <div id="list" type="blocks" mod="adventurez"></div>
+<script src="/wiki/javascripts/const.js"></script>
 <script src="/wiki/javascripts/info.js"></script>

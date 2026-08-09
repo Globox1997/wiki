@@ -7,4 +7,5 @@
 ## List of enchantments
 
 <div id="list" type="enchantments" mod="additionz" icons="false"></div>
+<script src="/wiki/javascripts/const.js"></script>
 <script src="/wiki/javascripts/info.js"></script>

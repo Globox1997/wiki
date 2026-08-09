@@ -22,4 +22,5 @@
 ## List of entities
 
 <div id="list" type="entities" mod="farmz" icons="false"></div>
+<script src="/wiki/javascripts/const.js"></script>
 <script src="/wiki/javascripts/info.js"></script>

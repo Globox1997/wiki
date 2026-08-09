@@ -17,4 +17,5 @@
 ## List of effects
 
 <div id="list" type="effects" mod="revive"></div>
+<script src="/wiki/javascripts/const.js"></script>
 <script src="/wiki/javascripts/info.js"></script>
