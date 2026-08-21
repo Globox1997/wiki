@@ -52,7 +52,7 @@ input[
     2=adventurez:gilded_upgrade_smithing_template, Gilded Upgrade Smithing Template;
     3=blackstone, Blackstone, https://minecraft.wiki/w/Blackstone;
     4=blackstone, Blackstone, https://minecraft.wiki/w/Blackstone;
-    5=gold_ingot, Gold Ingot, https://minecraft.wiki/w/Blackstone;
+    5=gold_ingot, Gold Ingot, https://minecraft.wiki/w/Gold_Ingot;
     6=blackstone, Blackstone, https://minecraft.wiki/w/Blackstone;
     7=blackstone, Blackstone, https://minecraft.wiki/w/Blackstone;
     8=blackstone, Blackstone, https://minecraft.wiki/w/Blackstone;
