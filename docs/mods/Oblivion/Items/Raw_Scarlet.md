@@ -1,9 +1,9 @@
 ---
-title: Raw Fiery Netherite
+title: Raw Scarlet
 project: oblivion
-summary: oblivion item raw fiery netherite
+summary: oblivion item raw scarlet
 ---
-# Raw Fiery Netherite
+# Raw Scarlet
 <div class="main_table">
 <div class="left_main_table">
 <table class="left_table">
@@ -12,7 +12,7 @@ summary: oblivion item raw fiery netherite
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            oblivion:raw_fiery_netherite
+            oblivion:raw_scarlet
             ```
             </td>
         </tr>
@@ -31,22 +31,25 @@ summary: oblivion item raw fiery netherite
     </tbody>
 </table>
 </div>
-<img src="/wiki/assets/oblivion/items/raw_fiery_netherite.png" loading="lazy" class="right_img_table"/>
+<img src="/wiki/assets/oblivion/items/raw_scarlet.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
-Raw fiery netherite is a rare material. It can be gathered by drilling a [fiery ancient debris](/wiki/mods/Oblivion/Blocks/Fiery_Ancient_Debris). A [drill](/wiki/mods/Oblivion/Blocks/Drill) is required to not break the fiery ancient debris.
+Raw Scarlet is a rare material. It can be gathered by drilling a [block of raw scarlet](/wiki/mods/Oblivion/Blocks/Raw_Scarlet_Block). A [drill](/wiki/mods/Oblivion/Blocks/Drill) is required to not break the raw scarlet block.
 
 ## Obtaining
-A [drill](/wiki/mods/Oblivion/Blocks/Drill) is required to not break the [fiery ancient debris](/wiki/mods/Oblivion/Blocks/Fiery_Ancient_Debris).
+A [drill](/wiki/mods/Oblivion/Blocks/Drill) is required to not break the [block of raw scarlet](/wiki/mods/Oblivion/Blocks/Raw_Scarlet_Block).
 
 ## Usage
 #### Crafting
 <div id="crafting-table">
-<div class="crafting-element" crafting-type="blast_furnace_smelting">
+<div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    1=oblivion:raw_fiery_netherite, Raw Fiery Netherite, Oblivion/Items/Raw_Fiery_Netherite, true
+    1=oblivion:raw_scarlet, Raw Scarlet;
+    2=oblivion:raw_scarlet, Raw Scarlet;
+    4=oblivion:raw_scarlet, Raw Scarlet;
+    5=oblivion:raw_scarlet, Raw Scarlet
 ]
-output[oblivion:fiery_netherite_scrap, Fiery Netherite Scrap]
+output[oblivion:scarlet_ingot, Scarlet Ingot]
 </div>
 </div>

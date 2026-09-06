@@ -35,7 +35,7 @@ summary: oblivion item fiery netherite ingot
 </div>
 
 ## Description
-The fiery netherite ingot is a somewhat rare metal ingot. It can be smelted from an [iron ingot](https://minecraft.wiki/w/Iron_Ingot) + [coal](https://minecraft.wiki/w/Coal) and used to craft [items](https://minecraft.wiki/w/Item) and [tools](https://minecraft.wiki/w/Tool).
+The fiery netherite ingot is a somewhat rare metal ingot. It can be crafted by putting 4 pieces of [fiery netherite scrap](/wiki/mods/Oblivion/Items/Fiery_Netherite_Scrap) together and is used to craft [items](https://minecraft.wiki/w/Item) and [tools](https://minecraft.wiki/w/Tool).
 
 ## Obtaining
 <div id="crafting-table">

@@ -1,9 +1,9 @@
 ---
-title: Fiery Netherite Pickaxe
+title: Scarlet Pickaxe
 project: oblivion
-summary: oblivion item fiery netherite pickaxe
+summary: oblivion item scarlet pickaxe
 ---
-# Fiery Netherite Pickaxe
+# Scarlet Pickaxe
 <div class="main_table">
 <div class="left_main_table">
 <table class="left_table">
@@ -12,7 +12,7 @@ summary: oblivion item fiery netherite pickaxe
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            oblivion:fiery_netherite_pickaxe
+            oblivion:scarlet_pickaxe
             ```
             </td>
         </tr>
@@ -22,7 +22,7 @@ summary: oblivion item fiery netherite pickaxe
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Durability" target="_blank">Durability</a></td>
-            <td class="second-column">2331</td>
+            <td class="second-column">2631</td>
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Renewable_resource" target="_blank">Renewable</a></td>
@@ -34,7 +34,7 @@ summary: oblivion item fiery netherite pickaxe
         </tr>
         <tr id="linear-top">
             <td class="first-column"><a href="https://minecraft.wiki/w/Damage" target="_blank">Attack Damage</a></td>
-            <td class="second-column icon-element" icon-count="6.5" icon-id="melee" icon-exclusive></td>
+            <td class="second-column icon-element" icon-count="8" icon-id="melee" icon-exclusive></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Attack Speed</td>
@@ -47,31 +47,13 @@ summary: oblivion item fiery netherite pickaxe
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/oblivion/items/fiery_netherite_pickaxe.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/oblivion/items/scarlet_pickaxe.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
-A fiery netherite pickaxe is an end game tool required to mine [ores](https://minecraft.wiki/w/Ore), [rock](https://minecraft.wiki/w/Rock)-based [blocks](https://minecraft.wiki/w/Block) and [metal](https://minecraft.wiki/w/Metal)-based [blocks](https://minecraft.wiki/w/Block) quickly and obtain them as [items](https://minecraft.wiki/w/Item). A pickaxe mines faster and can obtain more block types as [items](https://minecraft.wiki/w/Item) depending on the material it is made from.[^1]
+A scarlet pickaxe is an end game tool required to mine [ores](https://minecraft.wiki/w/Ore), [rock](https://minecraft.wiki/w/Rock)-based [blocks](https://minecraft.wiki/w/Block) and [metal](https://minecraft.wiki/w/Metal)-based [blocks](https://minecraft.wiki/w/Block) quickly and obtain them as [items](https://minecraft.wiki/w/Item). A pickaxe mines faster and can obtain more block types as [items](https://minecraft.wiki/w/Item) depending on the material it is made from.[^1]
 
 ## Obtaining
-#### Crafting
-<div id="crafting-table">
-<div class="crafting-element" crafting-type="smithing">
-input[
-    1=oblivion:fiery_netherite_upgrade_smithing_template,Fiery Netherite Upgrade Smithing Template, Oblivion/Items/Fiery_Netherite_Upgrade_Smithing_Template, true; 
-    2=netherite_pickaxe,Netherite Pickaxe, https://minecraft.wiki/w/Netherite_Pickaxe; 
-    3=oblivion:fiery_netherite_ingot, Fiery Netherite Ingot, Oblivion/Items/Fiery_Netherite_Ingot, true
-]
-output[oblivion:fiery_netherite_pickaxe, Fiery Netherite Pickaxe ]
-</div>
-</div>
-
-## Usage
-A pickaxe is used to break [stone](https://minecraft.wiki/w/Stone)-based and [metal](https://minecraft.wiki/w/Metal)-based materials faster. Different qualities of pickaxe are required to successfully harvest certain [ores](https://minecraft.wiki/w/Ore) and [blocks](https://minecraft.wiki/w/Block). For example, while [stone](https://minecraft.wiki/w/Stone) can be mined with any pickaxe, [gold](https://minecraft.wiki/w/Gold) ore must be mined with an [iron pickaxe](https://minecraft.wiki/w/Iron_Pickaxe), [diamond pickaxe](https://minecraft.wiki/w/Diamond_Pickaxe), or [netherite pickaxe](https://minecraft.wiki/w/Netherite_Pickaxe), or else the [player](https://minecraft.wiki/w/Player) harvests no [ore](https://minecraft.wiki/w/Ore).[^1]  
-A fiery netherite pickaxe has a mining level of 5 and a higher [durability](https://minecraft.wiki/w/Durability) than a [netherite pickaxe](https://minecraft.wiki/w/Netherite_Pickaxe).
-
-[^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Pickaxe).
-
 #### Crafting
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="smithing">
@@ -82,4 +64,20 @@ input[
 ]
 output[oblivion:scarlet_pickaxe, Scarlet Pickaxe ]
 </div>
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[
+    1=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    2=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    3=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    5=oblivion:iron_wood_stick, Iron Wood Stick, Oblivion/Items/Iron_Wood_Stick, true;
+    8=oblivion:iron_wood_stick, Iron Wood Stick, Oblivion/Items/Iron_Wood_Stick, true
+]
+output[oblivion:scarlet_pickaxe, Scarlet Pickaxe ]
 </div>
+</div>
+
+## Usage
+A pickaxe is used to break [stone](https://minecraft.wiki/w/Stone)-based and [metal](https://minecraft.wiki/w/Metal)-based materials faster. Different qualities of pickaxe are required to successfully harvest certain [ores](https://minecraft.wiki/w/Ore) and [blocks](https://minecraft.wiki/w/Block). For example, while [stone](https://minecraft.wiki/w/Stone) can be mined with any pickaxe, [gold](https://minecraft.wiki/w/Gold) ore must be mined with an [iron pickaxe](https://minecraft.wiki/w/Iron_Pickaxe), [diamond pickaxe](https://minecraft.wiki/w/Diamond_Pickaxe), or [netherite pickaxe](https://minecraft.wiki/w/Netherite_Pickaxe), or else the [player](https://minecraft.wiki/w/Player) harvests no [ore](https://minecraft.wiki/w/Ore).[^1]  
+A Scarlet pickaxe has a mining level of 5 and a higher [durability](https://minecraft.wiki/w/Durability) than a [netherite pickaxe](https://minecraft.wiki/w/Netherite_Pickaxe).
+
+[^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Pickaxe).

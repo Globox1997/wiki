@@ -64,6 +64,16 @@ input[
 ]
 output[oblivion:scarlet_axe, Scarlet Axe ]
 </div>
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[
+    1=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    2=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    4=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    5=oblivion:iron_wood_stick, Iron Wood Stick, Oblivion/Items/Iron_Wood_Stick, true;
+    8=oblivion:iron_wood_stick, Iron Wood Stick, Oblivion/Items/Iron_Wood_Stick, true
+]
+output[oblivion:scarlet_axe, Scarlet Axe ]
+</div>
 </div>
 
 ## Usage

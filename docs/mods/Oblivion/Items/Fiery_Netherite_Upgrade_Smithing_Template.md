@@ -35,16 +35,11 @@ summary: oblivion item fiery netherite upgrade smithing template
 </div>
 
 ## Description
-The fiery netherite upgrade smithing template is a [smithing template](https://minecraft.wiki/w/Smithing_Template) used to [upgrade](https://minecraft.wiki/w/Smithing#Upgrading) [netherite armor](https://minecraft.wiki/w/Armor) to fiery netherite armor at the [smithing table](https://minecraft.wiki/w/Smithing_Table). It is consumed when used, but can be [duplicated](https://minecraft.wiki/w/Crafting) using an existing template.
+The fiery netherite upgrade smithing template is a [smithing template](https://minecraft.wiki/w/Smithing_Template) used to [upgrade](https://minecraft.wiki/w/Smithing#Upgrading) [netherite armor](https://minecraft.wiki/w/Armor) to fiery netherite armor at the [smithing table](https://minecraft.wiki/w/Smithing_Table). It is consumed when used.
 
 ## Obtaining
-#### Loot
-The fiery netherite upgrade smithing templates can be found [bastion remnant](https://minecraft.wiki/w/Bastion_Remnant) [chests](https://minecraft.wiki/w/Chest_loot) and can be duplicated by crafting the smithing template with the required ingredients.
-
-## Usage
-Use the fiery netherite upgrade smithing templatet to [upgrade](https://minecraft.wiki/w/Smithing#Upgrading) [netherite armor](https://minecraft.wiki/w/Armor) at the [smithing table](https://minecraft.wiki/w/Smithing_Table).
-
 #### Crafting
+The fiery netherite upgrade smithing tempalte is only craftable and can not be found in any structures.
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
@@ -59,6 +54,27 @@ input[
     9=oblivion:fiery_netherite_ingot, Fiery Netherite Ingot, Oblivion/Items/Fiery_Netherite_Ingot, true
 ]
 output[oblivion:fiery_netherite_upgrade_smithing_template, Fiery Netherite Upgrade Smithing Template ]
+</div>
+</div>
+
+## Usage
+Use the fiery netherite upgrade smithing templatet to [upgrade](https://minecraft.wiki/w/Smithing#Upgrading) [netherite armor](https://minecraft.wiki/w/Armor) at the [smithing table](https://minecraft.wiki/w/Smithing_Table).
+
+#### Crafting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[
+    1=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    2=netherite_upgrade_smithing_template, Netherite Upgrade Smithing Template;
+    3=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    4=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    5=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    6=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    7=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    8=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
+    9=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true
+]
+output[oblivion:scarlet_upgrade_smithing_template, Scarlet Upgrade Smithing Template ]
 </div>
 <div class="crafting-element" crafting-type="smithing">
 input[

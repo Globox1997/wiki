@@ -56,3 +56,15 @@ output[oblivion:fiery_netherite_helmet, Fiery Netherite Helmet ]
 
 ## Usage
 A fiery netherite helmet can be worn in the head slot of the [inventory](https://minecraft.wiki/w/Inventory) to give <span class="icon-element" icon-count="3" icon-id="armor"></span> [protection](https://minecraft.wiki/w/Armor#Protection), <span class="icon-element" icon-count="3.5" icon-id="armor"></span> [armor toughness](https://minecraft.wiki/w/Armor#Armor_toughness) and 1.5 (15%) [knockback resistance](https://minecraft.wiki/w/Knockback_(mechanic)#Knockback_resistance).
+
+#### Crafting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="smithing">
+input[
+    1=oblivion:scarlet_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Scarlet_Upgrade_Smithing_Template, true; 
+    2=oblivion:fiery_netherite_helmet,Fiery Netherite Helmet, Oblivion/Items/Fiery_Netherite_Helmet, true; 
+    3=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true
+]
+output[oblivion:scarlet_helmet, Scarlet Helmet ]
+</div>
+</div>

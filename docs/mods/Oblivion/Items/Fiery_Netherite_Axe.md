@@ -70,3 +70,14 @@ output[oblivion:fiery_netherite_axe, Fiery Netherite Axe ]
 A fiery netherite axe is used to break [logs](https://minecraft.wiki/w/Log), [blocks](https://minecraft.wiki/w/Block) derived from wood and some other [blocks](https://minecraft.wiki/w/Block) faster than by using other [tools](https://minecraft.wiki/w/Tool). A fiery netherite axe uses 1 [durability](https://minecraft.wiki/w/Durability) to break 1 [block](https://minecraft.wiki/w/Block). For [blocks](https://minecraft.wiki/w/Block) that break instantly, it uses 0 [durability](https://minecraft.wiki/w/Durability).[^1]
 
 [^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Axe).
+#### Crafting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="smithing">
+input[
+    1=oblivion:scarlet_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Scarlet_Upgrade_Smithing_Template, true; 
+    2=oblivion:fiery_netherite_axe,Fiery Netherite Axe, Oblivion/Items/Fiery_Netherite_Axe, true; 
+    3=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true
+]
+output[oblivion:scarlet_axe, Scarlet Axe ]
+</div>
+</div>
