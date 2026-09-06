@@ -1,9 +1,9 @@
 ---
-title: Scarlet Hoe
+title: Solarite Hoe
 project: oblivion
-summary: oblivion item scarlet hoe
+summary: oblivion item solarite hoe
 ---
-# Scarlet Hoe
+# Solarite Hoe
 <div class="main_table">
 <div class="left_main_table">
 <table class="left_table">
@@ -12,7 +12,7 @@ summary: oblivion item scarlet hoe
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            oblivion:scarlet_hoe
+            oblivion:solarite_hoe
             ```
             </td>
         </tr>
@@ -47,31 +47,31 @@ summary: oblivion item scarlet hoe
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/oblivion/items/scarlet_hoe.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/oblivion/items/solarite_hoe.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
-A scarlet hoe is an end game [tool](https://minecraft.wiki/w/Tool) used to harvest sculk [blocks](https://minecraft.wiki/w/Block) and many organic [blocks](https://minecraft.wiki/w/Block) more quickly, as well as to till most types of [dirt](https://minecraft.wiki/w/Dirt) into [farmland](https://minecraft.wiki/w/Farmland) and convert [coarse dirt](https://minecraft.wiki/w/Coarse_Dirt) and [rooted dirt](https://minecraft.wiki/w/Rooted_Dirt) to regular [dirt](https://minecraft.wiki/w/Dirt).[^1]
+A solarite hoe is an end game [tool](https://minecraft.wiki/w/Tool) used to harvest sculk [blocks](https://minecraft.wiki/w/Block) and many organic [blocks](https://minecraft.wiki/w/Block) more quickly, as well as to till most types of [dirt](https://minecraft.wiki/w/Dirt) into [farmland](https://minecraft.wiki/w/Farmland) and convert [coarse dirt](https://minecraft.wiki/w/Coarse_Dirt) and [rooted dirt](https://minecraft.wiki/w/Rooted_Dirt) to regular [dirt](https://minecraft.wiki/w/Dirt).[^1]
 
 ## Obtaining
 #### Crafting
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="smithing">
 input[
-    1=oblivion:scarlet_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Scarlet_Upgrade_Smithing_Template, true; 
-    2=oblivion:fiery_netherite_hoe,Fiery Netherite Hoe, Oblivion/Items/Fiery_Netherite_Hoe, true; 
-    3=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true
+    1=oblivion:solarite_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
+    2=oblivion:scarlet_hoe,Scarlet Hoe, Oblivion/Items/Scarlet_Hoe, true; 
+    3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true
 ]
-output[oblivion:scarlet_hoe, Scarlet Hoe ]
+output[oblivion:solarite_hoe, Solarite Hoe ]
 </div>
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
     1=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
     2=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true;
-    5=oblivion:iron_wood_stick, Iron Wood Stick, Oblivion/Items/Iron_Wood_Stick, true;
-    8=oblivion:iron_wood_stick, Iron Wood Stick, Oblivion/Items/Iron_Wood_Stick, true
+    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true;
+    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true
 ]
-output[oblivion:scarlet_hoe, Scarlet Hoe ]
+output[oblivion:solarite_hoe, Solarite Hoe ]
 </div>
 </div>
 
@@ -84,15 +84,3 @@ Tilling is effectively instantaneous, regardless of material, and uses 1 [durabi
 Hoes are unable to work on [blocks](https://minecraft.wiki/w/Block) with a [plant](https://minecraft.wiki/w/Plant) on top, even if that [plant](https://minecraft.wiki/w/Plant) could normally be placed on top of [farmland](https://minecraft.wiki/w/Farmland) without reverting it to [dirt](https://minecraft.wiki/w/Dirt).[^1]
 
 [^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Hoe).
-
-#### Crafting
-<div id="crafting-table">
-<div class="crafting-element" crafting-type="smithing">
-input[
-    1=oblivion:solarite_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
-    2=oblivion:scarlet_hoe,Scarlet Hoe, Oblivion/Items/Scarlet_Hoe, true; 
-    3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true
-]
-output[oblivion:solarite_hoe, Solarite Hoe ]
-</div>
-</div>

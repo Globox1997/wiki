@@ -69,3 +69,15 @@ output[oblivion:scarlet_chestplate, Scarlet Chestplate ]
 
 ## Usage
 A scarlet chestplate can be worn in the chest slot of the [inventory](https://minecraft.wiki/w/Inventory) to give <span class="icon-element" icon-count="9" icon-id="armor"></span> [protection](https://minecraft.wiki/w/Armor#Protection), <span class="icon-element" icon-count="3.75" icon-id="armor"></span> [armor toughness](https://minecraft.wiki/w/Armor#Armor_toughness) and 2.0 (20%) [knockback resistance](https://minecraft.wiki/w/Knockback_(mechanic)#Knockback_resistance).
+
+#### Crafting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="smithing">
+input[
+    1=oblivion:solarite_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
+    2=oblivion:scarlet_chestplate,Scarlet Chestplate, Oblivion/Items/Scarlet_Netherite_Chestplate, true; 
+    3=oblivion:solarite_ingot, Scarlet Ingot, Oblivion/Items/Solarite_Ingot, true
+]
+output[oblivion:solarite_chestplate, Solarite Chestplate ]
+</div>
+</div>

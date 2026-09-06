@@ -80,3 +80,16 @@ output[oblivion:scarlet_axe, Scarlet Axe ]
 A scarlet axe is used to break [logs](https://minecraft.wiki/w/Log), [blocks](https://minecraft.wiki/w/Block) derived from wood and some other [blocks](https://minecraft.wiki/w/Block) faster than by using other [tools](https://minecraft.wiki/w/Tool). A scarlet axe uses 1 [durability](https://minecraft.wiki/w/Durability) to break 1 [block](https://minecraft.wiki/w/Block). For [blocks](https://minecraft.wiki/w/Block) that break instantly, it uses 0 [durability](https://minecraft.wiki/w/Durability).[^1]
 
 [^1]: Source: [Minecraft Wiki](https://minecraft.wiki/w/Axe).
+
+#### Crafting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="smithing">
+input[
+    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
+    2=oblivion:scarlet_axe,Scarlet Axe, Oblivion/Items/Scarlet_Axe, true; 
+    3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true
+]
+output[oblivion:solarite_axe, Solarite Axe ]
+</div>
+</div>
+

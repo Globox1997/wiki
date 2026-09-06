@@ -64,6 +64,16 @@ input[
 ]
 output[oblivion:solarite_axe, Solarite Axe ]
 </div>
+<div class="crafting-element" crafting-type="vanilla_crafting">
+input[
+    1=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
+    2=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
+    4=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
+    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true;
+    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true
+]
+output[oblivion:solarite_axe, Solarite Axe ]
+</div>
 </div>
 
 ## Usage

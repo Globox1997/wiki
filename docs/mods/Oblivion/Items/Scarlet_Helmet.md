@@ -66,3 +66,15 @@ output[oblivion:scarlet_helmet, Scarlet Helmet ]
 
 ## Usage
 A scarlet helmet can be worn in the head slot of the [inventory](https://minecraft.wiki/w/Inventory) to give <span class="icon-element" icon-count="4" icon-id="armor"></span> [protection](https://minecraft.wiki/w/Armor#Protection), <span class="icon-element" icon-count="3.75" icon-id="armor"></span> [armor toughness](https://minecraft.wiki/w/Armor#Armor_toughness) and 2.0 (20%) [knockback resistance](https://minecraft.wiki/w/Knockback_(mechanic)#Knockback_resistance).
+
+#### Crafting
+<div id="crafting-table">
+<div class="crafting-element" crafting-type="smithing">
+input[
+    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
+    2=oblivion:scarlet_helmet,Scarlet Helmet, Oblivion/Items/Scarlet_Helmet, true; 
+    3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true
+]
+output[oblivion:solarite_helmet, Solarite Helmet ]
+</div>
+</div>
