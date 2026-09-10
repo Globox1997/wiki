@@ -52,3 +52,16 @@ The world of modding consumed me and I started to create a project here and ther
 Since then funnily enough I never played Minecraft again (except for some tests of course) and that is the story of how I got into Minecraft modding.
 
 [More Story](about/story.md)
+
+---
+<div style="text-align: center; margin: 25px 0;">
+
+<a href="/wiki/overview/" class="md-button md-button--primary">
+    <i class="fa-solid fa-chart-pie"></i> Overview
+</a>
+
+<a href="/wiki/quiz/" class="md-button">
+    <i class="fa-solid fa-circle-question"></i> Quiz
+</a>
+
+</div>
