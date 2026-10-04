@@ -6,6 +6,9 @@ on:
   
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -41,3 +44,9 @@ jobs:
           git add ./docs/data/discord_collected.json
           git commit -m "Update collected.json"
           git push origin main
+
+  deploy:
+    needs: build
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: write
