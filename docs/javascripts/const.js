@@ -40,6 +40,7 @@ const modIcons = [
     { texture: 'tiered_icon', url: 'TieredZ', tooltip: 'TieredZ' },
     { texture: 'tooltiprareness_icon', url: 'TooltipRareness', tooltip: 'TooltipRareness' },
     { texture: 'travelerz_icon', url: 'TravelerZ', tooltip: 'TravelerZ' },
+    { texture: 'untamed_icon', url: 'Untamed', tooltip: 'Untamed' },
     { texture: 'villagerquests_icon', url: 'VillagerQuests', tooltip: 'VillagerQuests' },
     { texture: 'villagertradefix_icon', url: 'VillagerTradeFix', tooltip: 'VillagerTradeFix' },
     { texture: 'voidz_icon', url: 'VoidZ', tooltip: 'VoidZ' },

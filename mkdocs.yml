@@ -186,6 +186,9 @@ extra:
     travelerz:
         repo: https://github.com/Globox1997/TravelerZ
         name: TravelerZ
+    untamed:
+        repo: https://github.com/Globox1997/Untamed
+        name: Untamed
     villagertradefix:
         repo: https://github.com/Globox1997/VillagerTradeFix
         name: VillagerTradeFix
@@ -891,6 +894,8 @@ nav:
       - mods/TooltipRareness/index.md
     - TravelerZ:
       - mods/TravelerZ/index.md
+    - Untamed:
+      - mods/Untamed/index.md
     - VillagerTradeFix:
       - mods/VillagerTradeFix/index.md
     - VillagerQuests:
