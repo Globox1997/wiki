@@ -2,6 +2,8 @@
 title: Dragon Scale
 project: dragonloot
 summary: dragonloot item dragon scale
+tags:
+    - dragonloot:dragon_scale
 ---
 # Dragon Scale
 <div class="main_table">

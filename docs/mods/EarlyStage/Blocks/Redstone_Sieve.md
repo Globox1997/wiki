@@ -2,6 +2,8 @@
 title: Redstone Sieve
 project: earlystage
 summary: earlystage block redstone sieve
+tags:
+    - earlystage:redstone_sieve
 ---
 # Redstone Sieve
 <div class="main_table">

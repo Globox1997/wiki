@@ -2,6 +2,8 @@
 title: Health IV Gem
 project: smitherz
 summary: smitherz item health IV gem
+tags:
+    - smitherz:health_4_gem
 ---
 # Health IV Gem
 <div class="main_table">

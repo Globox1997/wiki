@@ -2,6 +2,8 @@
 title: Dragon Crossbow
 project: dragonloot
 summary: dragonloot item dragon crossbow
+tags:
+    - dragonloot:dragon_crossbow
 ---
 # Dragon Crossbow
 <div class="main_table">

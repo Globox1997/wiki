@@ -2,6 +2,8 @@
 title: Attack Speed I Gem
 project: smitherz
 summary: smitherz item attack speed I gem
+tags:
+    - smitherz:attack_speed_1_gem
 ---
 # Attack Speed I Gem
 <div class="main_table">

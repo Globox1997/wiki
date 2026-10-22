@@ -2,6 +2,8 @@
 title: Prime Eye
 project: adventurez
 summary: adventurez item prime eye
+tags:
+    - adventurez:prime_eye
 ---
 # Prime Eye
 <div class="main_table">

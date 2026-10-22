@@ -2,6 +2,8 @@
 title: Golden Chorus Fruit
 project: farmz
 summary: farmz item golden chorus fruit
+tags:
+    - farmz:golden_chorus_fruit
 ---
 # Golden Chorus Fruit
 <div class="main_table">

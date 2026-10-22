@@ -2,6 +2,8 @@
 title: Flint Hoe
 project: earlystage
 summary: earlystage item flint hoe
+tags:
+    - earlystage:flint_hoe
 ---
 # Flint Hoe
 <div class="main_table">

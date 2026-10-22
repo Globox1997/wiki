@@ -2,6 +2,8 @@
 title: Ice Pack
 project: environmentz
 summary: environmentz item ice pack
+tags:
+    - environmentz:ice_pack
 ---
 # Ice Pack
 <div class="main_table">

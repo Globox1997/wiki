@@ -2,6 +2,8 @@
 title: Golden Mace
 project: medievalweapons
 summary: medievalweapons item golden mace
+tags:
+    - medievalweapons:golden_mace
 ---
 # Golden Mace
 <div class="main_table">

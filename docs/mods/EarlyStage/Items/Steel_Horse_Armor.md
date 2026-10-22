@@ -2,6 +2,8 @@
 title: Steel Horse Armor
 project: earlystage
 summary: earlystage item steel horse armor
+tags:
+    - earlystage:steel_horse_armor
 ---
 # Steel Horse Armor
 <div class="main_table">

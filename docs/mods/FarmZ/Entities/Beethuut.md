@@ -2,6 +2,8 @@
 title: Beethuut
 project: farmz
 summary: farmz entity beethuut
+tags:
+    - farmz:beethuut
 ---
 # Beethuut
 <div class="main_table">

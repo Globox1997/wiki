@@ -2,6 +2,8 @@
 title: Raw Scarlet
 project: oblivion
 summary: oblivion item raw scarlet
+tags:
+    - oblivion:raw_scarlet
 ---
 # Raw Scarlet
 <div class="main_table">

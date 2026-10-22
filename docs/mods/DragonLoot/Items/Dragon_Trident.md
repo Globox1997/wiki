@@ -2,6 +2,8 @@
 title: Dragon Trident
 project: dragonloot
 summary: dragonloot item dragon trident
+tags:
+    - dragonloot:dragon_trident
 ---
 # Dragon Trident
 <div class="main_table">

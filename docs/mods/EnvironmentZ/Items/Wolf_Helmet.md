@@ -2,6 +2,8 @@
 title: Wolf Pelt Helmet
 project: environmentz
 summary: environmentz item wolf pelt helmet
+tags:
+    - environmentz:wolf_helmet
 ---
 # Wolf Pelt Helmet
 <div class="main_table">

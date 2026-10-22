@@ -2,6 +2,8 @@
 title: Golden Dagger
 project: medievalweapons
 summary: medievalweapons item golden dagger
+tags:
+    - medievalweapons:golden_dagger
 ---
 # Golden Dagger
 <div class="main_table">

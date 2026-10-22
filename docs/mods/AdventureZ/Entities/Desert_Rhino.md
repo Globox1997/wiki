@@ -2,6 +2,8 @@
 title: Desert Rhino
 project: adventurez
 summary: adventurez entity desert rhino
+tags:
+    - adventurez:desert_rhino
 ---
 # Desert Rhino
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Supportive Revivify Potion
 project: revive
 summary: revive supportive revivify potion
+tags:
+    - revive:supportive_revivify_potion
 ---
 # Supportive Revivify Potion
 <div class="main_table">

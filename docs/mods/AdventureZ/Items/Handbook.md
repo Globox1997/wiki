@@ -2,6 +2,8 @@
 title: Handbook
 project: adventurez
 summary: adventurez item handbook
+tags:
+    - adventurez:handbook
 ---
 # Handbook
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Attack Speed III Gem
 project: smitherz
 summary: smitherz item attack speed III gem
+tags:
+    - smitherz:attack_speed_3_gem
 ---
 # Attack Speed III Gem
 <div class="main_table">

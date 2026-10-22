@@ -2,6 +2,8 @@
 title: Diamond Battle Axe
 project: medievalweapons
 summary: medievalweapons item diamond battle axe
+tags:
+    - medievalweapons:diamond_small_axe
 ---
 # Diamond Battle Axe
 <div class="main_table">

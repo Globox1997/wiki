@@ -2,6 +2,8 @@
 title: Crimson Bark
 project: earlystage
 summary: earlystage item crimson bark
+tags:
+    - earlystage:crimson_bark
 ---
 # Crimson Bark
 <div class="main_table">

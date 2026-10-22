@@ -2,6 +2,8 @@
 title: Warped Pole
 project: spartanweapons
 summary: spartanweapons item warped pole
+tags:
+    - spartanweapons:warped_pole
 ---
 # Warped Pole
 <div class="main_table">

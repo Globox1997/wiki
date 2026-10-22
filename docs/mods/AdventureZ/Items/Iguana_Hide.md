@@ -2,6 +2,8 @@
 title: Iguana Hide
 project: adventurez
 summary: adventurez item iguana hide
+tags:
+    - adventurez:iguana_hide
 ---
 # Iguana Hide
 <div class="main_table">

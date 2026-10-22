@@ -4,6 +4,7 @@ project: adventurez
 summary: adventurez entity orc
 tags:
     - ork
+    - adventurez:orc
 ---
 # Orc
 <div class="main_table">

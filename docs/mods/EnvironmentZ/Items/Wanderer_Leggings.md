@@ -2,6 +2,8 @@
 title: Wanderer Leggings
 project: environmentz
 summary: environmentz item wanderer leggings
+tags:
+    - environmentz:wanderer_leggings
 ---
 # Wanderer Leggings
 <div class="main_table">

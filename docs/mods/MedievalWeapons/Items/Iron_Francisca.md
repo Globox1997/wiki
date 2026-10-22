@@ -2,6 +2,8 @@
 title: Iron Francisca
 project: medievalweapons
 summary: medievalweapons item iron francisca
+tags:
+    - medievalweapons:iron_francisca
 ---
 # Iron Francisca
 <div class="main_table">

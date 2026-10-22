@@ -2,6 +2,8 @@
 title: Cooked Rhino Meat
 project: adventurez
 summary: adventurez item cooked rhino meat
+tags:
+    - adventurez:cooked_rhino_meat
 ---
 # Cooked Rhino Meat
 <div class="main_table">

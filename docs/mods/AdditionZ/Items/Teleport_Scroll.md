@@ -2,6 +2,8 @@
 title: Teleport Scroll
 project: additionz
 summary: additionz teleport scroll
+tags:
+    - additionz:teleport_scroll
 ---
 # Teleport Scroll
 <div class="main_table">

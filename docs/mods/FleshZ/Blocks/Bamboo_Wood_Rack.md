@@ -2,6 +2,8 @@
 title: Bamboo Wood Rack
 project: fleshz
 summary: fleshz block bamboo wood rack
+tags:
+    - fleshz:bamboo_wood_rack
 ---
 # Bamboo Wood Rack
 <div class="main_table">

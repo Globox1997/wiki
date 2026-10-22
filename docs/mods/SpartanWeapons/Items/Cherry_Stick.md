@@ -2,6 +2,8 @@
 title: Cherry Stick
 project: spartanweapons
 summary: spartanweapons item cherry stick
+tags:
+    - spartanweapons:cherry_stick
 ---
 # Cherry Stick
 <div class="main_table">

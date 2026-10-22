@@ -2,6 +2,8 @@
 title: Dungeon Spawner
 project: dungeonz
 summary: dungeonz block dungeon spawner
+tags:
+    - dungeonz:dungeon_spawner
 ---
 # Dungeon Spawner
 <div class="main_table">

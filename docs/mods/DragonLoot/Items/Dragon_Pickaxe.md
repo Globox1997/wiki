@@ -2,6 +2,8 @@
 title: Dragon Pickaxe
 project: dragonloot
 summary: dragonloot item dragon Pickaxe
+tags:
+    - dragonloot:dragon_pickaxe
 ---
 # Dragon Pickaxe
 <div class="main_table">

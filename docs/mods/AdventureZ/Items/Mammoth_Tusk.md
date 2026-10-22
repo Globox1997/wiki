@@ -2,6 +2,8 @@
 title: Mammoth Tusk
 project: adventurez
 summary: adventurez item mammoth tusk
+tags:
+    - adventurez:mammoth_tusk
 ---
 # Mammoth Tusk
 <div class="main_table">

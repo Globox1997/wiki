@@ -2,6 +2,8 @@
 title: Haste IV Gem
 project: smitherz
 summary: smitherz item haste IV gem
+tags:
+    - smitherz:haste_4_gem
 ---
 # Haste IV Gem
 <div class="main_table">

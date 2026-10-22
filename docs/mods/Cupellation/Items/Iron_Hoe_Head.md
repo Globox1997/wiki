@@ -2,6 +2,8 @@
 title: Iron Hoe Head
 project: cupellation
 summary: cupellation item iron hoe head
+tags:
+    - cupellation:iron_hoe_head
 ---
 # Iron Hoe Head
 <div class="main_table">

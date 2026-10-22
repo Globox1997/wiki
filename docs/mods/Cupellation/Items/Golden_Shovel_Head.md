@@ -2,6 +2,8 @@
 title: Golden Shovel Head
 project: cupellation
 summary: cupellation item golden shovel head
+tags:
+    - cupellation:golden_shovel_head
 ---
 # Golden Shovel Head
 <div class="main_table">

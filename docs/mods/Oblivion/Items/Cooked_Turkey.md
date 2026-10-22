@@ -2,6 +2,8 @@
 title: Cooked Turkey
 project: oblivion
 summary: oblivion item cooked turkey
+tags:
+    - oblivion:cooked_turkey
 ---
 # Cooked Turkey
 <div class="main_table">

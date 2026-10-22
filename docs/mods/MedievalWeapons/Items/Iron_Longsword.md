@@ -2,6 +2,8 @@
 title: Iron Longsword
 project: medievalweapons
 summary: medievalweapons item iron longsword
+tags:
+    - medievalweapons:iron_long_sword
 ---
 # Iron Longsword
 <div class="main_table">

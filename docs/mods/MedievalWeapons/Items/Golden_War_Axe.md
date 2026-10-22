@@ -2,6 +2,8 @@
 title: Golden War Axe
 project: medievalweapons
 summary: medievalweapons item golden war axe
+tags:
+    - medievalweapons:golden_big_axe
 ---
 # Golden War Axe
 <div class="main_table">

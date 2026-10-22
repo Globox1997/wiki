@@ -2,6 +2,8 @@
 title: Iron Pickaxe Head
 project: cupellation
 summary: cupellation item iron pickaxe head
+tags:
+    - cupellation:iron_pickaxe_head
 ---
 # Iron Pickaxe Head
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Strange Potion
 project: levelz
 summary: levelz item strange potion
+tags:
+    - levelz:strange_potion
 ---
 # Strange Potion
 <div class="main_table">

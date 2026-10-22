@@ -2,6 +2,8 @@
 title: Stone Longsword
 project: medievalweapons
 summary: medievalweapons item stone longsword
+tags:
+    - medievalweapons:stone_long_sword
 ---
 # Stone Longsword
 <div class="main_table">

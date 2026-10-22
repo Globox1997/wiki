@@ -2,6 +2,8 @@
 title: Infested Void Stone
 project: voidz
 summary: voidz block infested void stone
+tags:
+    - voidz:infested_void_stone
 ---
 # Infested Void Stone
 <div class="main_table">

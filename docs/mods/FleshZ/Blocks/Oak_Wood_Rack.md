@@ -2,6 +2,8 @@
 title: Oak Wood Rack
 project: fleshz
 summary: fleshz block oak wood rack
+tags:
+    - fleshz:oak_wood_rack
 ---
 # Oak Wood Rack
 <div class="main_table">

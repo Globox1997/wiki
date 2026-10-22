@@ -2,6 +2,8 @@
 title: Stone Battle Axe
 project: medievalweapons
 summary: medievalweapons item stone battle axe
+tags:
+    - medievalweapons:stone_small_axe
 ---
 # Stone Battle Axe
 <div class="main_table">

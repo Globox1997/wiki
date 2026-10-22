@@ -2,6 +2,8 @@
 title: Dragon Scale Boots
 project: dragonloot
 summary: dragonloot item dragon scale boots
+tags:
+    - dragonloot:dragon_boots
 ---
 # Dragon Scale Boots
 <div class="main_table">

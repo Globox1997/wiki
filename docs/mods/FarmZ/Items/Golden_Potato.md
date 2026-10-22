@@ -2,6 +2,8 @@
 title: Golden Potato
 project: farmz
 summary: farmz item golden potato
+tags:
+    - farmz:golden_potato
 ---
 # Golden Potato
 <div class="main_table">

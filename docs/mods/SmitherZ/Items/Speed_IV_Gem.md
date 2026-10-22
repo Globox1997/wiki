@@ -2,6 +2,8 @@
 title: Speed IV Gem
 project: smitherz
 summary: smitherz item speed IV gem
+tags:
+    - smitherz:speed_4_gem
 ---
 # Speed IV Gem
 <div class="main_table">

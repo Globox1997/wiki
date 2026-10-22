@@ -2,6 +2,8 @@
 title: Stone Hoe Head
 project: cupellation
 summary: cupellation item stone hoe head
+tags:
+    - cupellation:stone_hoe_head
 ---
 # Stone Hoe Head
 <div class="main_table">

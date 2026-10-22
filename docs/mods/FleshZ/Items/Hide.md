@@ -2,6 +2,8 @@
 title: Hide
 project: fleshz
 summary: fleshz item hide
+tags:
+    - fleshz:hide
 ---
 # Hide
 <div class="main_table">

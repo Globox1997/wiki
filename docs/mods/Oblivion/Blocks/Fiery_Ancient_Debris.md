@@ -2,6 +2,8 @@
 title: Fiery Ancient Debris
 project: oblivion
 summary: oblivion fiery ancient debris
+tags:
+    - oblivion:fiery_ancient_debris
 ---
 # Fiery Ancient Debris
 <div class="main_table">

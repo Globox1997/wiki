@@ -2,6 +2,8 @@
 title: Oak Bark
 project: earlystage
 summary: earlystage item oak bark
+tags:
+    - earlystage:oak_bark
 ---
 # Oak Bark
 <div class="main_table">

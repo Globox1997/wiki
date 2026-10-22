@@ -2,6 +2,8 @@
 title: Guidelight
 project: oblivion
 summary: oblivion structure guidelight
+tags:
+    - oblivion:guidelight
 ---
 # Guidelight
 <div class="main_table">

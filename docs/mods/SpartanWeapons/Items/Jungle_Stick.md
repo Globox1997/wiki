@@ -2,6 +2,8 @@
 title: Jungle Stick
 project: spartanweapons
 summary: spartanweapons item jungle stick
+tags:
+    - spartanweapons:jungle_stick
 ---
 # Jungle Stick
 <div class="main_table">

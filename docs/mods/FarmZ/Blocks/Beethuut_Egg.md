@@ -2,6 +2,8 @@
 title: Beethuut Egg
 project: farmz
 summary: farmz block beethuut bgg
+tags:
+    - farmz:beethuut_egg
 ---
 # Beethuut Egg
 <div class="main_table">

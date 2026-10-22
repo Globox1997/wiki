@@ -2,6 +2,8 @@
 title: Iron Ninjato
 project: medievalweapons
 summary: medievalweapons item iron ninjato
+tags:
+    - medievalweapons:iron_ninjato
 ---
 # Iron Ninjato
 <div class="main_table">

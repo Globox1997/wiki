@@ -2,6 +2,8 @@
 title: Skeleton Vanguard
 project: adventurez
 summary: adventurez entity skeleton vanguard
+tags:
+    - adventurez:skeleton_vanguard
 ---
 # Skeleton Vanguard
 <div class="main_table">

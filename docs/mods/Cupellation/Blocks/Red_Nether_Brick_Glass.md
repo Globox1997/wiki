@@ -2,6 +2,8 @@
 title: Red Nether Brick Glass
 project: cupellation
 summary: cupellation block red nether brick glass
+tags:
+    - cupellation:red_nether_brick_glass
 ---
 # Red Nether Brick Glass
 <div class="main_table">

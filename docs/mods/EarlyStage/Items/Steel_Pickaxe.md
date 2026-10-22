@@ -2,6 +2,8 @@
 title: Steel Pickaxe
 project: earlystage
 summary: earlystage item steel Pickaxe
+tags:
+    - earlystage:steel_pickaxe
 ---
 # Steel Pickaxe
 <div class="main_table">

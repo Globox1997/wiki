@@ -2,6 +2,8 @@
 title: Spruce Wood Rack
 project: fleshz
 summary: fleshz block spruce wood rack
+tags:
+    - fleshz:spruce_wood_rack
 ---
 # Spruce Wood Rack
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Thalleous Sword
 project: medievalweapons
 summary: medievalweapons item thalleous sword
+tags:
+    - medievalweapons:thalleous_sword
 ---
 # Thalleous Sword
 <div class="main_table">

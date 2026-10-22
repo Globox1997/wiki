@@ -2,6 +2,8 @@
 title: Diamond Javelin
 project: medievalweapons
 summary: medievalweapons item diamond javelin
+tags:
+    - medievalweapons:diamond_javelin
 ---
 # Diamond Javelin
 <div class="main_table">

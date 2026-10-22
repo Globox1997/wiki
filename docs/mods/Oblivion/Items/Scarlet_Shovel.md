@@ -2,6 +2,8 @@
 title: Scarlet Shovel
 project: oblivion
 summary: oblivion item scarlet shovel
+tags:
+    - oblivion:scarlet_shovel
 ---
 # Scarlet Shovel
 <div class="main_table">

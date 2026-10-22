@@ -2,6 +2,8 @@
 title: Red Nether Brick Drain
 project: cupellation
 summary: cupellation block red nether brick drain
+tags:
+    - cupellation:red_nether_brick_drain
 ---
 # Red Nether Brick Drain
 <div class="main_table">

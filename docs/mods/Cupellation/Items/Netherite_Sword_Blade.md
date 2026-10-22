@@ -2,6 +2,8 @@
 title: Netherite Sword Blade
 project: cupellation
 summary: cupellation item netherite sword blade
+tags:
+    - cupellation:netherite_sword_blade
 ---
 # Netherite Sword Blade
 <div class="main_table">

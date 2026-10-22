@@ -2,6 +2,8 @@
 title: Golden Hoe Head
 project: cupellation
 summary: cupellation item golden hoe head
+tags:
+    - cupellation:golden_hoe_head
 ---
 # Golden Hoe Head
 <div class="main_table">

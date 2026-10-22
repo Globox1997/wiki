@@ -2,6 +2,8 @@
 title: Dragon Axe
 project: dragonloot
 summary: dragonloot item dragon axe
+tags:
+    - dragonloot:dragon_axe
 ---
 # Dragon Axe
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Bleed
 project: medievalweapons
 summary: medievalweapons effect bleed
+tags:
+    - medievalweapons:bleed
 ---
 # bleed
 <div class="main_table">

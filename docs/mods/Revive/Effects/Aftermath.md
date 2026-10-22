@@ -2,6 +2,8 @@
 title: Aftermath
 project: revive
 summary: revive effect aftermath
+tags:
+    - revive:aftermath
 ---
 # Aftermath
 <div class="main_table">

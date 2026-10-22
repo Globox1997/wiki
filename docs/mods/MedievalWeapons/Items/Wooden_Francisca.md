@@ -2,6 +2,8 @@
 title: Wooden Francisca
 project: medievalweapons
 summary: medievalweapons item wooden francisca
+tags:
+    - medievalweapons:wooden_francisca
 ---
 # Wooden Francisca
 <div class="main_table">

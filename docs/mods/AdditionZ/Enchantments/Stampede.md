@@ -2,6 +2,8 @@
 title: Stampede
 project: additionz
 summary: additionz enchantment stampede
+tags:
+    - additionz:stampede
 ---
 # Stampede
 <div class="main_table">

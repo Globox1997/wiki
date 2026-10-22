@@ -2,6 +2,8 @@
 title: Ender Whale Meat
 project: adventurez
 summary: adventurez item ender whale meat
+tags:
+    - adventurez:ender_whale_meat
 ---
 # Ender Whale Meat
 <div class="main_table">

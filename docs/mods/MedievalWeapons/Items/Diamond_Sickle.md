@@ -2,6 +2,8 @@
 title: Diamond Sickle
 project: medievalweapons
 summary: medievalweapons item diamond sickle
+tags:
+    - medievalweapons:diamond_sickle
 ---
 # Diamond Sickle
 <div class="main_table">

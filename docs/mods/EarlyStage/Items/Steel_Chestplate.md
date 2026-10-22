@@ -2,6 +2,8 @@
 title: Steel Chestplate
 project: earlystage
 summary: earlystage item steel chestplate
+tags:
+    - earlystage:steel_chestplate
 ---
 # Steel Chestplate
 <div class="main_table">

@@ -44,5 +44,5 @@ Just report bugs at the github page.
         [LevelZ](https://modrinth.com/mod/levelz){ .md-button .md-button--primary }
 
 ## Changelog
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
 <div id="log" modid="partyaddon"></div>

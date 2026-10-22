@@ -2,6 +2,8 @@
 title: Prepared Hide
 project: fleshz
 summary: fleshz item prepared hide
+tags:
+    - fleshz:prepared_hide
 ---
 # Prepared Hide
 <div class="main_table">

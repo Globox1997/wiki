@@ -2,6 +2,8 @@
 title: Iron Leather Flask
 project: dehydration
 summary: dehydration item iron leather flask
+tags:
+    - dehydration:iron_leather_flask
 ---
 # Iron Leather Flask
 <div class="main_table">

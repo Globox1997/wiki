@@ -2,6 +2,8 @@
 title: Acacia Pole
 project: spartanweapons
 summary: spartanweapons item acacia pole
+tags:
+    - spartanweapons:acacia_pole
 ---
 # Acacia Pole
 <div class="main_table">

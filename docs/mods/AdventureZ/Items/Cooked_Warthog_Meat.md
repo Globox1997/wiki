@@ -2,6 +2,8 @@
 title: Cooked Warthog Meat
 project: adventurez
 summary: adventurez item cooked warthog meat
+tags:
+    - adventurez:cooked_warthog_meat
 ---
 # Cooked Warthog Meat
 <div class="main_table">

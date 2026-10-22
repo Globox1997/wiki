@@ -2,6 +2,8 @@
 title: Rock
 project: earlystage
 summary: earlystage block rock
+tags:
+    - earlystage:rock
 ---
 # Rock
 <div class="main_table">

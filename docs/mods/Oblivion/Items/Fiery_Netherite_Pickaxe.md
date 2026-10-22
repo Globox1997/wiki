@@ -2,6 +2,8 @@
 title: Fiery Netherite Pickaxe
 project: oblivion
 summary: oblivion item fiery netherite pickaxe
+tags:
+    - oblivion:fiery_netherite_pickaxe
 ---
 # Fiery Netherite Pickaxe
 <div class="main_table">

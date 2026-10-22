@@ -2,6 +2,8 @@
 title: Flint
 project: earlystage
 summary: earlystage block flint
+tags:
+    - earlystage:flint
 ---
 # Flint
 <div class="main_table">

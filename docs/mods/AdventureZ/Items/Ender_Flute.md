@@ -2,6 +2,8 @@
 title: Ender Flute
 project: adventurez
 summary: adventurez item ender flute
+tags:
+    - adventurez:ender_flute
 ---
 # Ender Flute
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Cooked Boar Meat
 project: oblivion
 summary: oblivion item cooked boar meat
+tags:
+    - oblivion:cooked_boar_meat
 ---
 # Cooked Boar Meat
 <div class="main_table">

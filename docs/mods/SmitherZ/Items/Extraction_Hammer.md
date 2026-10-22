@@ -2,6 +2,8 @@
 title: Extraction Hammer
 project: smitherz
 summary: smitherz item extraction hammer
+tags:
+    - smitherz:extraction_hammer
 ---
 # Extraction Hammer
 <div class="main_table">

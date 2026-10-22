@@ -2,6 +2,8 @@
 title: Dungeon Gate
 project: dungeonz
 summary: dungeonz block dungeon gate
+tags:
+    - dungeonz:dungeon_gate
 ---
 # Dungeon Gate
 <div class="main_table">

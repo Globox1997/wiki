@@ -2,6 +2,8 @@
 title: Wooden Spear
 project: spartanweapons
 summary: spartanweapons item wooden spear
+tags:
+    - spartanweapons:wooden_spear
 ---
 # Wooden Spear
 <div class="main_table">

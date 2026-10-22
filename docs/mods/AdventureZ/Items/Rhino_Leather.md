@@ -2,6 +2,8 @@
 title: Rhino Leather
 project: adventurez
 summary: adventurez item rhino leather
+tags:
+    - adventurez:rhino_leather
 ---
 # Rhino Leather
 <div class="main_table">

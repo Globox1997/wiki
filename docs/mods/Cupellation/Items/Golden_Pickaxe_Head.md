@@ -2,6 +2,8 @@
 title: Golden Pickaxe Head
 project: cupellation
 summary: cupellation item golden pickaxe head
+tags:
+    - cupellation:golden_pickaxe_head
 ---
 # Golden Pickaxe Head
 <div class="main_table">

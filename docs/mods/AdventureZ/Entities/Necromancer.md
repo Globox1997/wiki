@@ -2,6 +2,8 @@
 title: Necromancer
 project: adventurez
 summary: adventurez entity necromancer
+tags:
+    - adventurez:necromancer
 ---
 # Necromancer
 <div class="main_table">

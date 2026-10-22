@@ -2,6 +2,8 @@
 title: Void Shadow
 project: adventurez
 summary: adventurez entity void shadow boss
+tags:
+    - adventurez:void_shadow
 ---
 # Void Shadow
 <div class="main_table">

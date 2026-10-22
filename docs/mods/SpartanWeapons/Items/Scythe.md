@@ -2,6 +2,8 @@
 title: Scythe
 project: spartanweapons
 summary: spartanweapons item scythe
+tags:
+    - spartanweapons:scythe
 ---
 # Scythe
 <div class="main_table">

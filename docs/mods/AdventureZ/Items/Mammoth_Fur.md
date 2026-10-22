@@ -2,6 +2,8 @@
 title: Mammoth Fur
 project: adventurez
 summary: adventurez item mammoth fur
+tags:
+    - adventurez:mammoth_fur
 ---
 # Mammoth Fur
 <div class="main_table">

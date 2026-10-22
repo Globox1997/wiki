@@ -2,6 +2,8 @@
 title: Wolf Pelt Chestplate
 project: environmentz
 summary: environmentz item wolf pelt chestplate
+tags:
+    - environmentz:wolf_chestplate
 ---
 # Wolf Pelt Chestplate
 <div class="main_table">

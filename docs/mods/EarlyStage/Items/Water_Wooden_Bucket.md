@@ -2,6 +2,8 @@
 title: Water Wooden Bucket
 project: earlystage
 summary: earlystage item water wooden bucket
+tags:
+    - earlystage:water_wooden_bucket
 ---
 # Water Wooden Bucket
 <div class="main_table">

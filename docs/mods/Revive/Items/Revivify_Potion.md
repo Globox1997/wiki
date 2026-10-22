@@ -2,6 +2,8 @@
 title: Revivify Potion
 project: revive
 summary: revive revivify potion
+tags:
+    - revive:revivify_potion
 ---
 # Revivify Potion
 <div class="main_table">

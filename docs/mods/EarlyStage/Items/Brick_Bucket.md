@@ -2,6 +2,8 @@
 title: Brick Bucket
 project: earlystage
 summary: earlystage item brick bucket
+tags:
+    - earlystage:brick_bucket
 ---
 # Brick Bucket
 <div class="main_table">

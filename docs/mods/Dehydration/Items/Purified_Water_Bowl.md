@@ -2,6 +2,8 @@
 title: Purified Water Bowl
 project: dehydration
 summary: dehydration item purified water bowl
+tags:
+    - dehydration:purified_water_bowl
 ---
 # Purified Water Bowl
 <div class="main_table">

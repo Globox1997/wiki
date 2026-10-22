@@ -2,6 +2,8 @@
 title: Cherry Bark
 project: earlystage
 summary: earlystage item cherry bark
+tags:
+    - earlystage:cherry_bark
 ---
 # Cherry Bark
 <div class="main_table">

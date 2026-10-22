@@ -2,6 +2,8 @@
 title: Cooked Iguana Meat
 project: adventurez
 summary: adventurez item cooked iguana meat
+tags:
+    - adventurez:cooked_iguana_meat
 ---
 # Cooked Iguana Meat
 <div class="main_table">

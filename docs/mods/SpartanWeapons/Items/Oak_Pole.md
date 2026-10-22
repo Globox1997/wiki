@@ -2,6 +2,8 @@
 title: Oak Pole
 project: spartanweapons
 summary: spartanweapons item oak pole
+tags:
+    - spartanweapons:oak_pole
 ---
 # Oak Pole
 <div class="main_table">

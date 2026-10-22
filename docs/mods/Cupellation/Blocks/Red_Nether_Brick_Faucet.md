@@ -2,6 +2,8 @@
 title: Red Nether Brick Faucet
 project: cupellation
 summary: cupellation block red nether brick faucet
+tags:
+    - cupellation:red_nether_brick_faucet
 ---
 # Red Nether Brick Faucet
 <div class="main_table">

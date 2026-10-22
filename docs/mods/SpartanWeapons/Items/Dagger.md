@@ -2,6 +2,8 @@
 title: Dagger
 project: spartanweapons
 summary: spartanweapons item dagger
+tags:
+    - spartanweapons:dagger
 ---
 # Dagger
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Mangrove Wood Rack
 project: fleshz
 summary: fleshz block mangrove wood rack
+tags:
+    - fleshz:mangrove_wood_rack
 ---
 # Mangrove Wood Rack
 <div class="main_table">

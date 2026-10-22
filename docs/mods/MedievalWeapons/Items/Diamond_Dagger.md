@@ -2,6 +2,8 @@
 title: Diamond Dagger
 project: medievalweapons
 summary: medievalweapons item diamond dagger
+tags:
+    - medievalweapons:diamond_dagger
 ---
 # Diamond Dagger
 <div class="main_table">

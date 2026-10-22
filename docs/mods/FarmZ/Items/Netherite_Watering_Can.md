@@ -2,6 +2,8 @@
 title: Netherite Watering Can
 project: farmz
 summary: farmz item netherite watering can
+tags:
+    - farmz:netherite_watering_can
 ---
 # Netherite Watering Can
 <div class="main_table">

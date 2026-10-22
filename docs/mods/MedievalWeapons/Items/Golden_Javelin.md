@@ -2,6 +2,8 @@
 title: Golden Javelin
 project: medievalweapons
 summary: medievalweapons item golden javelin
+tags:
+    - medievalweapons:golden_javelin
 ---
 # Golden Javelin
 <div class="main_table">

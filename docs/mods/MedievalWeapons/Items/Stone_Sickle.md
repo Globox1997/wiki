@@ -2,6 +2,8 @@
 title: Stone Sickle
 project: medievalweapons
 summary: medievalweapons item stone sickle
+tags:
+    - medievalweapons:stone_sickle
 ---
 # Stone Sickle
 <div class="main_table">

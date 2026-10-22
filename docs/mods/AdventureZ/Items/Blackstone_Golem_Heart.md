@@ -2,6 +2,8 @@
 title: Blackstone Golem Heart
 project: adventurez
 summary: adventurez item blackstone golem heart
+tags:
+    - adventurez:blackstone_golem_heart
 ---
 # Blackstone Golem Heart
 <div class="main_table">

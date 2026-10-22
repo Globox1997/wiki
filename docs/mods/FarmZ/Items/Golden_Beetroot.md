@@ -2,6 +2,8 @@
 title: Golden Beetroot
 project: farmz
 summary: farmz item golden beetroot
+tags:
+    - farmz:golden_beetroot
 ---
 # Golden Beetroot
 <div class="main_table">

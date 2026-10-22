@@ -2,6 +2,8 @@
 title: Scarlet Leggings
 project: oblivion
 summary: oblivion item scarlet leggings
+tags:
+    - oblivion:scarlet_leggings
 ---
 # Scarlet Leggings
 <div class="main_table">

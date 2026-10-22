@@ -2,6 +2,8 @@
 title: Javelin
 project: spartanweapons
 summary: spartanweapons item javelin
+tags:
+    - spartanweapons:javelin
 ---
 # Javelin
 <div class="main_table">

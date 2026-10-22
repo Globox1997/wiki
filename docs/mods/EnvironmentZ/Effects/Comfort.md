@@ -2,6 +2,8 @@
 title: Comfort
 project: environmentz
 summary: environmentz effect comfort
+tags:
+    - environmentz:comfort
 ---
 # Comfort
 <div class="main_table">

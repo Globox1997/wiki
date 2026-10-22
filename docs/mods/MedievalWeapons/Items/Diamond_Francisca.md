@@ -2,6 +2,8 @@
 title: Diamond Francisca
 project: medievalweapons
 summary: medievalweapons item diamond francisca
+tags:
+    - medievalweapons:diamond_francisca
 ---
 # Diamond Francisca
 <div class="main_table">

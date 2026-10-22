@@ -2,6 +2,8 @@
 title: Wooden Rapier
 project: medievalweapons
 summary: medievalweapons item wooden rapier
+tags:
+    - medievalweapons:wooden_rapier
 ---
 # Wooden Rapier
 <div class="main_table">

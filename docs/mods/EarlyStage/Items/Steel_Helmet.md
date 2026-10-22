@@ -2,6 +2,8 @@
 title: Steel Helmet
 project: earlystage
 summary: earlystage item steel helmet
+tags:
+    - earlystage:steel_helmet
 ---
 # Steel Helmet
 <div class="main_table">

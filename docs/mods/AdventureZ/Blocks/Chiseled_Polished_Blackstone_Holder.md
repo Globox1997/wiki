@@ -2,6 +2,8 @@
 title: Chiseled Polished Blackstone Holder
 project: adventurez
 summary: adventurez block chiseled polished blackstone holder
+tags:
+    - adventurez:chiseled_polished_blackstone_holder
 ---
 # Chiseled Polished Blackstone Holder
 <div class="main_table">

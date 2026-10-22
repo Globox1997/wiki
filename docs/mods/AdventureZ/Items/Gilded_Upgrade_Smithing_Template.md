@@ -2,6 +2,8 @@
 title: Gilded Upgrade Smithing Template
 project: adventurez
 summary: adventurez item gilded upgrade smithing template
+tags:
+    - adventurez:gilded_upgrade_smithing_template
 ---
 # Gilded Upgrade Smithing Template
 <div class="main_table">

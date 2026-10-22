@@ -2,6 +2,8 @@
 title: Stone War Axe
 project: medievalweapons
 summary: medievalweapons item stone war axe
+tags:
+    - medievalweapons:stone_big_axe
 ---
 # Stone War Axe
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Speed V Gem
 project: smitherz
 summary: smitherz item speed V gem
+tags:
+    - smitherz:speed_5_gem
 ---
 # Speed V Gem
 <div class="main_table">

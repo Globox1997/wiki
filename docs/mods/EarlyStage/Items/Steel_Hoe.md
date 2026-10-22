@@ -2,6 +2,8 @@
 title: Steel Hoe
 project: earlystage
 summary: earlystage item steel hoe
+tags:
+    - earlystage:steel_hoe
 ---
 # Steel Hoe
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Deepslate Brick Casting Table
 project: cupellation
 summary: cupellation block deepslate brick casting table
+tags:
+    - cupellation:deepslate_brick_casting_table
 ---
 # Deepslate Brick Casting Table
 <div class="main_table">

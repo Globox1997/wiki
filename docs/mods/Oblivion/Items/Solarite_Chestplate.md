@@ -2,6 +2,8 @@
 title: Solarite Chestplate
 project: oblivion
 summary: oblivion item solarite chestplate
+tags:
+    - oblivion:solarite_chestplate
 ---
 # Solarite Chestplate
 <div class="main_table">

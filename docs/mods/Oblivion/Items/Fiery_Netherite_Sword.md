@@ -2,6 +2,8 @@
 title: Fiery Netherite Sword
 project: oblivion
 summary: oblivion item fiery netherite sword
+tags:
+    - oblivion:fiery_netherite_sword
 ---
 # Fiery Netherite Sword
 <div class="main_table">

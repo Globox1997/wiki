@@ -2,6 +2,8 @@
 title: Stone Axe Head
 project: cupellation
 summary: cupellation item stone axe head
+tags:
+    - cupellation:stone_axe_head
 ---
 # Stone Axe Head
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Farmers Hat
 project: farmz
 summary: farmz item farmers hat
+tags:
+    - farmz:farmers_hat
 ---
 # Farmers Hat
 <div class="main_table">

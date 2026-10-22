@@ -2,6 +2,8 @@
 title: Acacia Stick
 project: spartanweapons
 summary: spartanweapons item acacia stick
+tags:
+    - spartanweapons:acacia_stick
 ---
 # Acacia Stick
 <div class="main_table">

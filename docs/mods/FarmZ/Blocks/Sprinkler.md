@@ -2,6 +2,8 @@
 title: Sprinkler
 project: farmz
 summary: farmz block beethuut bgg
+tags:
+    - farmz:sprinkler
 ---
 # Sprinkler
 <div class="main_table">

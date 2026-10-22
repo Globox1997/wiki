@@ -2,6 +2,8 @@
 title: Cooked Shlamb
 project: oblivion
 summary: oblivion item cooked shlamb
+tags:
+    - oblivion:cooked_shlamb
 ---
 # Cooked Shlamb
 <div class="main_table">

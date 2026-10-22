@@ -2,6 +2,8 @@
 title: Polar Bear Fur
 project: environmentz
 summary: environmentz item polar bear fur
+tags:
+    - environmentz:polar_bear_fur
 ---
 # Polar Bear Fur
 <div class="main_table">

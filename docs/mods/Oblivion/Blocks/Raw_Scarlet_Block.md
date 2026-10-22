@@ -2,6 +2,8 @@
 title: Block of Raw Scarlet
 project: oblivion
 summary: oblivion block of raw scarlet
+tags:
+    - oblivion:raw_scarlet_block
 ---
 # Block of Raw Scarlet
 <div class="main_table">

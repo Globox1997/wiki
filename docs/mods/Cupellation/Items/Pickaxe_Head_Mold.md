@@ -2,6 +2,8 @@
 title: Pickaxe Head Mold
 project: cupellation
 summary: cupellation item pickaxe head mold
+tags:
+    - cupellation:pickaxe_head_mold
 ---
 # Pickaxe Head Mold
 <div class="main_table">

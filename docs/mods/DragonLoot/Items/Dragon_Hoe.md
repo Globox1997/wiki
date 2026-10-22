@@ -2,6 +2,8 @@
 title: Dragon Hoe
 project: dragonloot
 summary: dragonloot item dragon hoe
+tags:
+    - dragonloot:dragon_hoe
 ---
 # Dragon Hoe
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Stone Staff of Healing
 project: medievalweapons
 summary: medievalweapons item stone staff of healing
+tags:
+    - medievalweapons:stone_healing_staff
 ---
 # Stone Staff of Healing
 <div class="main_table">

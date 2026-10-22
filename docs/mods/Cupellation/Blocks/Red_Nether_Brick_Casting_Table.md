@@ -2,6 +2,8 @@
 title: Red Nether Brick Casting Table
 project: cupellation
 summary: cupellation block red nether brick casting table
+tags:
+    - cupellation:red_nether_brick_casting_table
 ---
 # Red Nether Brick Casting Table
 <div class="main_table">

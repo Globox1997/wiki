@@ -2,6 +2,8 @@
 title: Water Brick Bucket
 project: earlystage
 summary: earlystage item water brick bucket
+tags:
+    - earlystage:water_brick_bucket
 ---
 # Water Brick Bucket
 <div class="main_table">

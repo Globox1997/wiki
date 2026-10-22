@@ -2,6 +2,8 @@
 title: Elysian Bone
 project: oblivion
 summary: oblivion item elysian bone
+tags:
+    - oblivion:elysian_bone
 ---
 # Elysian Bone
 <div class="main_table">

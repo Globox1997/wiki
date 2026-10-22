@@ -2,6 +2,8 @@
 title: Iron Wood Stick
 project: oblivion
 summary: oblivion item iron wood stick
+tags:
+    - oblivion:iron_wood_stick
 ---
 # Iron Wood Stick
 <div class="main_table">

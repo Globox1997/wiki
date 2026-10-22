@@ -2,6 +2,8 @@
 title: Chorus Fruit on a Stick
 project: adventurez
 summary: adventurez item chorus fruit on a stick
+tags:
+    - adventurez:chorus_fruit_on_a_stick
 ---
 # Chorus Fruit on a Stick
 <div class="main_table">

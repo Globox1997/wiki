@@ -2,6 +2,8 @@
 title: Diamond Watering Can
 project: farmz
 summary: farmz item diamond watering can
+tags:
+    - farmz:diamond_watering_can
 ---
 # Diamond Watering Can
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Defense I Gem
 project: smitherz
 summary: smitherz item defense I gem
+tags:
+    - smitherz:defense_1_gem
 ---
 # Defense I Gem
 <div class="main_table">

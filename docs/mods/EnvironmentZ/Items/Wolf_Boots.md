@@ -2,6 +2,8 @@
 title: Wolf Pelt Boots
 project: environmentz
 summary: environmentz item wolf pelt boots
+tags:
+    - environmentz:wolf_boots
 ---
 # Wolf Pelt Boots
 <div class="main_table">

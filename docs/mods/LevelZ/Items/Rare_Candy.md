@@ -2,6 +2,8 @@
 title: Rare Candy
 project: levelz
 summary: levelz item rare candy
+tags:
+    - levelz:rare_candy
 ---
 # Rare Candy
 <div class="main_table">

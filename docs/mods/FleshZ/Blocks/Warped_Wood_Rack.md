@@ -2,6 +2,8 @@
 title: Warped Wood Rack
 project: fleshz
 summary: fleshz block warped wood rack
+tags:
+    - fleshz:warped_wood_rack
 ---
 # Warped Wood Rack
 <div class="main_table">

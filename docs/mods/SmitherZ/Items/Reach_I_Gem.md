@@ -2,6 +2,8 @@
 title: Reach I Gem
 project: smitherz
 summary: smitherz item reach I gem
+tags:
+    - smitherz:reach_1_gem
 ---
 # Reach I Gem
 <div class="main_table">

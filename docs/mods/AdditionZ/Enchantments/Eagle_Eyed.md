@@ -2,6 +2,8 @@
 title: Eagle Eyed
 project: additionz
 summary: additionz enchantment eagle eyed
+tags:
+    - additionz:eagle_eyed
 ---
 # Eagle Eyed
 <div class="main_table">

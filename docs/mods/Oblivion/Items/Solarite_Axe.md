@@ -2,6 +2,8 @@
 title: Solarite Axe
 project: oblivion
 summary: oblivion item solarite axe
+tags:
+    - oblivion:solarite_axe
 ---
 # Solarite Axe
 <div class="main_table">

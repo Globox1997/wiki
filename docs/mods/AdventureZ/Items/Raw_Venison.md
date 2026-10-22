@@ -2,6 +2,8 @@
 title: Raw Venison
 project: adventurez
 summary: adventurez item raw venison
+tags:
+    - adventurez:raw_venison
 ---
 # Raw Venison
 <div class="main_table">

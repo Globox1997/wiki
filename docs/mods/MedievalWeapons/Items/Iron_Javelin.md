@@ -2,6 +2,8 @@
 title: Iron Javelin
 project: medievalweapons
 summary: medievalweapons item iron javelin
+tags:
+    - medievalweapons:iron_javelin
 ---
 # Iron Javelin
 <div class="main_table">

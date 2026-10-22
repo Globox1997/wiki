@@ -2,6 +2,8 @@
 title: Cooked Venison
 project: adventurez
 summary: adventurez item cooked venison
+tags:
+    - adventurez:cooked_venison
 ---
 # Cooked Venison
 <div class="main_table">

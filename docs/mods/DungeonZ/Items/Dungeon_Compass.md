@@ -2,6 +2,8 @@
 title: Dungeon Compass
 project: dungeonz
 summary: dungeonz item dungeon compass
+tags:
+    - dungeonz:dungeon_compass
 ---
 # Dungeon Compass
 <div class="main_table">

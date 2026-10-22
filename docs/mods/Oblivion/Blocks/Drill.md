@@ -2,6 +2,8 @@
 title: Drill
 project: oblivion
 summary: oblivion block drill
+tags:
+    - oblivion:drill
 ---
 # Drill
 <div class="main_table">

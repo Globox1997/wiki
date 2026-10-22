@@ -2,6 +2,8 @@
 title: Dark Oak Wood Rack
 project: fleshz
 summary: fleshz block dark oak wood rack
+tags:
+    - fleshz:dark_oak_wood_rack
 ---
 # Dark Oak Wood Rack
 <div class="main_table">

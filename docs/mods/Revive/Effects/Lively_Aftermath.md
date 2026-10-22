@@ -2,6 +2,8 @@
 title: Lively Aftermath
 project: revive
 summary: revive effect lively aftermath
+tags:
+    - revive:lively_aftermath
 ---
 # Lively Aftermath
 <div class="main_table">

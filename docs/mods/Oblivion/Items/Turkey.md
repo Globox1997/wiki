@@ -2,6 +2,8 @@
 title: Turkey
 project: oblivion
 summary: oblivion item turkey
+tags:
+    - oblivion:turkey
 ---
 # Turkey
 <div class="main_table">

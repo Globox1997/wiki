@@ -2,6 +2,8 @@
 title: Warped Bark
 project: earlystage
 summary: earlystage item warped bark
+tags:
+    - earlystage:warped_bark
 ---
 # Warped Bark
 <div class="main_table">

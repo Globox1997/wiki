@@ -2,6 +2,8 @@
 title: Netherite Longsword
 project: medievalweapons
 summary: medievalweapons item netherite longsword
+tags:
+    - medievalweapons:netherite_long_sword
 ---
 # Netherite Longsword
 <div class="main_table">

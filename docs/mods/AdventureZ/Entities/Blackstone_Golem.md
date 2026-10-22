@@ -2,6 +2,8 @@
 title: Blackstone Golem
 project: adventurez
 summary: adventurez entity blackstone golem boss
+tags:
+    - adventurez:blackstone_golem
 ---
 # Blackstone Golem
 <div class="main_table">

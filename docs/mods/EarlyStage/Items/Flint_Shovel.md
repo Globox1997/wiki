@@ -2,6 +2,8 @@
 title: Flint Shovel
 project: earlystage
 summary: earlystage item flint shovel
+tags:
+    - earlystage:flint_shovel
 ---
 # Flint Shovel
 <div class="main_table">

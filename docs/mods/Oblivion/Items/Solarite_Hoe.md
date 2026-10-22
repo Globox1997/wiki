@@ -2,6 +2,8 @@
 title: Solarite Hoe
 project: oblivion
 summary: oblivion item solarite hoe
+tags:
+    - oblivion:solarite_hoe
 ---
 # Solarite Hoe
 <div class="main_table">

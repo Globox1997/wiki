@@ -2,6 +2,8 @@
 title: Deer
 project: adventurez
 summary: adventurez entity deer
+tags:
+    - adventurez:deer
 ---
 # Deer
 <div class="main_table">

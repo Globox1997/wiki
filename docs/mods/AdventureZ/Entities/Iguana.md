@@ -2,6 +2,8 @@
 title: Iguana
 project: adventurez
 summary: adventurez entity iguana
+tags:
+    - adventurez:iguana
 ---
 # Iguana
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Flint Pickaxe
 project: earlystage
 summary: earlystage item flint Pickaxe
+tags:
+    - earlystage:flint_pickaxe
 ---
 # Flint Pickaxe
 <div class="main_table">

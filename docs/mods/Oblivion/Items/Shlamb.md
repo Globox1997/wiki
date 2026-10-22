@@ -2,6 +2,8 @@
 title: Shlamb
 project: oblivion
 summary: oblivion item shlamb
+tags:
+    - oblivion:shlamb
 ---
 # Shlamb
 <div class="main_table">

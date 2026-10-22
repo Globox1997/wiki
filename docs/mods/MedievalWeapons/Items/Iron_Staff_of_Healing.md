@@ -2,6 +2,8 @@
 title: Iron Staff of Healing
 project: medievalweapons
 summary: medievalweapons item iron staff of healing
+tags:
+    - medievalweapons:iron_healing_staff
 ---
 # Iron Staff of Healing
 <div class="main_table">

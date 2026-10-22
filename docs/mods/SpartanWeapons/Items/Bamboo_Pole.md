@@ -2,6 +2,8 @@
 title: Bamboo Pole
 project: spartanweapons
 summary: spartanweapons item bamboo pole
+tags:
+    - spartanweapons:bamboo_pole
 ---
 # Bamboo Pole
 <div class="main_table">

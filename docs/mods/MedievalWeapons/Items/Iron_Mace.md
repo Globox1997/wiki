@@ -2,6 +2,8 @@
 title: Iron Mace
 project: medievalweapons
 summary: medievalweapons item iron mace
+tags:
+    - medievalweapons:iron_mace
 ---
 # Iron Mace
 <div class="main_table">

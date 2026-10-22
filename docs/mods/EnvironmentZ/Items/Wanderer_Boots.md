@@ -2,6 +2,8 @@
 title: Wanderer Boots
 project: environmentz
 summary: environmentz item wanderer boots
+tags:
+    - environmentz:wanderer_boots
 ---
 # Wanderer Boots
 <div class="main_table">

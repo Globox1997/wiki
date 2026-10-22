@@ -2,6 +2,8 @@
 title: Crimson Pole
 project: spartanweapons
 summary: spartanweapons item crimson pole
+tags:
+    - spartanweapons:crimson_pole
 ---
 # Crimson Pole
 <div class="main_table">

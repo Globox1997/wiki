@@ -2,6 +2,8 @@
 title: Netherite Pickaxe Head
 project: cupellation
 summary: cupellation item netherite pickaxe head
+tags:
+    - cupellation:netherite_pickaxe_head
 ---
 # Netherite Pickaxe Head
 <div class="main_table">

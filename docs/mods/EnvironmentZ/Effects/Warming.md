@@ -2,6 +2,8 @@
 title: Warming
 project: environmentz
 summary: environmentz effect warming
+tags:
+    - environmentz:warming
 ---
 # Warming
 <div class="main_table">

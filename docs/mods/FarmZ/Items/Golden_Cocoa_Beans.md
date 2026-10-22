@@ -2,6 +2,8 @@
 title: Golden Cocoa Beans
 project: farmz
 summary: farmz item golden cocoa beans
+tags:
+    - farmz:golden_cocoa_beans
 ---
 # Golden Cocoa Beans
 <div class="main_table">

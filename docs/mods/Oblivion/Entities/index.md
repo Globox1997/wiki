@@ -1,3 +1,8 @@
+---
+title: Oblivion Entities
+project: oblivion
+summary: oblivion entities
+---
 # Entity
 
 *[Entities](https://minecraft.wiki/w/Entity) encompass all dynamic, moving objects throughout the Minecraft world.*[^1]

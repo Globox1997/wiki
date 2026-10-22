@@ -2,6 +2,8 @@
 title: Dragon Shovel
 project: dragonloot
 summary: dragonloot item dragon shovel
+tags:
+    - dragonloot:dragon_shovel
 ---
 # Dragon Shovel
 <div class="main_table">

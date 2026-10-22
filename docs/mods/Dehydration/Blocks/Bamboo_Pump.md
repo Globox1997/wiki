@@ -2,6 +2,8 @@
 title: Bamboo Pump
 project: dehydration
 summary: dehydration block bamboo pump
+tags:
+    - dehydration:bamboo_pump
 ---
 # Bamboo Pump
 <div class="main_table">

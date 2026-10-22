@@ -2,6 +2,8 @@
 title: Ingot Mold
 project: cupellation
 summary: cupellation item ingot mold
+tags:
+    - cupellation:ingot_mold
 ---
 # Ingot Mold
 <div class="main_table">

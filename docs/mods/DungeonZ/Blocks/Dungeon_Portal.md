@@ -2,6 +2,8 @@
 title: Dungeon Portal
 project: dungeonz
 summary: dungeonz block dungeon portal
+tags:
+    - dungeonz:dungeon_portal
 ---
 # Dungeon Portal
 <div class="main_table">

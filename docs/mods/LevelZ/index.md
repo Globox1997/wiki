@@ -56,5 +56,5 @@ Just report bugs at the github page.
         [PartyAddon](/wiki/mods/PartyAddon){ .md-button .md-button--primary }
 
 ## Changelog
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
 <div id="log" modid="levelz"></div>

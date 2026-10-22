@@ -2,6 +2,8 @@
 title: Warthog Meat
 project: adventurez
 summary: adventurez item warthog meat
+tags:
+    - adventurez:warthog_meat
 ---
 # Warthog Meat
 <div class="main_table">

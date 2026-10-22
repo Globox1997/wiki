@@ -2,6 +2,8 @@
 title: Mangrove Stick
 project: spartanweapons
 summary: spartanweapons item mangrove stick
+tags:
+    - spartanweapons:mangrove_stick
 ---
 # Mangrove Stick
 <div class="main_table">

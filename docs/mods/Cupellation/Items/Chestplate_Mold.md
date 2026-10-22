@@ -2,6 +2,8 @@
 title: Chestplate Mold
 project: cupellation
 summary: cupellation item chestplate mold
+tags:
+    - cupellation:chestplate_mold
 ---
 # Chestplate Mold
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Jungle Bark
 project: earlystage
 summary: earlystage item jungle bark
+tags:
+    - earlystage:jungle_bark
 ---
 # Jungle Bark
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Popped Golden Chorus Fruit
 project: farmz
 summary: farmz item popped golden chorus fruit
+tags:
+    - farmz:popped_golden_chorus_fruit
 ---
 # Popped Golden Chorus Fruit
 <div class="main_table">

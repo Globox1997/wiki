@@ -2,6 +2,8 @@
 title: Golden Staff of Healing
 project: medievalweapons
 summary: medievalweapons item golden staff of healing
+tags:
+    - medievalweapons:golden_healing_staff
 ---
 # Golden Staff of Healing
 <div class="main_table">

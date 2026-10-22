@@ -2,6 +2,8 @@
 title: Fiery Netherite Shovel
 project: oblivion
 summary: oblivion item fiery netherite shovel
+tags:
+    - oblivion:fiery_netherite_shovel
 ---
 # Fiery Netherite Shovel
 <div class="main_table">

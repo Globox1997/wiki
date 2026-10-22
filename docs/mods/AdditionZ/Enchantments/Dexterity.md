@@ -2,6 +2,8 @@
 title: Dexterity
 project: additionz
 summary: additionz enchantment dexterity
+tags:
+    - additionz:dexterity
 ---
 # Dexterity
 <div class="main_table">

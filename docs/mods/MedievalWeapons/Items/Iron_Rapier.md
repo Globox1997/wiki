@@ -2,6 +2,8 @@
 title: Iron Rapier
 project: medievalweapons
 summary: medievalweapons item iron rapier
+tags:
+    - medievalweapons:iron_rapier
 ---
 # Iron Rapier
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Steel Boots
 project: earlystage
 summary: earlystage item steel boots
+tags:
+    - earlystage:steel_boots
 ---
 # Steel Boots
 <div class="main_table">

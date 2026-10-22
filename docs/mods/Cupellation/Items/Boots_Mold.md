@@ -2,6 +2,8 @@
 title: Boots Mold
 project: cupellation
 summary: cupellation item boots mold
+tags:
+    - cupellation:boots_mold
 ---
 # Boots Mold
 <div class="main_table">

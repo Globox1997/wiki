@@ -2,6 +2,8 @@
 title: Cherry Wood Rack
 project: fleshz
 summary: fleshz block cherry wood rack
+tags:
+    - fleshz:cherry_wood_rack
 ---
 # Cherry Wood Rack
 <div class="main_table">

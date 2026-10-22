@@ -2,6 +2,8 @@
 title: Jungle Pole
 project: spartanweapons
 summary: spartanweapons item jungle pole
+tags:
+    - spartanweapons:jungle_pole
 ---
 # Jungle Pole
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Soul Reaper
 project: adventurez
 summary: adventurez entity soul reaper
+tags:
+    - adventurez:soul_reaper
 ---
 # Soul Reaper
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Void Fragment
 project: adventurez
 summary: adventurez entity void fragment
+tags:
+    - adventurez:void_fragment
 ---
 # Void Fragment
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Wooden Bucket
 project: earlystage
 summary: earlystage item wooden bucket
+tags:
+    - earlystage:wooden_bucket
 ---
 # Wooden Bucket
 <div class="main_table">

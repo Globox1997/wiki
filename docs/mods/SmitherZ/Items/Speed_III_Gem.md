@@ -2,6 +2,8 @@
 title: Speed III Gem
 project: smitherz
 summary: smitherz item speed III gem
+tags:
+    - smitherz:speed_3_gem
 ---
 # Speed III Gem
 <div class="main_table">

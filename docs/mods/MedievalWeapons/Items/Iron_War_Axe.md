@@ -2,6 +2,8 @@
 title: Iron War Axe
 project: medievalweapons
 summary: medievalweapons item iron war axe
+tags:
+    - medievalweapons:iron_big_axe
 ---
 # Iron War Axe
 <div class="main_table">

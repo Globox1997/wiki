@@ -2,6 +2,8 @@
 title: Fiery Netherite Scrap
 project: oblivion
 summary: oblivion item fiery netherite scrap
+tags:
+    - oblivion:fiery_netherite_scrap
 ---
 # Fiery Netherite Scrap
 <div class="main_table">

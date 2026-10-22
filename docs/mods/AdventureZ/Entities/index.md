@@ -1,3 +1,8 @@
+---
+title: AdventureZ Entities
+project: adventurez
+summary: adventurez entities
+---
 # Entity
 
 *[Entities](https://minecraft.wiki/w/Entity) encompass all dynamic, moving objects throughout the Minecraft world.*[^1]

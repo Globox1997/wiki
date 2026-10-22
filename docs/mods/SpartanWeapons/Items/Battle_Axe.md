@@ -2,6 +2,8 @@
 title: Battle Axe
 project: spartanweapons
 summary: spartanweapons item battle axe
+tags:
+    - spartanweapons:battle_axe
 ---
 # Battle Axe
 <div class="main_table">

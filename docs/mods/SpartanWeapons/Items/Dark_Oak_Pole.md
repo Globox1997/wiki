@@ -2,6 +2,8 @@
 title: Dark Oak Pole
 project: spartanweapons
 summary: spartanweapons item dark oak pole
+tags:
+    - spartanweapons:dark_oak_pole
 ---
 # Dark Oak Pole
 <div class="main_table">

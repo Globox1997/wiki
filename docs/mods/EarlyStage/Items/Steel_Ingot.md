@@ -2,6 +2,8 @@
 title: Steel Ingot
 project: earlystage
 summary: earlystage item steel ingot
+tags:
+    - earlystage:steel_ingot
 ---
 # Steel Ingot
 <div class="main_table">

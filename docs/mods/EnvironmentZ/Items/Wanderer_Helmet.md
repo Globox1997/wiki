@@ -2,6 +2,8 @@
 title: Wanderer Keffiyeh
 project: environmentz
 summary: environmentz item wanderer keffiyeh
+tags:
+    - environmentz:wanderer_helmet
 ---
 # Wanderer Keffiyeh
 <div class="main_table">

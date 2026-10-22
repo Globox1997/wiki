@@ -2,6 +2,8 @@
 title: Golden Sickle
 project: medievalweapons
 summary: medievalweapons item golden sickle
+tags:
+    - medievalweapons:golden_sickle
 ---
 # Golden Sickle
 <div class="main_table">

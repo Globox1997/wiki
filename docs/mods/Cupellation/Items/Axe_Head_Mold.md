@@ -2,6 +2,8 @@
 title: Axe Head Mold
 project: cupellation
 summary: cupellation item axe head mold
+tags:
+    - cupellation:axe_head_mold
 ---
 # Axe Head Mold
 <div class="main_table">

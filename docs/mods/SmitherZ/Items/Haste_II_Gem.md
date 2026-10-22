@@ -2,6 +2,8 @@
 title: Haste II Gem
 project: smitherz
 summary: smitherz item haste II gem
+tags:
+    - smitherz:haste_2_gem
 ---
 # Haste II Gem
 <div class="main_table">

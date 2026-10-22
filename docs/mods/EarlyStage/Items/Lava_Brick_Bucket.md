@@ -2,6 +2,8 @@
 title: Lava Brick Bucket
 project: earlystage
 summary: earlystage item lava brick bucket
+tags:
+    - earlystage:lava_brick_bucket
 ---
 # Lava Brick Bucket
 <div class="main_table">

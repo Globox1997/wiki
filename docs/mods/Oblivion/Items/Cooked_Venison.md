@@ -2,6 +2,8 @@
 title: Cooked Venison
 project: oblivion
 summary: oblivion item cooked venison
+tags:
+    - oblivion:cooked_venison
 ---
 # Cooked Venison
 <div class="main_table">

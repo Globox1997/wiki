@@ -2,6 +2,8 @@
 title: Netherite Ninjato
 project: medievalweapons
 summary: medievalweapons item netherite ninjato
+tags:
+    - medievalweapons:netherite_ninjato
 ---
 # Netherite Ninjato
 <div class="main_table">

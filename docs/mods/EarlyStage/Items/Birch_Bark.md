@@ -2,6 +2,8 @@
 title: Birch Bark
 project: earlystage
 summary: earlystage item birch bark
+tags:
+    - earlystage:birch_bark
 ---
 # Birch Bark
 <div class="main_table">

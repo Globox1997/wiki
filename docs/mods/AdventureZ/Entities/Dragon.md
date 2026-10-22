@@ -2,6 +2,8 @@
 title: Dragon
 project: adventurez
 summary: adventurez entity dragon
+tags:
+    - adventurez:dragon
 ---
 # Dragon
 <div class="main_table">

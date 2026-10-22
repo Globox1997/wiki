@@ -2,6 +2,8 @@
 title: Handbook
 project: dehydration
 summary: dehydration item handbook
+tags:
+    - dehydration:handbook
 ---
 # Handbook
 <div class="main_table">

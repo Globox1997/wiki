@@ -2,6 +2,8 @@
 title: Deepslate Brick Glass
 project: cupellation
 summary: cupellation block deepslate brick glass
+tags:
+    - cupellation:deepslate_brick_glass
 ---
 # Deepslate Brick Glass
 <div class="main_table">

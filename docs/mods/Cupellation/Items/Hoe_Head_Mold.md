@@ -2,6 +2,8 @@
 title: Hoe Head Mold
 project: cupellation
 summary: cupellation item hoe head mold
+tags:
+    - cupellation:hoe_head_mold
 ---
 # Hoe Head Mold
 <div class="main_table">

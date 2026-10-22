@@ -2,6 +2,8 @@
 title: Golden Francisca
 project: medievalweapons
 summary: medievalweapons item golden francisca
+tags:
+    - medievalweapons:golden_francisca
 ---
 # Golden Francisca
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Wooden Dagger
 project: medievalweapons
 summary: medievalweapons item wooden dagger
+tags:
+    - medievalweapons:wooden_dagger
 ---
 # Wooden Dagger
 <div class="main_table">

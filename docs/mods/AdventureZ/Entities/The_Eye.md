@@ -2,6 +2,8 @@
 title: The Eye
 project: adventurez
 summary: adventurez entity the eye boss
+tags:
+    - adventurez:the_eye
 ---
 # The Eye
 <div class="main_table">

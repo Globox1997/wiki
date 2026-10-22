@@ -2,6 +2,8 @@
 title: Fiery Netherite Hoe
 project: oblivion
 summary: oblivion item fiery netherite hoe
+tags:
+    - oblivion:fiery_netherite_hoe
 ---
 # Fiery Netherite Hoe
 <div class="main_table">

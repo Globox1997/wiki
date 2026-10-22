@@ -2,6 +2,8 @@
 title: Bamboo Bark
 project: earlystage
 summary: earlystage item bamboo bark
+tags:
+    - earlystage:bamboo_bark
 ---
 # Bamboo Bark
 <div class="main_table">

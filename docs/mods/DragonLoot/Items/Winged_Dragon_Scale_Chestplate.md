@@ -2,6 +2,8 @@
 title: Winged Dragon Scale Chestplate
 project: dragonloot
 summary: dragonloot item winged dragon scale chestplate
+tags:
+    - dragonloot:upgraded_dragon_chestplate
 ---
 # Winged Dragon Scale Chestplate
 <div class="main_table">

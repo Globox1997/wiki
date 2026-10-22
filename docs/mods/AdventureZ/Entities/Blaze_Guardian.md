@@ -2,6 +2,8 @@
 title: Blaze Guardian
 project: adventurez
 summary: adventurez entity blaze guardian
+tags:
+    - adventurez:blaze_guardian
 ---
 # Blaze Guardian
 <div class="main_table">

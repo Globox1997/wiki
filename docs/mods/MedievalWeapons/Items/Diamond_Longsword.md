@@ -2,6 +2,8 @@
 title: Diamond Longsword
 project: medievalweapons
 summary: medievalweapons item diamond longsword
+tags:
+    - medievalweapons:diamond_long_sword
 ---
 # Diamond Longsword
 <div class="main_table">

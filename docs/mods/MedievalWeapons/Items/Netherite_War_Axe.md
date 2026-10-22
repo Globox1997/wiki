@@ -2,6 +2,8 @@
 title: Netherite War Axe
 project: medievalweapons
 summary: medievalweapons item netherite war axe
+tags:
+    - medievalweapons:netherite_big_axe
 ---
 # Netherite War Axe
 <div class="main_table">

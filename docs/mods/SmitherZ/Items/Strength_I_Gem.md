@@ -2,6 +2,8 @@
 title: Strength I Gem
 project: smitherz
 summary: smitherz item strength I gem
+tags:
+    - smitherz:strength_1_gem
 ---
 # Strength I Gem
 <div class="main_table">

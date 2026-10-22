@@ -2,6 +2,8 @@
 title: Wooden Longsword
 project: medievalweapons
 summary: medievalweapons item wooden longsword
+tags:
+    - medievalweapons:wooden_long_sword
 ---
 # Wooden Longsword
 <div class="main_table">

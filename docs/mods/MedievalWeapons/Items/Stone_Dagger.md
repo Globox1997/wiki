@@ -2,6 +2,8 @@
 title: Stone Dagger
 project: medievalweapons
 summary: medievalweapons item stone dagger
+tags:
+    - medievalweapons:stone_dagger
 ---
 # Stone Dagger
 <div class="main_table">

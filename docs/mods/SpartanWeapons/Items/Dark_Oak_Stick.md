@@ -2,6 +2,8 @@
 title: Dark Oak Stick
 project: spartanweapons
 summary: spartanweapons item dark oak stick
+tags:
+    - spartanweapons:dark_oak_stick
 ---
 # Dark Oak Stick
 <div class="main_table">

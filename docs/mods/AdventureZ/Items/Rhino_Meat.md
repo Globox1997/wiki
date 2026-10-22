@@ -2,6 +2,8 @@
 title: Rhino Meat
 project: adventurez
 summary: adventurez item rhino meat
+tags:
+    - adventurez:rhino_meat
 ---
 # Rhino Meat
 <div class="main_table">

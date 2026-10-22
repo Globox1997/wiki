@@ -2,6 +2,8 @@
 title: Dragon Horse Armor
 project: dragonloot
 summary: dragonloot item dragon horse armor
+tags:
+    - dragonloot:dragon_horse_armor
 ---
 # Dragon Horse Armor
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Golden Watering Can
 project: farmz
 summary: farmz item golden watering can
+tags:
+    - farmz:golden_watering_can
 ---
 # Golden Watering Can
 <div class="main_table">

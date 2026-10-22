@@ -2,6 +2,8 @@
 title: Wanderer Thawb
 project: environmentz
 summary: environmentz item wanderer thwab
+tags:
+    - environmentz:wanderer_chestplate
 ---
 # Wanderer Thawb
 <div class="main_table">

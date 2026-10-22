@@ -2,6 +2,8 @@
 title: Orc Skin
 project: adventurez
 summary: adventurez item orc skin
+tags:
+    - adventurez:orc_skin
 ---
 # Orc Skin
 <div class="main_table">

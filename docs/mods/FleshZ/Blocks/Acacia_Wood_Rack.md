@@ -2,6 +2,8 @@
 title: Acacia Wood Rack
 project: fleshz
 summary: fleshz block acacia wood rack
+tags:
+    - fleshz:acacia_wood_rack
 ---
 # Acacia Wood Rack
 <div class="main_table">

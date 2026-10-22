@@ -2,6 +2,8 @@
 title: Red Fungus
 project: adventurez
 summary: adventurez entity red fungus
+tags:
+    - adventurez:red_fungus
 ---
 # Red Fungus
 <div class="main_table">

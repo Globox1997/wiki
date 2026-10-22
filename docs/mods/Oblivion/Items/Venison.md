@@ -2,6 +2,8 @@
 title: Venison
 project: oblivion
 summary: oblivion item venison
+tags:
+    - oblivion:venison
 ---
 # Venison
 <div class="main_table">

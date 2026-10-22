@@ -2,6 +2,8 @@
 title: Club
 project: spartanweapons
 summary: spartanweapons item club
+tags:
+    - spartanweapons:club
 ---
 # Club
 <div class="main_table">

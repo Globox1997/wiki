@@ -2,6 +2,8 @@
 title: Dragon Saddle
 project: adventurez
 summary: adventurez item dragon saddle
+tags:
+    - adventurez:dragon_saddle
 ---
 # Dragon Saddle
 <div class="main_table">

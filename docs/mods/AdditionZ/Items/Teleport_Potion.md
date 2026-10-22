@@ -2,6 +2,8 @@
 title: Teleport Potion
 project: additionz
 summary: additionz teleport potion
+tags:
+    - additionz:teleport_potion
 ---
 # Teleport Potion
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Wooden Staff of Healing
 project: medievalweapons
 summary: medievalweapons item wooden staff of healing
+tags:
+    - medievalweapons:wooden_healing_staff
 ---
 # Wooden Staff of Healing
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Golden Leather Flask
 project: dehydration
 summary: dehydration item Golden leather flask
+tags:
+    - dehydration:golden_leather_flask
 ---
 # Golden Leather Flask
 <div class="main_table">

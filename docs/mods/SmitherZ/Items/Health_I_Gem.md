@@ -2,6 +2,8 @@
 title: Health I Gem
 project: smitherz
 summary: smitherz item health I gem
+tags:
+    - smitherz:health_1_gem
 ---
 # Health I Gem
 <div class="main_table">

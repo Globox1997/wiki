@@ -1,3 +1,8 @@
+---
+title: VoidZ Blocks
+project: voidz
+summary: voidz blocks
+---
 # Block
 
 *[Blocks](https://minecraft.wiki/w/Block) are the basic units of structure in [Minecraft](https://minecraft.wiki/w/Minecraft) that make up the game's world. Many blocks can be collected and placed anywhere in the game's world, as well as be used as helpful resources.*[^1]

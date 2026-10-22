@@ -2,6 +2,8 @@
 title: Warped Stick
 project: spartanweapons
 summary: spartanweapons item warped stick
+tags:
+    - spartanweapons:warped_stick
 ---
 # Warped Stick
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Source Stone
 project: adventurez
 summary: adventurez item source stone
+tags:
+    - adventurez:source_stone
 ---
 # Source Stone
 <div class="main_table">

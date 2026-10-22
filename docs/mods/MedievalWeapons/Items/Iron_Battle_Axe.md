@@ -2,6 +2,8 @@
 title: Iron Battle Axe
 project: medievalweapons
 summary: medievalweapons item iron battle axe
+tags:
+    - medievalweapons:iron_small_axe
 ---
 # Iron Battle Axe
 <div class="main_table">

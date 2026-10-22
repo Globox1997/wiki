@@ -2,6 +2,8 @@
 title: Gilded Blackstone Shard
 project: adventurez
 summary: adventurez item gilded blackstone shard
+tags:
+    - adventurez:gilded_blackstone_shard
 ---
 # Gilded Blackstone Shard
 <div class="main_table">

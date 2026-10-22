@@ -2,6 +2,8 @@
 title: Warthog Shell Piece
 project: adventurez
 summary: adventurez item warthog shell piece
+tags:
+    - adventurez:warthog_shell_piece
 ---
 # Warthog Shell Piece
 <div class="main_table">

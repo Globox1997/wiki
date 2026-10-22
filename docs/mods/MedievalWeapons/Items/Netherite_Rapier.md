@@ -2,6 +2,8 @@
 title: Netherite Rapier
 project: medievalweapons
 summary: medievalweapons item netherite rapier
+tags:
+    - medievalweapons:netherite_rapier
 ---
 # Netherite Rapier
 <div class="main_table">

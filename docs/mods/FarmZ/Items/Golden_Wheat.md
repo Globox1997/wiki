@@ -2,6 +2,8 @@
 title: Golden Wheat
 project: farmz
 summary: farmz item golden Wheat
+tags:
+    - farmz:golden_wheat
 ---
 # Golden Wheat
 <div class="main_table">

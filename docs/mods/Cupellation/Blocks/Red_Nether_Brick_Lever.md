@@ -2,6 +2,8 @@
 title: Red Nether Brick Lever
 project: cupellation
 summary: cupellation block red nether brick lever
+tags:
+    - cupellation:red_nether_brick_lever
 ---
 # Red Nether Brick Lever
 <div class="main_table">

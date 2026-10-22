@@ -2,6 +2,8 @@
 title: Totem of Non Breaking
 project: additionz
 summary: additionz item totem of non breaking
+tags:
+    - additionz:totem_of_non_breaking
 ---
 # Totem of Non Breaking
 <div class="main_table">

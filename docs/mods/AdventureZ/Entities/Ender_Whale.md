@@ -2,6 +2,8 @@
 title: Ender Whale
 project: adventurez
 summary: adventurez entity ender whale
+tags:
+    - adventurez:ender_whale
 ---
 # Ender Whale
 <div class="main_table">

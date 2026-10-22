@@ -2,6 +2,8 @@
 title: Fiery Netherite Upgrade Smithing Template
 project: oblivion
 summary: oblivion item fiery netherite upgrade smithing template
+tags:
+    - oblivion:fiery_netherite_upgrade_smithing_template
 ---
 # Fiery Netherite Upgrade Smithing Template
 <div class="main_table">

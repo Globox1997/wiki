@@ -2,6 +2,8 @@
 title: Golden Lance
 project: medievalweapons
 summary: medievalweapons item golden lance
+tags:
+    - medievalweapons:golden_lance
 ---
 # Golden Lance
 <div class="main_table">

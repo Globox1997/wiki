@@ -2,6 +2,8 @@
 title: Smither Hammer
 project: smitherz
 summary: smitherz item smither hammer
+tags:
+    - smitherz:smither_hammer
 ---
 # Smither Hammer
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Crimson Stick
 project: spartanweapons
 summary: spartanweapons item crimson stick
+tags:
+    - spartanweapons:crimson_stick
 ---
 # Crimson Stick
 <div class="main_table">

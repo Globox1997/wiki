@@ -2,6 +2,8 @@
 title: Diamond War Axe
 project: medievalweapons
 summary: medievalweapons item diamond war axe
+tags:
+    - medievalweapons:diamond_big_axe
 ---
 # Diamond War Axe
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Defense IV Gem
 project: smitherz
 summary: smitherz item defense IV gem
+tags:
+    - smitherz:defense_4_gem
 ---
 # Defense IV Gem
 <div class="main_table">

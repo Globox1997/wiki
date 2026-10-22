@@ -2,6 +2,8 @@
 title: Stone Mace
 project: medievalweapons
 summary: medievalweapons item stone mace
+tags:
+    - medievalweapons:stone_mace
 ---
 # Stone Mace
 <div class="main_table">

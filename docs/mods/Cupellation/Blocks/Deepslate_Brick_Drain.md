@@ -2,6 +2,8 @@
 title: Deepslate Brick Drain
 project: cupellation
 summary: cupellation block deepslate brick drain
+tags:
+    - cupellation:deepslate_brick_drain
 ---
 # Deepslate Brick Drain
 <div class="main_table">

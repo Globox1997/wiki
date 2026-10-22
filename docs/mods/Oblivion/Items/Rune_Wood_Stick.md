@@ -2,6 +2,8 @@
 title: Rune Wood Stick
 project: oblivion
 summary: oblivion item rune wood stick
+tags:
+    - oblivion:rune_wood_stick
 ---
 # Rune Wood Stick
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Iron Watering Can
 project: farmz
 summary: farmz item iron watering can
+tags:
+    - farmz:iron_watering_can
 ---
 # Iron Watering Can
 <div class="main_table">

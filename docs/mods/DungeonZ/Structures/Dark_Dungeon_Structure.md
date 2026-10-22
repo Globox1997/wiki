@@ -2,6 +2,8 @@
 title: Dark Dungeon Structure
 project: dungeonz
 summary: dungeonz structure dark dungeon structure
+tags:
+    - dungeonz:dark_dungeon_structure
 ---
 # Dark Dungeon Structure
 <div class="main_table">

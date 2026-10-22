@@ -2,6 +2,8 @@
 title: Shadow Chest
 project: adventurez
 summary: adventurez block shadow chest
+tags:
+    - adventurez:shadow_chest
 ---
 # Shadow Chest
 <div class="main_table">

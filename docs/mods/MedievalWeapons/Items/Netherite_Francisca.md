@@ -2,6 +2,8 @@
 title: Netherite Francisca
 project: medievalweapons
 summary: medievalweapons item netherite francisca
+tags:
+    - medievalweapons:netherite_francisca
 ---
 # Netherite Francisca
 <div class="main_table">

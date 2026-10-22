@@ -2,6 +2,8 @@
 title: Golden Axe Head
 project: cupellation
 summary: cupellation item golden axe head
+tags:
+    - cupellation:golden_axe_head
 ---
 # Golden Axe Head
 <div class="main_table">

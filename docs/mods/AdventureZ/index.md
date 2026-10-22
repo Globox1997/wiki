@@ -58,5 +58,5 @@ Sound effects are either licensed under [SFX](https://audiojungle.net/licenses/t
         [VoidZ](/wiki/mods/VoidZ){ .md-button .md-button--primary }
 
 ## Changelog
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
 <div id="log" modid="adventurez"></div>

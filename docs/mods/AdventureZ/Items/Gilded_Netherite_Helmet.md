@@ -2,6 +2,8 @@
 title: Gilded Netherite Helmet
 project: adventurez
 summary: adventurez item gilded netherite helmet
+tags:
+    - adventurez:gilded_netherite_helmet
 ---
 # Gilded Netherite Helmet
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Crimson Wood Rack
 project: fleshz
 summary: fleshz block crimson wood rack
+tags:
+    - fleshz:crimson_wood_rack
 ---
 # Crimson Wood Rack
 <div class="main_table">

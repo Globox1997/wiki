@@ -2,6 +2,8 @@
 title: Birch Pole
 project: spartanweapons
 summary: spartanweapons item birch pole
+tags:
+    - spartanweapons:birch_pole
 ---
 # Birch Pole
 <div class="main_table">

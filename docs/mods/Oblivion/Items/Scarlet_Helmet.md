@@ -2,6 +2,8 @@
 title: Scarlet Helmet
 project: oblivion
 summary: oblivion item scarlet helmet
+tags:
+    - oblivion:scarlet_helmet
 ---
 # Scarlet Helmet
 <div class="main_table">

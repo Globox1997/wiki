@@ -2,6 +2,8 @@
 title: Purified Water Bucket
 project: dehydration
 summary: dehydration item purified water bucket
+tags:
+    - dehydration:purified_water_bucket
 ---
 # Purified Water Bucket
 <div class="main_table">

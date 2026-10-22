@@ -2,6 +2,8 @@
 title: Iron Sword Blade
 project: cupellation
 summary: cupellation item iron sword blade
+tags:
+    - cupellation:iron_sword_blade
 ---
 # Iron Sword Blade
 <div class="main_table">

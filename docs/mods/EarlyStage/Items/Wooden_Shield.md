@@ -2,6 +2,8 @@
 title: Wooden Shield
 project: earlystage
 summary: earlystage item wooden shield
+tags:
+    - earlystage:wooden_shield
 ---
 # Wooden Shield
 <div class="main_table">

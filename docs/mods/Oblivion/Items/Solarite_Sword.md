@@ -2,6 +2,8 @@
 title: Solarite Sword
 project: oblivion
 summary: oblivion item solarite sword
+tags:
+    - oblivion:solarite_sword
 ---
 # Solarite Sword
 <div class="main_table">

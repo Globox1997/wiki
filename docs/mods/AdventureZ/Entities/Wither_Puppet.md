@@ -2,6 +2,8 @@
 title: Wither Puppet
 project: adventurez
 summary: adventurez entity wither puppet
+tags:
+    - adventurez:wither_puppet
 ---
 # Wither Puppet
 <div class="main_table">

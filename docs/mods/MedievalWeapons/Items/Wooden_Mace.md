@@ -2,6 +2,8 @@
 title: Wooden Mace
 project: medievalweapons
 summary: medievalweapons item wooden mace
+tags:
+    - medievalweapons:wooden_mace
 ---
 # Wooden Mace
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Gilded Netherite Leggings
 project: adventurez
 summary: adventurez item gilded netherite leggings
+tags:
+    - adventurez:gilded_netherite_leggings
 ---
 # Gilded Netherite Leggings
 <div class="main_table">

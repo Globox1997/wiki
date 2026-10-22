@@ -2,6 +2,8 @@
 title: Blackstones Arm
 project: adventurez
 summary: adventurez item blackstones arm
+tags:
+    - adventurez:blackstone_golem_arm
 ---
 # Blackstones Arm
 <div class="main_table">

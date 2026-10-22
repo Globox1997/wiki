@@ -2,6 +2,8 @@
 title: Netherite Dagger
 project: medievalweapons
 summary: medievalweapons item netherite dagger
+tags:
+    - medievalweapons:netherite_dagger
 ---
 # Netherite Dagger
 <div class="main_table">

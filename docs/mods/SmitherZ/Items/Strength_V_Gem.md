@@ -2,6 +2,8 @@
 title: Strength V Gem
 project: smitherz
 summary: smitherz item strength V gem
+tags:
+    - smitherz:strength_5_gem
 ---
 # Strength V Gem
 <div class="main_table">

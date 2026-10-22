@@ -2,6 +2,8 @@
 title: Quicksand
 project: oblivion
 summary: oblivion block quicksand
+tags:
+    - oblivion:quicksand
 ---
 # Quicksand
 <div class="main_table">

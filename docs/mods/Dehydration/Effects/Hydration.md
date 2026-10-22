@@ -2,6 +2,8 @@
 title: Hydration
 project: dehydration
 summary: dehydration effect hydration
+tags:
+    - dehydration:hydration
 ---
 # Hydration
 <div class="main_table">

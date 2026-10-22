@@ -2,6 +2,8 @@
 title: Iron Dagger
 project: medievalweapons
 summary: medievalweapons item iron dagger
+tags:
+    - medievalweapons:iron_dagger
 ---
 # Iron Dagger
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Elysian Bone Meal
 project: oblivion
 summary: oblivion item elysian bone meal
+tags:
+    - oblivion:elysian_bone_meal
 ---
 # Elysian Bone Meal
 <div class="main_table">

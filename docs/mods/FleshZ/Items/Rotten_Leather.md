@@ -2,6 +2,8 @@
 title: Rotten Leather
 project: fleshz
 summary: fleshz item rotten leather
+tags:
+    - fleshz:rotten_leather
 ---
 # Rotten Leather
 <div class="main_table">

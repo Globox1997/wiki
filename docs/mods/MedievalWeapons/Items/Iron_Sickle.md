@@ -2,6 +2,8 @@
 title: Iron Sickle
 project: medievalweapons
 summary: medievalweapons item iron sickle
+tags:
+    - medievalweapons:iron_sickle
 ---
 # Iron Sickle
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Strength III Gem
 project: smitherz
 summary: smitherz item strength III gem
+tags:
+    - smitherz:strength_3_gem
 ---
 # Strength III Gem
 <div class="main_table">

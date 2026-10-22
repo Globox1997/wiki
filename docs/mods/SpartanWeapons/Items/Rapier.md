@@ -2,6 +2,8 @@
 title: Rapier
 project: spartanweapons
 summary: spartanweapons item rapier
+tags:
+    - spartanweapons:rapier
 ---
 # Rapier
 <div class="main_table">

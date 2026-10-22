@@ -2,6 +2,8 @@
 title: Ivory Arrow
 project: adventurez
 summary: adventurez item ivory arrow
+tags:
+    - adventurez:ivory_arrow
 ---
 # Ivory Arrow
 <div class="main_table">

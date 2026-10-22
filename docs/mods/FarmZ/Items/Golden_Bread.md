@@ -2,6 +2,8 @@
 title: Golden Bread
 project: farmz
 summary: farmz item golden bread
+tags:
+    - farmz:golden_bread
 ---
 # Golden Bread
 <div class="main_table">

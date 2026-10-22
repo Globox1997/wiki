@@ -2,6 +2,8 @@
 title: Sword Blade Mold
 project: cupellation
 summary: cupellation item sword blade mold
+tags:
+    - cupellation:sword_blade_mold
 ---
 # Sword Blade Mold
 <div class="main_table">

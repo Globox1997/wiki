@@ -2,6 +2,8 @@
 title: Cold Resistance Potion
 project: environmentz
 summary: environmentz cold resistance potion
+tags:
+    - environmentz:cold_resistance_potion
 ---
 # Cold Resistance Potion
 <div class="main_table">

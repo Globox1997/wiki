@@ -2,6 +2,8 @@
 title: Raw Solarite
 project: oblivion
 summary: oblivion item raw solarite
+tags:
+    - oblivion:raw_solarite
 ---
 # Raw Solarite
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Netherite Staff of Healing
 project: medievalweapons
 summary: medievalweapons item netherite staff of healing
+tags:
+    - medievalweapons:netherite_healing_staff
 ---
 # Netherite Staff of Healing
 <div class="main_table">

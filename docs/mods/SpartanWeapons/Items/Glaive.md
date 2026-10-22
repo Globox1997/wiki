@@ -2,6 +2,8 @@
 title: Glaive
 project: spartanweapons
 summary: spartanweapons item glaive
+tags:
+    - spartanweapons:glaive
 ---
 # Glaive
 <div class="main_table">

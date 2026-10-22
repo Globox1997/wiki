@@ -2,6 +2,8 @@
 title: Reach V Gem
 project: smitherz
 summary: smitherz item reach V gem
+tags:
+    - smitherz:reach_5_gem
 ---
 # Reach V Gem
 <div class="main_table">

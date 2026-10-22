@@ -2,6 +2,8 @@
 title: Netherite Hoe Head
 project: cupellation
 summary: cupellation item netherite hoe head
+tags:
+    - cupellation:netherite_hoe_head
 ---
 # Netherite Hoe Head
 <div class="main_table">

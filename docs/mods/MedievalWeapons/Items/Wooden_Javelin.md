@@ -2,6 +2,8 @@
 title: Wooden Javelin
 project: medievalweapons
 summary: medievalweapons item wooden javelin
+tags:
+    - medievalweapons:wooden_javelin
 ---
 # Wooden Javelin
 <div class="main_table">

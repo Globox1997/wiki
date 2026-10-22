@@ -2,6 +2,8 @@
 title: Greatsword
 project: spartanweapons
 summary: spartanweapons item greatsword
+tags:
+    - spartanweapons:greatsword
 ---
 # Greatsword
 <div class="main_table">

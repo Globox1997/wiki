@@ -2,6 +2,8 @@
 title: Campfire Cauldron
 project: dehydration
 summary: dehydration block campfire cauldron
+tags:
+    - dehydration:campfire_cauldron
 ---
 # Campfire Cauldron
 <div class="main_table">

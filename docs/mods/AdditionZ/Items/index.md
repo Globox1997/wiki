@@ -1,3 +1,8 @@
+---
+title: AdditionZ Items
+project: additionz
+summary: additionz items
+---
 # Item
 
 *An [item](https://minecraft.wiki/w/Item) is an object that exists only within the [player](https://minecraft.wiki/w/Player)'s [inventory](https://minecraft.wiki/w/Inventory) and hands, or displayed in [item frames](https://minecraft.wiki/w/Item_Frame), [glow item frames](https://minecraft.wiki/w/Item_Frame), or [armor stands](https://minecraft.wiki/w/Armor_Stand).*[^1]

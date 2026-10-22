@@ -2,6 +2,8 @@
 title: Stone Pickaxe Head
 project: cupellation
 summary: cupellation item stone pickaxe head
+tags:
+    - cupellation:stone_pickaxe_head
 ---
 # Stone Pickaxe Head
 <div class="main_table">

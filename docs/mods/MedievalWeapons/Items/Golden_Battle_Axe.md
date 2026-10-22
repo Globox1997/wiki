@@ -2,6 +2,8 @@
 title: Golden Battle Axe
 project: medievalweapons
 summary: medievalweapons item golden battle axe
+tags:
+    - medievalweapons:golden_small_axe
 ---
 # Golden Battle Axe
 <div class="main_table">

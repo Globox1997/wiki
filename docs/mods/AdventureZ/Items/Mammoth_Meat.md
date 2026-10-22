@@ -2,6 +2,8 @@
 title: Mammoth Meat
 project: adventurez
 summary: adventurez item mammoth meat
+tags:
+    - adventurez:mammoth_meat
 ---
 # Mammoth Meat
 <div class="main_table">

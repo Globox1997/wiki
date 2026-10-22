@@ -2,6 +2,8 @@
 title: Baked Golden Potato
 project: farmz
 summary: farmz item baked golden potato
+tags:
+    - farmz:baked_golden_potato
 ---
 # Baked Golden Potato
 <div class="main_table">

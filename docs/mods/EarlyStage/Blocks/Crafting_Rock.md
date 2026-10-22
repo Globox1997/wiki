@@ -2,6 +2,8 @@
 title: Crafting Rock
 project: earlystage
 summary: earlystage block crafting rock
+tags:
+    - earlystage:crafting_rock
 ---
 # Crafting Rock
 <div class="main_table">

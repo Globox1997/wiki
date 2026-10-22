@@ -2,6 +2,8 @@
 title: Acacia Bark
 project: earlystage
 summary: earlystage item acacia bark
+tags:
+    - earlystage:acacia_bark
 ---
 # Acacia Bark
 <div class="main_table">

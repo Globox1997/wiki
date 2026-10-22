@@ -2,6 +2,8 @@
 title: Diamond Ninjato
 project: medievalweapons
 summary: medievalweapons item diamond ninjato
+tags:
+    - medievalweapons:diamond_ninjato
 ---
 # Diamond Ninjato
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Stun
 project: medievalweapons
 summary: medievalweapons effect stun
+tags:
+    - medievalweapons:stun
 ---
 # Stun
 <div class="main_table">

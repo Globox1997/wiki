@@ -2,6 +2,8 @@
 title: Steel Shovel
 project: earlystage
 summary: earlystage item steel shovel
+tags:
+    - earlystage:steel_shovel
 ---
 # Steel Shovel
 <div class="main_table">

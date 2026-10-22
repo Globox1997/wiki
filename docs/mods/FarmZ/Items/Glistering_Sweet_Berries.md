@@ -2,6 +2,8 @@
 title: Glistering Sweet Berries
 project: farmz
 summary: farmz item glistering sweet berries
+tags:
+    - farmz:glistering_sweet_berries
 ---
 # Glistering Sweet Berries
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Cooling
 project: environmentz
 summary: environmentz effect cooling
+tags:
+    - environmentz:cooling
 ---
 # Cooling
 <div class="main_table">

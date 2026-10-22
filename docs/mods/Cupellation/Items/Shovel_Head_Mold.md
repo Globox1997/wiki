@@ -2,6 +2,8 @@
 title: Shovel Head Mold
 project: cupellation
 summary: cupellation item shovel head mold
+tags:
+    - cupellation:shovel_head_mold
 ---
 # Shovel Head Mold
 <div class="main_table">

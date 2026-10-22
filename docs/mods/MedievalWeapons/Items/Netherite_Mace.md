@@ -2,6 +2,8 @@
 title: Netherite Mace
 project: medievalweapons
 summary: medievalweapons item netherite mace
+tags:
+    - medievalweapons:netherite_mace
 ---
 # Netherite Mace
 <div class="main_table">

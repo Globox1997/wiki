@@ -2,6 +2,8 @@
 title: Brown Fungus
 project: adventurez
 summary: adventurez entity brown fungus
+tags:
+    - adventurez:brown_fungus
 ---
 # Brown Fungus
 <div class="main_table">

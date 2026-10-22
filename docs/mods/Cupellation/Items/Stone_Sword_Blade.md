@@ -2,6 +2,8 @@
 title: Stone Sword Blade
 project: cupellation
 summary: cupellation item stone sword blade
+tags:
+    - cupellation:stone_sword_blade
 ---
 # Stone Sword Blade
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Recurve Bow
 project: medievalweapons
 summary: medievalweapons item recurve bow
+tags:
+    - medievalweapons:recurve_bow
 ---
 # Recurve Bow
 <div class="main_table">

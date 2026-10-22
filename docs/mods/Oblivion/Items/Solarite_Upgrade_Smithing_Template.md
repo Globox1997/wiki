@@ -2,6 +2,8 @@
 title: Solarite Upgrade Smithing Template
 project: oblivion
 summary: oblivion item solarite upgrade smithing template
+tags:
+    - oblivion:solarite_upgrade_smithing_template
 ---
 # Solarite Upgrade Smithing Template
 <div class="main_table">

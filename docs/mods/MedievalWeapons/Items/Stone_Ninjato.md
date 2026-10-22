@@ -2,6 +2,8 @@
 title: Stone Ninjato
 project: medievalweapons
 summary: medievalweapons item stone ninjato
+tags:
+    - medievalweapons:stone_ninjato
 ---
 # Stone Ninjato
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Scarlet Sword
 project: oblivion
 summary: oblivion item scarlet sword
+tags:
+    - oblivion:scarlet_sword
 ---
 # Scarlet Sword
 <div class="main_table">

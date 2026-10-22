@@ -2,6 +2,8 @@
 title: Netherite Leather Flask
 project: dehydration
 summary: dehydration item netherite leather flask
+tags:
+    - dehydration:netherite_leather_flask
 ---
 # Netherite Leather Flask
 <div class="main_table">

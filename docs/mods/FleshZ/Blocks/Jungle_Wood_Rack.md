@@ -2,6 +2,8 @@
 title: Jungle Wood Rack
 project: fleshz
 summary: fleshz block jungle wood rack
+tags:
+    - fleshz:jungle_wood_rack
 ---
 # Jungle Wood Rack
 <div class="main_table">

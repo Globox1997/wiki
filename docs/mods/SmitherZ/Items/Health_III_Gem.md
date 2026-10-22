@@ -2,6 +2,8 @@
 title: Health III Gem
 project: smitherz
 summary: smitherz item health III gem
+tags:
+    - smitherz:health_3_gem
 ---
 # Health III Gem
 <div class="main_table">

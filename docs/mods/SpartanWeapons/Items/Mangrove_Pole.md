@@ -2,6 +2,8 @@
 title: Mangrove Pole
 project: spartanweapons
 summary: spartanweapons item mangrove pole
+tags:
+    - spartanweapons:mangrove_pole
 ---
 # Mangrove Pole
 <div class="main_table">

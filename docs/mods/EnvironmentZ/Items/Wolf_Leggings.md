@@ -2,6 +2,8 @@
 title: Wolf Pelt Leggings
 project: environmentz
 summary: environmentz item wolf pelt leggings
+tags:
+    - environmentz:wolf_leggings
 ---
 # Wolf Pelt Leggings
 <div class="main_table">

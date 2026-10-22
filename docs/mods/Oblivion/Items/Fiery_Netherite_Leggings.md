@@ -2,6 +2,8 @@
 title: Fiery Netherite Leggings
 project: oblivion
 summary: oblivion item fiery netherite leggings
+tags:
+    - oblivion:fiery_netherite_leggings
 ---
 # Fiery Netherite Leggings
 <div class="main_table">

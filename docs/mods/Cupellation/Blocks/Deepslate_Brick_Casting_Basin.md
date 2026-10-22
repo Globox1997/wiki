@@ -2,6 +2,8 @@
 title: Deepslate Brick Casting Basin
 project: cupellation
 summary: cupellation block deepslate brick casting basin
+tags:
+    - cupellation:deepslate_brick_casting_basin
 ---
 # Deepslate Brick Casting Basin
 <div class="main_table">

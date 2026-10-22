@@ -2,6 +2,8 @@
 title: Piglin Beast
 project: adventurez
 summary: adventurez entity piglin beast
+tags:
+    - adventurez:piglin_beast
 ---
 # Piglin Beast
 <div class="main_table">

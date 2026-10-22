@@ -2,6 +2,8 @@
 title: Scarlet Axe
 project: oblivion
 summary: oblivion item scarlet axe
+tags:
+    - oblivion:scarlet_axe
 ---
 # Scarlet Axe
 <div class="main_table">

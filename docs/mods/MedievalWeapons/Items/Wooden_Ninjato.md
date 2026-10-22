@@ -2,6 +2,8 @@
 title: Wooden Ninjato
 project: medievalweapons
 summary: medievalweapons item wooden ninjato
+tags:
+    - medievalweapons:wooden_ninjato
 ---
 # Wooden Ninjato
 <div class="main_table">

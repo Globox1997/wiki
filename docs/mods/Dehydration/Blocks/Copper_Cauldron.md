@@ -2,6 +2,8 @@
 title: Copper Cauldron
 project: dehydration
 summary: dehydration block copper cauldron
+tags:
+    - dehydration:copper_cauldron
 ---
 # Copper Cauldron
 <div class="main_table">

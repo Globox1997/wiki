@@ -2,6 +2,8 @@
 title: Diamond Shovel Head
 project: cupellation
 summary: cupellation item diamond shovel head
+tags:
+    - cupellation:diamond_shovel_head
 ---
 # Diamond Shovel Head
 <div class="main_table">

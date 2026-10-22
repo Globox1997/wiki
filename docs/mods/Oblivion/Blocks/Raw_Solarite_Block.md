@@ -2,6 +2,8 @@
 title: Block of Raw Solarite
 project: oblivion
 summary: oblivion block of raw solarite
+tags:
+    - oblivion:raw_solarite_block
 ---
 # Block of Raw Solarite
 <div class="main_table">

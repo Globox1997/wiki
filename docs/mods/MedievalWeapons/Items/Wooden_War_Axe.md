@@ -2,6 +2,8 @@
 title: Wooden War Axe
 project: medievalweapons
 summary: medievalweapons item wooden war axe
+tags:
+    - medievalweapons:wooden_big_axe
 ---
 # Wooden War Axe
 <div class="main_table">

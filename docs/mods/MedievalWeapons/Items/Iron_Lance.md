@@ -2,6 +2,8 @@
 title: Iron Lance
 project: medievalweapons
 summary: medievalweapons item iron lance
+tags:
+    - medievalweapons:iron_lance
 ---
 # Iron Lance
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Iguana Meat
 project: adventurez
 summary: adventurez item iguana meat
+tags:
+    - adventurez:iguana_meat
 ---
 # Iguana Meat
 <div class="main_table">

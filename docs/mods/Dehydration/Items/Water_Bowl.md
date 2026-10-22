@@ -2,6 +2,8 @@
 title: Water Bowl
 project: dehydration
 summary: dehydration item water bowl
+tags:
+    - dehydration:water_bowl
 ---
 # Water Bowl
 <div class="main_table">

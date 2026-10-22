@@ -2,6 +2,8 @@
 title: Cherry Pole
 project: spartanweapons
 summary: spartanweapons item cherry pole
+tags:
+    - spartanweapons:cherry_pole
 ---
 # Cherry Pole
 <div class="main_table">

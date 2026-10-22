@@ -2,6 +2,8 @@
 title: Void Stone
 project: voidz
 summary: voidz block void stone
+tags:
+    - voidz:void_stone
 ---
 # Void Stone
 <div class="main_table">

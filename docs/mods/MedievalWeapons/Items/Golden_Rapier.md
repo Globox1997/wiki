@@ -2,6 +2,8 @@
 title: Golden Rapier
 project: medievalweapons
 summary: medievalweapons item golden rapier
+tags:
+    - medievalweapons:golden_rapier
 ---
 # Golden Rapier
 <div class="main_table">

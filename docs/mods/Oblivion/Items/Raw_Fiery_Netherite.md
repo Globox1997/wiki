@@ -2,6 +2,8 @@
 title: Raw Fiery Netherite
 project: oblivion
 summary: oblivion item raw fiery netherite
+tags:
+    - oblivion:raw_fiery_netherite
 ---
 # Raw Fiery Netherite
 <div class="main_table">

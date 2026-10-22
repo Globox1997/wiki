@@ -2,6 +2,8 @@
 title: Clay Bucket
 project: earlystage
 summary: earlystage item clay bucket
+tags:
+    - earlystage:clay_bucket
 ---
 # Clay Bucket
 <div class="main_table">

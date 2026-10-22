@@ -2,6 +2,8 @@
 title: Smelter
 project: cupellation
 summary: cupellation structure smelter
+tags:
+    - cupellation:smelter
 ---
 # Smelter
 <div class="main_table">

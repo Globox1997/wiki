@@ -2,6 +2,8 @@
 title: Solarite Boots
 project: oblivion
 summary: oblivion item solarite boots
+tags:
+    - oblivion:solarite_boots
 ---
 # Solarite Boots
 <div class="main_table">

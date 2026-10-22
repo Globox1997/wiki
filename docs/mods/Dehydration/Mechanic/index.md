@@ -1,3 +1,8 @@
+---
+title: Dehydration Mechanic
+project: dehydration
+summary: dehydration mechanic
+---
 # Hydration
 
 ## Description

@@ -2,6 +2,8 @@
 title: Scarlet Hoe
 project: oblivion
 summary: oblivion item scarlet hoe
+tags:
+    - oblivion:scarlet_hoe
 ---
 # Scarlet Hoe
 <div class="main_table">

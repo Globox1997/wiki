@@ -2,6 +2,8 @@
 title: Strength IV Gem
 project: smitherz
 summary: smitherz item strength IV gem
+tags:
+    - smitherz:strength_4_gem
 ---
 # Strength IV Gem
 <div class="main_table">

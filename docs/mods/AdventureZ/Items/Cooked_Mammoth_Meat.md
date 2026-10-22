@@ -2,6 +2,8 @@
 title: Cooked Mammoth Meat
 project: adventurez
 summary: adventurez item cooked mammoth meat
+tags:
+    - adventurez:cooked_mammoth_meat
 ---
 # Cooked Mammoth Meat
 <div class="main_table">

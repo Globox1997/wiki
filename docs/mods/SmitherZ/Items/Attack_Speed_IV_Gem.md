@@ -2,6 +2,8 @@
 title: Attack Speed IV Gem
 project: smitherz
 summary: smitherz item attack speed IV gem
+tags:
+    - smitherz:attack_speed_4_gem
 ---
 # Attack Speed IV Gem
 <div class="main_table">

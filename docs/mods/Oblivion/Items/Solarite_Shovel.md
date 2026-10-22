@@ -2,6 +2,8 @@
 title: Solarite Shovel
 project: oblivion
 summary: oblivion item solarite shovel
+tags:
+    - oblivion:solarite_shovel
 ---
 # Solarite Shovel
 <div class="main_table">

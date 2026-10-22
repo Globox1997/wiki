@@ -2,6 +2,8 @@
 title: Block of Fiery Netherite
 project: oblivion
 summary: oblivion block of fiery netherite
+tags:
+    - oblivion:fiery_netherite_block
 ---
 # Block of Fiery Netherite
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Spruce Pole
 project: spartanweapons
 summary: spartanweapons item spruce pole
+tags:
+    - spartanweapons:spruce_pole
 ---
 # Spruce Pole
 <div class="main_table">

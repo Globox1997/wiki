@@ -2,6 +2,8 @@
 title: Netherite Lance
 project: medievalweapons
 summary: medievalweapons item netherite Lance
+tags:
+    - medievalweapons:netherite_lance
 ---
 # Netherite Lance
 <div class="main_table">

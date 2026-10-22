@@ -2,6 +2,8 @@
 title: Block Piercing
 project: additionz
 summary: additionz enchantment block piercing
+tags:
+    - additionz:block_piercing
 ---
 # Block Piercing
 <div class="main_table">

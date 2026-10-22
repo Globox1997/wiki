@@ -2,6 +2,8 @@
 title: Halberd
 project: spartanweapons
 summary: spartanweapons item halberd
+tags:
+    - spartanweapons:halberd
 ---
 # Halberd
 <div class="main_table">

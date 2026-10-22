@@ -2,6 +2,8 @@
 title: Block of Scarlet
 project: oblivion
 summary: oblivion block of scarlet
+tags:
+    - oblivion:scarlet_block
 ---
 # Block of Scarlet
 <div class="main_table">

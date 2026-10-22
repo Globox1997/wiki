@@ -2,6 +2,8 @@
 title: Golden Ninjato
 project: medievalweapons
 summary: medievalweapons item golden ninjato
+tags:
+    - medievalweapons:golden_ninjato
 ---
 # Golden Ninjato
 <div class="main_table">

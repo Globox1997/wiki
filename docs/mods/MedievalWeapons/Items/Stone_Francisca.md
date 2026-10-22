@@ -2,6 +2,8 @@
 title: Stone Francisca
 project: medievalweapons
 summary: medievalweapons item stone francisca
+tags:
+    - medievalweapons:stone_francisca
 ---
 # Stone Francisca
 <div class="main_table">

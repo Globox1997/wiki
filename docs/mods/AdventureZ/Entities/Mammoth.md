@@ -2,6 +2,8 @@
 title: Mammoth
 project: adventurez
 summary: adventurez entity mammoth
+tags:
+    - adventurez:mammoth
 ---
 # Mammoth
 <div class="main_table">

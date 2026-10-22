@@ -2,6 +2,8 @@
 title: Enderwarthog
 project: adventurez
 summary: adventurez entity enderwarthog
+tags:
+    - adventurez:enderwarthog
 ---
 # Enderwarthog
 <div class="main_table">

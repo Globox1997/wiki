@@ -2,6 +2,8 @@
 title: Netherite Sickle
 project: medievalweapons
 summary: medievalweapons item netherite sickle
+tags:
+    - medievalweapons:netherite_sickle
 ---
 # Netherite Sickle
 <div class="main_table">

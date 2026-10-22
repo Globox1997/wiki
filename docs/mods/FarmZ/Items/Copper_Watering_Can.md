@@ -2,6 +2,8 @@
 title: Copper Watering Can
 project: farmz
 summary: farmz item copper watering can
+tags:
+    - farmz:copper_watering_can
 ---
 # Copper Watering Can
 <div class="main_table">

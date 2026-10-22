@@ -2,6 +2,8 @@
 title: Stone Shovel Head
 project: cupellation
 summary: cupellation item stone shovel head
+tags:
+    - cupellation:stone_shovel_head
 ---
 # Stone Shovel Head
 <div class="main_table">

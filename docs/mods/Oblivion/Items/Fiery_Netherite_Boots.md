@@ -2,6 +2,8 @@
 title: Fiery Netherite Boots
 project: oblivion
 summary: oblivion item fiery netherite boots
+tags:
+    - oblivion:fiery_netherite_boots
 ---
 # Fiery Netherite Boots
 <div class="main_table">

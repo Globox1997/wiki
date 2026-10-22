@@ -2,6 +2,8 @@
 title: Wolf Pelt
 project: environmentz
 summary: environmentz item wolf pelt
+tags:
+    - environmentz:wolf_pelt
 ---
 # Wolf Pelt
 <div class="main_table">

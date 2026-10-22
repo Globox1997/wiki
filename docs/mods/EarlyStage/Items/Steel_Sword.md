@@ -2,6 +2,8 @@
 title: Steel Sword
 project: earlystage
 summary: earlystage item steel sword
+tags:
+    - earlystage:steel_sword
 ---
 # Steel Sword
 <div class="main_table">

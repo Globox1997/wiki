@@ -2,6 +2,8 @@
 title: Floating Island
 project: adventurez
 summary: adventurez structure floating island
+tags:
+    - adventurez:floating_island
 ---
 # Floating Island
 <div class="main_table">

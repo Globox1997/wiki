@@ -2,6 +2,8 @@
 title: Solarite Helmet
 project: oblivion
 summary: oblivion item solarite helmet
+tags:
+    - oblivion:solarite_helmet
 ---
 # Solarite Helmet
 <div class="main_table">

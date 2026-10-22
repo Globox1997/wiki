@@ -2,6 +2,8 @@
 title: Mace
 project: spartanweapons
 summary: spartanweapons item mace
+tags:
+    - spartanweapons:mace
 ---
 # Mace
 <div class="main_table">

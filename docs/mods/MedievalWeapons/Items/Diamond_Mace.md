@@ -2,6 +2,8 @@
 title: Diamond Mace
 project: medievalweapons
 summary: medievalweapons item diamond mace
+tags:
+    - medievalweapons:diamond_mace
 ---
 # Diamond Mace
 <div class="main_table">

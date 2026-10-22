@@ -2,6 +2,8 @@
 title: Ender Whale Skin
 project: adventurez
 summary: adventurez item ender whale skin
+tags:
+    - adventurez:ender_whale_skin
 ---
 # Ender Whale Skin
 <div class="main_table">

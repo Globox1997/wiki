@@ -2,6 +2,8 @@
 title: Helmet Mold
 project: cupellation
 summary: cupellation item helmet mold
+tags:
+    - cupellation:helmet_mold
 ---
 # Helmet Mold
 <div class="main_table">

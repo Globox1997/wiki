@@ -2,6 +2,8 @@
 title: Fiery Netherite Helmet
 project: oblivion
 summary: oblivion item fiery netherite helmet
+tags:
+    - oblivion:fiery_netherite_helmet
 ---
 # Fiery Netherite Helmet
 <div class="main_table">

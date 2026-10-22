@@ -2,6 +2,8 @@
 title: Calcite Powder
 project: cupellation
 summary: cupellation item calcite powder
+tags:
+    - cupellation:calcite_powder
 ---
 # Calcite Powder
 <div class="main_table">

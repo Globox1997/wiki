@@ -2,6 +2,8 @@
 title: Flint Sword
 project: earlystage
 summary: earlystage item flint sword
+tags:
+    - earlystage:flint_sword
 ---
 # Flint Sword
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Dragon Scale Chestplate
 project: dragonloot
 summary: dragonloot item dragon scale chestplate
+tags:
+    - dragonloot:dragon_chestplate
 ---
 # Dragon Scale Chestplate
 <div class="main_table">

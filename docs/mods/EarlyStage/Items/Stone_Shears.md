@@ -2,6 +2,8 @@
 title: Stone Shears
 project: earlystage
 summary: earlystage item stone shears
+tags:
+    - earlystage:stone_shears
 ---
 # Stone Shears
 <div class="main_table">

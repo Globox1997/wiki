@@ -2,6 +2,8 @@
 title: Wooden Sickle
 project: medievalweapons
 summary: medievalweapons item wooden sickle
+tags:
+    - medievalweapons:wooden_sickle
 ---
 # Wooden Sickle
 <div class="main_table">

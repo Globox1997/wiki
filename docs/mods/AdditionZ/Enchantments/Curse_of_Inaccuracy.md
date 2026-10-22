@@ -2,6 +2,8 @@
 title: Curse of Inaccuracy
 project: additionz
 summary: additionz enchantment curse of inaccuracy
+tags:
+    - additionz:inaccuracy_curse
 ---
 # Curse of Inaccuracy
 <div class="main_table">

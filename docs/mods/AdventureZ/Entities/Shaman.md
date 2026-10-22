@@ -2,6 +2,8 @@
 title: Shaman
 project: adventurez
 summary: adventurez entity shaman
+tags:
+    - adventurez:shaman
 ---
 # Shaman
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Scarlet Boots
 project: oblivion
 summary: oblivion item scarlet boots
+tags:
+    - oblivion:scarlet_boots
 ---
 # Scarlet Boots
 <div class="main_table">

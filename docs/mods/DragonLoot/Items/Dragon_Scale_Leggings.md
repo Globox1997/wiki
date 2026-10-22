@@ -2,6 +2,8 @@
 title: Dragon Scale Leggings
 project: dragonloot
 summary: dragonloot item dragon scale leggings
+tags:
+    - dragonloot:dragon_leggings
 ---
 # Dragon Scale Leggings
 <div class="main_table">

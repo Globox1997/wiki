@@ -2,6 +2,8 @@
 title: Block of Steel
 project: earlystage
 summary: earlystage block block of steel
+tags:
+    - earlystage:steel_block
 ---
 # Block of Steel
 <div class="main_table">

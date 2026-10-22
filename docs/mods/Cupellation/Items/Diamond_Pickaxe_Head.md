@@ -2,6 +2,8 @@
 title: Diamond Pickaxe Head
 project: cupellation
 summary: cupellation item diamond pickaxe head
+tags:
+    - cupellation:diamond_pickaxe_head
 ---
 # Diamond Pickaxe Head
 <div class="main_table">

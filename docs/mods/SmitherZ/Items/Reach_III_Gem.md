@@ -2,6 +2,8 @@
 title: Reach III Gem
 project: smitherz
 summary: smitherz item reach III gem
+tags:
+    - smitherz:reach_3_gem
 ---
 # Reach III Gem
 <div class="main_table">

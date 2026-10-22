@@ -2,6 +2,8 @@
 title: Steel Nugget
 project: earlystage
 summary: earlystage item steel nugget
+tags:
+    - earlystage:steel_nugget
 ---
 # Steel Nugget
 <div class="main_table">

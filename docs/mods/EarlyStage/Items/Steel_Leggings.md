@@ -2,6 +2,8 @@
 title: Steel Leggings
 project: earlystage
 summary: earlystage item steel leggings
+tags:
+    - earlystage:steel_leggings
 ---
 # Steel Leggings
 <div class="main_table">

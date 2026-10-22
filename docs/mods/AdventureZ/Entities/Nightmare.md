@@ -2,6 +2,8 @@
 title: Nightmare
 project: adventurez
 summary: adventurez entity nightmare
+tags:
+    - adventurez:nightmare
 ---
 # Nightmare
 <div class="main_table">

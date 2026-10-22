@@ -2,6 +2,8 @@
 title: Spruce Stick
 project: spartanweapons
 summary: spartanweapons item spruce stick
+tags:
+    - spartanweapons:spruce_stick
 ---
 # Spruce Stick
 <div class="main_table">

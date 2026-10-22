@@ -2,6 +2,8 @@
 title: Long Bow
 project: medievalweapons
 summary: medievalweapons item Long bow
+tags:
+    - medievalweapons:long_bow
 ---
 # Long Bow
 <div class="main_table">

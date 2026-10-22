@@ -2,6 +2,8 @@
 title: Birch Wood Rack
 project: fleshz
 summary: fleshz block birch wood rack
+tags:
+    - fleshz:birch_wood_rack
 ---
 # Birch Wood Rack
 <div class="main_table">

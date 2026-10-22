@@ -2,6 +2,8 @@
 title: Steel Axe
 project: earlystage
 summary: earlystage item steel axe
+tags:
+    - earlystage:steel_axe
 ---
 # Steel Axe
 <div class="main_table">

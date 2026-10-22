@@ -2,6 +2,8 @@
 title: Deepslate Brick Smelter
 project: cupellation
 summary: cupellation block deepslate brick smelter
+tags:
+    - cupellation:deepslate_brick_smelter
 ---
 # Deepslate Brick Smelter
 <div class="main_table">

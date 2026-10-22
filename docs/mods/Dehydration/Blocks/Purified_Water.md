@@ -2,6 +2,8 @@
 title: Purified Water
 project: dehydration
 summary: dehydration block purified water
+tags:
+    - dehydration:purified_water
 ---
 # Purified Water
 <div class="main_table">

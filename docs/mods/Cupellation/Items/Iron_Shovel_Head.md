@@ -2,6 +2,8 @@
 title: Iron Shovel Head
 project: cupellation
 summary: cupellation item iron shovel head
+tags:
+    - cupellation:iron_shovel_head
 ---
 # Iron Shovel Head
 <div class="main_table">

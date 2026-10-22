@@ -2,6 +2,8 @@
 title: Scarlet Ingot
 project: oblivion
 summary: oblivion item scarlet ingot
+tags:
+    - oblivion:scarlet_ingot
 ---
 # Scarlet Ingot
 <div class="main_table">

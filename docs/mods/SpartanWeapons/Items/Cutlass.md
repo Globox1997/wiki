@@ -2,6 +2,8 @@
 title: Cutlass
 project: spartanweapons
 summary: spartanweapons item cutlass
+tags:
+    - spartanweapons:cutlass
 ---
 # Cutlass
 <div class="main_table">

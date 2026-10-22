@@ -2,6 +2,8 @@
 title: Shimmering Grass
 project: oblivion
 summary: oblivion block shimmering grass
+tags:
+    - oblivion:shimmering_grass
 ---
 # Shimmering Grass
 <div class="main_table">

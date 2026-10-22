@@ -2,6 +2,8 @@
 title: Dark Oak Bark
 project: earlystage
 summary: earlystage item dark oak bark
+tags:
+    - earlystage:dark_oak_bark
 ---
 # Dark Oak Bark
 <div class="main_table">

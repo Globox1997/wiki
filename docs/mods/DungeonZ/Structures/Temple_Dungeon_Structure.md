@@ -2,6 +2,8 @@
 title: Temple Dungeon Structure
 project: dungeonz
 summary: dungeonz structure temple dungeon structure
+tags:
+    - dungeonz:temple_dungeon_structure
 ---
 # Temple Dungeon Structure
 <div class="main_table">

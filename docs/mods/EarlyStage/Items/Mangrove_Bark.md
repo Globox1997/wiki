@@ -2,6 +2,8 @@
 title: Mangrove Bark
 project: earlystage
 summary: earlystage item mangrove bark
+tags:
+    - earlystage:mangrove_bark
 ---
 # Mangrove Bark
 <div class="main_table">

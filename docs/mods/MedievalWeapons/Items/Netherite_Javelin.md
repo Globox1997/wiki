@@ -2,6 +2,8 @@
 title: Netherite Javelin
 project: medievalweapons
 summary: medievalweapons item netherite javelin
+tags:
+    - medievalweapons:netherite_javelin
 ---
 # Netherite javelin
 <div class="main_table">

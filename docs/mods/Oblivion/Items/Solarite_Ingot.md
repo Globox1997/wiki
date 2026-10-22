@@ -2,6 +2,8 @@
 title: Solarite Ingot
 project: oblivion
 summary: oblivion item solarite ingot
+tags:
+    - oblivion:solarite_ingot
 ---
 # Solarite Ingot
 <div class="main_table">

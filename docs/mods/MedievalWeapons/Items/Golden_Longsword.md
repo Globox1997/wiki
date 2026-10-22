@@ -2,6 +2,8 @@
 title: Golden Longsword
 project: medievalweapons
 summary: medievalweapons item golden longsword
+tags:
+    - medievalweapons:golden_long_sword
 ---
 # Golden Longsword
 <div class="main_table">

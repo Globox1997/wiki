@@ -2,6 +2,8 @@
 title: Overheating Resistance Potion
 project: environmentz
 summary: environmentz overheating resistance potion
+tags:
+    - environmentz:overheating_resistance_potion
 ---
 # Overheating Resistance Potion
 <div class="main_table">

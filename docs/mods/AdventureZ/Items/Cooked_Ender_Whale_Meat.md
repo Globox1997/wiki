@@ -2,6 +2,8 @@
 title: Cooked Ender Whale Meat
 project: adventurez
 summary: adventurez item cooked ender whale meat
+tags:
+    - adventurez:cooked_ender_whale_meat
 ---
 # Cooked Ender Whale Meat
 <div class="main_table">

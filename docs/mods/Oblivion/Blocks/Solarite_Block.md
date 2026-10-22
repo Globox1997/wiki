@@ -2,6 +2,8 @@
 title: Block of Solarite
 project: oblivion
 summary: oblivion block of solarite
+tags:
+    - oblivion:solarite_block
 ---
 # Block of Solarite
 <div class="main_table">

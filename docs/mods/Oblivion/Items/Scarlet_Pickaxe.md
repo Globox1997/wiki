@@ -2,6 +2,8 @@
 title: Scarlet Pickaxe
 project: oblivion
 summary: oblivion item scarlet pickaxe
+tags:
+    - oblivion:scarlet_pickaxe
 ---
 # Scarlet Pickaxe
 <div class="main_table">

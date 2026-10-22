@@ -2,6 +2,8 @@
 title: Staff
 project: spartanweapons
 summary: spartanweapons item staff
+tags:
+    - spartanweapons:staff
 ---
 # Staff
 <div class="main_table">

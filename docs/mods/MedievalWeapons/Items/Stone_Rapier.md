@@ -2,6 +2,8 @@
 title: Stone Rapier
 project: medievalweapons
 summary: medievalweapons item stone rapier
+tags:
+    - medievalweapons:stone_rapier
 ---
 # Stone Rapier
 <div class="main_table">

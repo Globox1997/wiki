@@ -2,6 +2,8 @@
 title: Red Nether Brick Smelter
 project: cupellation
 summary: cupellation block red nether brick smelter
+tags:
+    - cupellation:red_nether_brick_smelter
 ---
 # Red Nether Brick Smelter
 <div class="main_table">

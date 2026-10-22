@@ -2,6 +2,8 @@
 title: Kunai
 project: spartanweapons
 summary: spartanweapons item kunai
+tags:
+    - spartanweapons:kunai
 ---
 # Kunai
 <div class="main_table">

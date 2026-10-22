@@ -2,6 +2,8 @@
 title: Summoner
 project: adventurez
 summary: adventurez entity summoner
+tags:
+    - adventurez:summoner
 ---
 # Summoner
 <div class="main_table">

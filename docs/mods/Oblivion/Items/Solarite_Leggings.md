@@ -2,6 +2,8 @@
 title: Solarite Leggings
 project: oblivion
 summary: oblivion item solarite leggings
+tags:
+    - oblivion:solarite_leggings
 ---
 # Solarite Leggings
 <div class="main_table">

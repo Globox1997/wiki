@@ -2,6 +2,8 @@
 title: Solarite Pickaxe
 project: oblivion
 summary: oblivion item solarite pickaxe
+tags:
+    - oblivion:solarite_pickaxe
 ---
 # Solarite Pickaxe
 <div class="main_table">

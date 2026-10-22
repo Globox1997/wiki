@@ -2,6 +2,8 @@
 title: Heating Stones
 project: environmentz
 summary: environmentz item heating stones
+tags:
+    - environmentz:heating_stones
 ---
 # Heating Stones
 <div class="main_table">

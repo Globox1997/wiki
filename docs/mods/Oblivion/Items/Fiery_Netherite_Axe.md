@@ -2,6 +2,8 @@
 title: Fiery Netherite Axe
 project: oblivion
 summary: oblivion item fiery netherite axe
+tags:
+    - oblivion:fiery_netherite_axe
 ---
 # Fiery Netherite Axe
 <div class="main_table">

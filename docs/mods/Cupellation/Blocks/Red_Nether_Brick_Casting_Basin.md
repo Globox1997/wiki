@@ -2,6 +2,8 @@
 title: Red Nether Brick Casting Basin
 project: cupellation
 summary: cupellation block red nether brick casting basin
+tags:
+    - cupellation:red_nether_brick_casting_basin
 ---
 # Red Nether Brick Casting Basin
 <div class="main_table">

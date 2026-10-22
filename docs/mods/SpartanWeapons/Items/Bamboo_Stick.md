@@ -2,6 +2,8 @@
 title: Bamboo Stick
 project: spartanweapons
 summary: spartanweapons item bamboo stick
+tags:
+    - spartanweapons:bamboo_stick
 ---
 # Bamboo Stick
 <div class="main_table">

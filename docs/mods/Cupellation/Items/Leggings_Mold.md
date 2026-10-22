@@ -2,6 +2,8 @@
 title: Leggings Mold
 project: cupellation
 summary: cupellation item leggings mold
+tags:
+    - cupellation:leggings_mold
 ---
 # Leggings Mold
 <div class="main_table">

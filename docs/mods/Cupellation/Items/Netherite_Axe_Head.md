@@ -2,6 +2,8 @@
 title: Netherite Axe Head
 project: cupellation
 summary: cupellation item netherite axe head
+tags:
+    - cupellation:netherite_axe_head
 ---
 # Netherite Axe Head
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Golden Cookie
 project: farmz
 summary: farmz item golden cookie
+tags:
+    - farmz:golden_cookie
 ---
 # Golden Cookie
 <div class="main_table">

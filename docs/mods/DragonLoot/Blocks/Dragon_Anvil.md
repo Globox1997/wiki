@@ -2,6 +2,8 @@
 title: Dragon Anvil
 project: dragonloot
 summary: dragonloot block dragon anvil
+tags:
+    - dragonloot:dragon_anvil
 ---
 # Dragon Anvil
 <div class="main_table">

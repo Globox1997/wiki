@@ -2,6 +2,8 @@
 title: Fiery Netherite Ingot
 project: oblivion
 summary: oblivion item fiery netherite ingot
+tags:
+    - oblivion:fiery_netherite_ingot
 ---
 # Fiery Netherite Ingot
 <div class="main_table">

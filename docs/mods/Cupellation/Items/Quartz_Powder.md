@@ -2,6 +2,8 @@
 title: Quartz Powder
 project: cupellation
 summary: cupellation item quartz powder
+tags:
+    - cupellation:quartz_powder
 ---
 # Quartz Powder
 <div class="main_table">

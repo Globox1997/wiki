@@ -2,6 +2,8 @@
 title: Diamond Axe Head
 project: cupellation
 summary: cupellation item diamond axe head
+tags:
+    - cupellation:diamond_axe_head
 ---
 # Diamond Axe Head
 <div class="main_table">

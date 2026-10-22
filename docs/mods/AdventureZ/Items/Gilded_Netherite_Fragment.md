@@ -2,6 +2,8 @@
 title: Gilded Netherite Fragment
 project: adventurez
 summary: adventurez item gilded netherite fragment
+tags:
+    - adventurez:gilded_netherite_fragment
 ---
 # Gilded Netherite Fragment
 <div class="main_table">

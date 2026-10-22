@@ -2,6 +2,8 @@
 title: Dragon Scale Helmet
 project: dragonloot
 summary: dragonloot item dragon scale helmet
+tags:
+    - dragonloot:dragon_helmet
 ---
 # Dragon Scale Helmet
 <div class="main_table">

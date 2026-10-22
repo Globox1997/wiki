@@ -2,6 +2,8 @@
 title: Stone Lance
 project: medievalweapons
 summary: medievalweapons item stone lance
+tags:
+    - medievalweapons:stone_lance
 ---
 # Stone Lance
 <div class="main_table">

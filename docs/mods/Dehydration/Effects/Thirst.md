@@ -2,6 +2,8 @@
 title: Thirst
 project: dehydration
 summary: dehydration effect thirst
+tags:
+    - dehydration:thirst
 ---
 # Thirst
 <div class="main_table">

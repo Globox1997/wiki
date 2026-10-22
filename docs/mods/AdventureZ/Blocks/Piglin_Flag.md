@@ -2,6 +2,8 @@
 title: Piglin Flag
 project: adventurez
 summary: adventurez block piglin flag
+tags:
+    - adventurez:piglin_flag
 ---
 # Piglin Flag
 <div class="main_table">

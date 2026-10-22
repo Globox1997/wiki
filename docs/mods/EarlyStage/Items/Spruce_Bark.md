@@ -2,6 +2,8 @@
 title: Spruce Bark
 project: earlystage
 summary: earlystage item spruce bark
+tags:
+    - earlystage:spruce_bark
 ---
 # Spruce Bark
 <div class="main_table">

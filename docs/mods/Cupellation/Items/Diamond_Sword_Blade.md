@@ -2,6 +2,8 @@
 title: Diamond Sword Blade
 project: cupellation
 summary: cupellation item diamond sword blade
+tags:
+    - cupellation:diamond_sword_blade
 ---
 # Diamond Sword Blade
 <div class="main_table">

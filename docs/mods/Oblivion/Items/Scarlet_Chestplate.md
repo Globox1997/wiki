@@ -2,6 +2,8 @@
 title: Scarlet Chestplate
 project: oblivion
 summary: oblivion item scarlet chestplate
+tags:
+    - oblivion:scarlet_chestplate
 ---
 # Scarlet Chestplate
 <div class="main_table">

@@ -1,3 +1,8 @@
+---
+title: Revive Effects
+project: revive
+summary: revive effects
+---
 # Effect
 *An [effect](https://minecraft.wiki/w/Effect) (also known as a mob effect or status effect) is a helpful, harmful or a mostly useless condition that affects an [entity](https://minecraft.wiki/w/Entity). [Effects](https://minecraft.wiki/w/Effect) can be inflicted in various ways throughout the game, including consuming [potions](https://minecraft.wiki/w/Potion) and some [food](https://minecraft.wiki/w/Food) items, being in the range of active [beacons](https://minecraft.wiki/w/Food) and [conduits](https://minecraft.wiki/w/Conduit), and being attacked by or close to certain [mobs](https://minecraft.wiki/w/Mob).*[^1]
 

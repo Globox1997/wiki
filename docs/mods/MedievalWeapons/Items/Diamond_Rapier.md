@@ -2,6 +2,8 @@
 title: Diamond Rapier
 project: medievalweapons
 summary: medievalweapons item diamond rapier
+tags:
+    - medievalweapons:diamond_rapier
 ---
 # Diamond Rapier
 <div class="main_table">

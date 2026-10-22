@@ -2,6 +2,8 @@
 title: Birch Stick
 project: spartanweapons
 summary: spartanweapons item birch stick
+tags:
+    - spartanweapons:birch_stick
 ---
 # Birch Stick
 <div class="main_table">

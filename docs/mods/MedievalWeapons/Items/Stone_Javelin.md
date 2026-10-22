@@ -2,6 +2,8 @@
 title: Stone Javelin
 project: medievalweapons
 summary: medievalweapons item stone javelin
+tags:
+    - medievalweapons:stone_javelin
 ---
 # Stone Javelin
 <div class="main_table">

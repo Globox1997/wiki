@@ -2,6 +2,8 @@
 title: Flint Axe
 project: earlystage
 summary: earlystage item flint axe
+tags:
+    - earlystage:flint_axe
 ---
 # Flint Axe
 <div class="main_table">

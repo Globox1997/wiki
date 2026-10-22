@@ -2,6 +2,8 @@
 title: Fiery Netherite Chestplate
 project: oblivion
 summary: oblivion item fiery netherite chestplate
+tags:
+    - oblivion:fiery_netherite_chestplate
 ---
 # Fiery Netherite Chestplate
 <div class="main_table">

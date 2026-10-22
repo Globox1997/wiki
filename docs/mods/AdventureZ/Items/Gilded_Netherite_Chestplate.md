@@ -2,6 +2,8 @@
 title: Gilded Netherite Chestplate
 project: adventurez
 summary: adventurez item gilded netherite chestplate
+tags:
+    - adventurez:gilded_netherite_chestplate
 ---
 # Gilded Netherite Chestplate
 <div class="main_table">

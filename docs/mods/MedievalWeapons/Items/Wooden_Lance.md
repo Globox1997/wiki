@@ -2,6 +2,8 @@
 title: Wooden Lance
 project: medievalweapons
 summary: medievalweapons item wooden lance
+tags:
+    - medievalweapons:wooden_lance
 ---
 # Wooden Lance
 <div class="main_table">

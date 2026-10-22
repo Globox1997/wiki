@@ -2,6 +2,8 @@
 title: Amethyst Golem
 project: adventurez
 summary: adventurez entity amethyst golem
+tags:
+    - adventurez:amethyst_golem
 ---
 # Amethyst Golem
 <div class="main_table">

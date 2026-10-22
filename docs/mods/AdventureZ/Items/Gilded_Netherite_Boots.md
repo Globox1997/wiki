@@ -2,6 +2,8 @@
 title: Gilded Netherite Boots
 project: adventurez
 summary: adventurez item gilded netherite boots
+tags:
+    - adventurez:gilded_netherite_boots
 ---
 # Gilded Netherite Boots
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Golden Sword Blade
 project: cupellation
 summary: cupellation item golden sword blade
+tags:
+    - cupellation:golden_sword_blade
 ---
 # Golden Sword Blade
 <div class="main_table">

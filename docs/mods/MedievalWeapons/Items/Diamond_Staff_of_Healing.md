@@ -2,6 +2,8 @@
 title: Diamond Staff of Healing
 project: medievalweapons
 summary: medievalweapons item diamond staff of healing
+tags:
+    - medievalweapons:diamond_healing_staff
 ---
 # Diamond Staff of Healing
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Revival Star
 project: revive
 summary: revive revival star
+tags:
+    - revive:revival_star
 ---
 # Revival Star
 <div class="main_table">

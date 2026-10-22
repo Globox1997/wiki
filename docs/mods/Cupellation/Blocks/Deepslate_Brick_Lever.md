@@ -2,6 +2,8 @@
 title: Deepslate Brick Lever
 project: cupellation
 summary: cupellation block deepslate brick lever
+tags:
+    - cupellation:deepslate_brick_lever
 ---
 # Deepslate Brick Lever
 <div class="main_table">

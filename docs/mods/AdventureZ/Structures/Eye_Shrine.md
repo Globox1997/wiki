@@ -2,6 +2,8 @@
 title: Eye Shrine
 project: adventurez
 summary: adventurez structure eye shrine
+tags:
+    - adventurez:eye_shrine
 ---
 # Eye Shrine
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Netherite Shovel Head
 project: cupellation
 summary: cupellation item netherite shovel head
+tags:
+    - cupellation:netherite_shovel_head
 ---
 # Netherite Shovel Head
 <div class="main_table">

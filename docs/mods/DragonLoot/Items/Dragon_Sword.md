@@ -2,6 +2,8 @@
 title: Dragon Sword
 project: dragonloot
 summary: dragonloot item dragon sword
+tags:
+    - dragonloot:dragon_sword
 ---
 # Dragon Sword
 <div class="main_table">

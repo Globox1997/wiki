@@ -2,6 +2,8 @@
 title: Iron Axe Head
 project: cupellation
 summary: cupellation item iron axe head
+tags:
+    - cupellation:iron_axe_head
 ---
 # Iron Axe Head
 <div class="main_table">

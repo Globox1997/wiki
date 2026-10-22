@@ -2,6 +2,8 @@
 title: Scarlet Upgrade Smithing Template
 project: oblivion
 summary: oblivion item scarlet upgrade smithing template
+tags:
+    - oblivion:scarlet_upgrade_smithing_template
 ---
 # Scarlet Upgrade Smithing Template
 <div class="main_table">

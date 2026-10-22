@@ -2,6 +2,8 @@
 title: Void Shade
 project: adventurez
 summary: adventurez entity void shade
+tags:
+    - adventurez:void_shade
 ---
 # Void Shade
 <div class="main_table">

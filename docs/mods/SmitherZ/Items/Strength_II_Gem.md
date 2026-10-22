@@ -2,6 +2,8 @@
 title: Strength II Gem
 project: smitherz
 summary: smitherz item strength II gem
+tags:
+    - smitherz:strength_2_gem
 ---
 # Strength II Gem
 <div class="main_table">

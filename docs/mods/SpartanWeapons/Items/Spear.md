@@ -2,6 +2,8 @@
 title: Spear
 project: spartanweapons
 summary: spartanweapons item spear
+tags:
+    - spartanweapons:spear
 ---
 # Spear
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Reach IV Gem
 project: smitherz
 summary: smitherz item reach IV gem
+tags:
+    - smitherz:reach_4_gem
 ---
 # Reach IV Gem
 <div class="main_table">

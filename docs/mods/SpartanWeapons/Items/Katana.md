@@ -2,6 +2,8 @@
 title: Katana
 project: spartanweapons
 summary: spartanweapons item katana
+tags:
+    - spartanweapons:katana
 ---
 # Katana
 <div class="main_table">

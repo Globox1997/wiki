@@ -2,6 +2,8 @@
 title: Void Portal
 project: voidz
 summary: voidz block void portal
+tags:
+    - voidz:void_portal
 ---
 # Void Portal
 <div class="main_table">

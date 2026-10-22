@@ -2,6 +2,8 @@
 title: Deepslate Brick Faucet
 project: cupellation
 summary: cupellation block deepslate brick faucet
+tags:
+    - cupellation:deepslate_brick_faucet
 ---
 # Deepslate Brick Faucet
 <div class="main_table">

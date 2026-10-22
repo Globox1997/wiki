@@ -2,6 +2,8 @@
 title: Boar Meat
 project: oblivion
 summary: oblivion item boar meat
+tags:
+    - oblivion:boar_meat
 ---
 # Boar Meat
 <div class="main_table">

@@ -2,6 +2,8 @@
 title: Diamond Lance
 project: medievalweapons
 summary: medievalweapons item diamond lance
+tags:
+    - medievalweapons:diamond_lance
 ---
 # Diamond Lance
 <div class="main_table">

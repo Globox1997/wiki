@@ -2,6 +2,8 @@
 title: Blackstone Altar
 project: adventurez
 summary: adventurez structure blackstone altar
+tags:
+    - adventurez:blackstone_altar
 ---
 # Blackstone Altar
 <div class="main_table">

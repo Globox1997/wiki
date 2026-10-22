@@ -2,6 +2,8 @@
 title: Diamond Hoe Head
 project: cupellation
 summary: cupellation item diamond hoe head
+tags:
+    - cupellation:diamond_hoe_head
 ---
 # Diamond Hoe Head
 <div class="main_table">
