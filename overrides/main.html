@@ -13,5 +13,33 @@
         {% if project_meta and project_meta.repo %}
             <meta name="project-repo" content="{{ project_meta.repo }}">
         {% endif %}
+        {% if project_meta and project_meta.color %}
+            <style>
+                body[data-md-color-primary] {
+                    --mod-color: {{ project_meta.color }};
+                    --mod-color-dark: color-mix(in srgb, var(--mod-color) 50%, black);
+                    --md-primary-fg-color: var(--mod-color);
+                    --md-primary-fg-color--light: color-mix(in srgb, var(--mod-color) 80%, white);
+                    --md-primary-fg-color--dark: color-mix(in srgb, var(--mod-color) 85%, black);
+                    --md-primary-bg-color: #1f1f1f;
+                    --md-primary-bg-color--light: #1f1f1fb3;
+                    --md-accent-fg-color: var(--mod-color-dark);
+                    --md-accent-fg-color--transparent: color-mix(in srgb, var(--mod-color-dark) 10%, transparent);
+                    --md-accent-bg-color: #fff;
+                    --md-typeset-a-color: var(--mod-color-dark);
+                }
+
+                body[data-md-color-scheme="slate"][data-md-color-primary] {
+                    --md-accent-fg-color: var(--mod-color);
+                    --md-accent-fg-color--transparent: color-mix(in srgb, var(--mod-color) 10%, transparent);
+                    --md-accent-bg-color: #1f1f1f;
+                    --md-typeset-a-color: var(--mod-color);
+                }
+
+                body[data-md-color-primary] .md-typeset .md-button:not(.md-button--primary):not(:hover) {
+                    color: var(--md-typeset-a-color);
+                }
+            </style>
+        {% endif %}
     {% endif %}
 {% endblock %}

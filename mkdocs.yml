@@ -60,159 +60,208 @@ extra:
     additionz:
         repo: https://github.com/Globox1997/AdditionZ
         name: AdditionZ
+        color: "#efb6a9"
     adventurez:
         repo: https://github.com/Globox1997/AdventureZ
         name: AdventureZ
+        color: "#ecb2ac"
     backslot:
         repo: https://github.com/Globox1997/BackSlot
         name: BackSlot
+        color: "#b5d4e3"
     backslotaddon:
         repo: https://github.com/Globox1997/BackSlotAddon
         name: BackSlotAddon
+        color: "#f0d8a8"
     cupellation:
         repo: https://github.com/Globox1997/Cupellation
         name: Cupellation
+        color: "#e3d5b5"
     dehydration:
         repo: https://github.com/Globox1997/Dehydration
         name: Dehydration
+        color: "#a8ebf0"
     dragonloot:
         repo: https://github.com/GitPois1x/DragonLoot
         name: DragonLoot
+        color: "#e3b5e0"
     dualwielding:
         repo: https://github.com/Globox1997/DualWielding
         name: DualWielding
+        color: "#b3e5dc"
     dungeonz:
         repo: https://github.com/Globox1997/DungeonZ
         name: DungeonZ
+        color: "#e3ceb5"
     earlystage:
         repo: https://github.com/Globox1997/EarlyStage
         name: EarlyStage
+        color: "#eee2aa"
     environmentz:
         repo: https://github.com/Globox1997/EnvironmentZ
         name: EnvironmentZ
+        color: "#abd3ed"
     eventmod:
         repo: https://github.com/Globox1997/EventMod
         name: EventMod
+        color: "#f0a8c7"
     extendeddrawersaddon:
         repo: https://github.com/Globox1997/ExtendedDrawersAddon
         name: ExtendedDrawersAddon
     farmz:
         repo: https://github.com/Globox1997/FarmZ
         name: FarmZ
+        color: "#f0c7a8"
     fleshz:
         repo: https://github.com/Globox1997/FleshZ
         name: FleshZ
+        color: "#e9c2af"
     inmis:
         repo: https://github.com/Draylar/Inmis
         name: Inmis
     inmisaddon:
         repo: https://github.com/Globox1997/InmisAddon
         name: InmisAddon
+        color: "#b5cfe3"
     herdspanic:
         repo: https://github.com/Globox1997/HerdsPanic
         name: HerdsPanic
+        color: "#b5e3ba"
     jobsaddon:
         repo: https://github.com/Globox1997/JobsAddon
         name: JobsAddon
+        color: "#a8f0cf"
     levelz:
         repo: https://github.com/Globox1997/LevelZ
         name: LevelZ
+        color: "#e3c8b5"
     libz:
         repo: https://github.com/Globox1997/LibZ
         name: LibZ
+        color: "#f0a8a8"
     medievalweapons:
         repo: https://github.com/Globox1997/MedievalWeapons
         name: MedievalWeapons
+        color: "#b5d5e3"
     nameplate:
         repo: https://github.com/Globox1997/Nameplate
         name: Nameplate
+        color: "#b5bce3"
     numismaticclaim:
         repo: https://github.com/Globox1997/NumismaticClaim
         name: NumismaticClaim
+        color: "#a9e9ef"
     nutritionz:
         repo: https://github.com/xR4YM0ND/NutritionZ
         name: NutritionZ
+        color: "#c6e3b5"
     oblivion:
         repo: https://github.com/Globox1997/Oblivion
         name: Oblivion
+        color: "#e8b0bd"
     partyaddon:
         repo: https://github.com/Globox1997/PartyAddon
         name: PartyAddon
+        color: "#e3b5b5"
     patchoulibutton:
         repo: https://github.com/Globox1997/PatchouliButton
         name: PatchouliButton
+        color: "#c3e3b5"
     questz:
         repo: https://github.com/Globox1997/QuestZ
         name: QuestZ
+        color: "#f0dba8"
     reciperemover:
         repo: https://github.com/Globox1997/RecipeRemover
         name: RecipeRemover
+        color: "#b5e3ce"
     revive:
         repo: https://github.com/Globox1997/Revive
         name: Revive
+        color: "#e7b1b4"
     rewardz:
         repo: https://github.com/Globox1997/RewardZ
         name: RewardZ
+        color: "#a8f0a8"
     rpgdifficulty:
         repo: https://github.com/Globox1997/RpgDifficulty
         name: RpgDifficulty
+        color: "#e3c8b5"
     rpgz:
         repo: https://github.com/Globox1997/RpgZ
         name: RpgZ
+        color: "#b5e3ba"
     sitlog:
         repo: https://github.com/Globox1997/SitLog
         name: SitLog
+        color: "#a8eff0"
     smitherz:
         repo: https://github.com/Globox1997/SmitherZ
         name: SmitherZ
+        color: "#e3c4b5"
     spartanweapons:
         repo: https://github.com/Globox1997/SpartanWeapons
         name: SpartanWeapons
+        color: "#aeeae0"
     spoiledz:
         repo: https://github.com/Globox1997/SpoiledZ
         name: SpoiledZ
+        color: "#e3ddb5"
     stamina:
         repo: https://github.com/Globox1997/Stamina
         name: Stamina
+        color: "#f0d1a8"
     talkbubbles:
         repo: https://github.com/Globox1997/TalkBubbles
         name: TalkBubbles
+        color: "#b5bce3"
     tieredz:
         repo: https://github.com/Globox1997/Tiered
         name: TieredZ
+        color: "#acc3ec"
     tooltiprareness:
         repo: https://github.com/Globox1997/TooltipRareness
         name: TooltipRareness
+        color: "#c2e3b5"
     travelerz:
         repo: https://github.com/Globox1997/TravelerZ
         name: TravelerZ
+        color: "#e3d2b5"
     untamed:
         repo: https://github.com/Globox1997/Untamed
         name: Untamed
+        color: "#e3c7b5"
     villagertradefix:
         repo: https://github.com/Globox1997/VillagerTradeFix
         name: VillagerTradeFix
+        color: "#e3d0b5"
     villagerquests:
         repo: https://github.com/Globox1997/VillagerQuests
         name: VillagerQuests
+        color: "#b5e3cf"
     voidz:
         repo: https://github.com/Globox1997/VoidZ
         name: VoidZ
+        color: "#c5aaee"
     welcomescreen:
         repo: https://github.com/Globox1997/WelcomeScreen
         name: WelcomeScreen
+        color: "#e3d2b5"
     aged:
         repo: https://github.com/xR4YM0ND/Aged
         name: Aged
+        color: "#d3e3b5"
     agedlite:
         repo: https://github.com/xR4YM0ND/Aged-Lite
         name: Aged Lite
     rays3drails:
         repo: https://github.com/xR4YM0ND/RAYs-3D-Rails
         name: Rays 3D Rails
+        color: "#e4d2b4"
     rays3dladders:
         repo: https://github.com/xR4YM0ND/RAYs-3D-Ladders
         name: Rays 3D Ladders
+        color: "#e3d0b5"
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -242,8 +291,11 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/splash.js
+  - javascripts/easter.js
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/easter.css
 
 copyright: |
   &copy; 2026 - <a href="https://github.com/Globox1997">Globox_Z</a> - <a href="#__consent">Change Cookie Settings</a>
