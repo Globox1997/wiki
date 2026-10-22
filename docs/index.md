@@ -24,6 +24,14 @@ project: docs
 ---
 <script src="/wiki/javascripts/data.js"></script>
 
+### :material-calendar-star: Item of the Day
+
+<div id="daily-item"></div>
+<script src="/wiki/javascripts/const.js"></script>
+<script src="/wiki/javascripts/daily.js"></script>
+
+---
+
 ### :octicons-repo-16: About me
 
 My name is Micha aka Globox_Z, I am 25 years old and a mechanical engineer student from Germany. In my free time I like to create fabric Minecraft mods, specifically in the rpg and medieval genre. I love the game plus its possibilities, have fun with it and have a good one!
