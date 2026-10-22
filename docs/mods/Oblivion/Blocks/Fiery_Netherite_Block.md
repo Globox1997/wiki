@@ -80,7 +80,7 @@ output[oblivion:fiery_netherite_block, Block of Fiery Netherite ]
 Blocks of fiery netherite can be mined only with a [fiery netherite pickaxe](/wiki/mods/Oblivion/Items/Fiery_Netherite_Pickaxe) or better. If a block of fiery netherite is mined without the use of a pickaxe, it drops nothing.
 
 ## Usage
-Blocks of fiery netherite can be used to store [fiery netherite ingots](/wiki/mods/Oblivion/Items/Fiery_Netherite_ingot) in a compact fashion. 
+Blocks of fiery netherite can be used to store [fiery netherite ingots](/wiki/mods/Oblivion/Items/Fiery_Netherite_Ingot) in a compact fashion. 
 
 #### Crafting
 <div id="crafting-table">

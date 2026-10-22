@@ -42,7 +42,7 @@ summary: farmz item golden potato
 A golden potato is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player).
 
 ## Obtaining
-A golden potato is obtained from golden potato crops, consumed raw or cooked to make [golden baked potatoes](/wiki/mods/FarmZ/Items/Golden_Baked_Potato). 
+A golden potato is obtained from golden potato crops, consumed raw or cooked to make [golden baked potatoes](/wiki/mods/FarmZ/Items/Baked_Golden_Potato). 
 
 ## Usage
 To eat a golden potato, press and hold use while it is selected in the hotbar. Eating one restores <span class="icon-element" icon-count="2" icon-id="hunger"></span> hunger and <span class="icon-element" icon-count="2.4" icon-id="saturation"></span> [saturation](https://minecraft.wiki/w/Hunger#Mechanics).

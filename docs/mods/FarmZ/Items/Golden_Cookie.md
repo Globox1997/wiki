@@ -50,7 +50,7 @@ input[
     5=farmz:golden_cocoa_beans, Golden Cocoa Beans;
     6=farmz:golden_wheat, Golden Wheat
 ]
-output[farmz:golden_Cookie, Golden Cookie ]
+output[farmz:golden_cookie, Golden Cookie ]
 </div>
 </div>
 

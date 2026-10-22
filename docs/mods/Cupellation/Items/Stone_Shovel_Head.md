@@ -47,7 +47,7 @@ output[cupellation:stone_shovel_head, Stone Shovel Head]
 </div>
 
 ## Usage
-The stone shovel head is mainly used to cast a [shovel head mold](/wiki/mods/Cupellation/Items/Shovel_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+The stone shovel head is mainly used to cast a [shovel head mold](/wiki/mods/Cupellation/Items/Shovel_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 #### Crafting
 <div id="crafting-table">

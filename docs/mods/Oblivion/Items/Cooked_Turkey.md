@@ -45,7 +45,7 @@ Cooked turkey is a [food](https://minecraft.wiki/w/Food) [item](https://minecraf
 #### Cooking
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="furnace_smelting">
-    input[ 1=oblivion:turkey, Turkey, oblivion/Items/Turkey, true ]
+    input[ 1=oblivion:turkey, Turkey, Oblivion/Items/Turkey, true ]
     output[oblivion:cooked_turkey, Cooked Turkey]
 </div>
 </div>

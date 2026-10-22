@@ -21,7 +21,7 @@ So for the beginning, warm up at a cozy [fire place](https://minecraft.wiki/w/Ca
 
 ---
 ## Content
-- [Effect List](/wiki/mods/EnvironmentZ/Effect/#list-of-effects)
+- [Effect List](/wiki/mods/EnvironmentZ/Effects/#list-of-effects)
 - [Item List](/wiki/mods/EnvironmentZ/Items/#list-of-items)
 - [Temperature](/wiki/mods/EnvironmentZ/Mechanic/)
 

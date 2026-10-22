@@ -42,7 +42,7 @@ A dragon saddle is an [item](https://minecraft.wiki/w/Item) required to ride [dr
 
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
-input[ 1=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Ork_Skin, true; 2=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Ork_Skin, true; 3=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Ork_Skin, true; 4=iron_nugget, Iron Nugget, https://minecraft.wiki/w/Iron_Nugget; 6=iron_nugget, Iron Nugget, https://minecraft.wiki/w/Iron_Nugget ]
+input[ 1=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Orc_Skin, true; 2=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Orc_Skin, true; 3=adventurez:orc_skin, Orc Skin, AdventureZ/Items/Orc_Skin, true; 4=iron_nugget, Iron Nugget, https://minecraft.wiki/w/Iron_Nugget; 6=iron_nugget, Iron Nugget, https://minecraft.wiki/w/Iron_Nugget ]
 output[adventurez:dragon_saddle, Dragon Saddle]
 </div>
 </div>

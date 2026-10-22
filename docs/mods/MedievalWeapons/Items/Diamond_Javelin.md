@@ -58,7 +58,7 @@ An diamond javelin is an mid to late game [weapon](https://minecraft.wiki/w/Weap
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    1=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    1=diamond, Diamond, https://minecraft.wiki/w/Diamond;
     5=stick, Stick, https://minecraft.wiki/w/Stick;
     9=stick, Stick, https://minecraft.wiki/w/Stick
 ]
@@ -74,9 +74,9 @@ Pressing attack while holding a javelin inflicts damage on both [mobs](https://m
 <div class="crafting-element" crafting-type="smithing">
 input[
     1=netherite_upgrade_smithing_template, Smithing Template, https://minecraft.wiki/w/Netherite_Upgrade; 
-    2=medievalweapons:diamond_javelin, Diamond Javelin, MedievalWeapons/Items/Diamond_javelin, true;
+    2=medievalweapons:diamond_javelin, Diamond Javelin, MedievalWeapons/Items/Diamond_Javelin, true;
     3=netherite_ingot, Netherite Ingot, https://minecraft.wiki/w/Netherite_Ingot
 ]
-output[medievalweapons:netherite_Javelin, Netherite Javelin, MedievalWeapons/Items/Netherite_Javelin, true ]
+output[medievalweapons:netherite_javelin, Netherite Javelin, MedievalWeapons/Items/Netherite_Javelin, true ]
 </div>
 </div>

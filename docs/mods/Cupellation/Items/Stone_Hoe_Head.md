@@ -47,7 +47,7 @@ output[cupellation:stone_hoe_head, Stone Hohe Head]
 </div>
 
 ## Usage
-The stone hoe head is mainly used to cast a [hoe head mold](/wiki/mods/Cupellation/Items/Hoe_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+The stone hoe head is mainly used to cast a [hoe head mold](/wiki/mods/Cupellation/Items/Hoe_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 #### Crafting
 <div id="crafting-table">

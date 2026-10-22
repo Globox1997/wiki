@@ -42,7 +42,7 @@ summary: cupellation item iron sword blade
 The iron sword blade is a castable [item](https://minecraft.wiki/w/Item) at the smelter and can be crafted into a [sword](https://minecraft.wiki/w/Sword).
 
 ## Obtaining
-An iron sword blade can only be obtained by putting a [sword blade mold](/wiki/mods/Cupellation/Items/Sword_Blade_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+An iron sword blade can only be obtained by putting a [sword blade mold](/wiki/mods/Cupellation/Items/Sword_Blade_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
 #### Crafting

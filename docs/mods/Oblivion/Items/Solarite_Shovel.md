@@ -58,7 +58,7 @@ A solarite shovel is an end game [tool](https://minecraft.wiki/w/Tool) used to h
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="smithing">
 input[
-    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/solarite_Upgrade_Smithing_Template, true; 
+    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
     2=oblivion:scarlet_shovel,Scarlet Shovel, Oblivion/Items/Scarlet_Shovel, true; 
     3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true
 ]

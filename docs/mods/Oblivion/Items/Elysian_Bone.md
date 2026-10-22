@@ -39,7 +39,7 @@ Elysian bone is an [item](https://minecraft.wiki/w/Item) used as an ingredient f
 
 ## Obtaining
 #### Loot
-Mobs which belong to the Elysian type like the [eylsian elks](/wiki/mods/Bblivion/Entities/Elysian_Elk) can drop 0 - 2 elysian bones upon death, affected by [looting](https://minecraft.wiki/w/Looting).
+Mobs which belong to the Elysian type like the elysian elks can drop 0 - 2 elysian bones upon death, affected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
 

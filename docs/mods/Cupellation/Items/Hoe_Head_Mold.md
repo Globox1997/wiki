@@ -42,7 +42,7 @@ summary: cupellation item hoe head mold
 The hoe Head mold is a mold which is used to cast a [hoe](https://minecraft.wiki/w/Hoe) at the smelter.
 
 ## Obtaining
-A hoe Head mold can only be obtained by putting a hoe head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A hoe Head mold can only be obtained by putting a hoe head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-A hoe Head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain a casted [hoe](https://minecraft.wiki/w/Hoe).
+A hoe Head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain a casted [hoe](https://minecraft.wiki/w/Hoe).

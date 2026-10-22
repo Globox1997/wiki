@@ -44,7 +44,7 @@ The handbook is an [item](https://minecraft.wiki/w/Item) which contains informat
 input[
     4=book, Book, https://minecraft.wiki/w/Book; 
     5=ender_eye, Ender Eye, https://minecraft.wiki/w/Ender_Eye; 
-    6=adventurez:orc_skin, Ork Skin, AdventureZ/Items/Ork_Skin, true
+    6=adventurez:orc_skin, Ork Skin, AdventureZ/Items/Orc_Skin, true
 ]
 output[adventurez:handbook, Handbook ]
 </div>

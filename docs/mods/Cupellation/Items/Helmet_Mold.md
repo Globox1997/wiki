@@ -42,7 +42,7 @@ summary: cupellation item helmet mold
 The helmet mold is a mold which is used to cast [helmets](https://minecraft.wiki/w/Helmet) at the smelter.
 
 ## Obtaining
-A helmet mold can only be obtained by putting a [helmet](https://minecraft.wiki/w/Helmet) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A helmet mold can only be obtained by putting a [helmet](https://minecraft.wiki/w/Helmet) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-A helmet mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [helmets](https://minecraft.wiki/w/Helmet).
+A helmet mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [helmets](https://minecraft.wiki/w/Helmet).

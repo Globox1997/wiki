@@ -75,7 +75,7 @@ A scarlet chestplate can be worn in the chest slot of the [inventory](https://mi
 <div class="crafting-element" crafting-type="smithing">
 input[
     1=oblivion:solarite_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
-    2=oblivion:scarlet_chestplate,Scarlet Chestplate, Oblivion/Items/Scarlet_Netherite_Chestplate, true; 
+    2=oblivion:scarlet_chestplate,Scarlet Chestplate, Oblivion/Items/Scarlet_Chestplate, true; 
     3=oblivion:solarite_ingot, Scarlet Ingot, Oblivion/Items/Solarite_Ingot, true
 ]
 output[oblivion:solarite_chestplate, Solarite Chestplate ]

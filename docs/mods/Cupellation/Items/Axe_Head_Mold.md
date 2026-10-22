@@ -42,7 +42,7 @@ summary: cupellation item axe head mold
 The axe head mold is a mold which is used to cast [Axes](https://minecraft.wiki/w/Axe) at the smelter.
 
 ## Obtaining
-An axe head mold can only be obtained by putting an axe head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+An axe head mold can only be obtained by putting an axe head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-An axe head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [Axes](https://minecraft.wiki/w/Axe).
+An axe head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [Axes](https://minecraft.wiki/w/Axe).

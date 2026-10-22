@@ -39,14 +39,14 @@ The rune wood stick is an [item](https://minecraft.wiki/w/Item) used to craft se
 
 ## Obtaining
 #### Loot
-The rune wood stick is dropped by [rune wood leaves](/wiki/mods/Oblivion/Blocks/Rune_Wood_Leaves).
+The rune wood stick is dropped by rune wood leaves.
 
 #### Crafting
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    5=rune_wood_planks, Rune Wood Planks, Oblivion/Blocks/Rune_Wood_Planks, true;
-    8=rune_wood_planks, Rune Wood Planks, Oblivion/Blocks/Rune_Wood_Planks, true
+    5=oblivion:rune_wood_planks, Rune Wood Planks;
+    8=oblivion:rune_wood_planks, Rune Wood Planks
 ]
 output[oblivion:rune_wood_stick, Rune Wood Stick ]
 </div>
@@ -60,8 +60,8 @@ input[
     1=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
     2=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
     4=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
-    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true;
-    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true
+    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true;
+    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true
 ]
 output[oblivion:solarite_axe, Solarite Axe ]
 </div>
@@ -69,8 +69,8 @@ output[oblivion:solarite_axe, Solarite Axe ]
 input[
     1=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
     2=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
-    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true;
-    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true
+    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true;
+    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true
 ]
 output[oblivion:solarite_hoe, Solarite Hoe ]
 </div>
@@ -79,16 +79,16 @@ input[
     1=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
     2=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
     3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
-    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true;
-    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true
+    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true;
+    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true
 ]
 output[oblivion:solarite_pickaxe, Solarite Pickaxe ]
 </div>
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
     2=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
-    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true;
-    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true
+    5=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true;
+    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true
 ]
 output[oblivion:solarite_shovel, Solarite Shovel ]
 </div>
@@ -96,7 +96,7 @@ output[oblivion:solarite_shovel, Solarite Shovel ]
 input[
     2=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
     5=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true;
-    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/rune_Wood_Stick, true
+    8=oblivion:rune_wood_stick, Rune Wood Stick, Oblivion/Items/Rune_Wood_Stick, true
 ]
 output[oblivion:solarite_sword, Solarite Sword ]
 </div>

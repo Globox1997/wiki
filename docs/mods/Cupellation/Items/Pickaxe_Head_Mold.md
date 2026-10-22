@@ -42,7 +42,7 @@ summary: cupellation item pickaxe head mold
 The pickaxe head mold is a mold which is used to cast [pickaxes](https://minecraft.wiki/w/Pickaxe) at the smelter.
 
 ## Obtaining
-A pickaxe head mold can only be obtained by putting a pickaxe head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A pickaxe head mold can only be obtained by putting a pickaxe head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-A pickaxe head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [pickaxes](https://minecraft.wiki/w/Pickaxe).
+A pickaxe head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [pickaxes](https://minecraft.wiki/w/Pickaxe).

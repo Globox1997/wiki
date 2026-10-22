@@ -58,7 +58,7 @@ A solarite sword is an end game melee [weapon](https://minecraft.wiki/w/Weapon) 
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="smithing">
 input[
-    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/solarite_Upgrade_Smithing_Template, true; 
+    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
     2=oblivion:scarlet_sword,Scarlet Sword, Oblivion/Items/Scarlet_Sword, true; 
     3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true
 ]

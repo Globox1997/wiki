@@ -42,7 +42,7 @@ summary: cupellation item netherite shovel head
 The netherite shovel head is a castable [item](https://minecraft.wiki/w/Item) at the smelter and can be crafted into a [shovel](https://minecraft.wiki/w/Shovel).
 
 ## Obtaining
-A netherite shovel head can only be obtained by putting a [shovel head mold](/wiki/mods/Cupellation/Items/Shovel_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A netherite shovel head can only be obtained by putting a [shovel head mold](/wiki/mods/Cupellation/Items/Shovel_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
 #### Crafting

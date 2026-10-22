@@ -42,7 +42,7 @@ summary: cupellation item boots mold
 The boots mold is a mold which is used to cast [boots](https://minecraft.wiki/w/Boots) at the smelter.
 
 ## Obtaining
-A boots mold can only be obtained by putting [boots](https://minecraft.wiki/w/Boots) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A boots mold can only be obtained by putting [boots](https://minecraft.wiki/w/Boots) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-A boots mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [boots](https://minecraft.wiki/w/Boots).
+A boots mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [boots](https://minecraft.wiki/w/Boots).

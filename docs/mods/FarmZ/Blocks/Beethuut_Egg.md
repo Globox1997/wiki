@@ -55,7 +55,7 @@ summary: farmz block beethuut bgg
 </div>
 
 ## Description
-The beethuut egg block will hatch a [Beethuut](/wiki/mods/farmz/Entities/Beethuut).
+The beethuut egg block will hatch a [Beethuut](/wiki/mods/FarmZ/Entities/Beethuut).
 
 ## Obtaining
 The beethuut egg block will get generated when an [egg](https://minecraft.wiki/w/Egg) is placed inside a [farmland](https://minecraft.wiki/w/Block) and [beetroot seeds](https://minecraft.wiki/w/Beetroot_Seeds) are planted ontop. At the final state of the [beetroot plant](https://minecraft.wiki/w/Beetroot) the beethuut egg will appear. It can get broken to hatch the egg elsewhere but only placed on [dirt](https://minecraft.wiki/w/Dirt) like [blocks](https://minecraft.wiki/w/Block).

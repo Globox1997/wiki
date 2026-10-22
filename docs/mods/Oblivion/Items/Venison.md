@@ -39,12 +39,12 @@ summary: oblivion item venison
 </div>
 
 ## Description
-Venison is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player) or cooked to make [cooked venison](/wiki/mods/Oblivion/Items/Cooked_Fenison).
+Venison is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player) or cooked to make [cooked venison](/wiki/mods/Oblivion/Items/Cooked_Venison).
 
 
 ## Obtaining
 #### Loot
-[Elks](/wiki/mods/Oblivion/Entities/Elk) drop 1 - 3 venison, affected by [looting](https://minecraft.wiki/w/Looting).
+Elks drop 1 - 3 venison, affected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
 To eat venison, press and hold use while it is selected in the hotbar. Eating one restores <span class="icon-element" icon-count="3" icon-id="hunger"></span> hunger and <span class="icon-element" icon-count="3.6" icon-id="saturation"></span> [saturation](https://minecraft.wiki/w/Hunger#Mechanics).

@@ -45,7 +45,7 @@ Cooked boar meat is a [food](https://minecraft.wiki/w/Food) [item](https://minec
 #### Cooking
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="furnace_smelting">
-    input[ 1=oblivion:boar_meat, Boar Meat, oblivion/Items/Boar_Meat, true ]
+    input[ 1=oblivion:boar_meat, Boar Meat, Oblivion/Items/Boar_Meat, true ]
     output[oblivion:cooked_boar_meat, Cooked Boar Meat]
 </div>
 </div>

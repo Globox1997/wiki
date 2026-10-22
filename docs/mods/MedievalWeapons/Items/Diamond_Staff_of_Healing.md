@@ -58,9 +58,9 @@ An diamond staff of healing is an mid to late game [weapon](https://minecraft.wi
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    3=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    3=diamond, Diamond, https://minecraft.wiki/w/Diamond;
     5=stick, Stick, https://minecraft.wiki/w/Stick;
-    7=Diamond, Diamond, https://minecraft.wiki/w/Diamond
+    7=diamond, Diamond, https://minecraft.wiki/w/Diamond
 ]
 output[medievalweapons:diamond_healing_staff, Diamond Staff of Healing]
 </div>

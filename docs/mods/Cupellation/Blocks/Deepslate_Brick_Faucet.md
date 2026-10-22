@@ -73,4 +73,4 @@ output[cupellation:deepslate_brick_faucet, Deepslate Brick Faucet]
 </div>
 
 ## Usage
-If a faucet is placed on a [drains](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Drain) output side and a [casting basin](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Basin) or a [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Table) (including a mold or moldable on the table) is one or two blocks below the faucet and the smelter has enough material to cast, right click the faucet to start the casting process.
+If a faucet is placed on a [drains](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Drain) output side and a [casting basin](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Basin) or a [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) (including a mold or moldable on the table) is one or two blocks below the faucet and the smelter has enough material to cast, right click the faucet to start the casting process.

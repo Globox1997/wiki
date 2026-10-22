@@ -47,7 +47,7 @@ output[cupellation:stone_axe_head, Stone Axe Head]
 </div>
 
 ## Usage
-The stone axe head is mainly used to cast an [axe head mold](/wiki/mods/Cupellation/Items/Axe_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+The stone axe head is mainly used to cast an [axe head mold](/wiki/mods/Cupellation/Items/Axe_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 #### Crafting
 <div id="crafting-table">

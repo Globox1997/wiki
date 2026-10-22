@@ -44,7 +44,7 @@ Turkey is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/
 
 ## Obtaining
 #### Loot
-[Turkeys](/wiki/mods/Oblivion/Entities/Turkey) drop 1 - 2 turkey, affected by [looting](https://minecraft.wiki/w/Looting).
+Turkeys drop 1 - 2 turkey, affected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
 To eat turkey, press and hold use while it is selected in the hotbar. Eating one restores <span class="icon-element" icon-count="3" icon-id="hunger"></span> hunger and <span class="icon-element" icon-count="3.6" icon-id="saturation"></span> [saturation](https://minecraft.wiki/w/Hunger#Mechanics).

@@ -62,11 +62,11 @@ An diamond longsword is an mid to late game [weapon](https://minecraft.wiki/w/We
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    3=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
-    4=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
-    5=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    3=diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    4=diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    5=diamond, Diamond, https://minecraft.wiki/w/Diamond;
     7=stick, Stick, https://minecraft.wiki/w/Stick;
-    8=Diamond, Diamond, https://minecraft.wiki/w/Diamond
+    8=diamond, Diamond, https://minecraft.wiki/w/Diamond
 ]
 output[medievalweapons:diamond_long_sword, Diamond Longsword]
 </div>

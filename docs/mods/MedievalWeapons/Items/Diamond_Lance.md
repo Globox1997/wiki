@@ -58,7 +58,7 @@ An diamond lance is an mid to late game [weapon](https://minecraft.wiki/w/Weapon
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    3=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    3=diamond, Diamond, https://minecraft.wiki/w/Diamond;
     4=stick, Stick, https://minecraft.wiki/w/Stick;
     5=stick, Stick, https://minecraft.wiki/w/Stick;
     7=stick, Stick, https://minecraft.wiki/w/Stick;

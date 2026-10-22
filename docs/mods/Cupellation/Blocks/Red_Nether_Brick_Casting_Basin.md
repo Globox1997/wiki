@@ -75,4 +75,4 @@ output[cupellation:red_nether_brick_casting_basin, Red Nether Brick Casting Basi
 </div>
 
 ## Usage
-A red nether brick casting basin can be filled if a [faucet](/wiki/mods/Cupellation/Blocks/Red_Nether_Brick_Brick_Faucet) is one or two blocks above the basin. If enough material is inside the smelter, right click the faucet to start filling the basin.
+A red nether brick casting basin can be filled if a [faucet](/wiki/mods/Cupellation/Blocks/Red_Nether_Brick_Faucet) is one or two blocks above the basin. If enough material is inside the smelter, right click the faucet to start filling the basin.

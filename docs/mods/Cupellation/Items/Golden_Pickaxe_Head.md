@@ -42,7 +42,7 @@ summary: cupellation item golden pickaxe head
 The golden pickaxe head is a castable [item](https://minecraft.wiki/w/Item) at the smelter and can be crafted into a [pickaxe](https://minecraft.wiki/w/Pickaxe).
 
 ## Obtaining
-A golden pickaxe head can only be obtained by putting a [pickaxe head mold](/wiki/mods/Cupellation/Items/Pickaxe_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A golden pickaxe head can only be obtained by putting a [pickaxe head mold](/wiki/mods/Cupellation/Items/Pickaxe_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
 #### Crafting

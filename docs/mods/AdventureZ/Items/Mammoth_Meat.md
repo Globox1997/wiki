@@ -39,7 +39,7 @@ summary: adventurez item mammoth meat
 </div>
 
 ## Description
-Mammoth meat is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player) or cooked to make a [cooked mammoth meat](/wiki/mods/AdventureZ/Items/Cooked_mammoth_meat).
+Mammoth meat is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player) or cooked to make a [cooked mammoth meat](/wiki/mods/AdventureZ/Items/Cooked_Mammoth_Meat).
 
 ## Obtaining
 #### Loot

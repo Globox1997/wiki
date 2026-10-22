@@ -38,7 +38,7 @@ summary: earlystage item water brick bucket
 A water brick bucket is a [bucket](https://minecraft.wiki/w/Bucket) filled with [water](https://minecraft.wiki/w/Water).
 
 ## Obtaining
-To fill an empty [brick bucket](/wiki/mods/earlystage/Items/Brick_Bucket) with [water](https://minecraft.wiki/w/Water), use it on a [water](https://minecraft.wiki/w/Water) source block. Flowing [water](https://minecraft.wiki/w/Water) does not fill a [brick bucket](/wiki/mods/earlystage/Items/Brick_Bucket).
+To fill an empty [brick bucket](/wiki/mods/EarlyStage/Items/Brick_Bucket) with [water](https://minecraft.wiki/w/Water), use it on a [water](https://minecraft.wiki/w/Water) source block. Flowing [water](https://minecraft.wiki/w/Water) does not fill a [brick bucket](/wiki/mods/EarlyStage/Items/Brick_Bucket).
 
 ## Usage
-Using a water brick bucket on a solid [block](https://minecraft.wiki/w/Block) places a [water](https://minecraft.wiki/w/Water) source block against that [block](https://minecraft.wiki/w/Block), emptying the [brick bucket](/wiki/mods/earlystage/Items/Brick_Bucket) in the process.
+Using a water brick bucket on a solid [block](https://minecraft.wiki/w/Block) places a [water](https://minecraft.wiki/w/Water) source block against that [block](https://minecraft.wiki/w/Block), emptying the [brick bucket](/wiki/mods/EarlyStage/Items/Brick_Bucket) in the process.

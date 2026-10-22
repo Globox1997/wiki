@@ -42,7 +42,7 @@ summary: cupellation item chestplate mold
 The chestplate mold is a mold which is used to cast [chestplates](https://minecraft.wiki/w/Chestplate) at the smelter.
 
 ## Obtaining
-A chestplate mold can only be obtained by putting a [chestplate](https://minecraft.wiki/w/Chestplate) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A chestplate mold can only be obtained by putting a [chestplate](https://minecraft.wiki/w/Chestplate) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-A chestplate mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [chestplates](https://minecraft.wiki/w/Chestplate).
+A chestplate mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [chestplates](https://minecraft.wiki/w/Chestplate).

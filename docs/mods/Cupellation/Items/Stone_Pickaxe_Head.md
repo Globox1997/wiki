@@ -47,7 +47,7 @@ output[cupellation:stone_pickaxe_head, Stone Pickaxe Head]
 </div>
 
 ## Usage
-The stone pickaxe head is mainly used to cast a [pickaxe head mold](/wiki/mods/Cupellation/Items/Pickaxe_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+The stone pickaxe head is mainly used to cast a [pickaxe head mold](/wiki/mods/Cupellation/Items/Pickaxe_Head_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 #### Crafting
 <div id="crafting-table">

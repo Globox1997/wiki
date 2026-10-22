@@ -47,7 +47,7 @@ output[cupellation:stone_sword_blade, Stone Sword Blade]
 </div>
 
 ## Usage
-The stone sword blade is mainly used to cast a [sword blade mold](/wiki/mods/Cupellation/Items/Sword_Blade_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+The stone sword blade is mainly used to cast a [sword blade mold](/wiki/mods/Cupellation/Items/Sword_Blade_Mold) by putting it on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 #### Crafting
 <div id="crafting-table">

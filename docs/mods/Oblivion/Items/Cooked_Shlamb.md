@@ -45,7 +45,7 @@ Cooked shlamb is a [food](https://minecraft.wiki/w/Food) [item](https://minecraf
 #### Cooking
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="furnace_smelting">
-    input[ 1=oblivion:shlamb, shlamb, oblivion/Items/Shlamb, true ]
+    input[ 1=oblivion:shlamb, shlamb, Oblivion/Items/Shlamb, true ]
     output[oblivion:cooked_shlamb, Cooked shlamb]
 </div>
 </div>

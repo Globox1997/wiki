@@ -42,7 +42,7 @@ summary: cupellation item netherite hoe head
 The netherite hoe head is a castable [item](https://minecraft.wiki/w/Item) at the smelter and can be crafted into a [hoe](https://minecraft.wiki/w/Hoe).
 
 ## Obtaining
-A netherite hoe head can only be obtained by putting an [hoe head mold](/wiki/mods/Cupellation/Items/Hoe_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A netherite hoe head can only be obtained by putting an [hoe head mold](/wiki/mods/Cupellation/Items/Hoe_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
 #### Crafting

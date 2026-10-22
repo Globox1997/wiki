@@ -76,7 +76,7 @@ Attacking a [boat](https://minecraft.wiki/w/Boat) or a [minecart](https://minecr
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="smithing">
 input[
-    1=oblivion:scarlet_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/scarlet_Upgrade_Smithing_Template, true; 
+    1=oblivion:scarlet_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Scarlet_Upgrade_Smithing_Template, true; 
     2=oblivion:fiery_netherite_sword,Fiery Netherite Sword, Oblivion/Items/Fiery_Netherite_Sword, true; 
     3=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true
 ]

@@ -42,7 +42,7 @@ summary: cupellation item ingot mold
 The ingot mold is a mold which is used to cast [ingots](https://minecraft.wiki/w/Ingot) at the smelter.
 
 ## Obtaining
-An ingot mold can only be obtained by putting an [ingot](https://minecraft.wiki/w/Ingot) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+An ingot mold can only be obtained by putting an [ingot](https://minecraft.wiki/w/Ingot) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-An ingot mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [ingots](https://minecraft.wiki/w/Ingot).
+An ingot mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [ingots](https://minecraft.wiki/w/Ingot).

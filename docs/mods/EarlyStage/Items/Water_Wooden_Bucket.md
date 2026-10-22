@@ -38,7 +38,7 @@ summary: earlystage item water wooden bucket
 A water wooden bucket is a [bucket](https://minecraft.wiki/w/Bucket) filled with [water](https://minecraft.wiki/w/Water).
 
 ## Obtaining
-To fill an empty [wooden bucket](/wiki/mods/earlystage/Items/Wooden_Bucket) with [water](https://minecraft.wiki/w/Water), use it on a [water](https://minecraft.wiki/w/Water) source block. Flowing [water](https://minecraft.wiki/w/Water) does not fill a [wooden bucket](/wiki/mods/earlystage/Items/Wooden_Bucket).
+To fill an empty [wooden bucket](/wiki/mods/EarlyStage/Items/Wooden_Bucket) with [water](https://minecraft.wiki/w/Water), use it on a [water](https://minecraft.wiki/w/Water) source block. Flowing [water](https://minecraft.wiki/w/Water) does not fill a [wooden bucket](/wiki/mods/EarlyStage/Items/Wooden_Bucket).
 
 ## Usage
-Using a water wooden bucket on a solid [block](https://minecraft.wiki/w/Block) places a [water](https://minecraft.wiki/w/Water) source block against that [block](https://minecraft.wiki/w/Block), consuming the [wooden bucket](/wiki/mods/earlystage/Items/Wooden_Bucket) in the process.
+Using a water wooden bucket on a solid [block](https://minecraft.wiki/w/Block) places a [water](https://minecraft.wiki/w/Water) source block against that [block](https://minecraft.wiki/w/Block), consuming the [wooden bucket](/wiki/mods/EarlyStage/Items/Wooden_Bucket) in the process.

@@ -46,7 +46,7 @@ input[
     5=leather, Leather, https://minecraft.wiki/w/Leather;
     9=spartanweapons:dark_oak_stick, Dark Oak Stick, SpartanWeapons/Items/Dark_Oak_Stick, true
 ]
-output[spartanweapons:dark oak_pole, Dark Oak Pole ]
+output[spartanweapons:dark_oak_pole, Dark Oak Pole ]
 </div>
 </div>
 

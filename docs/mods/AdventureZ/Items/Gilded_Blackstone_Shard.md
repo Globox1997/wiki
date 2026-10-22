@@ -35,7 +35,7 @@ summary: adventurez item gilded blackstone shard
 </div>
 
 ## Description
-The gilded blackstone shard is an [item](https://minecraft.wiki/w/Item) used in the [chiseled polished blackstone holder](/wiki/mods/AdventureZ/Blocks/Stone_holder) to summon the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem). Unlike other [items](https://minecraft.wiki/w/Item), it is immune to [fire](https://minecraft.wiki/w/Fire) and [lava](https://minecraft.wiki/w/Lava) but are still destroyed by [cactus](https://minecraft.wiki/w/Cactus).
+The gilded blackstone shard is an [item](https://minecraft.wiki/w/Item) used in the [chiseled polished blackstone holder](/wiki/mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder) to summon the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem). Unlike other [items](https://minecraft.wiki/w/Item), it is immune to [fire](https://minecraft.wiki/w/Fire) and [lava](https://minecraft.wiki/w/Lava) but are still destroyed by [cactus](https://minecraft.wiki/w/Cactus).
 
 ## Obtaining
 #### Loot
@@ -43,4 +43,4 @@ Gilded blackstone shards can be found in various loot chests in the [bastion rem
 The [piglin brute](https://minecraft.wiki/w/Piglin_Brute) can drop 0 - 1 gilded blackstone shards upon death, unaffected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
-Gilded blackstone shards is mainly used to put in the [chiseled polished blackstone holder](/wiki/mods/AdventureZ/Blocks/Stone_holder) to summon the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem). It can be thrown with right click and has a 12.5% chance to spawn a [silverfish](https://minecraft.wiki/w/Silverfish) on impact but when thrown on the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem) it will damage the golem and give it [weakness](https://minecraft.wiki/w/Weakness) for 30 seconds `(Config Default: Disabled)`.
+Gilded blackstone shards is mainly used to put in the [chiseled polished blackstone holder](/wiki/mods/AdventureZ/Blocks/Chiseled_Polished_Blackstone_Holder) to summon the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem). It can be thrown with right click and has a 12.5% chance to spawn a [silverfish](https://minecraft.wiki/w/Silverfish) on impact but when thrown on the [blackstone golem](/wiki/mods/AdventureZ/Entities/Blackstone_Golem) it will damage the golem and give it [weakness](https://minecraft.wiki/w/Weakness) for 30 seconds `(Config Default: Disabled)`.

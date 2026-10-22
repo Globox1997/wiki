@@ -42,7 +42,7 @@ summary: cupellation item shovel head mold
 The shovel head mold is a mold which is used to cast [shovels](https://minecraft.wiki/w/Shovel) at the smelter.
 
 ## Obtaining
-A shovel head mold can only be obtained by putting a shovel head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A shovel head mold can only be obtained by putting a shovel head on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-A shovel head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [shovels](https://minecraft.wiki/w/Shovel).
+A shovel head mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [shovels](https://minecraft.wiki/w/Shovel).

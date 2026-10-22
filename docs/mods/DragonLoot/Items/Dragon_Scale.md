@@ -50,7 +50,7 @@ Use the dragon scale to [upgrade](https://minecraft.wiki/w/Smithing#Upgrading) [
 input[
     1=netherite_upgrade_smithing_template, Smithing Template, https://minecraft.wiki/w/Netherite_Upgrade; 
     2=netherite_helmet,Netherite Helmet, https://minecraft.wiki/w/Helmet#Netherite; 
-    3=dragonloot:dragon_scale, Dragon Scale, dragonloot/Items/dragon_scale, true
+    3=dragonloot:dragon_scale, Dragon Scale, DragonLoot/Items/Dragon_Scale, true
 ]
 output[dragonloot:dragon_helmet, Dragon Helmet ]
 </div>
@@ -58,7 +58,7 @@ output[dragonloot:dragon_helmet, Dragon Helmet ]
 input[
     1=netherite_upgrade_smithing_template, Smithing Template, https://minecraft.wiki/w/Netherite_Upgrade; 
     2=netherite_chestplate,Netherite Chestplate, https://minecraft.wiki/w/Chestplate#Netherite; 
-    3=dragonloot:dragon_scale, Dragon Scale, dragonloot/Items/dragon_scale, true
+    3=dragonloot:dragon_scale, Dragon Scale, DragonLoot/Items/Dragon_Scale, true
 ]
 output[dragonloot:dragon_chestplate, Dragon Chestplate ]
 </div>
@@ -74,7 +74,7 @@ output[dragonloot:upgraded_dragon_chestplate, Winged Dragon Scale Chestplate ]
 input[
     1=netherite_upgrade_smithing_template, Smithing Template, https://minecraft.wiki/w/Netherite_Upgrade; 
     2=netherite_leggings,Netherite Leggings, https://minecraft.wiki/w/Leggings#Netherite; 
-    3=dragonloot:dragon_scale, Dragon Scale, dragonloot/Items/dragon_scale, true
+    3=dragonloot:dragon_scale, Dragon Scale, DragonLoot/Items/Dragon_Scale, true
 ]
 output[dragonloot:dragon_leggings, Dragon Leggings ]
 </div>
@@ -82,7 +82,7 @@ output[dragonloot:dragon_leggings, Dragon Leggings ]
 input[
     1=netherite_upgrade_smithing_template, Smithing Template, https://minecraft.wiki/w/Netherite_Upgrade; 
     2=netherite_boots,Netherite Boots, https://minecraft.wiki/w/Boots#Netherite; 
-    3=dragonloot:dragon_scale, Dragon Scale, dragonloot/Items/dragon_scale, true
+    3=dragonloot:dragon_scale, Dragon Scale, DragonLoot/Items/Dragon_Scale, true
 ]
 output[dragonloot:dragon_boots, Dragon Boots ]
 </div>

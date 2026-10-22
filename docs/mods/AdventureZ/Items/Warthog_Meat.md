@@ -39,7 +39,7 @@ summary: adventurez item warthog meat
 </div>
 
 ## Description
-Warthog meat is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player) or cooked to make a [cooked warthog meat](/wiki/mods/AdventureZ/Items/Cooked_warthog_meat).
+Warthog meat is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/w/Item) that can be eaten by the [player](https://minecraft.wiki/w/Player) or cooked to make a [cooked warthog meat](/wiki/mods/AdventureZ/Items/Cooked_Warthog_Meat).
 
 ## Obtaining
 #### Loot

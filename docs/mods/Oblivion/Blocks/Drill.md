@@ -55,7 +55,7 @@ summary: oblivion block drill
 </div>
 
 ## Description
-The drill block is a tool block to drill certain ores like the [block of raw fiery netherite](/wiki/mods/Oblivion/Blocks/Raw_Fiery_Netherite_Block) and will output multiple raw ores.
+The drill block is a tool block to drill certain ores like the block of raw fiery netherite and will output multiple raw ores.
 
 ## Obtaining
 #### Crafting

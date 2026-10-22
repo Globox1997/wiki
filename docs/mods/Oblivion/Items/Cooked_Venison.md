@@ -45,7 +45,7 @@ Cooked venison is a [food](https://minecraft.wiki/w/Food) [item](https://minecra
 #### Cooking
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="furnace_smelting">
-    input[ 1=oblivion:venison, Venison, oblivion/Items/Venison, true ]
+    input[ 1=oblivion:venison, Venison, Oblivion/Items/Venison, true ]
     output[oblivion:cooked_venison, Cooked Venison]
 </div>
 </div>

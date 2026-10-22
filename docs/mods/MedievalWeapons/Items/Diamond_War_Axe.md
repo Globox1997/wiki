@@ -62,12 +62,12 @@ An diamond war axe is an mid to late game [weapon](https://minecraft.wiki/w/Weap
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    2=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    2=diamond, Diamond, https://minecraft.wiki/w/Diamond;
     3=stick, Stick, https://minecraft.wiki/w/Stick;
     5=stick, Stick, https://minecraft.wiki/w/Stick;
-    6=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    6=diamond, Diamond, https://minecraft.wiki/w/Diamond;
     7=stick, Stick, https://minecraft.wiki/w/Stick;
-    8=Diamond, Diamond, https://minecraft.wiki/w/Diamond
+    8=diamond, Diamond, https://minecraft.wiki/w/Diamond
 ]
 output[medievalweapons:diamond_big_axe, Diamond War Axe]
 </div>

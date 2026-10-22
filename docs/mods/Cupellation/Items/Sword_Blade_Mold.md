@@ -12,7 +12,7 @@ summary: cupellation item sword blade mold
             <td class="first-column">ID</td>
             <td class="second-column">
             ```
-            cupellation:shovel_blade_mold
+            cupellation:sword_blade_mold
             ```
             </td>
         </tr>
@@ -35,14 +35,14 @@ summary: cupellation item sword blade mold
     </tbody>
 </table>
 </div>
-    <img src="/wiki/assets/cupellation/items/shovel_blade_mold.png" loading="lazy" class="right_img_table"/>
+    <img src="/wiki/assets/cupellation/items/sword_blade_mold.png" loading="lazy" class="right_img_table"/>
 </div>
 
 ## Description
 The sword blade mold is a mold which is used to cast [swords](https://minecraft.wiki/w/Sword) at the smelter.
 
 ## Obtaining
-A sword blade mold can only be obtained by putting a sword blade on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+A sword blade mold can only be obtained by putting a sword blade on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
-A sword blade mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and filled up with material to obtain casted [swords](https://minecraft.wiki/w/Sword).
+A sword blade mold can be put on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and filled up with material to obtain casted [swords](https://minecraft.wiki/w/Sword).

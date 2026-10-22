@@ -55,7 +55,7 @@ summary: dungeonz block dungeon portal
 </div>
 
 ## Description
-The dungeon portal block is a [block](https://minecraft.wiki/w/Block) generated inside a dungeon entrance, like in the [temple dungeon entrance](/wiki/mods/dungeonz/Structures/Temple_Dungeon_Structure) or [dark dungeon entrance](/wiki/mods/dungeonz/Structures/Dark_Dungeon_Structure). It will teleport [players](https://minecraft.wiki/w/Player) between the dungeon and the [Overworld](https://minecraft.wiki/w/Overworld)
+The dungeon portal block is a [block](https://minecraft.wiki/w/Block) generated inside a dungeon entrance, like in the [temple dungeon entrance](/wiki/mods/DungeonZ/Structures/Temple_Dungeon_Structure) or [dark dungeon entrance](/wiki/mods/DungeonZ/Structures/Dark_Dungeon_Structure). It will teleport [players](https://minecraft.wiki/w/Player) between the dungeon and the [Overworld](https://minecraft.wiki/w/Overworld)
 
 ## Obtaining
 The dungeon portal block cannot be obtained as an [item](https://minecraft.wiki/w/Item) only by using the /give [command](https://minecraft.wiki/w/Commands), in [Creative mode](https://minecraft.wiki/w/Creative) by taking it from Creative inventory or by using pick block

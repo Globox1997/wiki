@@ -24,7 +24,7 @@ MedievalWeapons adds [weapons](https://minecraft.wiki/w/Weapon) from the series 
 
 ---
 ## Content
-- [Effect List](/wiki/mods/MedievalWeapons/Effect/#list-of-effects)
+- [Effect List](/wiki/mods/MedievalWeapons/Effects/#list-of-effects)
 - [Item List](/wiki/mods/MedievalWeapons/Items/#list-of-items)
 
 ---

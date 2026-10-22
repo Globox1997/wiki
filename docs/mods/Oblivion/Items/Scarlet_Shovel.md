@@ -58,7 +58,7 @@ A scarlet shovel is an end game [tool](https://minecraft.wiki/w/Tool) used to ha
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="smithing">
 input[
-    1=oblivion:scarlet_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/scarlet_Upgrade_Smithing_Template, true; 
+    1=oblivion:scarlet_upgrade_smithing_template,Scarlet Upgrade Smithing Template, Oblivion/Items/Scarlet_Upgrade_Smithing_Template, true; 
     2=oblivion:fiery_netherite_shovel,Fiery Netherite Shovel, Oblivion/Items/Fiery_Netherite_Shovel, true; 
     3=oblivion:scarlet_ingot, Scarlet Ingot, Oblivion/Items/Scarlet_Ingot, true
 ]
@@ -84,7 +84,7 @@ A shovel can be used to create a [dirt path](https://minecraft.wiki/w/Dirt_Path)
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="smithing">
 input[
-    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/solarite_Upgrade_Smithing_Template, true; 
+    1=oblivion:solarite_upgrade_smithing_template,Solarite Upgrade Smithing Template, Oblivion/Items/Solarite_Upgrade_Smithing_Template, true; 
     2=oblivion:scarlet_shovel,Scarlet Shovel, Oblivion/Items/Scarlet_Shovel, true; 
     3=oblivion:solarite_ingot, Solarite Ingot, Oblivion/Items/Solarite_Ingot, true
 ]

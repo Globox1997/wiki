@@ -38,7 +38,7 @@ summary: earlystage item lava brick bucket
 A lava brick bucket is a [bucket](https://minecraft.wiki/w/Bucket) filled with [lava](https://minecraft.wiki/w/Lava).
 
 ## Obtaining
-To fill an empty [brick bucket](/wiki/mods/earlystage/Items/Brick_Bucket) with [lava](https://minecraft.wiki/w/Lava), use it on a [lava](https://minecraft.wiki/w/Lava) source block. Flowing [lava](https://minecraft.wiki/w/Lava) does not fill a [brick bucket](/wiki/mods/earlystage/Items/Brick_Bucket).
+To fill an empty [brick bucket](/wiki/mods/EarlyStage/Items/Brick_Bucket) with [lava](https://minecraft.wiki/w/Lava), use it on a [lava](https://minecraft.wiki/w/Lava) source block. Flowing [lava](https://minecraft.wiki/w/Lava) does not fill a [brick bucket](/wiki/mods/EarlyStage/Items/Brick_Bucket).
 
 ## Usage
-Using a lava brick bucket on a solid [block](https://minecraft.wiki/w/Block) places a [lava](https://minecraft.wiki/w/Lava) source block against that [block](https://minecraft.wiki/w/Block), consuming the [brick bucket](/wiki/mods/earlystage/Items/Brick_Bucket) in the process.
+Using a lava brick bucket on a solid [block](https://minecraft.wiki/w/Block) places a [lava](https://minecraft.wiki/w/Lava) source block against that [block](https://minecraft.wiki/w/Block), consuming the [brick bucket](/wiki/mods/EarlyStage/Items/Brick_Bucket) in the process.

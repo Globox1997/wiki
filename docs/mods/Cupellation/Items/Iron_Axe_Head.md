@@ -42,7 +42,7 @@ summary: cupellation item iron axe head
 The iron axe head is a castable [item](https://minecraft.wiki/w/Item) at the smelter and can be crafted into an [axe](https://minecraft.wiki/w/Axe).
 
 ## Obtaining
-An iron axe head can only be obtained by putting an [axe head mold](/wiki/mods/Cupellation/Items/Axe_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Casting_Table) and casting material around it.
+An iron axe head can only be obtained by putting an [axe head mold](/wiki/mods/Cupellation/Items/Axe_Head_Mold) on the [casting table](/wiki/mods/Cupellation/Blocks/Deepslate_Brick_Casting_Table) and casting material around it.
 
 ## Usage
 #### Crafting

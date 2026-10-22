@@ -39,14 +39,14 @@ The iron wood stick is an [item](https://minecraft.wiki/w/Item) used to craft se
 
 ## Obtaining
 #### Loot
-The iron wood stick is dropped by [rune wood leaves](/wiki/mods/Oblivion/Blocks/Iron_Wood_Leaves).
+The iron wood stick is dropped by iron wood leaves.
 
 #### Crafting
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    5=iron_wood_planks, Iron Wood Planks, Oblivion/Blocks/Iron_Wood_Planks, true;
-    8=iron_wood_planks, Iron Wood Planks, Oblivion/Blocks/Iron_Wood_Planks, true
+    5=oblivion:iron_wood_planks, Iron Wood Planks;
+    8=oblivion:iron_wood_planks, Iron Wood Planks
 ]
 output[oblivion:iron_wood_stick, Iron Wood Stick ]
 </div>

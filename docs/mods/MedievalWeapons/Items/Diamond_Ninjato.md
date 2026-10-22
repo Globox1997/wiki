@@ -58,8 +58,8 @@ An diamond ninjato is an mid to late game [weapon](https://minecraft.wiki/w/Weap
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    2=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
-    4=Diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    2=diamond, Diamond, https://minecraft.wiki/w/Diamond;
+    4=diamond, Diamond, https://minecraft.wiki/w/Diamond;
     7=stick, Stick, https://minecraft.wiki/w/Stick
 ]
 output[medievalweapons:diamond_ninjato, Diamond Ninjato]

@@ -39,14 +39,14 @@ The dark oak stick is an [item](https://minecraft.wiki/w/Item) used to craft sev
 
 ## Obtaining
 #### Loot
-The dark oak stick is dropped by [dark oak leaves](https://minecraft.wiki/w/dark oak_Leaves).
+The dark oak stick is dropped by [dark oak leaves](https://minecraft.wiki/w/Dark_Oak_Leaves).
 
 #### Crafting
 <div id="crafting-table">
 <div class="crafting-element" crafting-type="vanilla_crafting">
 input[
-    5=dark oak_planks, Dark Oak Planks, https://minecraft.wiki/w/Dark_Oak_Planks;
-    8=dark oak_planks, Dark Oak Planks, https://minecraft.wiki/w/Dark_Oak_Planks
+    5=dark_oak_planks, Dark Oak Planks, https://minecraft.wiki/w/Dark_Oak_Planks;
+    8=dark_oak_planks, Dark Oak Planks, https://minecraft.wiki/w/Dark_Oak_Planks
 ]
 output[spartanweapons:dark_oak_stick, Dark Oak Stick ]
 </div>

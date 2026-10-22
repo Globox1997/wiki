@@ -44,7 +44,7 @@ Boar meat is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wi
 
 ## Obtaining
 #### Loot
-[Boars](/wiki/mods/Oblivion/Entities/Boar) drop 1 - 3 boar meat, affected by [looting](https://minecraft.wiki/w/Looting).
+Boars drop 1 - 3 boar meat, affected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
 To eat boar meat, press and hold use while it is selected in the hotbar. Eating one restores <span class="icon-element" icon-count="3" icon-id="hunger"></span> hunger and <span class="icon-element" icon-count="3.6" icon-id="saturation"></span> [saturation](https://minecraft.wiki/w/Hunger#Mechanics).

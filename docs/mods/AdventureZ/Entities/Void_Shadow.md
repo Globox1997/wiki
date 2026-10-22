@@ -34,7 +34,7 @@ summary: adventurez entity void shadow boss
         </tr>
         <tr id="linear-top">
             <td class="first-column">Spawn</td>
-            <td class="second-column">Spawns in the <a href="/wiki/mods/VoidZ/Dimensions/Void">void</a></td>
+            <td class="second-column">Spawns in the <a href="/wiki/mods/VoidZ/Dimension/">void</a></td>
         </tr>
         <tr id="linear-top">
             <td class="first-column">Drops</td>

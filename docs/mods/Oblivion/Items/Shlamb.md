@@ -44,7 +44,7 @@ Shlamb is a [food](https://minecraft.wiki/w/Food) [item](https://minecraft.wiki/
 
 ## Obtaining
 #### Loot
-[Shlamas](/wiki/mods/Oblivion/Entities/Shlama) drop 1 - 2 shlamb, affected by [looting](https://minecraft.wiki/w/Looting).
+Shlamas drop 1 - 2 shlamb, affected by [looting](https://minecraft.wiki/w/Looting).
 
 ## Usage
 To eat shlamb, press and hold use while it is selected in the hotbar. Eating one restores <span class="icon-element" icon-count="3" icon-id="hunger"></span> hunger and <span class="icon-element" icon-count="3.6" icon-id="saturation"></span> [saturation](https://minecraft.wiki/w/Hunger#Mechanics).
