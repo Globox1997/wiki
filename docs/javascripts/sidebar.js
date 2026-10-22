@@ -152,19 +152,7 @@ async function sidebar() {
         project.textContent = modid;
 
         project.addEventListener("click", function (event) {
-
-            var textarea = document.createElement("textarea");
-            // this won't work since copy requires on screen
-            //    textarea.style.display = "none";
-            textarea.style.position = "absolute";
-            textarea.style.left = "-9999px";
-            textarea.value = modid;
-            document.body.appendChild(textarea);
-            textarea.select();
-
-            try {
-                document.execCommand("copy");
-
+            navigator.clipboard.writeText(modid).then(() => {
                 var copied = document.createElement("div");
                 copied.textContent = 'Copied';
                 copied.classList.add('tooltip');
@@ -175,12 +163,11 @@ async function sidebar() {
                 project.style.cursor = "default";
                 setTimeout(function () {
                     project.style.cursor = "pointer";
-                    document.body.removeChild(copied);
-                    document.body.removeChild(textarea);
+                    copied.remove();
                 }, 1000);
-            } catch (err) {
+            }).catch(err => {
                 console.error("Unable to copy text to clipboard:", err);
-            }
+            });
         });
 
         projectId.appendChild(projectIdText);
@@ -230,9 +217,10 @@ async function sidebar() {
         issuesCount.className = 'md-nav__link';
         issuesCount.classList.add('sidebar');
         issuesCount.textContent = repositoryData['open_issues'] ?? '-';
-        // html_url comes from manual.js and covers repos owned by other accounts
-        const repositoryUrl = repositoryData['html_url'] ?? 'https://github.com/Globox1997/' + modid;
-        issuesCount.href = repositoryUrl + '/issues';
+        const repositoryUrl = document.querySelector('meta[name="project-repo"]')?.content || repositoryData['html_url'];
+        if (repositoryUrl) {
+            issuesCount.href = repositoryUrl.replace(/\/$/, '') + '/issues';
+        }
 
         issues.appendChild(issuesText);
         issues.appendChild(issuesCount);
@@ -314,7 +302,7 @@ async function changelog() {
 
             var changelogText = "";
 
-            Object.entries(changelogData).forEach(([version, releaseNotes]) => {
+            Object.entries(changelogData).sort(([a], [b]) => b.localeCompare(a, undefined, { numeric: true })).forEach(([version, releaseNotes]) => {
                 let processText = marked.parse(releaseNotes);
                 processText = "<details><summary>" + version + "</summary>" + processText + "</details>"
                 changelogText = changelogText + processText;
