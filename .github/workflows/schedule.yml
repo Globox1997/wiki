@@ -42,8 +42,12 @@ jobs:
           git add ./docs/data/modrinth_collected.json
           git add ./docs/data/curseforge_collected.json
           git add ./docs/data/discord_collected.json
-          git commit -m "Update collected.json"
-          git push origin main
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Update collected.json"
+            git push origin main
+          fi
 
   deploy:
     needs: build
