@@ -110,148 +110,155 @@ function recipeLink(url, isWikiPage) {
 }
 
 function crafting() {
-    if (document.getElementsByClassName('crafting-element').length > 0) {
-        const elements = document.getElementsByClassName('crafting-element');
-        for (let i = 0; i < elements.length; i++) {
-            const element = elements[i];
-
-            var type = element.getAttribute('crafting-type');
-            const recipePositions = recipePositionMap.get(type);
-
-            const mainDiv = document.createElement('div');
-            mainDiv.style.position = 'relative';
-            mainDiv.style.width = recipePositions.get('size')[0] + 'px';
-            mainDiv.style.height = recipePositions.get('size')[1] + 'px';
-
-            const backgrounDiv = document.createElement('div');
-            backgrounDiv.style.position = 'absolute';
-            const background = document.createElement('img');
-            background.src = '/wiki/assets/general/recipe/' + type + '_background.png';
-            background.alt = '';
-            backgrounDiv.appendChild(background);
-            mainDiv.appendChild(backgrounDiv);
-
-            const ingredientData = [];
-            // Ingredients
-            const ingredients = element.textContent.substring(element.textContent.indexOf('input[') + 6, element.textContent.indexOf(']')).split(";");
-            for (let u = 0; u < ingredients.length; u++) {
-                const ingredient = ingredients[u].split('=');
-
-                ingredient[1] = ingredient[1].split(',');
-                ingredient[1][0] = replaceAll(ingredient[1][0], ' ', '');
-
-                var isDamaged = false;
-                if (ingredient[1][0].startsWith('damaged_') || ingredient[1][0].includes('damaged_')) {
-                    ingredient[1][0] = ingredient[1][0].replace('damaged_', '');
-                    isDamaged = true;
-                }
-
-                if (ingredient[1][0].includes(':')) {
-                    ingredient[1][0] = ingredient[1][0].replace(':', '/');
-                } else {
-                    ingredient[1][0] = 'vanilla/' + ingredient[1][0];
-                }
-                const ingredientName = ingredient[1][1].trim();
-                if (!ingredientData.includes(ingredientName)) {
-                    ingredientData.push(ingredientName)
-                    ingredientData.push(recipeLink(ingredient[1][2], ingredient[1][3]))
-                }
-
-                const div = document.createElement('div');
-                div.style.position = 'absolute';
-                div.style.width = '32px';
-                div.style.height = '32px';
-                div.style.left = recipePositions.get(parseInt(ingredient[0]))[0] + 'px';
-                div.style.top = recipePositions.get(parseInt(ingredient[0]))[1] + 'px';
-
-                const item = document.createElement('img');
-                item.src = '/wiki/assets/general/items/' + ingredient[1][0] + '.png';
-                item.alt = '';
-                // prints still error message :/
-                item.onerror = function () {
-                    try {
-                        if (!item.src.includes('blocks')) {
-                            item.src = '/wiki/assets/general/blocks/' + ingredient[1][0] + '.png';
-                        } else if (!item.src.includes('missing')) {
-                            item.src = '/wiki/assets/general/items/vanilla/missing.png';
-                        }
-                    }
-                    catch (error) {
-                    }
-                    return true;
-                };
-                item.style.display = 'inline-block';
-                div.appendChild(item);
-
-                if (ingredient[1].length >= 3) {
-                    tooltip(item, ingredient[1][1], recipeLink(ingredient[1][2], ingredient[1][3]), false);
-                } else if (ingredient[1].length == 2) {
-                    tooltip(item, ingredient[1][1], null, null);
-                }
-
-                if (isDamaged) {
-                    const damaged = document.createElement('img');
-                    damaged.src = '/wiki/assets/general/items/misc/damaged.png';
-                    damaged.alt = '';
-                    damaged.style.position = 'absolute';
-                    damaged.style.left = 0;
-                    damaged.style.top = 0;
-                    damaged.style.pointerEvents = 'none';
-                    div.appendChild(damaged);
-                }
-                mainDiv.appendChild(div);
-            }
-
-            // Output
-            var output = element.textContent.substring(element.textContent.indexOf('output[') + 7, element.textContent.lastIndexOf(']')).split(',');
-            output[0] = replaceAll(output[0], ' ', '');
-
-            if (output[0].includes(':')) {
-                output[0] = output[0].replace(':', '/');
-            } else {
-                output[0] = 'vanilla/' + output[0];
-            }
-            const div = document.createElement('div');
-            div.style.position = 'absolute';
-            div.style.width = '32px';
-            div.style.height = '32px';
-            div.style.left = recipePositions.get('output')[0] + 'px';
-            div.style.top = recipePositions.get('output')[1] + 'px';
-
-            const item = document.createElement('img');
-            const currentOutputName = output[0];
-            item.src = '/wiki/assets/general/items/' + currentOutputName + '.png';
-            item.alt = '';
-            item.onerror = function () {
-                try {
-                    if (!item.src.includes('blocks')) {
-                        item.src = '/wiki/assets/general/blocks/' + currentOutputName + '.png';
-                    } else if (!item.src.includes('missing')) {
-                        item.src = '/wiki/assets/general/items/vanilla/missing.png';
-                    }
-                } catch (error) {
-                }
-                return true;
-            };
-
-            if (output.length >= 3) {
-                tooltip(item, output[1], recipeLink(output[2], output[3]), false);
-            } else if (output.length == 2) {
-                tooltip(item, output[1], null, null);
-            }
-            div.appendChild(item);
-            mainDiv.appendChild(div);
-            element.data = ingredientData;
-            if (element.textContent.indexOf('description="') === -1) {
-                element.description = "-";
-            } else {
-                element.description = element.textContent.substring(element.textContent.indexOf('description="') + 13, element.textContent.lastIndexOf('"'));
-            }
-
-            element.textContent = "";
-            element.appendChild(mainDiv);
+    const elements = document.getElementsByClassName('crafting-element');
+    for (let i = 0; i < elements.length; i++) {
+        try {
+            renderRecipe(elements[i]);
+        } catch (error) {
+            console.error('Could not render recipe:', error);
+            elements[i].data = [];
+            elements[i].description = '-';
+            elements[i].textContent = 'Recipe could not be displayed';
         }
     }
+}
+
+function renderRecipe(element) {
+    var type = element.getAttribute('crafting-type');
+    const recipePositions = recipePositionMap.get(type);
+
+    const mainDiv = document.createElement('div');
+    mainDiv.style.position = 'relative';
+    mainDiv.style.width = recipePositions.get('size')[0] + 'px';
+    mainDiv.style.height = recipePositions.get('size')[1] + 'px';
+
+    const backgrounDiv = document.createElement('div');
+    backgrounDiv.style.position = 'absolute';
+    const background = document.createElement('img');
+    background.src = '/wiki/assets/general/recipe/' + type + '_background.png';
+    background.alt = '';
+    backgrounDiv.appendChild(background);
+    mainDiv.appendChild(backgrounDiv);
+
+    const ingredientData = [];
+    // Ingredients
+    const ingredients = element.textContent.substring(element.textContent.indexOf('input[') + 6, element.textContent.indexOf(']')).split(";");
+    for (let u = 0; u < ingredients.length; u++) {
+        const ingredient = ingredients[u].split('=');
+
+        ingredient[1] = ingredient[1].split(',');
+        ingredient[1][0] = replaceAll(ingredient[1][0], ' ', '');
+
+        var isDamaged = false;
+        if (ingredient[1][0].startsWith('damaged_') || ingredient[1][0].includes('damaged_')) {
+            ingredient[1][0] = ingredient[1][0].replace('damaged_', '');
+            isDamaged = true;
+        }
+
+        if (ingredient[1][0].includes(':')) {
+            ingredient[1][0] = ingredient[1][0].replace(':', '/');
+        } else {
+            ingredient[1][0] = 'vanilla/' + ingredient[1][0];
+        }
+        const ingredientName = ingredient[1][1].trim();
+        if (!ingredientData.includes(ingredientName)) {
+            ingredientData.push(ingredientName)
+            ingredientData.push(recipeLink(ingredient[1][2], ingredient[1][3]))
+        }
+
+        const div = document.createElement('div');
+        div.style.position = 'absolute';
+        div.style.width = '32px';
+        div.style.height = '32px';
+        div.style.left = recipePositions.get(parseInt(ingredient[0]))[0] + 'px';
+        div.style.top = recipePositions.get(parseInt(ingredient[0]))[1] + 'px';
+
+        const item = document.createElement('img');
+        item.src = '/wiki/assets/general/items/' + ingredient[1][0] + '.png';
+        item.alt = '';
+        // prints still error message :/
+        item.onerror = function () {
+            try {
+                if (!item.src.includes('blocks')) {
+                    item.src = '/wiki/assets/general/blocks/' + ingredient[1][0] + '.png';
+                } else if (!item.src.includes('missing')) {
+                    item.src = '/wiki/assets/general/items/vanilla/missing.png';
+                }
+            }
+            catch (error) {
+            }
+            return true;
+        };
+        item.style.display = 'inline-block';
+        div.appendChild(item);
+
+        if (ingredient[1].length >= 3) {
+            tooltip(item, ingredient[1][1], recipeLink(ingredient[1][2], ingredient[1][3]), false);
+        } else if (ingredient[1].length == 2) {
+            tooltip(item, ingredient[1][1], null, null);
+        }
+
+        if (isDamaged) {
+            const damaged = document.createElement('img');
+            damaged.src = '/wiki/assets/general/items/misc/damaged.png';
+            damaged.alt = '';
+            damaged.style.position = 'absolute';
+            damaged.style.left = 0;
+            damaged.style.top = 0;
+            damaged.style.pointerEvents = 'none';
+            div.appendChild(damaged);
+        }
+        mainDiv.appendChild(div);
+    }
+
+    // Output
+    var output = element.textContent.substring(element.textContent.indexOf('output[') + 7, element.textContent.lastIndexOf(']')).split(',');
+    output[0] = replaceAll(output[0], ' ', '');
+
+    if (output[0].includes(':')) {
+        output[0] = output[0].replace(':', '/');
+    } else {
+        output[0] = 'vanilla/' + output[0];
+    }
+    const div = document.createElement('div');
+    div.style.position = 'absolute';
+    div.style.width = '32px';
+    div.style.height = '32px';
+    div.style.left = recipePositions.get('output')[0] + 'px';
+    div.style.top = recipePositions.get('output')[1] + 'px';
+
+    const item = document.createElement('img');
+    const currentOutputName = output[0];
+    item.src = '/wiki/assets/general/items/' + currentOutputName + '.png';
+    item.alt = '';
+    item.onerror = function () {
+        try {
+            if (!item.src.includes('blocks')) {
+                item.src = '/wiki/assets/general/blocks/' + currentOutputName + '.png';
+            } else if (!item.src.includes('missing')) {
+                item.src = '/wiki/assets/general/items/vanilla/missing.png';
+            }
+        } catch (error) {
+        }
+        return true;
+    };
+
+    if (output.length >= 3) {
+        tooltip(item, output[1], recipeLink(output[2], output[3]), false);
+    } else if (output.length == 2) {
+        tooltip(item, output[1], null, null);
+    }
+    div.appendChild(item);
+    mainDiv.appendChild(div);
+    element.data = ingredientData;
+    if (element.textContent.indexOf('description="') === -1) {
+        element.description = "-";
+    } else {
+        element.description = element.textContent.substring(element.textContent.indexOf('description="') + 13, element.textContent.lastIndexOf('"'));
+    }
+
+    element.textContent = "";
+    element.appendChild(mainDiv);
 }
 
 // armor, experience, heart, hunger, melee, projectile, saturation, thirst, explosion, melee_speed
