@@ -1,26 +1,9 @@
 const CURSEFORGE_KEY = String(process.env.CURSEFORGE_API_KEY);
 const DISCORD_TOKEN = String(process.env.DISCORD_TOKEN);
 
-let completedOperations = 0;
-
-var modrinthProjectDownloadsMap = new Map();
-var modrinthTotalDownloadCount = 0;
-
-fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
-    headers: {
-        'User-Agent': 'Globox1997/Globox_Z Wiki'
-    }
-}).then(response => response.json()).then(data => {
-    data.reduce((acc, obj) => {
-        modrinthProjectDownloadsMap.set(obj.slug, obj.downloads);
-        modrinthTotalDownloadCount += obj.downloads;
-    }, 0);
-}).then(data => {
-    modrinthProjectDownloadsMap.set('total', modrinthTotalDownloadCount);
-    writeFile(modrinthProjectDownloadsMap, "modrinth");
-}).catch(error => {
-    console.error('Error:', error);
-});
+const fs = require('fs').promises;
+const path = require('path');
+const Discord = require('discord.js');
 
 const inputBody = {
     "modIds": [
@@ -28,78 +11,111 @@ const inputBody = {
     ]
 };
 
-var curseforgeProjectDownloadsMap = new Map();
-var curseforgeTotalDownloadCount = 0;
+const DISCORD_GUILD_ID = '745451299713056791';
+const DISCORD_TIMEOUT_MS = 60 * 1000;
 
-fetch('https://api.curseforge.com/v1/mods', {
-    method: 'POST',
-    body: JSON.stringify(inputBody),
-    headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-        'x-api-key': CURSEFORGE_KEY
+async function fetchJson(url, options) {
+    const response = await fetch(url, options);
+    if (!response.ok) {
+        throw new Error('Request to ' + url + ' failed: ' + response.status + ' ' + response.statusText);
     }
-}).then(response => response.json()).then(data => {
-    data.data.reduce((acc, obj) => {
-        curseforgeProjectDownloadsMap.set(obj.slug, obj.downloadCount);
-        curseforgeTotalDownloadCount += obj.downloadCount;
-    }, 0);
-}).then(data => {
-    curseforgeProjectDownloadsMap.set('total', curseforgeTotalDownloadCount);
-    writeFile(curseforgeProjectDownloadsMap, "curseforge");
-}).catch(error => {
-    console.error('Error:', error);
-});
+    return response.json();
+}
 
-discordProjectDownloadsMap = new Map();
-
-const Discord = require('discord.js');
-const client = new Discord.Client({
-    intents: [
-        Discord.GatewayIntentBits.Guilds
-    ]
-})
-
-client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}`);
-
-    const guildId = '745451299713056791';
-    const guild = client.guilds.cache.get(guildId);
-
-    if (guild) {
-        discordProjectDownloadsMap.set('total', guild.memberCount);
-        writeFile(discordProjectDownloadsMap, "discord");
-    } else {
-        console.log('Guild not found');
-    }
-});
-
-client.login(DISCORD_TOKEN);
-
-function writeFile(data, platform) {
-    const fs = require('fs');
-    const path = require('path');
-
-    const filePath = path.join(__dirname, '../data/' + platform + '_collected.json');
-
-    const plainObject = Object.fromEntries(data);
-    const jsonString = JSON.stringify(plainObject);
-
-    fs.writeFile(filePath, jsonString, 'utf8', (err) => {
-        if (err) {
-            console.error('Error writing to JSON file:', err);
-            stopScript();
-        } else {
-            console.log('JSON file ' + platform + '_collected has been overwritten successfully.');
-        }
-        completedOperations++;
-        if (completedOperations === 3) {
-            stopScript();
+async function collectModrinth() {
+    const data = await fetchJson('https://api.modrinth.com/v2/user/Globox1997/projects', {
+        headers: {
+            'User-Agent': 'Globox1997/Globox_Z Wiki'
         }
     });
+
+    const modrinthProjectDownloadsMap = new Map();
+    let modrinthTotalDownloadCount = 0;
+    data.forEach(obj => {
+        modrinthProjectDownloadsMap.set(obj.slug, obj.downloads);
+        modrinthTotalDownloadCount += obj.downloads;
+    });
+    modrinthProjectDownloadsMap.set('total', modrinthTotalDownloadCount);
+    await writeFile(modrinthProjectDownloadsMap, "modrinth");
 }
 
-function stopScript() {
-    client.destroy();
-    process.exit();
+async function collectCurseforge() {
+    const data = await fetchJson('https://api.curseforge.com/v1/mods', {
+        method: 'POST',
+        body: JSON.stringify(inputBody),
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'x-api-key': CURSEFORGE_KEY
+        }
+    });
+
+    const curseforgeProjectDownloadsMap = new Map();
+    let curseforgeTotalDownloadCount = 0;
+    data.data.forEach(obj => {
+        curseforgeProjectDownloadsMap.set(obj.slug, obj.downloadCount);
+        curseforgeTotalDownloadCount += obj.downloadCount;
+    });
+    curseforgeProjectDownloadsMap.set('total', curseforgeTotalDownloadCount);
+    await writeFile(curseforgeProjectDownloadsMap, "curseforge");
 }
+
+async function collectDiscord() {
+    const client = new Discord.Client({
+        intents: [
+            Discord.GatewayIntentBits.Guilds
+        ]
+    });
+
+    try {
+        const memberCount = await new Promise((resolve, reject) => {
+            const timeout = setTimeout(() => reject(new Error('Discord login timed out')), DISCORD_TIMEOUT_MS);
+
+            client.once('ready', () => {
+                clearTimeout(timeout);
+                console.log(`Logged in as ${client.user.tag}`);
+
+                const guild = client.guilds.cache.get(DISCORD_GUILD_ID);
+                if (guild) {
+                    resolve(guild.memberCount);
+                } else {
+                    reject(new Error('Guild not found'));
+                }
+            });
+
+            client.login(DISCORD_TOKEN).catch(error => {
+                clearTimeout(timeout);
+                reject(error);
+            });
+        });
+
+        await writeFile(new Map([['total', memberCount]]), "discord");
+    } finally {
+        client.destroy();
+    }
+}
+
+async function writeFile(data, platform) {
+    const filePath = path.join(__dirname, '../data/' + platform + '_collected.json');
+    const jsonString = JSON.stringify(Object.fromEntries(data));
+
+    await fs.writeFile(filePath, jsonString, 'utf8');
+    console.log('JSON file ' + platform + '_collected has been overwritten successfully.');
+}
+
+async function main() {
+    const sources = { modrinth: collectModrinth, curseforge: collectCurseforge, discord: collectDiscord };
+    const names = Object.keys(sources);
+
+    const results = await Promise.allSettled(names.map(name => sources[name]()));
+
+    results.forEach((result, i) => {
+        if (result.status === 'rejected') {
+            console.log(`::warning::Could not update ${names[i]} data: ${result.reason?.message ?? result.reason}`);
+        }
+    });
+
+    process.exit(results.every(result => result.status === 'rejected') ? 1 : 0);
+}
+
+main();
