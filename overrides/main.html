@@ -10,5 +10,8 @@
         {% else %}
             <meta content="{{ project_meta.name + ' Documentation ' }}" property="og:description">
         {% endif %}
+        {% if project_meta and project_meta.repo %}
+            <meta name="project-repo" content="{{ project_meta.repo }}">
+        {% endif %}
     {% endif %}
 {% endblock %}
