@@ -1,7 +1,10 @@
 name: manual
 
-on: 
+on:
   workflow_dispatch
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -30,5 +33,15 @@ jobs:
         run: |
           git config --global user.name "Globox1997"
           git add ./docs/data/repository_collected.json
-          git commit -m "Update collected.json"
-          git push origin main
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Update collected.json"
+            git push origin main
+          fi
+
+  deploy:
+    needs: build
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: write
