@@ -112,7 +112,7 @@ async function sidebar() {
         createdText.style.width = '40%';
 
         created.classList.add('sidebar');
-        created.textContent = repositoryData['created_at'];
+        created.textContent = repositoryData['created_at'] ?? '-';
         created.style.textAlign = 'left'
 
         createdDate.appendChild(createdText);
@@ -130,7 +130,7 @@ async function sidebar() {
         updatedText.style.width = '40%';
 
         updated.classList.add('sidebar');
-        updated.textContent = repositoryData['updated_at'];
+        updated.textContent = repositoryData['updated_at'] ?? '-';
         updated.style.textAlign = 'left'
 
         updatedDate.appendChild(updatedText);
@@ -199,14 +199,20 @@ async function sidebar() {
 
         licenseLink.className = 'md-nav__link';
         licenseLink.classList.add('sidebar');
-        licenseLink.textContent = repositoryData['license'];
-        if (repositoryData['license'].includes('GPL')) {
-            licenseLink.href = 'https://www.gnu.org/licenses/gpl-3.0.html';
+        const licenseId = repositoryData['license'];
+        if (licenseId && licenseId !== 'NONE' && licenseId !== 'NOASSERTION') {
+            licenseLink.textContent = licenseId;
+            if (licenseId.startsWith('GPL-3.0')) {
+                licenseLink.href = 'https://www.gnu.org/licenses/gpl-3.0.html';
+            } else if (licenseId === 'MIT') {
+                licenseLink.href = 'https://opensource.org/license/mit/';
+            } else {
+                licenseLink.href = 'https://spdx.org/licenses/' + licenseId + '.html';
+            }
+            licenseLink.target = '_blank';
+        } else {
+            licenseLink.textContent = 'None';
         }
-        else {
-            licenseLink.href = 'https://opensource.org/license/mit/';
-        }
-        licenseLink.target = '_blank';
         license.appendChild(licenseText);
         license.appendChild(licenseLink);
 
@@ -223,8 +229,10 @@ async function sidebar() {
 
         issuesCount.className = 'md-nav__link';
         issuesCount.classList.add('sidebar');
-        issuesCount.textContent = repositoryData['open_issues'];
-        issuesCount.href = 'https://github.com/Globox1997/' + modid + '/issues';
+        issuesCount.textContent = repositoryData['open_issues'] ?? '-';
+        // html_url comes from manual.js and covers repos owned by other accounts
+        const repositoryUrl = repositoryData['html_url'] ?? 'https://github.com/Globox1997/' + modid;
+        issuesCount.href = repositoryUrl + '/issues';
 
         issues.appendChild(issuesText);
         issues.appendChild(issuesCount);
@@ -244,13 +252,13 @@ async function sidebar() {
         versionSpan.style.flexDirection = 'column';
 
         versions.appendChild(versionText);
-        const gameVersions = repositoryData['game_versions'];
+        const gameVersions = repositoryData['game_versions'] ?? [];
         const versionElement = [];
         for (let i = gameVersions.length - 1; i >= 0; i--) {
             let specific = document.createElement("a");
             specific.className = 'md-nav__link';
             specific.classList.add('sidebar');
-            specific.href = 'https://www.curseforge.com/minecraft/mc-mods/' + modid + '/files?version=' + gameVersions[i];
+            specific.href = 'https://www.curseforge.com/minecraft/mc-mods/' + newModId + '/files?version=' + gameVersions[i];
             // specific.target = '_blank';
             specific.textContent = gameVersions[i];
             specific.style.marginBottom = '0.8em';
@@ -288,8 +296,10 @@ async function sidebar() {
         newDiv.appendChild(versions);
 
         var parentDiv = document.querySelector(".md-nav.md-nav--secondary");
-        var firstChild = parentDiv.firstChild;
-        parentDiv.insertBefore(newDiv, firstChild);
+        if (parentDiv !== null) {
+            parentDiv.insertBefore(newDiv, parentDiv.firstChild);
+            startCountUp(newDiv.getElementsByClassName('count-up-element'));
+        }
 
     }
 }
@@ -300,7 +310,7 @@ async function changelog() {
 
         const changelogData = await getRepositoryData('changelog', modid);
 
-        if (changelogData !== undefined) {
+        if (changelogData !== undefined && typeof marked !== 'undefined') {
 
             var changelogText = "";
 
