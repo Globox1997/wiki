@@ -84,12 +84,25 @@ async function dailyItem() {
     const description = document.createElement('p');
     description.className = 'daily-item-description';
 
+    const golden = Math.random() < 0.01 || (typeof wikiEgg === 'function' && wikiEgg('golden'));
+    if (golden) {
+        card.classList.add('daily-item--golden');
+        const badge = document.createElement('div');
+        badge.className = 'daily-item-golden-badge';
+        badge.textContent = '✨ Lucky you! Golden item ✨';
+        text.appendChild(badge);
+    }
+
     text.appendChild(name);
     text.appendChild(mod);
     text.appendChild(description);
     card.appendChild(render);
     card.appendChild(text);
     container.appendChild(card);
+
+    if (golden && typeof showAdvancement === 'function') {
+        showAdvancement({ text: 'Lucky Day', icon: render.src });
+    }
 
     try {
         const response = await fetch(item.href);
