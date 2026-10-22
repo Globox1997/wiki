@@ -9,6 +9,14 @@ let score = 0;
 let total = 0;
 let placedCount = 0;
 
+const TIMED_SECONDS = 60;
+const BEST_KEY = 'quiz-best-timed';
+let quizMode = 'classic';
+let quizLocked = false;
+let timerId = null;
+let timeLeft = 0;
+let roundId = 0;
+
 function initQuiz() {
     const container = document.getElementById('quiz-container');
     if (!container) {
@@ -18,8 +26,107 @@ function initQuiz() {
     if (objectsPool.length < 3) {
         return;
     }
+    document.getElementById('quiz-mode-classic')?.addEventListener('click', startClassic);
+    document.getElementById('quiz-mode-timed')?.addEventListener('click', startTimed);
+    updateBestDisplay();
+    startClassic();
+}
+
+function resetQuiz(mode) {
+    clearInterval(timerId);
+    timerId = null;
+    quizMode = mode;
+    quizLocked = false;
+    score = 0;
+    total = 0;
+    document.getElementById('quiz-result').hidden = true;
+    document.getElementById('quiz-timer').hidden = mode !== 'timed';
+    document.getElementById('quiz-mode-classic').classList.toggle('md-button--primary', mode === 'classic');
+    document.getElementById('quiz-mode-timed').classList.toggle('md-button--primary', mode === 'timed');
     updateScoreDisplay();
+}
+
+function startClassic() {
+    resetQuiz('classic');
     newRound();
+}
+
+function startTimed() {
+    resetQuiz('timed');
+    timeLeft = TIMED_SECONDS;
+    updateTimerDisplay();
+    timerId = setInterval(() => {
+        timeLeft--;
+        updateTimerDisplay();
+        if (timeLeft <= 0) {
+            endTimed();
+        }
+    }, 1000);
+    newRound();
+}
+
+function endTimed() {
+    clearInterval(timerId);
+    timerId = null;
+    quizLocked = true;
+    roundId++;
+
+    const best = readBest();
+    const isBest = score > best;
+    if (isBest) {
+        writeBest(score);
+        updateBestDisplay();
+    }
+
+    document.getElementById('quiz-objects').innerHTML = '';
+    document.getElementById('quiz-mods').innerHTML = '';
+
+    const result = document.getElementById('quiz-result');
+    result.textContent = '';
+    const headline = document.createElement('div');
+    headline.className = 'quiz-result-headline';
+    headline.textContent = score === 42 ? 'The answer to everything!' : isBest ? 'New personal best!' : 'Time\'s up!';
+    const details = document.createElement('div');
+    const accuracy = total > 0 ? Math.round(score / total * 100) : 0;
+    details.textContent = score + ' correct in ' + TIMED_SECONDS + ' seconds (' + accuracy + '% accuracy)';
+    const again = document.createElement('button');
+    again.className = 'md-button md-button--primary';
+    again.textContent = 'Play again';
+    again.addEventListener('click', startTimed);
+    result.appendChild(headline);
+    result.appendChild(details);
+    result.appendChild(again);
+    result.hidden = false;
+}
+
+function updateTimerDisplay() {
+    const timeEl = document.getElementById('quiz-time-value');
+    if (timeEl) {
+        timeEl.textContent = timeLeft;
+        timeEl.parentElement.classList.toggle('quiz-timer-low', timeLeft <= 10);
+    }
+}
+
+function readBest() {
+    try {
+        return parseInt(localStorage.getItem(BEST_KEY)) || 0;
+    } catch (error) {
+        return 0;
+    }
+}
+
+function writeBest(value) {
+    try {
+        localStorage.setItem(BEST_KEY, value);
+    } catch (error) {
+    }
+}
+
+function updateBestDisplay() {
+    const bestEl = document.getElementById('quiz-best-value');
+    if (bestEl) {
+        bestEl.textContent = readBest();
+    }
 }
 
 function collectObjects() {
@@ -83,6 +190,10 @@ function pickRandom(arr, n) {
 }
 
 function newRound() {
+    if (quizLocked) {
+        return;
+    }
+    roundId++;
     placedCount = 0;
 
     const byMod = {};
@@ -158,7 +269,7 @@ function makeDraggable(wrapper, obj) {
     let clone = null;
 
     img.addEventListener('pointerdown', (e) => {
-        if (wrapper.classList.contains('quiz-solved')) {
+        if (wrapper.classList.contains('quiz-solved') || quizLocked) {
             return;
         }
         dragging = true;
@@ -216,11 +327,17 @@ function makeDraggable(wrapper, obj) {
 }
 
 function handleDrop(wrapper, obj, modTarget, x, y) {
+    if (quizLocked) {
+        return;
+    }
     total++;
     const correct = modTarget.dataset.modUrl.toLowerCase() === obj.modId.toLowerCase();
 
     if (correct) {
         score++;
+        if (score === 42 && typeof showAdvancement === 'function') {
+            showAdvancement({ title: 'Challenge Complete!', text: 'The answer to everything!', kind: 'challenge' });
+        }
         spawnSparks(x, y, 'green');
 
         const badge = document.createElement('img');
@@ -233,7 +350,12 @@ function handleDrop(wrapper, obj, modTarget, x, y) {
 
         placedCount++;
         if (placedCount >= currentObjects.length) {
-            setTimeout(newRound, 1200);
+            const finishedRound = roundId;
+            setTimeout(() => {
+                if (finishedRound === roundId) {
+                    newRound();
+                }
+            }, quizMode === 'timed' ? 300 : 1200);
         }
     } else {
         spawnSparks(x, y, 'red');

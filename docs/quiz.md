@@ -9,7 +9,13 @@ Drag each item or block onto the mod it belongs to! Let me know the highest scor
 <link rel="stylesheet" href="/wiki/stylesheets/quiz.css">
 
 <div id="quiz-container">
+    <div id="quiz-controls">
+        <button class="md-button md-button--primary" id="quiz-mode-classic">Classic</button>
+        <button class="md-button" id="quiz-mode-timed">60 seconds</button>
+    </div>
+    <div id="quiz-timer" hidden>Time: <span id="quiz-time-value">60</span>s · Best: <span id="quiz-best-value">0</span></div>
     <div id="quiz-score">Score: <span id="quiz-score-value">0</span> / <span id="quiz-total-value">0</span></div>
+    <div id="quiz-result" hidden></div>
     <div id="quiz-objects"></div>
     <div id="quiz-mods"></div>
 </div>
