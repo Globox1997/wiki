@@ -59,8 +59,10 @@ function table() {
                                 var lineBreak = document.createElement('br');
                                 dataCell.appendChild(lineBreak);
                             }
-                            var linkElement = document.createElement('a');
-                            linkElement.href = element.data[o + 1];
+                            var linkElement = document.createElement(element.data[o + 1] ? 'a' : 'span');
+                            if (element.data[o + 1]) {
+                                linkElement.href = element.data[o + 1];
+                            }
                             linkElement.textContent = element.data[o];
 
                             dataCell.appendChild(linkElement);
@@ -96,8 +98,19 @@ const woodRackPositions = [[1, [10, 10]], ['output', [126, 10]], ['size', [168, 
 
 const recipePositionMap = new Map([['vanilla_crafting', new Map(vanillaCraftingPositions)], ['smithing', new Map(smithingPositions)], ['furnace_smelting', new Map(furnaceSmeltingPositions)], ['blast_furnace_smelting', new Map(blastFurnaceSmeltingPositions)], ['anvil', new Map(anvilPositions)], ['fletching', new Map(fletchingPositions)], ['brewing', new Map(brewingPositions)], ['stonecutting', new Map(stonecuttingPositions)], ['wood_rack', new Map(woodRackPositions)]]);
 
+function recipeLink(url, isWikiPage) {
+    if (url === undefined || url.trim() === '') {
+        return null;
+    }
+    url = replaceAll(url, ' ', '');
+    if (isWikiPage !== undefined && isWikiPage.trim().toLowerCase() === 'true') {
+        return '/wiki/mods/' + url;
+    }
+    return url;
+}
+
 function crafting() {
-    if (document.getElementsByClassName('crafting-element' != null)) {
+    if (document.getElementsByClassName('crafting-element').length > 0) {
         const elements = document.getElementsByClassName('crafting-element');
         for (let i = 0; i < elements.length; i++) {
             const element = elements[i];
@@ -138,9 +151,10 @@ function crafting() {
                 } else {
                     ingredient[1][0] = 'vanilla/' + ingredient[1][0];
                 }
-                if (!ingredientData.includes(ingredient[1][1])) {
-                    ingredientData.push(ingredient[1][1])
-                    ingredientData.push(ingredient[1][2])
+                const ingredientName = ingredient[1][1].trim();
+                if (!ingredientData.includes(ingredientName)) {
+                    ingredientData.push(ingredientName)
+                    ingredientData.push(recipeLink(ingredient[1][2], ingredient[1][3]))
                 }
 
                 const div = document.createElement('div');
@@ -170,7 +184,7 @@ function crafting() {
                 div.appendChild(item);
 
                 if (ingredient[1].length >= 3) {
-                    tooltip(item, ingredient[1][1], replaceAll(ingredient[1][2], ' ', ''), (ingredient[1].length > 3 ? ingredient[1][3] : false));
+                    tooltip(item, ingredient[1][1], recipeLink(ingredient[1][2], ingredient[1][3]), false);
                 } else if (ingredient[1].length == 2) {
                     tooltip(item, ingredient[1][1], null, null);
                 }
@@ -221,7 +235,7 @@ function crafting() {
             };
 
             if (output.length >= 3) {
-                tooltip(item, output[1], replaceAll(output[2], ' ', ''), (output.length > 3 ? output[3] : false));
+                tooltip(item, output[1], recipeLink(output[2], output[3]), false);
             } else if (output.length == 2) {
                 tooltip(item, output[1], null, null);
             }
@@ -242,7 +256,7 @@ function crafting() {
 
 // armor, experience, heart, hunger, melee, projectile, saturation, thirst, explosion, melee_speed
 function icon() {
-    if (document.getElementsByClassName('icon-element') != null) {
+    if (document.getElementsByClassName('icon-element').length > 0) {
         const elements = document.getElementsByClassName('icon-element');
         for (let i = 0; i < elements.length; i++) {
             const element = elements[i];
@@ -253,13 +267,13 @@ function icon() {
             var isHalf = false;
             if (id === 'armor' || id === 'heart' || id === 'hunger' || id === 'saturation' || id === 'thirst') {
                 isHalf = (Number.isInteger(count) && count % 2 === 0) || count > 20 ? false : true;
-                var half = '<img src="../../../../assets/general/misc/half_' + id + '.png"  alt="" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
+                var half = '<img src="/wiki/assets/general/misc/half_' + id + '.png"  alt="" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
             }
 
 
-            var imageElementString = '<img src="../../../../assets/general/misc/' + id + '.png"  alt="" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
+            var imageElementString = '<img src="/wiki/assets/general/misc/' + id + '.png"  alt="" style="transform: scale(1.4) translate(0,1px); padding: 0.4%;">';
             if (id === 'experience') {
-                imageElementString = '<img src="../../../../assets/general/misc/' + id + '.gif" alt="">';
+                imageElementString = '<img src="/wiki/assets/general/misc/' + id + '.gif" alt="">';
             }
             var htmlString = count + ' (' + imageElementString.repeat(count / 2) + (isHalf ? half : '') + ')';
 
@@ -294,20 +308,20 @@ function tooltip(element, tooltipText, url, defaultWebsite) {
     tooltip.className = 'tooltip';
     tooltip.textContent = tooltipText;
 
+    element.addEventListener('mousemove', (event) => {
+        tooltip.style.left = (event.pageX - window.scrollX + 5) + "px";
+        tooltip.style.top = (event.pageY - window.scrollY - 32) + "px";
+    });
     element.addEventListener('mouseenter', () => {
-        element.addEventListener('mousemove', (event) => {
-            tooltip.style.left = (event.pageX - window.scrollX + 5) + "px";
-            tooltip.style.top = (event.pageY - window.scrollY - 32) + "px";
-        });
         document.body.appendChild(tooltip);
     });
     element.addEventListener('mouseleave', () => {
-        document.body.removeChild(tooltip);
+        tooltip.remove();
     });
     if (url !== null) {
         element.addEventListener('click', () => {
             if (defaultWebsite) {
-                window.location.href = 'https://globox1997.github.io/wiki/mods/' + url;
+                window.location.href = '/wiki/mods/' + url;
             } else {
                 window.location.href = url;
             }
