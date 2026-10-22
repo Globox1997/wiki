@@ -6,17 +6,25 @@ var unusedRepos = ["aged", "boatism", "titan-reborn", "inmis"];
 // Not used lul
 var extra = ["travelerz", "welcomescreen", "staminaz", "dehydration", "rewardz"];
 
+function githubHeaders() {
+    const headers = {
+        'User-Agent': 'Globox1997/Globox_Z Wiki',
+        'Accept': 'application/vnd.github.raw+json'
+    };
+    if (process.env.GITHUB_TOKEN) {
+        headers['Authorization'] = 'Bearer ' + process.env.GITHUB_TOKEN;
+    }
+    return headers;
+}
+
 async function getCommits(repo, owner) {
-    const url = `https://api.github.com/repos/${owner}/${repo}/commits`;
+    const url = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=100`;
     const response = await fetch(url, {
-        headers: {
-            'User-Agent': 'Globox1997/Globox_Z Wiki',
-            'Accept': 'application/vnd.github.raw+json'
-        }
+        headers: githubHeaders()
     });
 
     if (!response.ok) {
-        throw new Error('Fehler beim Abrufen der Commits in Repo ' + repo + ' : ' + response.statusText);
+        throw new Error('Fehler beim Abrufen der Commits in Repo ' + repo + ' : ' + response.status + ' ' + response.statusText);
     }
 
     return response.json();
@@ -28,17 +36,14 @@ async function getChangelogFromCommit(repo, owner, commitSha) {
     const url = `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}?ref=${commitSha}`;
 
     const response = await fetch(url, {
-        headers: {
-            'User-Agent': 'Globox1997/Globox_Z Wiki',
-            'Accept': 'application/vnd.github.raw+json'
-        }
+        headers: githubHeaders()
     });
 
     if (response.status === 404) {
         console.log(`CHANGELOG.md in Commit ${commitSha} nicht gefunden`);
         return null;
     } else if (!response.ok) {
-        // throw new Error('Fehler beim Abrufen des CHANGELOG.md');
+        throw new Error('Fehler beim Abrufen des CHANGELOG.md in Repo ' + repo + ' : ' + response.status + ' ' + response.statusText);
     }
 
     return response.text();
@@ -51,7 +56,7 @@ async function collectChangelogs(repo, owner, id) {
         var repoMap = new Map();
 
         for (const commit of commits) {
-            const commitMessage = commit.commit.message.toLowerCase();
+            const commitMessage = commit.commit.message.split('\n')[0].trim().toLowerCase();
             const commitSha = commit.sha;
 
             if (commitMessage.startsWith('update ')) {
@@ -86,7 +91,7 @@ async function collectChangelogs(repo, owner, id) {
         });
 
     } catch (error) {
-        console.error(error);
+        console.log(`::warning::Changelog for ${owner}/${repo} not updated: ${error.message}`);
     }
 }
 
