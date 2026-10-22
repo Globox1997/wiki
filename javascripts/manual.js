@@ -2,46 +2,74 @@ var informationMap = new Map();
 
 const githubNames = ["Globox1997", "GitPois1x", "xR4YM0ND"];
 
-fetch('https://api.modrinth.com/v2/user/Globox1997/projects', {
-    headers: {
-        'User-Agent': 'Globox1997/Globox_Z Wiki'
+function githubHeaders() {
+    const headers = {
+        'User-Agent': 'Globox1997/Globox_Z Wiki',
+        'Accept': 'application/vnd.github+json'
+    };
+    if (process.env.GITHUB_TOKEN) {
+        headers['Authorization'] = 'Bearer ' + process.env.GITHUB_TOKEN;
     }
-}).then(response => response.json()).then(data => {
-    data.reduce((acc, obj) => {
+    return headers;
+}
+
+async function fetchJson(url, headers) {
+    const response = await fetch(url, { headers: headers });
+    if (!response.ok) {
+        throw new Error('Request to ' + url + ' failed: ' + response.status + ' ' + response.statusText);
+    }
+    return response.json();
+}
+
+async function getAllRepos(name) {
+    const repos = [];
+    for (let page = 1; ; page++) {
+        const data = await fetchJson(`https://api.github.com/users/${name}/repos?per_page=100&page=${page}`, githubHeaders());
+        repos.push(...data);
+        if (data.length < 100) {
+            return repos;
+        }
+    }
+}
+
+async function main() {
+    // Modrinth first: the GitHub data is matched against these projects
+    const data = await fetchJson('https://api.modrinth.com/v2/user/Globox1997/projects', {
+        'User-Agent': 'Globox1997/Globox_Z Wiki'
+    });
+    data.forEach(obj => {
         var repoMap = new Map();
         repoMap.set('title', obj.title);
         repoMap.set('game_versions', obj.game_versions);
         repoMap.set('client_side', capitalizeFirstLetter(obj.client_side));
         repoMap.set('server_side', capitalizeFirstLetter(obj.server_side));
         informationMap.set(obj.slug, repoMap);
-    }, 0);
-}).then(
-    Promise.all(githubNames.map(name =>
-        fetch(`https://api.github.com/users/${name}/repos?per_page=100`)
-            .then(response => response.json()))).then(allRepoData => {
-                const repoData = allRepoData.flat();
+    });
 
-                informationMap.forEach((value, key) => {
-                    for (const repo of repoData) {
-                        if (repo.name === value.get('title') || repoCheck(value.get('title'), repo.name)) {
-                            value.set('created_at', convertDate(repo.created_at));
-                            value.set('updated_at', convertDate(repo.updated_at));
-                            value.set('open_issues', repo.open_issues);
-                            value.set('forks', repo.forks);
-                            value.set('stargazers_count', repo.stargazers_count);
-                            value.set('license', repo.license?.spdx_id ?? "NONE");
-                            break;
-                        }
-                    }
-                });
+    const allRepoData = await Promise.all(githubNames.map(name => getAllRepos(name)));
+    const repoData = allRepoData.flat();
 
-                writeFile(informationMap, "repository");
+    informationMap.forEach((value, key) => {
+        for (const repo of repoData) {
+            if (repo.name === value.get('title') || repoCheck(value.get('title'), repo.name)) {
+                value.set('created_at', convertDate(repo.created_at));
+                value.set('updated_at', convertDate(repo.updated_at));
+                value.set('open_issues', repo.open_issues);
+                value.set('forks', repo.forks);
+                value.set('stargazers_count', repo.stargazers_count);
+                value.set('license', repo.license?.spdx_id ?? "NONE");
+                value.set('html_url', repo.html_url);
+                break;
+            }
+        }
+    });
 
-            }).catch(error => {
-                console.error(error);
-            })
-).catch(error => {
+    writeFile(informationMap, "repository");
+}
+
+main().catch(error => {
     console.error('Error:', error);
+    process.exit(1);
 });
 
 function repoCheck(title, name) {
@@ -79,7 +107,7 @@ function writeFile(data, platform) {
     fs.writeFile(filePath, jsonString, 'utf8', (err) => {
         if (err) {
             console.error('Error writing to JSON file:', err);
-            stopScript();
+            process.exit(1);
         } else {
             console.log('JSON file ' + platform + '_collected has been overwritten successfully.');
         }
