@@ -2,8 +2,8 @@ window.addEventListener('load', () => {
     showcaseGallery();
 });
 
-let autoShowcaseRunning = false;
-let manualShowcaseId = 0;
+let currentShowcaseId = 0;
+let showcaseRun = 0;
 
 function showcaseGallery() {
     if (document.getElementById('showcase-gallery') != null) {
@@ -16,18 +16,25 @@ function showcaseGallery() {
         }
         for (let u = 0; u < showcases.length; u++) {
             const showcase = document.createElement('img');
-            showcase.src = '/wiki/assets/' + modid + '/showcases/' + showcases[u] + '.png';
+            showcase.src = showcaseSrc(modid, showcases[u]);
             showcase.className = 'showcase';
             showcase.loading = 'lazy';
             showcase.onclick = () => {
-                autoShowcaseRunning = true;
-                manualShowcaseId = u;
                 showLargerImage(modid, showcases, u);
-                autoShowcase(modid, showcases, u);
+                autoShowcase(modid, showcases, ++showcaseRun);
             };
             document.getElementById('showcase-gallery').appendChild(showcase);
         }
     }
+}
+
+function showcaseSrc(modid, image) {
+    return '/wiki/assets/' + modid + '/showcases/' + image + '.png';
+}
+
+function setShowcase(modid, showcases, id) {
+    currentShowcaseId = id;
+    document.getElementById('showcase').src = showcaseSrc(modid, showcases[id]);
 }
 
 function showLargerImage(modid, showcases, id) {
@@ -39,62 +46,50 @@ function showLargerImage(modid, showcases, id) {
 
     const largeShowcase = document.createElement('img');
     largeShowcase.id = "showcase";
-    largeShowcase.src = '/wiki/assets/' + modid + '/showcases/' + showcases[id] + '.png';
     largeShowcase.className = 'showcase-overlay-content';
     largeShowcaseDiv.appendChild(largeShowcase);
     document.getElementById('showcase-gallery').appendChild(largeShowcaseDiv);
+    setShowcase(modid, showcases, id);
 }
 
 function closeLargerImage(event, close, modid, showcases) {
-    autoShowcaseRunning = false;
+    showcaseRun++;
+    const largeShowcaseDiv = document.getElementById('large-showcase');
+    if (largeShowcaseDiv === null) {
+        return;
+    }
     if (close) {
-        var largeShowcaseDiv = document.getElementById('large-showcase');
-        document.getElementById('showcase-gallery').removeChild(largeShowcaseDiv);
-    } else {
-        if (event.clientX > document.getElementById('large-showcase').getBoundingClientRect().left + document.getElementById('large-showcase').offsetWidth / 2 + document.getElementById('showcase').getBoundingClientRect().width / 2) {
-            console.log(manualShowcaseId)
-            if (showcases.length > manualShowcaseId + 1) {
-                document.getElementById("showcase").src = '/wiki/assets/' + modid + '/showcases/' + showcases[manualShowcaseId + 1] + '.png';
-                manualShowcaseId++;
-            } else {
-                document.getElementById("showcase").src = '/wiki/assets/' + modid + '/showcases/' + showcases[0] + '.png';
-                manualShowcaseId = 0;
-            }
-        } else if (event.clientX < document.getElementById('large-showcase').getBoundingClientRect().left + document.getElementById('large-showcase').offsetWidth / 2 - document.getElementById('showcase').getBoundingClientRect().width / 2) {
-
-            console.log(manualShowcaseId)
-            if (0 <= manualShowcaseId - 1) {
-                document.getElementById("showcase").src = '/wiki/assets/' + modid + '/showcases/' + showcases[manualShowcaseId - 1] + '.png';
-                manualShowcaseId--;
-            } else {
-                document.getElementById("showcase").src = '/wiki/assets/' + modid + '/showcases/' + showcases[showcases.length - 1] + '.png';
-            }
-        } else {
-            var largeShowcaseDiv = document.getElementById('large-showcase');
-            document.getElementById('showcase-gallery').removeChild(largeShowcaseDiv);
-        }
+        largeShowcaseDiv.remove();
+        return;
     }
 
+    const center = largeShowcaseDiv.getBoundingClientRect().left + largeShowcaseDiv.offsetWidth / 2;
+    const halfImageWidth = document.getElementById('showcase').getBoundingClientRect().width / 2;
+
+    if (event.clientX > center + halfImageWidth) {
+        setShowcase(modid, showcases, (currentShowcaseId + 1) % showcases.length);
+    } else if (event.clientX < center - halfImageWidth) {
+        setShowcase(modid, showcases, (currentShowcaseId - 1 + showcases.length) % showcases.length);
+    } else {
+        largeShowcaseDiv.remove();
+    }
 }
 
 async function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function autoShowcase(modid, showcases, id) {
-    if (!autoShowcaseRunning) {
-        return;
-    }
-    await delay(4000);
-    if (!autoShowcaseRunning) {
-        return;
-    }
-    if (document.getElementById("large-showcase")) {
-        if (showcases.length > id + 1) {
-            document.getElementById("showcase").src = '/wiki/assets/' + modid + '/showcases/' + showcases[id + 1] + '.png';
-            autoShowcase(modid, showcases, id + 1);
+async function autoShowcase(modid, showcases, run) {
+    while (true) {
+        await delay(4000);
+        if (run !== showcaseRun || !document.getElementById('large-showcase')) {
+            return;
+        }
+        if (currentShowcaseId + 1 < showcases.length) {
+            setShowcase(modid, showcases, currentShowcaseId + 1);
         } else {
             closeLargerImage(null, true);
+            return;
         }
     }
 }
