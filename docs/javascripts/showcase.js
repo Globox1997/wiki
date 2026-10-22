@@ -4,6 +4,26 @@ window.addEventListener('load', () => {
 
 let currentShowcaseId = 0;
 let showcaseRun = 0;
+let activeShowcase = null;
+
+document.addEventListener('keydown', (event) => {
+    if (activeShowcase === null || !document.getElementById('large-showcase')) {
+        return;
+    }
+    const { modid, showcases } = activeShowcase;
+    if (event.key === 'Escape') {
+        closeLargerImage(null, true);
+    } else if (event.key === 'ArrowRight') {
+        showcaseRun++;
+        setShowcase(modid, showcases, (currentShowcaseId + 1) % showcases.length);
+    } else if (event.key === 'ArrowLeft') {
+        showcaseRun++;
+        setShowcase(modid, showcases, (currentShowcaseId - 1 + showcases.length) % showcases.length);
+    } else {
+        return;
+    }
+    event.preventDefault();
+});
 
 function showcaseGallery() {
     if (document.getElementById('showcase-gallery') != null) {
@@ -49,6 +69,7 @@ function showLargerImage(modid, showcases, id) {
     largeShowcase.className = 'showcase-overlay-content';
     largeShowcaseDiv.appendChild(largeShowcase);
     document.getElementById('showcase-gallery').appendChild(largeShowcaseDiv);
+    activeShowcase = { modid, showcases };
     setShowcase(modid, showcases, id);
 }
 
