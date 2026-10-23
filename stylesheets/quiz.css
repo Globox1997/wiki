@@ -11,6 +11,43 @@
     font-weight: bold;
 }
 
+#quiz-controls {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#quiz-timer {
+    font-size: 1.1rem;
+    font-variant-numeric: tabular-nums;
+    transition: color 0.2s;
+}
+
+#quiz-timer.quiz-timer-low {
+    color: #f44336;
+    font-weight: bold;
+}
+
+#quiz-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    text-align: center;
+}
+
+#quiz-result[hidden],
+#quiz-timer[hidden] {
+    display: none;
+}
+
+.quiz-result-headline {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--md-accent-fg-color);
+}
+
 #quiz-objects {
     display: flex;
     gap: 1.5rem;

@@ -110,6 +110,67 @@
     display: none;
 }
 
+.md-header__source {
+    position: relative;
+}
+
+.splash-text {
+    display: none;
+    position: absolute;
+    right: 0.4rem;
+    bottom: 0.45rem;
+    z-index: 1;
+    color: #ffff00;
+    font-size: 0.6rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0.1em 0.1em 0 #3f3f00, -1px -1px 0 #3f3f00, 1px -1px 0 #3f3f00, -1px 1px 0 #3f3f00, 1px 1px 0 #3f3f00;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    animation: splash-pulse 0.5s ease-in-out infinite alternate;
+}
+
+.splash-text--rare {
+    background: linear-gradient(90deg, #ffd700, #fff8b0, #ffb300, #fff8b0, #ffd700);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+    filter: drop-shadow(1px 1px 0 #5a3d00) drop-shadow(0 0 4px #ffd700);
+    animation: splash-pulse 0.5s ease-in-out infinite alternate, splash-shine 2s linear infinite;
+}
+
+@keyframes splash-shine {
+    to {
+        background-position: -200% 0;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .splash-text {
+        display: inline-block;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .splash-text {
+        animation: none;
+        transform: rotate(-12deg);
+    }
+}
+
+@keyframes splash-pulse {
+    from {
+        transform: rotate(-12deg) scale(1);
+    }
+
+    to {
+        transform: rotate(-12deg) scale(1.12);
+    }
+}
+
 .md-typeset .daily-item {
     display: flex;
     align-items: center;
