@@ -96,7 +96,9 @@ const splashTexts = [
     'Built on Fabric!',
     'Crafted with care!',
     'Fully hydrated!',
-    'Splash!'
+    'Splash!',
+    'You need a drill!',
+    'You need a stationary drill!',
 ];
 
 const rareSplashTexts = [
