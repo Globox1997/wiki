@@ -116,6 +116,10 @@ extra:
         repo: https://github.com/Globox1997/FleshZ
         name: FleshZ
         color: "#e9c2af"
+    garb:
+        repo: https://github.com/Globox1997/Garb
+        name: Garb
+        color: "#7C6054"
     inmis:
         repo: https://github.com/Draylar/Inmis
         name: Inmis
@@ -652,6 +656,8 @@ nav:
         - mods/FleshZ/Items/Hide.md
         - mods/FleshZ/Items/Prepared_Hide.md
         - mods/FleshZ/Items/Rotten_Leather.md
+    - Garb:
+      - mods/Garb/index.md
     - HerdsPanic:
       - mods/HerdsPanic/index.md
     - InmisAddon:
