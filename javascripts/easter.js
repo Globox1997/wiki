@@ -55,7 +55,7 @@ function wikiSeason() {
     if (wikiEgg('christmas') || (month === 12 && day <= 26)) {
         return { name: 'christmas', splash: 'Merry Christmas!' };
     }
-    if (wikiEgg('halloween') || (month === 10 && day >= 25)) {
+    if (wikiEgg('halloween') || (month === 10 && day >= 28)) {
         return { name: 'halloween', splash: 'Spooky!' };
     }
     return null;

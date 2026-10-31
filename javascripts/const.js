@@ -12,6 +12,7 @@ const modIcons = [
     { texture: 'environmentz_icon', url: 'EnvironmentZ', tooltip: 'EnvironmentZ' },
     { texture: 'event_icon', url: 'EventMod', tooltip: 'EventMod' },
     { texture: 'fleshz_icon', url: 'FleshZ', tooltip: 'FleshZ' },
+    { texture: 'garb_icon', url: 'Garb', tooltip: 'Garb' },
     { texture: 'farmz_icon', url: 'FarmZ', tooltip: 'FarmZ' },
     { texture: 'herdspanic_icon', url: 'HerdsPanic', tooltip: 'HerdsPanic' },
     { texture: 'inmisaddon_icon', url: 'InmisAddon', tooltip: 'InmisAddon' },
